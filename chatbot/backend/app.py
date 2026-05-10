@@ -135,14 +135,19 @@ def db_save_chat(lang: str, messages: list[dict]) -> int | None:
 
 
 def db_list_chats(lang: str, limit: int = 50, offset: int = 0) -> list[dict]:
+    """Se lang='all' (ou vazio), retorna todas. Caso contrário, filtra por idioma.
+    Sempre inclui o `lang` em cada item para o frontend mostrar badge."""
+    sql = "SELECT id, lang, title, turn_count, created_at FROM community_chats WHERE hidden = 0"
+    params: list = []
+    if lang and lang.lower() not in ("all", ""):
+        sql += " AND lang = ?"
+        params.append(lang.lower())
+    sql += " ORDER BY created_at DESC LIMIT ? OFFSET ?"
+    params.extend([limit, offset])
     with sqlite3.connect(DB_PATH) as conn:
-        rows = conn.execute(
-            "SELECT id, title, turn_count, created_at FROM community_chats "
-            "WHERE lang = ? AND hidden = 0 ORDER BY created_at DESC LIMIT ? OFFSET ?",
-            ((lang or "pt").lower(), limit, offset),
-        ).fetchall()
+        rows = conn.execute(sql, params).fetchall()
     return [
-        {"id": r[0], "title": r[1], "turn_count": r[2], "created_at": r[3]}
+        {"id": r[0], "lang": r[1], "title": r[2], "turn_count": r[3], "created_at": r[4]}
         for r in rows
     ]
 
@@ -167,11 +172,14 @@ def db_get_chat(chat_id: int) -> dict | None:
 
 
 def db_count_chats(lang: str) -> int:
+    if lang and lang.lower() not in ("all", ""):
+        sql = "SELECT COUNT(*) FROM community_chats WHERE hidden = 0 AND lang = ?"
+        params: tuple = (lang.lower(),)
+    else:
+        sql = "SELECT COUNT(*) FROM community_chats WHERE hidden = 0"
+        params = ()
     with sqlite3.connect(DB_PATH) as conn:
-        row = conn.execute(
-            "SELECT COUNT(*) FROM community_chats WHERE lang = ? AND hidden = 0",
-            ((lang or "pt").lower(),),
-        ).fetchone()
+        row = conn.execute(sql, params).fetchone()
     return row[0] if row else 0
 
 # ─── SYSTEM PROMPT ────────────────────────────────────────────────────────────
@@ -367,9 +375,11 @@ def get_topics(lang: str = "pt"):
 
 
 @app.get("/api/community")
-def list_community(lang: str = "pt", limit: int = 50, offset: int = 0):
-    """Lista as conversas mais recentes da comunidade no idioma escolhido.
-    Não retorna o conteúdo das mensagens — só metadata (title, turn_count)."""
+def list_community(lang: str = "all", limit: int = 50, offset: int = 0):
+    """Lista as conversas mais recentes da comunidade.
+    - lang='all' (default) → todas as conversas, qualquer idioma
+    - lang='pt'/'en'/'fr'/'es' → filtra só esse idioma
+    Não retorna o conteúdo das mensagens — só metadata (title, lang, turn_count)."""
     limit = max(1, min(limit, 100))
     return {
         "total": db_count_chats(lang),

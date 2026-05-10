@@ -287,6 +287,30 @@
   text-align: center;
 }
 
+/* Badge do idioma em conversas da comunidade */
+.cravo-chat-drawer .community-item .item-lang-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 36px;
+  margin: 0.55rem 0 0.55rem 0.6rem;
+  padding: 0.18rem 0.4rem;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: var(--ink-mute);
+  background: var(--bg-alt);
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+.cravo-chat-drawer .community-item .item-lang-badge.is-own {
+  color: var(--bg);
+  background: var(--burgundy);
+  border-color: var(--burgundy);
+}
+
 /* Banner de conversa pública (read-only) */
 .cravo-community-banner {
   background: var(--bg-card);

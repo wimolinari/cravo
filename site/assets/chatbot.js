@@ -841,6 +841,9 @@
   }
 
   // ─── Aba "Comunidade": busca conversas públicas do backend ────────────────
+  // Mostra TODAS as conversas (todos os idiomas) com badge da língua, para
+  // que estudantes vejam aprendizado uns dos outros independente do idioma
+  // que estão acessando o site.
   async function renderDrawerCommunity(ui) {
     setDrawerTitle(ui, 'communityConversations');
     setDrawerEmpty(ui, 'noCommunity');
@@ -850,7 +853,8 @@
 
     let data = null;
     try {
-      const resp = await fetch(API_BASE + '/api/community?lang=' + LANG + '&limit=50');
+      // lang=all → todas as línguas misturadas
+      const resp = await fetch(API_BASE + '/api/community?lang=all&limit=50');
       if (resp.ok) data = await resp.json();
     } catch (e) {
       console.warn('[community] fetch failed', e);
@@ -868,8 +872,11 @@
     items.forEach(function (item) {
       const li = document.createElement('li');
       li.className = 'drawer-item community-item';
+      const langCode = (item.lang || 'pt').toUpperCase();
+      const isOwnLang = (item.lang || 'pt').toLowerCase() === LANG;
       li.innerHTML =
         '<div class="item-row">' +
+          '<span class="item-lang-badge ' + (isOwnLang ? 'is-own' : '') + '" title="' + escapeHtml(item.lang) + '">' + escapeHtml(langCode) + '</span>' +
           '<button class="item-load" type="button" title="' + escapeHtml(tt('labelLoadCommunity')) + '">' +
             '<span class="item-title">' + escapeHtml(item.title) + '</span>' +
             '<span class="item-meta">' + escapeHtml(fmtDate(item.created_at * 1000)) + ' · ' + item.turn_count + ' ' + escapeHtml(tt('msgCount')) + '</span>' +

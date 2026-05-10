@@ -105,7 +105,8 @@
       "Bash(cp C:/Outros/Cravo/chatbot/backend/app.py \"//10.10.100.10/d\\\\$/apps/cravo-chatbot/backend/app.py\")",
       "Bash(cp C:/Outros/Cravo/deploy/web.config-cravo \"//10.10.100.10/d\\\\$/apps/cravo-chatbot/deploy/web.config-cravo\")",
       "Bash(# Test backend LOCAL \\(sem IIS\\) pra ter o tempo \"puro\" do Claude *)",
-      "Bash(mkdir -p \"//10.10.100.10/d\\\\$/apps/cravo-chatbot/data\")"
+      "Bash(mkdir -p \"//10.10.100.10/d\\\\$/apps/cravo-chatbot/data\")",
+      "Bash(echo \"=== Conteúdo do app.py no servidor \\(deve ter lang='all'\\) ===\" *)"
     ],
     "deny": [
       "Bash(rm -rf:*)",
