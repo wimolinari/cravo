@@ -22,10 +22,16 @@ from fastapi.responses import StreamingResponse
 from pydantic import BaseModel, Field
 
 # ─── ENV ──────────────────────────────────────────────────────────────────────
-ROOT = Path(__file__).resolve().parent.parent.parent
-# override=True garante que .env sempre vence sobre eventuais variáveis vazias
-# herdadas do shell (Git Bash às vezes injeta ANTHROPIC_API_KEY="").
-load_dotenv(ROOT / ".env", override=True)
+# .env pode estar em estruturas diferentes dependendo do ambiente:
+#   dev:  C:\Outros\Cravo\.env (3 níveis acima de backend/app.py)
+#   prod: D:\apps\cravo-chatbot\.env (2 níveis acima de backend/app.py)
+# Tenta ambos. override=True garante que .env vence variáveis de ambiente
+# vazias herdadas do shell.
+_script_dir = Path(__file__).resolve().parent
+for _candidate in (_script_dir.parent / ".env", _script_dir.parent.parent / ".env"):
+    if _candidate.is_file():
+        load_dotenv(_candidate, override=True)
+        break
 
 API_KEY = os.environ.get("ANTHROPIC_API_KEY")
 if not API_KEY:
