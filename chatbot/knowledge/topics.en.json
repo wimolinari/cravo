@@ -1,0 +1,62 @@
+[
+  {
+    "icon": "🪑",
+    "label": "Posture at the instrument",
+    "sample_question": "How should I position myself at the harpsichord according to Couperin and Rameau?",
+    "related_url": "/cravo/temas/postura.html"
+  },
+  {
+    "icon": "✋",
+    "label": "Hand position",
+    "sample_question": "What does Sancta Maria mean by \"cat's hand\"?",
+    "related_url": "/cravo/temas/postura.html#maos"
+  },
+  {
+    "icon": "🎹",
+    "label": "How to strike the key",
+    "sample_question": "Should I strike with force or with lightness? What do the treatises say?",
+    "related_url": "/cravo/temas/articulacao.html#ataque"
+  },
+  {
+    "icon": "🤚",
+    "label": "Fingering",
+    "sample_question": "When do I use thumb-under passage and when do I cross finger 3 over finger 2?",
+    "related_url": "/cravo/temas/dedilhados.html"
+  },
+  {
+    "icon": "〰",
+    "label": "Ornaments",
+    "sample_question": "How should a trill begin: on the main note or on the upper note?",
+    "related_url": "/cravo/temas/ornamentos.html"
+  },
+  {
+    "icon": "🎵",
+    "label": "Notes inégales",
+    "sample_question": "What are French rhythmic inequalities and how do you apply them?",
+    "related_url": "/cravo/temas/ritmo-tempo.html"
+  },
+  {
+    "icon": "📖",
+    "label": "The 4 treatises",
+    "sample_question": "What is the difference between the treatises by Couperin and Rameau?",
+    "related_url": "/cravo/comparador.html"
+  },
+  {
+    "icon": "🎼",
+    "label": "Repertoire",
+    "sample_question": "Which pieces can I study first as a beginner harpsichordist?",
+    "related_url": "/cravo/roteiro-estudo.html"
+  },
+  {
+    "icon": "👶",
+    "label": "Starting age",
+    "sample_question": "At what age does Couperin recommend beginning the study of the harpsichord?",
+    "related_url": "/cravo/temas/postura.html"
+  },
+  {
+    "icon": "🌪",
+    "label": "Batteries and Les Cyclopes",
+    "sample_question": "What are the \"batteries with crossed hands\" invented by Rameau?",
+    "related_url": "/cravo/temas/exercicios-baterias.html"
+  }
+]

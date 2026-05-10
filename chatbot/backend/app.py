@@ -52,6 +52,17 @@ SITEMAP = _read_json("sitemap.json")
 IMAGES = _read_json("images.json")
 TOPICS = _read_json("topics.json")
 
+# Topics traduzidos por idioma — carregados se existirem (gerados pelo
+# translate-knowledge.py).
+TOPICS_BY_LANG = {"pt": TOPICS}
+for _lang in ("en", "fr", "es"):
+    _f = KB_DIR / f"topics.{_lang}.json"
+    if _f.is_file():
+        try:
+            TOPICS_BY_LANG[_lang] = json.loads(_f.read_text(encoding="utf-8"))
+        except Exception:
+            pass
+
 # ─── SYSTEM PROMPT ────────────────────────────────────────────────────────────
 SYSTEM_PROMPT = f"""Você é o **Mestre do Cravo**, um assistente pedagógico especializado nos 4 tratados \
 históricos sobre o cravo cobertos pelo site Tratados do Cravo (UFRJ 2013):
@@ -195,6 +206,30 @@ class Message(BaseModel):
 class ChatRequest(BaseModel):
     question: str
     history: list[Message] = []
+    lang: str = "pt"  # pt | en | fr | es
+
+
+# Instruções de idioma anexadas ao system prompt por requisição
+LANG_INSTRUCTIONS = {
+    "pt": "Responda em **português do Brasil**.",
+    "en": (
+        "Respond in **English** (the user's interface is in English). "
+        "Translate the source quotations from the treatises when helpful, but keep "
+        "the original Portuguese (UFRJ 2013) wording in italics or quotes when you cite "
+        "verbatim. Use established English musicology terminology (Grove Dictionary)."
+    ),
+    "fr": (
+        "Répondez en **français**. Pour les citations directes des traités, gardez le "
+        "texte portugais original (édition UFRJ 2013) entre guillemets et donnez une "
+        "paraphrase française. Utilisez la terminologie musicologique française "
+        "établie (notes inégales, port-de-voix, pincé, tremblement, etc.)."
+    ),
+    "es": (
+        "Responda en **español**. Para citas directas de los tratados, conserve el texto "
+        "portugués original (edición UFRJ 2013) entre comillas y proporcione una paráfrasis "
+        "en español. Use la terminología musicológica española establecida."
+    ),
+}
 
 
 @app.get("/api/health")
@@ -213,8 +248,8 @@ def health():
 
 
 @app.get("/api/topics")
-def get_topics():
-    return TOPICS
+def get_topics(lang: str = "pt"):
+    return TOPICS_BY_LANG.get(lang.lower(), TOPICS)
 
 
 @app.post("/api/chat")
@@ -226,6 +261,15 @@ async def chat(req: ChatRequest):
     history = [m.model_dump() for m in req.history[-16:]]
     messages = history + [{"role": "user", "content": req.question.strip()}]
 
+    # Instrução de idioma (NÃO entra no cache — varia por request)
+    lang = (req.lang or "pt").lower()
+    if lang not in LANG_INSTRUCTIONS:
+        lang = "pt"
+    lang_block = (
+        "\n\n═══ INSTRUÇÃO DE IDIOMA (esta requisição) ═══\n"
+        + LANG_INSTRUCTIONS[lang]
+    )
+
     def event_stream():
         try:
             with client.messages.stream(
@@ -236,7 +280,11 @@ async def chat(req: ChatRequest):
                         "type": "text",
                         "text": SYSTEM_PROMPT,
                         "cache_control": {"type": "ephemeral"},
-                    }
+                    },
+                    {
+                        "type": "text",
+                        "text": lang_block,
+                    },
                 ],
                 messages=messages,
             ) as stream:

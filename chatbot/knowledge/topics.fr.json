@@ -1,0 +1,62 @@
+[
+  {
+    "icon": "🪑",
+    "label": "Posture à l'instrument",
+    "sample_question": "Comment dois-je me positionner au clavecin selon Couperin et Rameau ?",
+    "related_url": "/cravo/temas/postura.html"
+  },
+  {
+    "icon": "✋",
+    "label": "Position des mains",
+    "sample_question": "Que veut dire Sancta Maria par « main de chat » ?",
+    "related_url": "/cravo/temas/postura.html#maos"
+  },
+  {
+    "icon": "🎹",
+    "label": "Comment attaquer la touche",
+    "sample_question": "Faut-il attaquer avec force ou avec légèreté ? Que disent les traités ?",
+    "related_url": "/cravo/temas/articulacao.html#ataque"
+  },
+  {
+    "icon": "🤚",
+    "label": "Doigté",
+    "sample_question": "Quand utilise-t-on le passage du pouce et quand croise-t-on le 3 sur le 2 ?",
+    "related_url": "/cravo/temas/dedilhados.html"
+  },
+  {
+    "icon": "〰",
+    "label": "Ornements",
+    "sample_question": "Comment commencer un trille : par la note principale ou par la note supérieure ?",
+    "related_url": "/cravo/temas/ornamentos.html"
+  },
+  {
+    "icon": "🎵",
+    "label": "Notes inégales",
+    "sample_question": "Que sont les inégalités rythmiques françaises et comment les appliquer ?",
+    "related_url": "/cravo/temas/ritmo-tempo.html"
+  },
+  {
+    "icon": "📖",
+    "label": "Les 4 traités",
+    "sample_question": "Quelle est la différence entre les traités de Couperin et de Rameau ?",
+    "related_url": "/cravo/comparador.html"
+  },
+  {
+    "icon": "🎼",
+    "label": "Répertoire",
+    "sample_question": "Quelles pièces peut-on étudier en premier en tant que débutant au clavecin ?",
+    "related_url": "/cravo/roteiro-estudo.html"
+  },
+  {
+    "icon": "👶",
+    "label": "Âge pour commencer",
+    "sample_question": "À quel âge Couperin recommande-t-il de commencer l'étude du clavecin ?",
+    "related_url": "/cravo/temas/postura.html"
+  },
+  {
+    "icon": "🌪",
+    "label": "Batteries et Les Cyclopes",
+    "sample_question": "Que sont les « batteries avec les mains croisées » inventées par Rameau ?",
+    "related_url": "/cravo/temas/exercicios-baterias.html"
+  }
+]

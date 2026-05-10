@@ -1,0 +1,62 @@
+[
+  {
+    "icon": "🪑",
+    "label": "Postura ante el instrumento",
+    "sample_question": "¿Cómo debo posicionarme ante el clavecín según Couperin y Rameau?",
+    "related_url": "/cravo/temas/postura.html"
+  },
+  {
+    "icon": "✋",
+    "label": "Posición de las manos",
+    "sample_question": "¿Qué quiere decir Sancta Maria con \"mano de gato\"?",
+    "related_url": "/cravo/temas/postura.html#maos"
+  },
+  {
+    "icon": "🎹",
+    "label": "Cómo atacar la tecla",
+    "sample_question": "¿Debo atacar con fuerza o con suavidad? ¿Qué dicen los tratados?",
+    "related_url": "/cravo/temas/articulacao.html#ataque"
+  },
+  {
+    "icon": "🤚",
+    "label": "Digitación",
+    "sample_question": "¿Cuándo uso el paso del pulgar y cuándo cruzo el 3 sobre el 2?",
+    "related_url": "/cravo/temas/dedilhados.html"
+  },
+  {
+    "icon": "〰",
+    "label": "Ornamentos",
+    "sample_question": "¿Cómo comenzar un trino: por la nota principal o por la superior?",
+    "related_url": "/cravo/temas/ornamentos.html"
+  },
+  {
+    "icon": "🎵",
+    "label": "Notes inégales",
+    "sample_question": "¿Qué son las desigualdades rítmicas francesas y cómo aplicarlas?",
+    "related_url": "/cravo/temas/ritmo-tempo.html"
+  },
+  {
+    "icon": "📖",
+    "label": "Los 4 tratados",
+    "sample_question": "¿Cuál es la diferencia entre los tratados de Couperin y Rameau?",
+    "related_url": "/cravo/comparador.html"
+  },
+  {
+    "icon": "🎼",
+    "label": "Repertorio",
+    "sample_question": "¿Qué piezas puedo estudiar primero como principiante de clavecín?",
+    "related_url": "/cravo/roteiro-estudo.html"
+  },
+  {
+    "icon": "👶",
+    "label": "Edad para comenzar",
+    "sample_question": "¿A qué edad recomienda Couperin iniciar el estudio del clavecín?",
+    "related_url": "/cravo/temas/postura.html"
+  },
+  {
+    "icon": "🌪",
+    "label": "Baterías y Les Cyclopes",
+    "sample_question": "¿Qué son las \"baterías con manos cruzadas\" inventadas por Rameau?",
+    "related_url": "/cravo/temas/exercicios-baterias.html"
+  }
+]
