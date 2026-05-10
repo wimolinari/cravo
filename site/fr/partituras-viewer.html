@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Visionneuse de partitions · Traités du Clavecin</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/style.css">  
+  <!-- cravo-chatbot:begin -->
+  <meta name="cravo-chat-api" content="http://127.0.0.1:8000">
+  <link rel="stylesheet" href="../assets/chatbot.css?v=0e961262">
+  <!-- cravo-chatbot:end -->
+</head>
+<body>
+<header class="site-header">
+  <div class="nav-wrap">
+    <a href="index.html" class="brand"><span class="brand-mark">C</span> Traités du Clavecin</a>
+    <nav class="nav-links">
+      <a href="index.html">Accueil</a>
+      <a href="apresentacao-prefacio.html">Préface</a>
+      <a href="tratados/sancta-maria.html">Sancta Maria</a>
+      <a href="tratados/frescobaldi.html">Frescobaldi</a>
+      <a href="tratados/couperin.html">Couperin</a>
+      <a href="tratados/rameau.html">Rameau</a>
+      <a href="ler-pdf.html">PDF</a>
+      <a href="partituras-viewer.html" class="active">Partitions</a>
+      <a href="roteiro-estudo.html">Parcours</a>
+      <a href="comparador.html">Comparer</a>
+      <a href="glossario.html">Dictionnaire</a>
+      <a href="creditos.html">Crédits</a>
+    </nav>
+    <button class="theme-toggle" aria-label="Basculer le thème">☾ Sombre</button>
+  </div>
+</header>
+
+<main>
+  <section class="treatise-header">
+    <h1>Visionneuse de partitions</h1>
+    <p class="meta">Sélectionnez une œuvre · visualisez en haute résolution · jouez sur l'instrument</p>
+  </section>
+
+  <section>
+    <p class="lead">
+      Vous trouverez ici les partitions éditées par l'équipe de l'UFRJ — les <strong>huit Préludes</strong>
+      et l'<strong>Allemande</strong> de Couperin avec le doigté annoté, des exemples musicaux de
+      Sancta Maria, ainsi que les tables originales d'ornements. Utilisez les contrôles de zoom pour
+      visualiser le moindre détail ; le thème clair offre une meilleure lisibilité pour jouer sur l'instrument.
+    </p>
+
+    <div class="aside">
+      <h4>★ Comment utiliser</h4>
+      <p>Sélectionnez une œuvre ci-dessous. La partition s'ouvre en haute résolution avec des boutons de zoom
+        (− 100% +) et <em>plein écran</em>. Pour imprimer, utilisez la fonction du navigateur (Ctrl+P)
+        — nous recommandons le mode clair pour l'impression.</p>
+    </div>
+
+    <div class="score-selector">
+      <h3>📜 Sélectionnez l'œuvre</h3>
+
+      <div class="selector-row">
+        <label for="score-pick">Œuvre :</label>
+        <select id="score-pick">
+          <optgroup label="Couperin · L'Art de toucher le Clavecin (1717)">
+            <option value="couperin/embedded/p074-img1.jpeg" data-meta="Allemande · 'L'auteur l'a composée exprès' · marquée Lègèrement · première pièce de la méthode" data-tip="Débutant">Allemande — pièce de transition</option>
+            <option value="couperin/embedded/p081-img1.jpeg" data-meta="Premier Prélude en Ut · court · avec doigté annoté par l'auteur" data-tip="Débutant">Premier Prélude · Ut</option>
+            <option value="couperin/embedded/p082-img1.jpeg" data-meta="Deuxième Prélude en Ré mineur · court" data-tip="Débutant">Deuxième Prélude · Ré mineur</option>
+            <option value="couperin/embedded/p083-img1.jpeg" data-meta="Troisième Prélude en Sol mineur · court" data-tip="Débutant">Troisième Prélude · Sol mineur</option>
+            <option value="couperin/embedded/p084-img1.jpeg" data-meta="Quatrième Prélude en Fa majeur · dernier des 'courts'" data-tip="Débutant">Quatrième Prélude · Fa</option>
+            <option value="couperin/embedded/p085-img1.jpeg" data-meta="Quatrième Prélude · page 2 (mesures 16-21 · final 'Fin.')" data-tip="Débutant">Quatrième Prélude · page 2</option>
+            <option value="couperin/embedded/p086-img1.jpeg" data-meta="Cinquième Prélude en La majeur · premier des 'longs' (deux fois plus long) · page 1" data-tip="Intermédiaire">Cinquième Prélude · page 1</option>
+            <option value="couperin/embedded/p087-img1.jpeg" data-meta="Cinquième Prélude · page 2 (mesures 12-23 · 'Fin.')" data-tip="Intermédiaire">Cinquième Prélude · page 2</option>
+            <option value="couperin/embedded/p088-img1.jpeg" data-meta="Sixième Prélude · page 1" data-tip="Intermédiaire">Sixième Prélude · page 1</option>
+            <option value="couperin/embedded/p089-img1.jpeg" data-meta="Sixième Prélude · page 2" data-tip="Intermédiaire">Sixième Prélude · page 2</option>
+            <option value="couperin/embedded/p092-img1.jpeg" data-meta="Septième Prélude · 'Mesuré-lento' · page 1" data-tip="Avancé">Septième Prélude · page 1</option>
+            <option value="couperin/embedded/p093-img1.jpeg" data-meta="Septième Prélude · page 2 (mesures 12-22 · 'Fin.')" data-tip="Avancé">Septième Prélude · page 2</option>
+            <option value="couperin/embedded/p094-img1.jpeg" data-meta="Huitième Prélude · 'Mesuré-leger' · page 1" data-tip="Avancé">Huitième Prélude · page 1</option>
+            <option value="couperin/embedded/p095-img1.jpeg" data-meta="Huitième Prélude · page 2 · final" data-tip="Avancé">Huitième Prélude · page 2</option>
+          </optgroup>
+          <optgroup label="Couperin · Extraits du Second Livre (1717)">
+            <option value="couperin/embedded/p096-img5.jpeg" data-meta="Les Bergeries · extrait avec doigté complet (5-1-2 / 4-5 sur les notes aiguës)" data-tip="Avancé">Les Bergeries · extrait avec doigté</option>
+            <option value="couperin/embedded/p097-img1.jpeg" data-meta="Extrait étendu du Second Livre avec doigté annoté · alternances et substitutions typiques" data-tip="Avancé">Extrait étendu · L'Ausoniène</option>
+            <option value="couperin/embedded/p099-img2.jpeg" data-meta="Autre extrait du Second Livre avec doigté détaillé (Les Charmes ou La Triomphante)" data-tip="Avancé">Extrait · Les Charmes / La Triomphante</option>
+          </optgroup>
+          <optgroup label="Couperin · Table des Ornements (1713)">
+            <option value="couperin/embedded/p107-img1.jpeg" data-meta="Table du Premier Livre · partie 1 · Pincé Simple/Double, Port de voix, Tremblement, Liaisons, Accent" data-tip="Référence">Table des Ornements · partie 1</option>
+            <option value="couperin/embedded/p108-img1.jpeg" data-meta="Table du Premier Livre · partie 2 · Arpègement, Pincé continu, Tremblement continu, Tierce coulée, Aspiration, Suspension" data-tip="Référence">Table des Ornements · partie 2</option>
+          </optgroup>
+          <optgroup label="Rameau · Pièces de clavecin (1724)">
+            <option value="rameau/embedded/p119-img1.jpeg" data-meta="Table complète : ornements avec noms/figures/expressions + Première Leçon (main droite et gauche) + Menuet en Rondeau" data-tip="Référence">Table complète + Première Leçon + Menuet</option>
+          </optgroup>
+          <optgroup label="Sancta Maria · Arte de tocar Fantasía (1565)">
+            <option value="sancta-maria/embedded/p029-img1.jpeg" data-meta="Chap. XVIII · séquences de croches main gauche : descendante 4-3-2-1 + ascendante 1-2-3-4" data-tip="Exemple">Main gauche · Croches</option>
+            <option value="sancta-maria/embedded/p029-img2.jpeg" data-meta="Chap. XVIII · trois variations de la gamme ascendante : 3-4, 2-3-4, 1-2-3-4" data-tip="Exemple">Main droite · ascendante (3 variations)</option>
+            <option value="sancta-maria/embedded/p030-img1.jpeg" data-meta="Chap. XVIII · main droite descendante · variations 2 et 3 avec passage du pouce" data-tip="Exemple">Main droite · descendante</option>
+            <option value="sancta-maria/embedded/p031-img1.jpeg" data-meta="Chap. XVIII · octave resserrée (courte) · variations de doigté" data-tip="Exemple">Octave resserrée</option>
+            <option value="sancta-maria/embedded/p040-img2.jpeg" data-meta="Chap. XVIII · hexacorde + gamme doigtée avec système de solmisation" data-tip="Exemple">Hexacorde + gamme doigtée</option>
+            <option value="sancta-maria/embedded/p041-img1.jpeg" data-meta="Chap. XVIII · mélodie de la main droite descendante avec doigté complet : 4 3 2 3 2 1 3 2 3 2 4 3 2 3 2 1" data-tip="Exemple">Mélodie descendante (en La)</option>
+            <option value="sancta-maria/embedded/p043-img1.jpeg" data-meta="Chap. XIX · exemples des trois manières de Croches avec points sur les têtes de notes" data-tip="Exemple">Trois manières de Croches</option>
+            <option value="sancta-maria/embedded/p044-img1.jpeg" data-meta="Chap. XIX · 'a duo' à deux voix illustrant les notes inégales" data-tip="Exemple">A duo (notes inégales)</option>
+          </optgroup>
+        </select>
+
+        <div class="zoom-controls">
+          <button type="button" id="zoom-out">−</button>
+          <button type="button" id="zoom-reset">100%</button>
+          <button type="button" id="zoom-in">+</button>
+          <button type="button" id="fullscreen">⛶ Plein écran</button>
+        </div>
+      </div>
+
+      <div id="score-display" class="score-display">
+        <div class="score-meta" id="score-meta">
+          <strong>Sélectionnez une œuvre ci-dessus</strong>
+          <span class="perf-tip">pour visualiser</span>
+        </div>
+        <img id="score-img" src="" alt="Sélectionnez une œuvre pour visualiser" style="display:none;">
+        <p id="score-empty" style="padding:3rem 1rem;color:var(--ink-mute);text-align:center;">
+          Choisissez une partition dans le menu ci-dessus.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section style="margin-top:2rem;">
+    <div class="aside">
+      <h4>📖 Jouer depuis l'écran</h4>
+      <p>Pour jouer directement depuis l'écran de l'ordinateur ou de la tablette :</p>
+      <ul style="font-size:0.95rem;">
+        <li>Utilisez le <strong>plein écran</strong> (⛶) pour tirer le meilleur parti de l'écran</li>
+        <li>Augmentez le zoom (+) jusqu'à ce que les notes soient confortables à votre distance de lecture</li>
+        <li>Le mode <em>clair</em> offre un meilleur contraste pour la lecture</li>
+        <li>Pour imprimer : Ctrl+P (Cmd+P sur Mac), de préférence en A4 paysage</li>
+      </ul>
+    </div>
+
+    <div class="aside">
+      <h4>★ À propos des éditions</h4>
+      <p>Les partitions de Couperin (Préludes et Allemande) et les exemples de Sancta Maria ont été
+        <strong>édités électroniquement par Maria Aida Barroso</strong> pour l'édition UFRJ 2013.
+        Les tables d'ornements de Couperin (1713) et de Rameau (1724) sont des <strong>fac-similés</strong>
+        des éditions originales. Tous droits réservés aux traducteurs et éditeurs.</p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div>© 2013 by Fagerlande, Tavares, Albuquerque, Barroso e Pereira</div>
+  <div class="credits">UFRJ · Programme de Post-Graduation en Musique · 2013</div>
+</footer>
+
+<script src="../assets/glossario.js"></script>
+<script src="../assets/main.js"></script>
+<script>
+(function () {
+  const select = document.getElementById('score-pick');
+  const img = document.getElementById('score-img');
+  const meta = document.getElementById('score-meta');
+  const empty = document.getElementById('score-empty');
+  const display = document.getElementById('score-display');
+  let zoom = 1.0;
+
+  function applyZoom() {
+    img.style.transform = 'scale(' + zoom + ')';
+    document.getElementById('zoom-reset').textContent = Math.round(zoom * 100) + '%';
+  }
+
+  select.addEventListener('change', () => {
+    if (!select.value) {
+      img.style.display = 'none';
+      empty.style.display = 'block';
+      meta.innerHTML = '<strong>Sélectionnez une œuvre ci-dessus</strong> <span class="perf-tip">pour visualiser</span>';
+      return;
+    }
+    const opt = select.options[select.selectedIndex];
+    const tip = opt.dataset.tip || '';
+    const desc = opt.dataset.meta || '';
+    img.src = 'partituras/' + select.value;
+    img.alt = opt.textContent;
+    img.style.display = 'block';
+    empty.style.display = 'none';
+    meta.innerHTML = '<strong>' + opt.textContent + '</strong>'
+      + (tip ? ' <span class="perf-tip">' + tip + '</span>' : '')
+      + '<br><span style="font-style:italic;font-size:0.9rem;color:var(--ink-soft);">' + desc + '</span>';
+    zoom = 1.0;
+    applyZoom();
+    display.scrollTop = 0;
+  });
+
+  document.getElementById('zoom-in').addEventListener('click', () => { zoom = Math.min(zoom + 0.25, 4); applyZoom(); });
+  document.getElementById('zoom-out').addEventListener('click', () => { zoom = Math.max(zoom - 0.25, 0.5); applyZoom(); });
+  document.getElementById('zoom-reset').addEventListener('click', () => { zoom = 1.0; applyZoom(); });
+  document.getElementById('fullscreen').addEventListener('click', () => {
+    if (!document.fullscreenElement) display.requestFullscreen?.();
+    else document.exitFullscreen?.();
+  });
+
+  // Keyboard shortcuts
+  document.addEventListener('keydown', (e) => {
+    if (!select.value) return;
+    if (e.key === '+' || e.key === '=') { zoom = Math.min(zoom + 0.25, 4); applyZoom(); e.preventDefault(); }
+    else if (e.key === '-') { zoom = Math.max(zoom - 0.25, 0.5); applyZoom(); e.preventDefault(); }
+    else if (e.key === '0') { zoom = 1.0; applyZoom(); e.preventDefault(); }
+    else if (e.key === 'f' && !e.target.matches('input,select,textarea')) {
+      if (!document.fullscreenElement) display.requestFullscreen?.();
+      else document.exitFullscreen?.();
+    }
+  });
+})();
+</script>  
+  <!-- cravo-chatbot:begin -->
+  <script src="../assets/chatbot.js?v=0e961262" defer></script>
+  <!-- cravo-chatbot:end -->
+</body>
+</html>
