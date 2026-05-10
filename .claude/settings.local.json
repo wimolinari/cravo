@@ -1,6 +1,5 @@
 {
   "permissions": {
-    "defaultMode": "acceptEdits",
     "allow": [
       "Edit",
       "Write",
@@ -61,7 +60,11 @@
       "Bash(robocopy *)",
       "Bash(./_deploy.bat)",
       "Bash(.venv/Scripts/python.exe *)",
-      "Bash(.venv/Scripts/pip.exe *)"
+      "Bash(.venv/Scripts/pip.exe *)",
+      "Bash(rm -f C:/Outros/Cravo/site/fr/tratados/couperin.html)",
+      "Bash(rm -f C:/Outros/Cravo/site/fr/tratados/sancta-maria.html)",
+      "Bash(rm -f C:/Outros/Cravo/site/es/tratados/couperin.html)",
+      "Bash(rm -f C:/Outros/Cravo/site/es/tratados/sancta-maria.html)"
     ],
     "deny": [
       "Bash(rm -rf:*)",
@@ -75,6 +78,7 @@
       "Bash(diskpart *)",
       "Bash(shutdown *)",
       "Bash(reg delete *)"
-    ]
+    ],
+    "defaultMode": "acceptEdits"
   }
 }
