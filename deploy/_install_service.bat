@@ -1,112 +1,157 @@
 @echo off
 REM ============================================================================
-REM Cravo Chatbot — Instalacao do servico Windows no servidor 10.10.100.10
+REM Cravo Chatbot - Instalar API como Servico Windows (NSSM + uvicorn)
+REM
+REM Padrao copiado do HSR_VoiceCode/deploy/install_api_service.bat
+REM Adaptado para porta 8001 (8000 ja esta ocupada pelo HSR VoiceCode).
 REM
 REM EXECUTAR REMOTAMENTE NO SERVIDOR (\\10.10.100.10) via RDP, como Admin.
 REM
-REM Pre-requisitos no servidor (todos ja existem):
-REM   1. Python 3.10+ no PATH
-REM   2. nssm.exe em C:\Tools\nssm.exe (ja instalado pelo OfertasMontadoras)
-REM   3. URL Rewrite + ARR no IIS (ja instalados, comprovado em /credentials/)
-REM   4. Backend ja copiado para D:\apps\cravo-chatbot\
-REM      (rodar _deploy_backend.bat antes deste script)
-REM
-REM O que este script faz:
-REM   - Cria/atualiza venv em D:\apps\cravo-chatbot\.venv
-REM   - Instala dependencias do requirements.txt
-REM   - Cria servico Windows "CravoChatbot_App" via NSSM, porta 8001
-REM     (8000 ja ocupada pelo Hsr_VoiceCode FastAPI)
-REM   - Inicia servico
+REM Pre-requisitos no servidor:
+REM   1. Backend ja copiado para D:\apps\cravo-chatbot\ (rodar _deploy_backend.bat)
+REM   2. .env criado em D:\apps\cravo-chatbot\ com ANTHROPIC_API_KEY
+REM   3. Python 3.10+ instalado (ja existe no servidor)
+REM   4. nssm.exe em deploy\ (bundled com este script)
 REM ============================================================================
-setlocal
-set SERVICE=CravoChatbot_App
-set NSSM=C:\Tools\nssm.exe
-set APP_ROOT=D:\apps\cravo-chatbot
+echo ========================================================
+echo   Cravo Chatbot - Instalar API como Servico Windows
+echo ========================================================
+echo.
+
+set INSTALL_DIR=D:\apps\cravo-chatbot
+set SERVICE_NAME=CravoChatbot_API
+set NSSM=%INSTALL_DIR%\deploy\nssm.exe
 set PORT=8001
 
-REM Validacoes
-if not exist "%NSSM%" (
-  echo [ERRO] nssm.exe nao encontrado em %NSSM%
-  echo Instale-o em C:\Tools\ ou ajuste o caminho neste script.
-  exit /b 1
-)
-if not exist "%APP_ROOT%\backend\app.py" (
-  echo [ERRO] %APP_ROOT%\backend\app.py nao existe.
-  echo Faca o deploy primeiro: rode _deploy_backend.bat na maquina local.
-  exit /b 1
-)
-if not exist "%APP_ROOT%\.env" (
-  echo [AVISO] %APP_ROOT%\.env NAO existe.
-  echo Crie com a chave Anthropic:
-  echo   ANTHROPIC_API_KEY=sk-ant-api03-...
-  echo   ANTHROPIC_MODEL=claude-sonnet-4-6
-  echo Continuar mesmo assim? Ctrl+C para cancelar.
-  pause >nul
-)
-
-cd /d "%APP_ROOT%"
-
-REM 1. Cria venv (idempotente)
-if not exist "%APP_ROOT%\.venv" (
-  echo [1/4] Criando venv...
-  py -3 -m venv .venv
-  if errorlevel 1 (
-    echo [ERRO] py -3 falhou. Verifique se Python 3.10+ esta no PATH.
+REM Verificar se esta rodando como admin
+net session >nul 2>&1
+if errorlevel 1 (
+    echo ERRO: Execute este script como Administrador!
+    pause
     exit /b 1
-  )
 )
 
-REM 2. Instala/atualiza dependencias
-echo [2/4] Instalando dependencias do requirements.txt...
-call ".venv\Scripts\activate.bat"
-python -m pip install --upgrade pip --quiet
-pip install -r backend\requirements.txt --quiet
-
-REM 3. Remove servico anterior se existir
-"%NSSM%" status %SERVICE% >nul 2>&1
-if not errorlevel 1 (
-  echo [3/4] Servico %SERVICE% ja existe. Atualizando...
-  "%NSSM%" stop %SERVICE%
-  timeout /t 3 /nobreak >nul
-  "%NSSM%" remove %SERVICE% confirm
+REM Verificar NSSM
+if not exist "%NSSM%" (
+    echo ERRO: nssm.exe nao encontrado em %NSSM%
+    echo NSSM deveria estar bundled em deploy\nssm.exe
+    pause
+    exit /b 1
 )
 
-REM 4. Cria servico
-echo [4/4] Instalando servico %SERVICE%...
-"%NSSM%" install %SERVICE% "%APP_ROOT%\.venv\Scripts\python.exe"
-"%NSSM%" set %SERVICE% AppParameters "-m uvicorn backend.app:app --host 127.0.0.1 --port %PORT%"
-"%NSSM%" set %SERVICE% AppDirectory "%APP_ROOT%"
-"%NSSM%" set %SERVICE% DisplayName "Cravo Chatbot - Mestre do Cravo"
-"%NSSM%" set %SERVICE% Description "FastAPI + Anthropic Claude chatbot pedagogico para o site Tratados do Cravo (porta %PORT%)"
-"%NSSM%" set %SERVICE% Start SERVICE_AUTO_START
+REM Verificar backend
+if not exist "%INSTALL_DIR%\backend\app.py" (
+    echo ERRO: %INSTALL_DIR%\backend\app.py nao existe.
+    echo Rode _deploy_backend.bat na maquina dev primeiro.
+    pause
+    exit /b 1
+)
 
-REM Logs em arquivos rotacionados (1 MB cada)
-if not exist "%APP_ROOT%\logs" mkdir "%APP_ROOT%\logs"
-"%NSSM%" set %SERVICE% AppStdout "%APP_ROOT%\logs\stdout.log"
-"%NSSM%" set %SERVICE% AppStderr "%APP_ROOT%\logs\stderr.log"
-"%NSSM%" set %SERVICE% AppStdoutCreationDisposition 4
-"%NSSM%" set %SERVICE% AppStderrCreationDisposition 4
-"%NSSM%" set %SERVICE% AppRotateFiles 1
-"%NSSM%" set %SERVICE% AppRotateOnline 1
-"%NSSM%" set %SERVICE% AppRotateBytes 1048576
+REM Verificar .env
+if not exist "%INSTALL_DIR%\.env" (
+    echo ERRO: Arquivo .env nao encontrado em %INSTALL_DIR%\.env
+    echo Crie com:
+    echo   ANTHROPIC_API_KEY=sk-ant-api03-...
+    echo   ANTHROPIC_MODEL=claude-sonnet-4-6
+    pause
+    exit /b 1
+)
 
-REM Inicia
-"%NSSM%" start %SERVICE%
-timeout /t 5 /nobreak >nul
+REM Criar venv se nao existir
+if not exist "%INSTALL_DIR%\venv\Scripts\python.exe" (
+    echo.
+    echo [setup] Criando venv...
+    echo -------------------------------------------------------
+    py -3 -m venv "%INSTALL_DIR%\venv"
+    if errorlevel 1 (
+        echo ERRO: Python 3 nao encontrado. Instale Python 3.10+ no servidor.
+        pause
+        exit /b 1
+    )
+    echo Venv criado.
+)
+
+REM Instalar dependencias
+echo.
+echo [setup] Instalando dependencias do requirements.txt...
+echo -------------------------------------------------------
+"%INSTALL_DIR%\venv\Scripts\python.exe" -m pip install --upgrade pip --quiet
+"%INSTALL_DIR%\venv\Scripts\pip.exe" install -r "%INSTALL_DIR%\backend\requirements.txt"
+if errorlevel 1 (
+    echo AVISO: Algumas dependencias podem ter falhado. Verifique acima.
+)
+
+REM Criar pasta de logs
+if not exist "%INSTALL_DIR%\logs" mkdir "%INSTALL_DIR%\logs"
 
 echo.
-echo ============================================================================
-echo  Servico %SERVICE% instalado e rodando em http://127.0.0.1:%PORT%
-echo  Logs: %APP_ROOT%\logs\
-echo ============================================================================
+echo [1/4] Removendo servico anterior (se existir)...
+echo -------------------------------------------------------
+"%NSSM%" stop %SERVICE_NAME% >nul 2>&1
+"%NSSM%" remove %SERVICE_NAME% confirm >nul 2>&1
+echo OK.
+
 echo.
-echo Smoke test:
-echo   curl http://127.0.0.1:%PORT%/api/health
+echo [2/4] Criando servico %SERVICE_NAME%...
+echo -------------------------------------------------------
+"%NSSM%" install %SERVICE_NAME% "%INSTALL_DIR%\venv\Scripts\python.exe"
+"%NSSM%" set %SERVICE_NAME% AppParameters "-m uvicorn backend.app:app --host 127.0.0.1 --port %PORT%"
+"%NSSM%" set %SERVICE_NAME% AppDirectory "%INSTALL_DIR%"
+"%NSSM%" set %SERVICE_NAME% Description "Cravo Chatbot - FastAPI Backend (uvicorn porta %PORT%) - Mestre do Cravo"
+"%NSSM%" set %SERVICE_NAME% Start SERVICE_AUTO_START
+"%NSSM%" set %SERVICE_NAME% AppStdout "%INSTALL_DIR%\logs\api_stdout.log"
+"%NSSM%" set %SERVICE_NAME% AppStderr "%INSTALL_DIR%\logs\api_stderr.log"
+"%NSSM%" set %SERVICE_NAME% AppStdoutCreationDisposition 4
+"%NSSM%" set %SERVICE_NAME% AppStderrCreationDisposition 4
+"%NSSM%" set %SERVICE_NAME% AppRotateFiles 1
+"%NSSM%" set %SERVICE_NAME% AppRotateOnline 1
+"%NSSM%" set %SERVICE_NAME% AppRotateBytes 5242880
+echo Servico criado.
+
 echo.
-echo Status:
-sc query %SERVICE% | findstr /i "STATE"
+echo [3/4] Iniciando servico...
+echo -------------------------------------------------------
+"%NSSM%" start %SERVICE_NAME%
+timeout /t 3 >nul
+
 echo.
-echo Proximo passo: copiar deploy\web.config-cravo para o IIS:
-echo   copy /Y deploy\web.config-cravo "D:\Websites\routepesquisa.com.br\cravo\web.config"
+echo [4/4] Verificando...
+echo -------------------------------------------------------
+"%NSSM%" status %SERVICE_NAME%
 echo.
-endlocal
+
+REM Testar health endpoint
+echo Testando API...
+timeout /t 2 >nul
+curl -s http://localhost:%PORT%/api/health
+if errorlevel 1 (
+    echo.
+    echo AVISO: API nao respondeu ainda. Aguarde alguns segundos e teste:
+    echo   curl http://localhost:%PORT%/api/health
+    echo.
+    echo Verifique os logs em:
+    echo   %INSTALL_DIR%\logs\api_stdout.log
+    echo   %INSTALL_DIR%\logs\api_stderr.log
+) else (
+    echo.
+    echo API respondendo OK!
+)
+
+echo.
+echo ========================================================
+echo   Servico %SERVICE_NAME% instalado!
+echo.
+echo   Comandos uteis:
+echo     nssm start %SERVICE_NAME%     (iniciar)
+echo     nssm stop %SERVICE_NAME%      (parar)
+echo     nssm restart %SERVICE_NAME%   (reiniciar)
+echo     nssm status %SERVICE_NAME%    (ver status)
+echo     nssm edit %SERVICE_NAME%      (editar config)
+echo.
+echo   O servico inicia automaticamente com o Windows.
+echo   Logs em: %INSTALL_DIR%\logs\
+echo.
+echo   Smoke test publico (apos o web.config no IIS):
+echo     curl https://routepesquisa.com.br/cravo/api/health
+echo ========================================================
+pause
