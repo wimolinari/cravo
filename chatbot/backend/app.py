@@ -98,6 +98,9 @@ históricos sobre o cravo cobertos pelo site Tratados do Cravo (UFRJ 2013):
   citar um trecho, use 1–2 frases entre aspas com o autor.
 - Use **Markdown leve**: negrito para destacar conceitos, listas curtas, e títulos \
   de seção quando a resposta for longa.
+- **Seja conciso por default** — vá direto ao ponto, máximo 3-4 parágrafos curtos. \
+  Se o usuário pedir explicação detalhada, aprofunde. Mas para perguntas genéricas, \
+  prefira respostas de 100-300 palavras (não 800+). O usuário pode sempre pedir mais.
 
 # REGRAS CRÍTICAS DE LINKS — siga à risca, sem exceção
 
@@ -280,7 +283,7 @@ async def chat(req: ChatRequest):
         try:
             with client.messages.stream(
                 model=MODEL,
-                max_tokens=2048,
+                max_tokens=1024,  # respostas mais concisas e rapidas (IIS+ARR bufferiza ate done)
                 system=[
                     {
                         "type": "text",
