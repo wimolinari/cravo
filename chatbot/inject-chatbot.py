@@ -21,11 +21,11 @@ sys.stdout.reconfigure(encoding="utf-8")  # type: ignore[attr-defined]
 SITE_DIR = Path("C:/Outros/Cravo/site")
 ASSETS_DIR = SITE_DIR / "assets"
 
-# URL do backend. Em produção: https://routepesquisa.com.br/cravo/api
-# (mesmo origem; reverse proxy IIS para localhost:8001 onde roda o servico
-# Windows CravoChatbot_App). Para dev local, trocar para http://127.0.0.1:8001
-# (ou 8000) e rodar run-backend.bat.
-DEFAULT_API = "https://routepesquisa.com.br/cravo/api"
+# URL BASE do backend (SEM o /api final — o JS appenda /api/health, /api/chat etc.)
+# Em produção: https://routepesquisa.com.br/cravo
+#   (reverse proxy IIS encaminha /cravo/api/* para localhost:8001/api/*)
+# Em dev local: http://127.0.0.1:8000 (run-backend.bat sobe uvicorn na 8000)
+DEFAULT_API = "https://routepesquisa.com.br/cravo"
 
 # Markers do bloco injetado — usados para detectar e SUBSTITUIR (não duplicar)
 MARK_BEGIN = "<!-- cravo-chatbot:begin -->"
