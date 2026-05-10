@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  IIS web.config para https://routepesquisa.com.br/cravo/
+
+  Reverse proxy: /cravo/api/* -> http://localhost:8001/api/*
+  (FastAPI uvicorn rodando como servico Windows CravoChatbot_App, porta 8001)
+
+  Pre-requisitos no IIS (todos ja instalados/habilitados):
+   - URL Rewrite Module 2.x
+   - Application Request Routing (ARR) com Server Proxy enabled
+     (IIS Manager -> Server -> Application Request Routing Cache ->
+      Server Proxy Settings -> Enable proxy)
+
+  Por que o site /cravo/ precisa de web.config:
+   - O site e estatico (HTML+CSS+JS) e nao precisava de regras antes.
+   - A regra de proxy abaixo intercepta /cravo/api/* e encaminha pro backend
+     local. SSE streaming exige RESPONSE_BUFFER_LIMIT=0 para o IIS NAO bufferar
+     (caso contrario o usuario ve a resposta toda de uma vez no fim).
+
+  Smoke test apos aplicar:
+     curl https://routepesquisa.com.br/cravo/api/health
+     -> {"status":"ok","model":"claude-sonnet-4-6","kb":{...}}
+-->
+<configuration>
+  <system.webServer>
+    <rewrite>
+      <rules>
+        <!--
+          Tudo que comeca com api/ apos /cravo/ vai pra porta 8001 local.
+          O {R:1} captura tudo apos "api/" e re-anexa.
+        -->
+        <rule name="CravoChatbot_API_proxy" stopProcessing="true">
+          <match url="^api/(.*)" />
+          <serverVariables>
+            <!-- Importante: SSE streaming nao funciona com buffer ligado -->
+            <set name="RESPONSE_BUFFER_LIMIT" value="0" />
+          </serverVariables>
+          <action type="Rewrite" url="http://localhost:8001/api/{R:1}" />
+        </rule>
+      </rules>
+      <outboundRules>
+        <!-- Garante que streaming SSE flui em tempo real -->
+        <preConditions>
+          <preCondition name="IsSSE">
+            <add input="{RESPONSE_CONTENT_TYPE}" pattern="text/event-stream" />
+          </preCondition>
+        </preConditions>
+      </outboundRules>
+    </rewrite>
+
+    <!-- Headers de seguranca basicos para o site /cravo/ -->
+    <httpProtocol>
+      <customHeaders>
+        <add name="X-Content-Type-Options" value="nosniff" />
+        <add name="X-Frame-Options" value="SAMEORIGIN" />
+        <add name="Referrer-Policy" value="strict-origin-when-cross-origin" />
+      </customHeaders>
+    </httpProtocol>
+
+    <!-- Cache curto pros HTMLs (ja temos cache-busting via ?v=hash nos assets) -->
+    <staticContent>
+      <clientCache cacheControlMode="UseMaxAge" cacheControlMaxAge="0.00:05:00" />
+    </staticContent>
+
+    <!-- Compressao gzip -->
+    <urlCompression doStaticCompression="true" doDynamicCompression="true" />
+  </system.webServer>
+</configuration>
