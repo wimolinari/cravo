@@ -1,15 +1,16 @@
 """
 Injeta o chatbot (CSS + JS) em todas as páginas HTML do site Cravo.
 
-- CSS é incluído antes do </head>
-- JS é incluído antes do </body>
-- Caminhos são relativos à pasta da página (assets/ ou ../assets/)
-- Idempotente: detecta se já foi injetado.
-- Adiciona meta <meta name="cravo-chat-api" content="..."> com URL configurável.
+- Idempotente: detecta blocos já injetados e ATUALIZA (em vez de duplicar).
+- Cache-busting: anexa ?v=<hash dos arquivos> em chatbot.css/js — toda mudança
+  no JS/CSS força clientes a baixarem a versão nova.
+- CSS antes de </head>, JS antes de </body>
+- Caminhos relativos à pasta da página (assets/ ou ../assets/)
 """
 
 from __future__ import annotations
 
+import hashlib
 import re
 import sys
 from pathlib import Path
@@ -18,77 +19,131 @@ from pathlib import Path
 sys.stdout.reconfigure(encoding="utf-8")  # type: ignore[attr-defined]
 
 SITE_DIR = Path("C:/Outros/Cravo/site")
+ASSETS_DIR = SITE_DIR / "assets"
 
-# A URL da API pode ser sobrescrita por <meta>. Em produção, atualizar para a URL real.
-# Como o backend ainda não está em produção, deixamos localhost para dev e o usuário
-# pode alterar a meta tag em cada deploy.
+# URL do backend. Em produção: trocar para a URL pública do FastAPI.
 DEFAULT_API = "http://127.0.0.1:8000"
 
-CSS_LINK = '<link rel="stylesheet" href="{prefix}assets/chatbot.css">'
-JS_TAG = '<script src="{prefix}assets/chatbot.js" defer></script>'
-META_TAG = f'<meta name="cravo-chat-api" content="{DEFAULT_API}">'
+# Markers do bloco injetado — usados para detectar e SUBSTITUIR (não duplicar)
+MARK_BEGIN = "<!-- cravo-chatbot:begin -->"
+MARK_END = "<!-- cravo-chatbot:end -->"
+LEGACY_MARK = "<!-- cravo-chatbot:injected -->"
 
-MARKER = "<!-- cravo-chatbot:injected -->"
+# Padrão de bloco completo (head ou body) com markers — usado para remoção
+BLOCK_RE = re.compile(
+    re.escape(MARK_BEGIN) + r".*?" + re.escape(MARK_END),
+    re.DOTALL,
+)
+# Linhas legadas (do esquema antigo single-line)
+LEGACY_HEAD_RE = re.compile(
+    r"\s*<meta[^>]*cravo-chat-api[^>]*>\s*\n"
+    r"\s*<link[^>]*chatbot\.css[^>]*>\s*\n"
+    r"\s*" + re.escape(LEGACY_MARK) + r"\s*\n",
+    re.IGNORECASE,
+)
+LEGACY_BODY_RE = re.compile(
+    r"\s*<script[^>]*chatbot\.js[^>]*>\s*</script>\s*\n",
+    re.IGNORECASE,
+)
+
+
+def short_hash(paths: list[Path]) -> str:
+    """SHA-256 dos arquivos concatenados — primeiros 8 hex chars."""
+    h = hashlib.sha256()
+    for p in paths:
+        h.update(p.read_bytes())
+    return h.hexdigest()[:8]
 
 
 def assets_prefix(page: Path) -> str:
-    """Retorna '' para pages na raiz, '../' para pages em subpastas."""
     rel = page.relative_to(SITE_DIR)
     depth = len(rel.parts) - 1
     return "../" * depth
 
 
-def inject(page: Path) -> str:
-    text = page.read_text(encoding="utf-8")
+def make_blocks(prefix: str, version: str) -> tuple[str, str]:
+    """Gera (head_block, body_block) com markers + version."""
+    head = (
+        f"  {MARK_BEGIN}\n"
+        f'  <meta name="cravo-chat-api" content="{DEFAULT_API}">\n'
+        f'  <link rel="stylesheet" href="{prefix}assets/chatbot.css?v={version}">\n'
+        f"  {MARK_END}\n"
+    )
+    body = (
+        f"  {MARK_BEGIN}\n"
+        f'  <script src="{prefix}assets/chatbot.js?v={version}" defer></script>\n'
+        f"  {MARK_END}\n"
+    )
+    return head, body
 
-    if MARKER in text:
-        return "skip (já injetado)"
+
+def update(page: Path, version: str) -> str:
+    text = page.read_text(encoding="utf-8")
+    original = text
+
+    # 1. Remove blocos antigos (com markers begin/end) — idempotência
+    text = BLOCK_RE.sub("", text)
+    # 2. Remove o esquema LEGADO (do primeiro inject) se ainda existir
+    text = LEGACY_HEAD_RE.sub("", text)
+    text = LEGACY_BODY_RE.sub("", text)
+    # 3. Limpa marker solto que tenha ficado
+    text = text.replace(LEGACY_MARK + "\n", "")
 
     prefix = assets_prefix(page)
-    css = CSS_LINK.format(prefix=prefix)
-    js = JS_TAG.format(prefix=prefix)
+    head_block, body_block = make_blocks(prefix, version)
 
-    # Insere CSS + meta antes de </head>
+    # 4. Insere head antes de </head>
     head_close = re.search(r"</head>", text, re.IGNORECASE)
     if not head_close:
         return "erro: sem </head>"
+    text = text[: head_close.start()] + head_block + text[head_close.start() :]
 
-    inject_head = f"  {META_TAG}\n  {css}\n  {MARKER}\n"
-    text = text[: head_close.start()] + inject_head + text[head_close.start() :]
-
-    # Insere JS antes de </body>
+    # 5. Insere body antes de </body>
     body_close = re.search(r"</body>", text, re.IGNORECASE)
     if not body_close:
         return "erro: sem </body>"
+    text = text[: body_close.start()] + body_block + text[body_close.start() :]
 
-    inject_body = f"  {js}\n"
-    text = text[: body_close.start()] + inject_body + text[body_close.start() :]
-
+    if text == original:
+        return "skip (sem mudança)"
     page.write_text(text, encoding="utf-8")
     return "ok"
 
 
 def main():
+    css = ASSETS_DIR / "chatbot.css"
+    js = ASSETS_DIR / "chatbot.js"
+    if not css.exists() or not js.exists():
+        print("ERRO: chatbot.css/js não encontrados em assets/")
+        sys.exit(1)
+
+    version = short_hash([css, js])
+    print(f"[inject-chatbot] versão (hash): {version}\n")
+
     pages = sorted(SITE_DIR.rglob("*.html"))
     if not pages:
         print("Nenhum HTML encontrado.")
         return
 
-    print(f"[inject-chatbot] {len(pages)} páginas em {SITE_DIR}\n")
-    counts = {"ok": 0, "skip (já injetado)": 0, "erro": 0}
+    counts = {"ok": 0, "skip (sem mudança)": 0, "erro": 0}
     for p in pages:
-        result = inject(p)
+        result = update(p, version)
         rel = p.relative_to(SITE_DIR)
         print(f"  {rel}  →  {result}")
         if result.startswith("erro"):
             counts["erro"] += 1
         elif result.startswith("skip"):
-            counts["skip (já injetado)"] += 1
+            counts["skip (sem mudança)"] += 1
         else:
             counts["ok"] += 1
 
     print()
-    print(f"OK: {counts['ok']} | Skip: {counts['skip (já injetado)']} | Erros: {counts['erro']}")
+    print(
+        f"OK: {counts['ok']} | "
+        f"Skip: {counts['skip (sem mudança)']} | "
+        f"Erros: {counts['erro']} | "
+        f"Versão: {version}"
+    )
 
 
 if __name__ == "__main__":

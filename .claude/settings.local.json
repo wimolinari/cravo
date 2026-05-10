@@ -5,7 +5,25 @@
       "Bash(powershell -ExecutionPolicy Bypass -File \"C:\\\\Outros\\\\Cravo\\\\add-prefacio-link.ps1\")",
       "Bash(powershell -ExecutionPolicy Bypass -File \"C:\\\\Outros\\\\Cravo\\\\deploy-ps.ps1\")",
       "Skill(claude-api)",
-      "Skill(claude-api:*)"
+      "Skill(claude-api:*)",
+      "Bash(ls \"//10.10.100.10/d\\\\$/Websites/routepesquisa.com.br/cravo/\" 2>&1 | head -5; echo \"---network status---\")",
+      "Bash(\"/c/Program Files/GitHub CLI/gh.exe\" --version)",
+      "Bash(\"/c/Program Files/GitHub CLI/gh.exe\" auth status)",
+      "Bash(git config *)",
+      "Bash(git credential *)",
+      "Bash(git remote *)",
+      "Bash(git push *)",
+      "Bash(ls \"//10.10.100.10/d\\\\$/\" 2>&1 | head -30)",
+      "Bash(ls \"//10.10.100.10/d\\\\$/Websites/\" 2>&1 | head -30)",
+      "Bash(ls \"//10.10.100.10/d\\\\$/Websites/routepesquisa.com.br/\" 2>&1 | head -30; echo \"---\"; ls -la \"//10.10.100.10/d\\\\$/Websites/routepesquisa.com.br/web.config\" 2>&1)",
+      "Bash(du -sh \"//10.10.100.10/d\\\\$/Websites/routepesquisa.com.br/credentials\")",
+      "Bash(echo \"=== procurando pastas que podem conter o backend FastAPI da porta 8000 ===\" *)",
+      "Bash(cat /c/Users/WILSON~1.MOL/AppData/Local/Temp/claude/C--Outros-Cravo/794aa547-fcad-4785-afdd-e84785571e3c/tasks/b8rtlr84f.output 2>&1 | head -60)",
+      "Read(///10.10.100.10/d$/Websites/routepesquisa.com.br/OfertasMontadoras/**)",
+      "Read(///10.10.100.10/d$//**)",
+      "Bash(ls \"C:/Outros/Site Route Automotive/\" 2>&1 | head -30)",
+      "Bash(ls C:/Outros/ 2>&1 | head -30)",
+      "Bash(xargs grep -l \"from fastapi\\\\|import fastapi\")"
     ]
   }
 }
