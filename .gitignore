@@ -37,3 +37,4 @@ chatbot/backend/.venv/
 
 # Tasks/temp
 .claude/tasks/
+chatbot/data/
