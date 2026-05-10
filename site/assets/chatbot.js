@@ -136,13 +136,23 @@
       .replace(/'/g, '&#39;');
   }
 
-  // Em produção o site fica em /cravo/... mas em dev (localhost:8181) ele é
-  // servido a partir de /. O modelo gera sempre URLs com /cravo/. Aqui
-  // ajustamos pra funcionar nos dois ambientes.
+  // Em produção o site fica em /cravo/... (IIS aceita /cravo/ ou /CRAVO/, daí o
+  // teste case-insensitive). Em dev (localhost:8181) é servido a partir de /.
+  // O modelo gera sempre URLs com /cravo/ minúsculo; reescrevemos o href pra
+  // casar com o ambiente atual.
   function fixSiteHref(href) {
-    if (!/^\/cravo\//.test(href)) return href;
-    if (window.location.pathname.indexOf('/cravo/') !== -1) return href; // produção
-    return href.replace(/^\/cravo\//, '/'); // dev local
+    if (!/^\/cravo\//i.test(href)) return href;
+    if (/\/cravo\//i.test(window.location.pathname)) {
+      // Produção: garante que href use a MESMA caixa do path atual para evitar
+      // qualquer redirect ou mismatch.
+      const m = window.location.pathname.match(/\/(cravo)\//i);
+      if (m && m[1] !== 'cravo') {
+        return href.replace(/^\/cravo\//i, '/' + m[1] + '/');
+      }
+      return href;
+    }
+    // Dev local (sem /cravo/ no path): remove o prefixo
+    return href.replace(/^\/cravo\//i, '/');
   }
 
   // Imagens (jpg/png/gif/webp/svg) e PDFs sempre abrem em nova aba para que o
