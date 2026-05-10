@@ -14,7 +14,7 @@
   {
     "icon": "🎹",
     "label": "Cómo atacar la tecla",
-    "sample_question": "¿Debo atacar con fuerza o con suavidad? ¿Qué dicen los tratados?",
+    "sample_question": "¿Debo atacar con fuerza o con ligereza? ¿Qué dicen los tratados?",
     "related_url": "/cravo/temas/articulacao.html#ataque"
   },
   {
@@ -58,5 +58,11 @@
     "label": "Baterías y Les Cyclopes",
     "sample_question": "¿Qué son las \"baterías con manos cruzadas\" inventadas por Rameau?",
     "related_url": "/cravo/temas/exercicios-baterias.html"
+  },
+  {
+    "icon": "🎶",
+    "label": "Piezas en los tratados",
+    "sample_question": "¿Qué piezas cita cada autor en su tratado y cuáles están disponibles en partitura/vídeo en el sitio? (Couperin: 8 Preludios y Alemanda; Sancta Maria: ejemplos de digitación; Frescobaldi: tocatas; Rameau: Première Leçon, Menuet, Les Cyclopes)",
+    "related_url": "/cravo/partituras-viewer.html"
   }
 ]

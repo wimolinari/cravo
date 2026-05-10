@@ -344,6 +344,12 @@ topics = [
         'sample_question': 'O que são as "baterias com mãos cruzadas" inventadas por Rameau?',
         'related_url': '/cravo/temas/exercicios-baterias.html',
     },
+    {
+        'icon': '🎶',
+        'label': 'Peças nos tratados',
+        'sample_question': 'Quais peças cada autor cita no seu tratado e quais estão disponíveis em partitura/vídeo no site? (Couperin: 8 Prelúdios e Alemanda; Sancta Maria: exemplos de dedilhado; Frescobaldi: tocatas; Rameau: Première Leçon, Menuet, Les Cyclopes)',
+        'related_url': '/cravo/partituras-viewer.html',
+    },
 ]
 
 with open(os.path.join(OUT, 'topics.json'), 'w', encoding='utf-8') as f:

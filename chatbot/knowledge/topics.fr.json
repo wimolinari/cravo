@@ -8,7 +8,7 @@
   {
     "icon": "✋",
     "label": "Position des mains",
-    "sample_question": "Que veut dire Sancta Maria par « main de chat » ?",
+    "sample_question": "Que veut dire Sancta Maria par \"main de chat\" ?",
     "related_url": "/cravo/temas/postura.html#maos"
   },
   {
@@ -32,7 +32,7 @@
   {
     "icon": "🎵",
     "label": "Notes inégales",
-    "sample_question": "Que sont les inégalités rythmiques françaises et comment les appliquer ?",
+    "sample_question": "Qu'est-ce que les inégalités rythmiques françaises et comment les appliquer ?",
     "related_url": "/cravo/temas/ritmo-tempo.html"
   },
   {
@@ -56,7 +56,13 @@
   {
     "icon": "🌪",
     "label": "Batteries et Les Cyclopes",
-    "sample_question": "Que sont les « batteries avec les mains croisées » inventées par Rameau ?",
+    "sample_question": "Que sont les \"batteries avec les mains croisées\" inventées par Rameau ?",
     "related_url": "/cravo/temas/exercicios-baterias.html"
+  },
+  {
+    "icon": "🎶",
+    "label": "Pièces dans les traités",
+    "sample_question": "Quelles pièces chaque auteur cite-t-il dans son traité et lesquelles sont disponibles en partition/vidéo sur le site ? (Couperin : 8 Préludes et Allemande ; Sancta Maria : exemples de doigté ; Frescobaldi : toccatas ; Rameau : Première Leçon, Menuet, Les Cyclopes)",
+    "related_url": "/cravo/partituras-viewer.html"
   }
 ]

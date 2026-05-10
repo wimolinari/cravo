@@ -961,32 +961,73 @@
   }
 
   // --- Topics fetch ---------------------------------------------------------
+  // Fallback usado quando o backend nao responde — replica os 11 cards
+  // dos topics.{lang}.json para o usuario nunca ver o painel vazio.
+  const FALLBACK_TOPICS = {
+    pt: [
+      { icon: '🪑', label: 'Postura ao instrumento', sample_question: 'Como devo me posicionar ao cravo segundo Couperin e Rameau?' },
+      { icon: '✋', label: 'Posição das mãos', sample_question: 'O que Sancta Maria quer dizer com "mão de gato"?' },
+      { icon: '🎹', label: 'Como atacar a tecla', sample_question: 'Devo atacar com força ou com leveza? O que dizem os tratados?' },
+      { icon: '🤚', label: 'Dedilhado', sample_question: 'Quando uso passagem do polegar e quando cruzo o 3 sobre o 2?' },
+      { icon: '〰', label: 'Ornamentos', sample_question: 'Como começar um trinado: pela nota principal ou pela superior?' },
+      { icon: '🎵', label: 'Notes inégales', sample_question: 'O que são as desigualdades rítmicas francesas e como aplicá-las?' },
+      { icon: '📖', label: 'Os 4 tratados', sample_question: 'Qual a diferença entre os tratados de Couperin e Rameau?' },
+      { icon: '🎼', label: 'Repertório', sample_question: 'Quais peças posso estudar primeiro como iniciante de cravo?' },
+      { icon: '👶', label: 'Idade para começar', sample_question: 'Com que idade Couperin recomenda iniciar o estudo do cravo?' },
+      { icon: '🌪', label: 'Baterias e Les Cyclopes', sample_question: 'O que são as "baterias com mãos cruzadas" inventadas por Rameau?' },
+      { icon: '🎶', label: 'Peças nos tratados', sample_question: 'Quais peças cada autor cita no seu tratado e quais estão disponíveis em partitura/vídeo no site?' },
+    ],
+    en: [
+      { icon: '🪑', label: 'Posture at the instrument', sample_question: 'How should I position myself at the harpsichord according to Couperin and Rameau?' },
+      { icon: '✋', label: 'Hand position', sample_question: 'What does Sancta Maria mean by "cat\'s hand"?' },
+      { icon: '🎹', label: 'How to strike the key', sample_question: 'Should I strike with force or with lightness? What do the treatises say?' },
+      { icon: '🤚', label: 'Fingering', sample_question: 'When do I use thumb-under passage and when do I cross finger 3 over finger 2?' },
+      { icon: '〰', label: 'Ornaments', sample_question: 'How should a trill begin: on the main note or on the upper note?' },
+      { icon: '🎵', label: 'Notes inégales', sample_question: 'What are French rhythmic inequalities and how should they be applied?' },
+      { icon: '📖', label: 'The 4 treatises', sample_question: 'What is the difference between the treatises of Couperin and Rameau?' },
+      { icon: '🎼', label: 'Repertoire', sample_question: 'Which pieces can I study first as a harpsichord beginner?' },
+      { icon: '👶', label: 'Starting age', sample_question: 'At what age does Couperin recommend starting the study of harpsichord?' },
+      { icon: '🌪', label: 'Batteries and Les Cyclopes', sample_question: 'What are the "batteries with crossed hands" invented by Rameau?' },
+      { icon: '🎶', label: 'Pieces in the treatises', sample_question: 'Which pieces does each author cite in their treatise, and which ones are available as scores/videos on the site?' },
+    ],
+    fr: [
+      { icon: '🪑', label: 'Posture à l\'instrument', sample_question: 'Comment dois-je me positionner au clavecin selon Couperin et Rameau ?' },
+      { icon: '✋', label: 'Position des mains', sample_question: 'Que veut dire Sancta Maria par "main de chat" ?' },
+      { icon: '🎹', label: 'Comment attaquer la touche', sample_question: 'Dois-je attaquer avec force ou avec légèreté ? Que disent les traités ?' },
+      { icon: '🤚', label: 'Doigté', sample_question: 'Quand utiliser le passage du pouce et quand croiser le 3 sur le 2 ?' },
+      { icon: '〰', label: 'Ornements', sample_question: 'Comment commencer un trille : par la note principale ou la supérieure ?' },
+      { icon: '🎵', label: 'Notes inégales', sample_question: 'Que sont les inégalités rythmiques françaises et comment les appliquer ?' },
+      { icon: '📖', label: 'Les 4 traités', sample_question: 'Quelle est la différence entre les traités de Couperin et Rameau ?' },
+      { icon: '🎼', label: 'Répertoire', sample_question: 'Quelles pièces puis-je étudier d\'abord comme débutant au clavecin ?' },
+      { icon: '👶', label: 'Âge pour commencer', sample_question: 'À quel âge Couperin recommande-t-il de commencer l\'étude du clavecin ?' },
+      { icon: '🌪', label: 'Batteries et Les Cyclopes', sample_question: 'Que sont les "batteries en mains croisées" inventées par Rameau ?' },
+      { icon: '🎶', label: 'Pièces dans les traités', sample_question: 'Quelles pièces chaque auteur cite-t-il dans son traité et lesquelles sont disponibles en partition/vidéo sur le site ?' },
+    ],
+    es: [
+      { icon: '🪑', label: 'Postura ante el instrumento', sample_question: '¿Cómo debo posicionarme ante el clavecín según Couperin y Rameau?' },
+      { icon: '✋', label: 'Posición de las manos', sample_question: '¿Qué quiere decir Sancta Maria con "mano de gato"?' },
+      { icon: '🎹', label: 'Cómo atacar la tecla', sample_question: '¿Debo atacar con fuerza o con suavidad? ¿Qué dicen los tratados?' },
+      { icon: '🤚', label: 'Digitación', sample_question: '¿Cuándo uso el pasaje del pulgar y cuándo cruzo el 3 sobre el 2?' },
+      { icon: '〰', label: 'Ornamentos', sample_question: '¿Cómo empezar un trino: por la nota principal o la superior?' },
+      { icon: '🎵', label: 'Notes inégales', sample_question: '¿Qué son las desigualdades rítmicas francesas y cómo aplicarlas?' },
+      { icon: '📖', label: 'Los 4 tratados', sample_question: '¿Cuál es la diferencia entre los tratados de Couperin y Rameau?' },
+      { icon: '🎼', label: 'Repertorio', sample_question: '¿Qué piezas puedo estudiar primero como principiante de clave?' },
+      { icon: '👶', label: 'Edad para comenzar', sample_question: '¿A qué edad recomienda Couperin comenzar el estudio del clave?' },
+      { icon: '🌪', label: 'Baterías y Les Cyclopes', sample_question: '¿Qué son las "baterías con manos cruzadas" inventadas por Rameau?' },
+      { icon: '🎶', label: 'Piezas en los tratados', sample_question: '¿Qué piezas cita cada autor en su tratado y cuáles están disponibles en partitura/vídeo en el sitio?' },
+    ],
+  };
+
   async function loadTopics() {
     try {
       const resp = await fetch(API_BASE + '/api/topics?lang=' + LANG);
-      if (resp.ok) topics = await resp.json();
-    } catch (e) {
-      // Fallback minimal por idioma
-      const fb = {
-        pt: [
-          { icon: '📖', label: 'Os 4 tratados', sample_question: 'Qual a diferença entre Couperin e Rameau?' },
-          { icon: '✋', label: 'Postura', sample_question: 'Como me sentar ao cravo?' },
-        ],
-        en: [
-          { icon: '📖', label: 'The 4 treatises', sample_question: 'What is the difference between Couperin and Rameau?' },
-          { icon: '✋', label: 'Posture', sample_question: 'How should I sit at the harpsichord?' },
-        ],
-        fr: [
-          { icon: '📖', label: 'Les 4 traités', sample_question: 'Quelle est la différence entre Couperin et Rameau ?' },
-          { icon: '✋', label: 'Posture', sample_question: 'Comment dois-je m\'asseoir au clavecin ?' },
-        ],
-        es: [
-          { icon: '📖', label: 'Los 4 tratados', sample_question: '¿Cuál es la diferencia entre Couperin y Rameau?' },
-          { icon: '✋', label: 'Postura', sample_question: '¿Cómo debo sentarme al clave?' },
-        ],
-      };
-      topics = fb[LANG] || fb.pt;
-    }
+      if (resp.ok) {
+        topics = await resp.json();
+        if (Array.isArray(topics) && topics.length > 0) return;
+      }
+    } catch (e) { /* fall through */ }
+    // Fallback completo (11 cards)
+    topics = FALLBACK_TOPICS[LANG] || FALLBACK_TOPICS.pt;
   }
 
   // --- Init -----------------------------------------------------------------

@@ -14,19 +14,19 @@
   {
     "icon": "🎹",
     "label": "How to strike the key",
-    "sample_question": "Should I strike with force or with lightness? What do the treatises say?",
+    "sample_question": "Should I strike with force or lightness? What do the treatises say?",
     "related_url": "/cravo/temas/articulacao.html#ataque"
   },
   {
     "icon": "🤚",
     "label": "Fingering",
-    "sample_question": "When do I use thumb-under passage and when do I cross finger 3 over finger 2?",
+    "sample_question": "When do I use thumb crossing, and when do I cross finger 3 over finger 2?",
     "related_url": "/cravo/temas/dedilhados.html"
   },
   {
     "icon": "〰",
     "label": "Ornaments",
-    "sample_question": "How should a trill begin: on the main note or on the upper note?",
+    "sample_question": "How should a trill begin: on the main note or the upper note?",
     "related_url": "/cravo/temas/ornamentos.html"
   },
   {
@@ -58,5 +58,11 @@
     "label": "Batteries and Les Cyclopes",
     "sample_question": "What are the \"batteries with crossed hands\" invented by Rameau?",
     "related_url": "/cravo/temas/exercicios-baterias.html"
+  },
+  {
+    "icon": "🎶",
+    "label": "Pieces in the treatises",
+    "sample_question": "Which pieces does each author cite in their treatise, and which ones are available as scores or videos on the site? (Couperin: 8 Preludes and Allemande; Sancta Maria: fingering examples; Frescobaldi: toccatas; Rameau: Première Leçon, Menuet, Les Cyclopes)",
+    "related_url": "/cravo/partituras-viewer.html"
   }
 ]
