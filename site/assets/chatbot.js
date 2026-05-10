@@ -20,6 +20,204 @@
   const MAX_HISTORY = 10;                  // pares user/assistant enviados ao backend
   const MAX_SESSIONS = 30;                 // limite de conversas guardadas
 
+  // --- i18n -----------------------------------------------------------------
+  // Detecta idioma a partir da URL (/cravo/en/..., /cravo/fr/..., /cravo/es/...).
+  // Default = pt. Funciona em produção (/cravo/...) e em dev (sem /cravo/).
+  function detectLang() {
+    const p = window.location.pathname;
+    const prod = p.match(/\/cravo\/(en|fr|es)\//i);
+    if (prod) return prod[1].toLowerCase();
+    const dev = p.match(/^\/(en|fr|es)\//i);
+    if (dev) return dev[1].toLowerCase();
+    // <html lang="..."> como fallback
+    const htmlLang = (document.documentElement.lang || '').toLowerCase().slice(0, 2);
+    if (['en', 'fr', 'es'].indexOf(htmlLang) !== -1) return htmlLang;
+    return 'pt';
+  }
+  const LANG = detectLang();
+
+  const I18N = {
+    pt: {
+      botName: 'Mestre do Cravo',
+      botSubtitle: 'guiado pelos 4 tratados (1565-1724)',
+      welcomeLead: '<strong>Olá!</strong> Sou um guia pelos quatro tratados do site (Sancta Maria, Frescobaldi, Couperin e Rameau). Escolha um tópico para começar — ou faça sua pergunta lá embaixo.',
+      placeholder: 'Pergunte sobre dedilhado, ornamentos, Couperin, Rameau...',
+      send: 'Enviar',
+      disclaimer: 'Respostas geradas por IA com base nos 4 tratados (UFRJ 2013).',
+      yourConversations: 'Suas conversas',
+      newConversation: '+ Nova conversa',
+      newConversationShort: 'Nova conversa',
+      noConversations: 'Nenhuma conversa salva ainda.',
+      labelOpenChat: 'Abrir chat com o Mestre do Cravo',
+      labelClose: 'Fechar',
+      labelExpand: 'Expandir',
+      labelCollapse: 'Voltar ao tamanho normal',
+      labelFullscreen: 'Tela cheia',
+      labelExitFullscreen: 'Sair da tela cheia',
+      labelHistoryBtn: 'Conversas salvas',
+      labelNewBtn: 'Nova conversa',
+      labelToggleShow: 'Mostrar mensagens',
+      labelToggleHide: 'Recolher mensagens',
+      labelLoad: 'Carregar conversa',
+      labelExport: 'Baixar como PDF',
+      labelExportAria: 'Baixar conversa em PDF',
+      labelDelete: 'Excluir conversa',
+      confirmDelete: 'Excluir a conversa "{title}"?\nEsta ação não pode ser desfeita.',
+      msgUser: 'Você',
+      msgAssistant: 'Mestre do Cravo',
+      msgAssistantShort: 'Mestre',
+      msgUserAvatar: 'V',
+      msgAssistantAvatar: 'C',
+      msgCount: 'msg',
+      today: 'hoje, ',
+      yesterday: 'ontem',
+      newConvTitle: 'Nova conversa',
+      errorNetwork: 'Erro de rede: HTTP {status}',
+      errorEmpty: 'Resposta vazia. Tente novamente.',
+      errorBackend: 'Não consegui falar com o servidor. Verifique se o backend está ativo em {api}',
+      errorServer: 'Erro do servidor.',
+      pdfHeader: 'Conversa com o Mestre do Cravo · {date}',
+      pdfFooter: 'Tratados do Cravo · UFRJ 2013 · routepesquisa.com.br/cravo',
+      errorPopup: 'Não consegui abrir a janela de impressão. Permita pop-ups deste site para baixar a conversa em PDF.',
+    },
+    en: {
+      botName: 'Harpsichord Master',
+      botSubtitle: 'guided by the 4 treatises (1565-1724)',
+      welcomeLead: '<strong>Hello!</strong> I am a guide through the four treatises on this site (Sancta Maria, Frescobaldi, Couperin and Rameau). Choose a topic to begin — or ask your question below.',
+      placeholder: 'Ask about fingering, ornaments, Couperin, Rameau...',
+      send: 'Send',
+      disclaimer: 'AI-generated answers based on the 4 treatises (UFRJ 2013).',
+      yourConversations: 'Your conversations',
+      newConversation: '+ New conversation',
+      newConversationShort: 'New conversation',
+      noConversations: 'No saved conversations yet.',
+      labelOpenChat: 'Open chat with the Harpsichord Master',
+      labelClose: 'Close',
+      labelExpand: 'Expand',
+      labelCollapse: 'Back to normal size',
+      labelFullscreen: 'Fullscreen',
+      labelExitFullscreen: 'Exit fullscreen',
+      labelHistoryBtn: 'Saved conversations',
+      labelNewBtn: 'New conversation',
+      labelToggleShow: 'Show messages',
+      labelToggleHide: 'Hide messages',
+      labelLoad: 'Load conversation',
+      labelExport: 'Download as PDF',
+      labelExportAria: 'Download conversation as PDF',
+      labelDelete: 'Delete conversation',
+      confirmDelete: 'Delete the conversation "{title}"?\nThis action cannot be undone.',
+      msgUser: 'You',
+      msgAssistant: 'Harpsichord Master',
+      msgAssistantShort: 'Master',
+      msgUserAvatar: 'Y',
+      msgAssistantAvatar: 'H',
+      msgCount: 'msg',
+      today: 'today, ',
+      yesterday: 'yesterday',
+      newConvTitle: 'New conversation',
+      errorNetwork: 'Network error: HTTP {status}',
+      errorEmpty: 'Empty response. Please try again.',
+      errorBackend: 'Could not reach the server. Check that the backend is running at {api}',
+      errorServer: 'Server error.',
+      pdfHeader: 'Conversation with the Harpsichord Master · {date}',
+      pdfFooter: 'Harpsichord Treatises · UFRJ 2013 · routepesquisa.com.br/cravo',
+      errorPopup: 'Could not open the print window. Please allow pop-ups for this site to download the conversation as PDF.',
+    },
+    fr: {
+      botName: 'Maître du Clavecin',
+      botSubtitle: 'guidé par les 4 traités (1565-1724)',
+      welcomeLead: '<strong>Bonjour !</strong> Je suis un guide à travers les quatre traités du site (Sancta Maria, Frescobaldi, Couperin et Rameau). Choisissez un sujet pour commencer — ou posez votre question ci-dessous.',
+      placeholder: 'Posez vos questions sur le doigté, les ornements, Couperin, Rameau...',
+      send: 'Envoyer',
+      disclaimer: 'Réponses générées par IA d\'après les 4 traités (UFRJ 2013).',
+      yourConversations: 'Vos conversations',
+      newConversation: '+ Nouvelle conversation',
+      newConversationShort: 'Nouvelle conversation',
+      noConversations: 'Aucune conversation enregistrée pour l\'instant.',
+      labelOpenChat: 'Ouvrir le chat avec le Maître du Clavecin',
+      labelClose: 'Fermer',
+      labelExpand: 'Agrandir',
+      labelCollapse: 'Retour à la taille normale',
+      labelFullscreen: 'Plein écran',
+      labelExitFullscreen: 'Quitter le plein écran',
+      labelHistoryBtn: 'Conversations enregistrées',
+      labelNewBtn: 'Nouvelle conversation',
+      labelToggleShow: 'Afficher les messages',
+      labelToggleHide: 'Masquer les messages',
+      labelLoad: 'Charger la conversation',
+      labelExport: 'Télécharger en PDF',
+      labelExportAria: 'Télécharger la conversation en PDF',
+      labelDelete: 'Supprimer la conversation',
+      confirmDelete: 'Supprimer la conversation « {title} » ?\nCette action est irréversible.',
+      msgUser: 'Vous',
+      msgAssistant: 'Maître du Clavecin',
+      msgAssistantShort: 'Maître',
+      msgUserAvatar: 'V',
+      msgAssistantAvatar: 'M',
+      msgCount: 'msg',
+      today: 'aujourd\'hui, ',
+      yesterday: 'hier',
+      newConvTitle: 'Nouvelle conversation',
+      errorNetwork: 'Erreur réseau : HTTP {status}',
+      errorEmpty: 'Réponse vide. Veuillez réessayer.',
+      errorBackend: 'Impossible de joindre le serveur. Vérifiez que le backend tourne sur {api}',
+      errorServer: 'Erreur du serveur.',
+      pdfHeader: 'Conversation avec le Maître du Clavecin · {date}',
+      pdfFooter: 'Traités du Clavecin · UFRJ 2013 · routepesquisa.com.br/cravo',
+      errorPopup: 'Impossible d\'ouvrir la fenêtre d\'impression. Veuillez autoriser les pop-ups sur ce site pour télécharger la conversation en PDF.',
+    },
+    es: {
+      botName: 'Maestro del Clave',
+      botSubtitle: 'guiado por los 4 tratados (1565-1724)',
+      welcomeLead: '<strong>¡Hola!</strong> Soy un guía a través de los cuatro tratados del sitio (Sancta Maria, Frescobaldi, Couperin y Rameau). Elija un tema para empezar — o haga su pregunta abajo.',
+      placeholder: 'Pregunte sobre digitación, ornamentos, Couperin, Rameau...',
+      send: 'Enviar',
+      disclaimer: 'Respuestas generadas por IA basadas en los 4 tratados (UFRJ 2013).',
+      yourConversations: 'Sus conversaciones',
+      newConversation: '+ Nueva conversación',
+      newConversationShort: 'Nueva conversación',
+      noConversations: 'Aún no hay conversaciones guardadas.',
+      labelOpenChat: 'Abrir chat con el Maestro del Clave',
+      labelClose: 'Cerrar',
+      labelExpand: 'Expandir',
+      labelCollapse: 'Volver al tamaño normal',
+      labelFullscreen: 'Pantalla completa',
+      labelExitFullscreen: 'Salir de pantalla completa',
+      labelHistoryBtn: 'Conversaciones guardadas',
+      labelNewBtn: 'Nueva conversación',
+      labelToggleShow: 'Mostrar mensajes',
+      labelToggleHide: 'Ocultar mensajes',
+      labelLoad: 'Cargar conversación',
+      labelExport: 'Descargar como PDF',
+      labelExportAria: 'Descargar conversación en PDF',
+      labelDelete: 'Eliminar conversación',
+      confirmDelete: '¿Eliminar la conversación "{title}"?\nEsta acción no se puede deshacer.',
+      msgUser: 'Tú',
+      msgAssistant: 'Maestro del Clave',
+      msgAssistantShort: 'Maestro',
+      msgUserAvatar: 'T',
+      msgAssistantAvatar: 'M',
+      msgCount: 'msg',
+      today: 'hoy, ',
+      yesterday: 'ayer',
+      newConvTitle: 'Nueva conversación',
+      errorNetwork: 'Error de red: HTTP {status}',
+      errorEmpty: 'Respuesta vacía. Inténtelo de nuevo.',
+      errorBackend: 'No se pudo contactar al servidor. Compruebe que el backend está activo en {api}',
+      errorServer: 'Error del servidor.',
+      pdfHeader: 'Conversación con el Maestro del Clave · {date}',
+      pdfFooter: 'Tratados del Clave · UFRJ 2013 · routepesquisa.com.br/cravo',
+      errorPopup: 'No se pudo abrir la ventana de impresión. Permita las ventanas emergentes de este sitio para descargar la conversación en PDF.',
+    },
+  };
+
+  const T = I18N[LANG] || I18N.pt;
+  function tt(key, vars) {
+    let s = T[key] || I18N.pt[key] || key;
+    if (vars) for (const k in vars) s = s.replace('{' + k + '}', vars[k]);
+    return s;
+  }
+
   // --- Estado ---------------------------------------------------------------
   let topics = [];
   let store = { sessions: [], activeId: null };
@@ -108,7 +306,7 @@
 
   function deriveTitle(messages) {
     const firstUser = messages.find(function (m) { return m.role === 'user'; });
-    if (!firstUser) return 'Nova conversa';
+    if (!firstUser) return tt('newConvTitle');
     let t = firstUser.content.replace(/\s+/g, ' ').trim();
     if (t.length > 50) t = t.slice(0, 50) + '…';
     return t;
@@ -118,12 +316,13 @@
     const d = new Date(ts);
     const today = new Date();
     const sameDay = d.toDateString() === today.toDateString();
+    const dateLocale = { pt: 'pt-BR', en: 'en-US', fr: 'fr-FR', es: 'es-ES' }[LANG] || 'pt-BR';
     if (sameDay) {
-      return 'hoje, ' + d.toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit' });
+      return tt('today') + d.toLocaleTimeString(dateLocale, { hour: '2-digit', minute: '2-digit' });
     }
     const yesterday = new Date(today.getTime() - 86400000);
-    if (d.toDateString() === yesterday.toDateString()) return 'ontem';
-    return d.toLocaleDateString('pt-BR', { day: '2-digit', month: 'short' });
+    if (d.toDateString() === yesterday.toDateString()) return tt('yesterday');
+    return d.toLocaleDateString(dateLocale, { day: '2-digit', month: 'short' });
   }
 
   // --- Util: mini-Markdown --------------------------------------------------
@@ -138,21 +337,40 @@
 
   // Em produção o site fica em /cravo/... (IIS aceita /cravo/ ou /CRAVO/, daí o
   // teste case-insensitive). Em dev (localhost:8181) é servido a partir de /.
-  // O modelo gera sempre URLs com /cravo/ minúsculo; reescrevemos o href pra
-  // casar com o ambiente atual.
+  // Adicionalmente: se o usuário está numa página em /cravo/{lang}/ (ou /{lang}/
+  // em dev), prefixamos o href com o mesmo idioma para preservar contexto.
   function fixSiteHref(href) {
     if (!/^\/cravo\//i.test(href)) return href;
-    if (/\/cravo\//i.test(window.location.pathname)) {
-      // Produção: garante que href use a MESMA caixa do path atual para evitar
-      // qualquer redirect ou mismatch.
-      const m = window.location.pathname.match(/\/(cravo)\//i);
-      if (m && m[1] !== 'cravo') {
-        return href.replace(/^\/cravo\//i, '/' + m[1] + '/');
+    const pathname = window.location.pathname;
+    const inProd = /\/cravo\//i.test(pathname);
+
+    // Detecta idioma do path atual
+    const prodLang = pathname.match(/\/cravo\/(en|fr|es)\//i);
+    const devLang = !inProd && pathname.match(/^\/(en|fr|es)\//i);
+    const langPrefix = prodLang ? prodLang[1].toLowerCase()
+                                : (devLang ? devLang[1].toLowerCase() : null);
+
+    if (inProd) {
+      const cravoCase = pathname.match(/\/(cravo)\//i)[1];
+      let result = href;
+      if (cravoCase !== 'cravo') {
+        result = result.replace(/^\/cravo\//i, '/' + cravoCase + '/');
       }
-      return href;
+      if (langPrefix) {
+        // Insere /lang/ logo após /cravo/, mas só se o href ainda não tem
+        const langRe = new RegExp('^/' + cravoCase + '/(en|fr|es)/', 'i');
+        if (!langRe.test(result)) {
+          result = result.replace('/' + cravoCase + '/', '/' + cravoCase + '/' + langPrefix + '/');
+        }
+      }
+      return result;
     }
-    // Dev local (sem /cravo/ no path): remove o prefixo
-    return href.replace(/^\/cravo\//i, '/');
+    // Dev local: strip /cravo/, prefixa /lang/ se aplicável
+    let result = href.replace(/^\/cravo\//i, '/');
+    if (langPrefix && !/^\/(en|fr|es)\//i.test(result)) {
+      result = '/' + langPrefix + result;
+    }
+    return result;
   }
 
   // Imagens (jpg/png/gif/webp/svg) e PDFs sempre abrem em nova aba para que o
@@ -255,7 +473,7 @@
     const date = new Date(session.createdAt).toLocaleString('pt-BR');
 
     const messagesHtml = session.messages.map(function (m) {
-      const role = m.role === 'user' ? 'Você' : 'Mestre do Cravo';
+      const role = m.role === 'user' ? tt('msgUser') : tt('msgAssistant');
       const content = m.role === 'user'
         ? '<p>' + escapeHtml(m.content).replace(/\n/g, '<br>') + '</p>'
         : renderMarkdown(m.content);
@@ -303,16 +521,16 @@
       '</head><body>' +
         '<header class="doc">' +
           '<h1>' + escapeHtml(title) + '</h1>' +
-          '<p class="meta">Conversa com o Mestre do Cravo · ' + escapeHtml(date) + '</p>' +
+          '<p class="meta">' + escapeHtml(tt('pdfHeader', { date: date })) + '</p>' +
         '</header>' +
         messagesHtml +
-        '<footer class="doc">Tratados do Cravo · UFRJ 2013 · routepesquisa.com.br/cravo</footer>' +
+        '<footer class="doc">' + escapeHtml(tt('pdfFooter')) + '</footer>' +
         '<script>window.addEventListener("load",function(){setTimeout(function(){window.print();},400);});<\/script>' +
       '</body></html>';
 
     const win = window.open('', '_blank', 'width=820,height=900');
     if (!win) {
-      alert('Não consegui abrir a janela de impressão. Permita pop-ups deste site para baixar a conversa em PDF.');
+      alert(tt('errorPopup'));
       return;
     }
     win.document.open();
@@ -324,62 +542,62 @@
   function buildUI() {
     const fab = document.createElement('button');
     fab.className = 'cravo-chat-fab';
-    fab.setAttribute('aria-label', 'Abrir chat com o Mestre do Cravo');
-    fab.title = 'Pergunte ao Mestre do Cravo';
+    fab.setAttribute('aria-label', tt('labelOpenChat'));
+    fab.title = tt('labelOpenChat');
     fab.innerHTML = '<span aria-hidden="true">✦</span><span class="badge-dot" aria-hidden="true"></span>';
     document.body.appendChild(fab);
 
     const overlay = document.createElement('div');
     overlay.className = 'cravo-chat-overlay';
     overlay.innerHTML =
-      '<div class="cravo-chat-panel" role="dialog" aria-label="Chat com o Mestre do Cravo">' +
+      '<div class="cravo-chat-panel" role="dialog" aria-label="' + escapeHtml(tt('botName')) + '">' +
         '<div class="cravo-chat-header">' +
-          '<div class="avatar" aria-hidden="true">C</div>' +
+          '<div class="avatar" aria-hidden="true">' + escapeHtml(tt('msgAssistantAvatar')) + '</div>' +
           '<div class="info">' +
-            '<h3>Mestre do Cravo</h3>' +
-            '<span class="subtitle">guiado pelos 4 tratados (1565-1724)</span>' +
+            '<h3>' + escapeHtml(tt('botName')) + '</h3>' +
+            '<span class="subtitle">' + escapeHtml(tt('botSubtitle')) + '</span>' +
           '</div>' +
           '<div class="btn-group">' +
-            '<button class="header-btn history-btn" aria-label="Conversas salvas" title="Conversas salvas">' +
+            '<button class="header-btn history-btn" aria-label="' + escapeHtml(tt('labelHistoryBtn')) + '" title="' + escapeHtml(tt('labelHistoryBtn')) + '">' +
               '<svg viewBox="0 0 16 16" aria-hidden="true">' +
                 '<path d="M3 4h10M3 8h10M3 12h10"/>' +
               '</svg>' +
             '</button>' +
-            '<button class="header-btn new-btn" aria-label="Nova conversa" title="Nova conversa">' +
+            '<button class="header-btn new-btn" aria-label="' + escapeHtml(tt('labelNewBtn')) + '" title="' + escapeHtml(tt('labelNewBtn')) + '">' +
               '<svg viewBox="0 0 16 16" aria-hidden="true">' +
                 '<path d="M8 3v10M3 8h10"/>' +
               '</svg>' +
             '</button>' +
-            '<button class="header-btn expand-btn" aria-label="Expandir chat" title="Expandir">' +
+            '<button class="header-btn expand-btn" aria-label="' + escapeHtml(tt('labelExpand')) + '" title="' + escapeHtml(tt('labelExpand')) + '">' +
               '<svg viewBox="0 0 16 16" aria-hidden="true">' +
                 '<path d="M3 6V3h3M13 6V3h-3M3 10v3h3M13 10v3h-3"/>' +
               '</svg>' +
             '</button>' +
-            '<button class="header-btn fullscreen-btn" aria-label="Tela cheia" title="Tela cheia">' +
+            '<button class="header-btn fullscreen-btn" aria-label="' + escapeHtml(tt('labelFullscreen')) + '" title="' + escapeHtml(tt('labelFullscreen')) + '">' +
               '<svg viewBox="0 0 16 16" aria-hidden="true">' +
                 '<path d="M2 2h4M2 2v4M14 2h-4M14 2v4M2 14h4M2 14v-4M14 14h-4M14 14v-4"/>' +
               '</svg>' +
             '</button>' +
-            '<button class="header-btn close-btn" aria-label="Fechar chat" title="Fechar">×</button>' +
+            '<button class="header-btn close-btn" aria-label="' + escapeHtml(tt('labelClose')) + '" title="' + escapeHtml(tt('labelClose')) + '">×</button>' +
           '</div>' +
         '</div>' +
         '<div class="cravo-chat-drawer" id="cravoChatDrawer" hidden>' +
           '<div class="drawer-header">' +
-            '<h4>Suas conversas</h4>' +
-            '<button class="drawer-new" type="button">+ Nova conversa</button>' +
+            '<h4>' + escapeHtml(tt('yourConversations')) + '</h4>' +
+            '<button class="drawer-new" type="button">' + escapeHtml(tt('newConversation')) + '</button>' +
           '</div>' +
           '<ul class="drawer-list" id="cravoChatList"></ul>' +
-          '<p class="drawer-empty" hidden>Nenhuma conversa salva ainda.</p>' +
+          '<p class="drawer-empty" hidden>' + escapeHtml(tt('noConversations')) + '</p>' +
         '</div>' +
         '<div class="cravo-chat-body" id="cravoChatBody"></div>' +
         '<div class="cravo-chat-footer">' +
           '<form class="cravo-chat-form" id="cravoChatForm">' +
             '<textarea class="cravo-chat-input" id="cravoChatInput" ' +
-              'placeholder="Pergunte sobre dedilhado, ornamentos, Couperin, Rameau..." ' +
+              'placeholder="' + escapeHtml(tt('placeholder')) + '" ' +
               'rows="1"></textarea>' +
-            '<button type="submit" class="cravo-chat-send" id="cravoChatSend">Enviar</button>' +
+            '<button type="submit" class="cravo-chat-send" id="cravoChatSend">' + escapeHtml(tt('send')) + '</button>' +
           '</form>' +
-          '<p class="cravo-chat-disclaimer">Respostas geradas por IA com base nos 4 tratados (UFRJ 2013).</p>' +
+          '<p class="cravo-chat-disclaimer">' + escapeHtml(tt('disclaimer')) + '</p>' +
         '</div>' +
       '</div>';
     document.body.appendChild(overlay);
@@ -411,8 +629,7 @@
 
     const lead = document.createElement('p');
     lead.className = 'lead';
-    lead.innerHTML =
-      '<strong>Olá!</strong> Sou um guia pelos quatro tratados do site (Sancta Maria, Frescobaldi, Couperin e Rameau). Escolha um tópico para começar — ou faça sua pergunta lá embaixo.';
+    lead.innerHTML = tt('welcomeLead');
     wrap.appendChild(lead);
 
     const grid = document.createElement('div');
@@ -442,8 +659,9 @@
   function renderMessage(role, contentHtml) {
     const msg = document.createElement('div');
     msg.className = 'cravo-msg ' + role;
+    const avatar = role === 'user' ? tt('msgUserAvatar') : tt('msgAssistantAvatar');
     msg.innerHTML =
-      '<div class="avatar" aria-hidden="true">' + (role === 'user' ? 'V' : 'C') + '</div>' +
+      '<div class="avatar" aria-hidden="true">' + escapeHtml(avatar) + '</div>' +
       '<div class="bubble">' + contentHtml + '</div>';
     return msg;
   }
@@ -499,17 +717,17 @@
       const title = s.title || deriveTitle(s.messages);
       li.innerHTML =
         '<div class="item-row">' +
-          '<button class="item-toggle" type="button" title="Mostrar mensagens" aria-label="Mostrar mensagens" aria-expanded="false">' +
+          '<button class="item-toggle" type="button" title="' + escapeHtml(tt('labelToggleShow')) + '" aria-label="' + escapeHtml(tt('labelToggleShow')) + '" aria-expanded="false">' +
             '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M6 4l4 4-4 4"/></svg>' +
           '</button>' +
-          '<button class="item-load" type="button" title="Carregar conversa">' +
+          '<button class="item-load" type="button" title="' + escapeHtml(tt('labelLoad')) + '">' +
             '<span class="item-title">' + escapeHtml(title) + '</span>' +
-            '<span class="item-meta">' + escapeHtml(fmtDate(s.updatedAt)) + ' · ' + s.messages.length + ' msg</span>' +
+            '<span class="item-meta">' + escapeHtml(fmtDate(s.updatedAt)) + ' · ' + s.messages.length + ' ' + escapeHtml(tt('msgCount')) + '</span>' +
           '</button>' +
-          '<button class="item-action item-export" type="button" title="Baixar como PDF" aria-label="Baixar conversa em PDF">' +
+          '<button class="item-action item-export" type="button" title="' + escapeHtml(tt('labelExport')) + '" aria-label="' + escapeHtml(tt('labelExportAria')) + '">' +
             '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 2v9M5 8l3 3 3-3M3 13h10"/></svg>' +
           '</button>' +
-          '<button class="item-action item-delete" type="button" title="Excluir conversa" aria-label="Excluir conversa">' +
+          '<button class="item-action item-delete" type="button" title="' + escapeHtml(tt('labelDelete')) + '" aria-label="' + escapeHtml(tt('labelDelete')) + '">' +
             '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 5h8M6 5V3h4v2M5 5l1 9h4l1-9M7 7v5M9 7v5"/></svg>' +
           '</button>' +
         '</div>' +
@@ -522,11 +740,11 @@
         e.stopPropagation();
         const expanded = li.classList.toggle('expanded');
         toggleBtn.setAttribute('aria-expanded', expanded ? 'true' : 'false');
-        toggleBtn.title = expanded ? 'Recolher mensagens' : 'Mostrar mensagens';
+        toggleBtn.title = expanded ? tt('labelToggleHide') : tt('labelToggleShow');
         preview.hidden = !expanded;
         if (expanded && !preview.dataset.rendered) {
           preview.innerHTML = s.messages.map(function (m) {
-            const role = m.role === 'user' ? 'Você' : 'Mestre';
+            const role = m.role === 'user' ? tt('msgUser') : tt('msgAssistantShort');
             const html = m.role === 'user'
               ? '<p>' + escapeHtml(m.content) + '</p>'
               : renderMarkdown(m.content);
@@ -550,7 +768,7 @@
       });
       li.querySelector('.item-delete').addEventListener('click', function (e) {
         e.stopPropagation();
-        if (!confirm('Excluir a conversa "' + title + '"?\nEsta ação não pode ser desfeita.')) return;
+        if (!confirm(tt('confirmDelete', { title: title }))) return;
         const wasActive = s.id === store.activeId;
         deleteSession(s.id);
         renderDrawer(ui);
@@ -639,12 +857,12 @@
       const resp = await fetch(API_BASE + '/api/chat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ question: text, history: sentHistory }),
+        body: JSON.stringify({ question: text, history: sentHistory, lang: LANG }),
       });
 
       if (!resp.ok) {
         typing.remove();
-        appendError(ui, 'Erro de rede: HTTP ' + resp.status);
+        appendError(ui, tt('errorNetwork', { status: resp.status }));
         return;
       }
 
@@ -669,7 +887,7 @@
 
           if (evt.error) {
             typing.remove();
-            appendError(ui, evt.message || 'Erro do servidor.');
+            appendError(ui, evt.message || tt('errorServer'));
             return;
           }
           if (evt.text) {
@@ -692,14 +910,11 @@
         saveStore();
       } else {
         typing.remove();
-        appendError(ui, 'Resposta vazia. Tente novamente.');
+        appendError(ui, tt('errorEmpty'));
       }
     } catch (e) {
       typing.remove();
-      appendError(
-        ui,
-        'Não consegui falar com o servidor. Verifique se o backend está ativo em ' + API_BASE
-      );
+      appendError(ui, tt('errorBackend', { api: API_BASE }));
       console.error('[cravo-chat]', e);
     } finally {
       isStreaming = false;
@@ -730,11 +945,11 @@
     if (size === 'expanded' && ui.expandBtn) ui.expandBtn.classList.add('active');
     if (size === 'fullscreen' && ui.fullscreenBtn) ui.fullscreenBtn.classList.add('active');
     if (ui.expandBtn) {
-      ui.expandBtn.title = size === 'expanded' ? 'Voltar ao tamanho normal' : 'Expandir';
+      ui.expandBtn.title = size === 'expanded' ? tt('labelCollapse') : tt('labelExpand');
       ui.expandBtn.setAttribute('aria-label', ui.expandBtn.title);
     }
     if (ui.fullscreenBtn) {
-      ui.fullscreenBtn.title = size === 'fullscreen' ? 'Sair da tela cheia' : 'Tela cheia';
+      ui.fullscreenBtn.title = size === 'fullscreen' ? tt('labelExitFullscreen') : tt('labelFullscreen');
       ui.fullscreenBtn.setAttribute('aria-label', ui.fullscreenBtn.title);
     }
   }
@@ -748,19 +963,98 @@
   // --- Topics fetch ---------------------------------------------------------
   async function loadTopics() {
     try {
-      const resp = await fetch(API_BASE + '/api/topics');
+      const resp = await fetch(API_BASE + '/api/topics?lang=' + LANG);
       if (resp.ok) topics = await resp.json();
     } catch (e) {
-      topics = [
-        { icon: '📖', label: 'Os 4 tratados', sample_question: 'Qual a diferença entre Couperin e Rameau?' },
-        { icon: '✋', label: 'Postura', sample_question: 'Como me sentar ao cravo?' },
-      ];
+      // Fallback minimal por idioma
+      const fb = {
+        pt: [
+          { icon: '📖', label: 'Os 4 tratados', sample_question: 'Qual a diferença entre Couperin e Rameau?' },
+          { icon: '✋', label: 'Postura', sample_question: 'Como me sentar ao cravo?' },
+        ],
+        en: [
+          { icon: '📖', label: 'The 4 treatises', sample_question: 'What is the difference between Couperin and Rameau?' },
+          { icon: '✋', label: 'Posture', sample_question: 'How should I sit at the harpsichord?' },
+        ],
+        fr: [
+          { icon: '📖', label: 'Les 4 traités', sample_question: 'Quelle est la différence entre Couperin et Rameau ?' },
+          { icon: '✋', label: 'Posture', sample_question: 'Comment dois-je m\'asseoir au clavecin ?' },
+        ],
+        es: [
+          { icon: '📖', label: 'Los 4 tratados', sample_question: '¿Cuál es la diferencia entre Couperin y Rameau?' },
+          { icon: '✋', label: 'Postura', sample_question: '¿Cómo debo sentarme al clave?' },
+        ],
+      };
+      topics = fb[LANG] || fb.pt;
     }
   }
 
   // --- Init -----------------------------------------------------------------
+  // --- Language switcher ----------------------------------------------------
+  // Mapeia o pathname atual para a versão equivalente em outro idioma.
+  function buildLangUrl(targetLang) {
+    const path = window.location.pathname;
+    // Detecta /cravo/{lang}/... ou /cravo/... ou /{lang}/... ou /...
+    const prodMatch = path.match(/^(\/cravo)\/(en|fr|es)\/(.*)$/i);
+    if (prodMatch) {
+      const cravoCase = prodMatch[1];
+      if (targetLang === 'pt') return cravoCase + '/' + prodMatch[3];
+      return cravoCase + '/' + targetLang + '/' + prodMatch[3];
+    }
+    const prodPt = path.match(/^(\/cravo)\/(.*)$/i);
+    if (prodPt) {
+      if (targetLang === 'pt') return path;
+      return prodPt[1] + '/' + targetLang + '/' + prodPt[2];
+    }
+    // Dev (sem /cravo/)
+    const devMatch = path.match(/^\/(en|fr|es)\/(.*)$/i);
+    if (devMatch) {
+      if (targetLang === 'pt') return '/' + devMatch[2];
+      return '/' + targetLang + '/' + devMatch[2];
+    }
+    if (targetLang === 'pt') return path;
+    return '/' + targetLang + path;
+  }
+
+  function addLangSwitcher() {
+    if (document.querySelector('.cravo-lang-switcher')) return;
+    const nav = document.querySelector('.nav-links');
+    const themeBtn = document.querySelector('.theme-toggle');
+    if (!nav && !themeBtn) return;
+
+    const langs = [
+      { code: 'pt', label: 'PT' },
+      { code: 'en', label: 'EN' },
+      { code: 'fr', label: 'FR' },
+      { code: 'es', label: 'ES' },
+    ];
+
+    const wrap = document.createElement('div');
+    wrap.className = 'cravo-lang-switcher';
+    wrap.setAttribute('role', 'group');
+    wrap.setAttribute('aria-label', 'Language / Idioma / Langue / Idioma');
+    langs.forEach(function (l) {
+      const a = document.createElement('a');
+      a.href = buildLangUrl(l.code);
+      a.className = 'lang-btn' + (l.code === LANG ? ' active' : '');
+      a.textContent = l.label;
+      a.title = ({ pt: 'Português', en: 'English', fr: 'Français', es: 'Español' })[l.code];
+      a.lang = l.code;
+      wrap.appendChild(a);
+    });
+
+    // Inserir antes do theme-toggle se existir, senão no fim da nav
+    if (themeBtn && themeBtn.parentNode) {
+      themeBtn.parentNode.insertBefore(wrap, themeBtn);
+    } else if (nav) {
+      nav.parentNode.insertBefore(wrap, nav.nextSibling);
+    }
+  }
+
   async function init() {
     if (document.querySelector('.cravo-chat-fab')) return;
+
+    addLangSwitcher();
 
     const ui = buildUI();
 
