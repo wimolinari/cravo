@@ -79,6 +79,14 @@
       pdfHeader: 'Conversa com o Mestre do Cravo · {date}',
       pdfFooter: 'Tratados do Cravo · UFRJ 2013 · routepesquisa.com.br/cravo',
       errorPopup: 'Não consegui abrir a janela de impressão. Permita pop-ups deste site para baixar a conversa em PDF.',
+      tabMine: 'Suas',
+      tabCommunity: 'Comunidade',
+      communityConversations: 'Conversas da comunidade',
+      noCommunity: 'Nenhuma conversa pública ainda. Faça uma pergunta — sua conversa pode aparecer aqui para ajudar outros estudantes.',
+      labelLoadCommunity: 'Ler esta conversa',
+      loading: 'Carregando…',
+      communityBannerTitle: 'Conversa da comunidade.',
+      communityBannerSubtitle: 'Você está lendo uma conversa de outro estudante. Para começar a sua, click em "+ Nova conversa" no header.',
     },
     en: {
       botName: 'Harpsichord Master',
@@ -122,6 +130,14 @@
       pdfHeader: 'Conversation with the Harpsichord Master · {date}',
       pdfFooter: 'Harpsichord Treatises · UFRJ 2013 · routepesquisa.com.br/cravo',
       errorPopup: 'Could not open the print window. Please allow pop-ups for this site to download the conversation as PDF.',
+      tabMine: 'Yours',
+      tabCommunity: 'Community',
+      communityConversations: 'Community conversations',
+      noCommunity: 'No public conversations yet. Ask a question — your chat may appear here to help other students.',
+      labelLoadCommunity: 'Read this conversation',
+      loading: 'Loading…',
+      communityBannerTitle: 'Community conversation.',
+      communityBannerSubtitle: 'You are reading a chat from another student. To start your own, click "+ New conversation" in the header.',
     },
     fr: {
       botName: 'Maître du Clavecin',
@@ -165,6 +181,14 @@
       pdfHeader: 'Conversation avec le Maître du Clavecin · {date}',
       pdfFooter: 'Traités du Clavecin · UFRJ 2013 · routepesquisa.com.br/cravo',
       errorPopup: 'Impossible d\'ouvrir la fenêtre d\'impression. Veuillez autoriser les pop-ups sur ce site pour télécharger la conversation en PDF.',
+      tabMine: 'Vôtres',
+      tabCommunity: 'Communauté',
+      communityConversations: 'Conversations de la communauté',
+      noCommunity: 'Aucune conversation publique encore. Posez une question — votre conversation pourra apparaître ici pour aider d\'autres étudiants.',
+      labelLoadCommunity: 'Lire cette conversation',
+      loading: 'Chargement…',
+      communityBannerTitle: 'Conversation de la communauté.',
+      communityBannerSubtitle: 'Vous lisez la conversation d\'un autre étudiant. Pour commencer la vôtre, cliquez sur « + Nouvelle conversation » dans l\'en-tête.',
     },
     es: {
       botName: 'Maestro del Clave',
@@ -208,6 +232,14 @@
       pdfHeader: 'Conversación con el Maestro del Clave · {date}',
       pdfFooter: 'Tratados del Clave · UFRJ 2013 · routepesquisa.com.br/cravo',
       errorPopup: 'No se pudo abrir la ventana de impresión. Permita las ventanas emergentes de este sitio para descargar la conversación en PDF.',
+      tabMine: 'Tuyas',
+      tabCommunity: 'Comunidad',
+      communityConversations: 'Conversaciones de la comunidad',
+      noCommunity: 'Aún no hay conversaciones públicas. Haga una pregunta — su conversación puede aparecer aquí para ayudar a otros estudiantes.',
+      labelLoadCommunity: 'Leer esta conversación',
+      loading: 'Cargando…',
+      communityBannerTitle: 'Conversación de la comunidad.',
+      communityBannerSubtitle: 'Estás leyendo la conversación de otro estudiante. Para empezar la tuya, haz clic en «+ Nueva conversación» en el encabezado.',
     },
   };
 
@@ -582,8 +614,12 @@
           '</div>' +
         '</div>' +
         '<div class="cravo-chat-drawer" id="cravoChatDrawer" hidden>' +
+          '<div class="drawer-tabs" role="tablist">' +
+            '<button class="drawer-tab active" data-tab="mine" role="tab">' + escapeHtml(tt('tabMine')) + '</button>' +
+            '<button class="drawer-tab" data-tab="community" role="tab">' + escapeHtml(tt('tabCommunity')) + '</button>' +
+          '</div>' +
           '<div class="drawer-header">' +
-            '<h4>' + escapeHtml(tt('yourConversations')) + '</h4>' +
+            '<h4 class="drawer-title">' + escapeHtml(tt('yourConversations')) + '</h4>' +
             '<button class="drawer-new" type="button">' + escapeHtml(tt('newConversation')) + '</button>' +
           '</div>' +
           '<ul class="drawer-list" id="cravoChatList"></ul>' +
@@ -619,6 +655,8 @@
       list: overlay.querySelector('#cravoChatList'),
       drawerNew: overlay.querySelector('.drawer-new'),
       drawerEmpty: overlay.querySelector('.drawer-empty'),
+      drawerTitle: overlay.querySelector('.drawer-title'),
+      drawerTabs: overlay.querySelectorAll('.drawer-tab'),
     };
   }
 
@@ -699,7 +737,29 @@
   }
 
   // --- Drawer (gerenciador de conversas) ------------------------------------
+  let currentTab = 'mine'; // 'mine' | 'community'
+  let communityCache = []; // último resultado de /api/community
+
+  function setDrawerTitle(ui, key) {
+    if (ui.drawerTitle) ui.drawerTitle.textContent = tt(key);
+  }
+
+  function setDrawerEmpty(ui, key) {
+    ui.drawerEmpty.textContent = tt(key);
+  }
+
   function renderDrawer(ui) {
+    if (currentTab === 'community') {
+      renderDrawerCommunity(ui);
+      return;
+    }
+    renderDrawerMine(ui);
+  }
+
+  function renderDrawerMine(ui) {
+    setDrawerTitle(ui, 'yourConversations');
+    setDrawerEmpty(ui, 'noConversations');
+    if (ui.drawerNew) ui.drawerNew.style.display = '';
     ui.list.innerHTML = '';
     const sessions = store.sessions
       .filter(function (s) { return s.messages.length > 0; })
@@ -778,6 +838,99 @@
       });
       ui.list.appendChild(li);
     });
+  }
+
+  // ─── Aba "Comunidade": busca conversas públicas do backend ────────────────
+  async function renderDrawerCommunity(ui) {
+    setDrawerTitle(ui, 'communityConversations');
+    setDrawerEmpty(ui, 'noCommunity');
+    if (ui.drawerNew) ui.drawerNew.style.display = 'none';
+    ui.list.innerHTML = '<li class="drawer-loading">' + escapeHtml(tt('loading')) + '</li>';
+    ui.drawerEmpty.hidden = true;
+
+    let data = null;
+    try {
+      const resp = await fetch(API_BASE + '/api/community?lang=' + LANG + '&limit=50');
+      if (resp.ok) data = await resp.json();
+    } catch (e) {
+      console.warn('[community] fetch failed', e);
+    }
+
+    ui.list.innerHTML = '';
+    const items = (data && data.items) || [];
+    if (items.length === 0) {
+      ui.drawerEmpty.hidden = false;
+      return;
+    }
+    ui.drawerEmpty.hidden = true;
+    communityCache = items;
+
+    items.forEach(function (item) {
+      const li = document.createElement('li');
+      li.className = 'drawer-item community-item';
+      li.innerHTML =
+        '<div class="item-row">' +
+          '<button class="item-load" type="button" title="' + escapeHtml(tt('labelLoadCommunity')) + '">' +
+            '<span class="item-title">' + escapeHtml(item.title) + '</span>' +
+            '<span class="item-meta">' + escapeHtml(fmtDate(item.created_at * 1000)) + ' · ' + item.turn_count + ' ' + escapeHtml(tt('msgCount')) + '</span>' +
+          '</button>' +
+        '</div>';
+
+      li.querySelector('.item-load').addEventListener('click', function () {
+        if (isStreaming) return;
+        loadCommunityChat(ui, item.id);
+        toggleDrawer(ui, false);
+      });
+      ui.list.appendChild(li);
+    });
+  }
+
+  // Carrega uma conversa pública e mostra no body (read-only com header)
+  async function loadCommunityChat(ui, chatId) {
+    ui.body.innerHTML = '';
+    const loadingMsg = document.createElement('p');
+    loadingMsg.className = 'cravo-chat-loading';
+    loadingMsg.textContent = tt('loading');
+    ui.body.appendChild(loadingMsg);
+
+    let chat = null;
+    try {
+      const resp = await fetch(API_BASE + '/api/community/' + chatId);
+      if (resp.ok) chat = await resp.json();
+    } catch (e) {
+      console.warn('[community] failed', e);
+    }
+
+    ui.body.innerHTML = '';
+    if (!chat) {
+      const err = document.createElement('div');
+      err.className = 'cravo-chat-error';
+      err.textContent = tt('errorServer');
+      ui.body.appendChild(err);
+      return;
+    }
+
+    // Banner indicando que é uma conversa pública (read-only)
+    const banner = document.createElement('div');
+    banner.className = 'cravo-community-banner';
+    banner.innerHTML =
+      '<strong>' + escapeHtml(tt('communityBannerTitle')) + '</strong> ' +
+      escapeHtml(tt('communityBannerSubtitle'));
+    ui.body.appendChild(banner);
+
+    // Renderiza as mensagens
+    chat.messages.forEach(function (m) {
+      appendMessage(ui, m.role, m.content);
+    });
+  }
+
+  function switchTab(ui, tab) {
+    if (currentTab === tab) return;
+    currentTab = tab;
+    ui.drawerTabs.forEach(function (b) {
+      b.classList.toggle('active', b.dataset.tab === tab);
+    });
+    renderDrawer(ui);
   }
 
   function toggleDrawer(ui, force) {
@@ -1165,6 +1318,12 @@
     ui.drawerNew.addEventListener('click', function () {
       startNewConversation(ui);
       toggleDrawer(ui, false);
+    });
+    // Tabs: alternar entre Suas / Comunidade
+    ui.drawerTabs.forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        switchTab(ui, btn.dataset.tab);
+      });
     });
     // Click fora do drawer fecha
     ui.panel.addEventListener('click', function (e) {

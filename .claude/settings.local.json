@@ -103,7 +103,9 @@
       "Bash(echo \"=== Health endpoint ===\" *)",
       "Bash(cp C:/Outros/Cravo/deploy/web.config-cravo \"//10.10.100.10/d\\\\$/Websites/routepesquisa.com.br/cravo/web.config\" 2>&1 *)",
       "Bash(cp C:/Outros/Cravo/chatbot/backend/app.py \"//10.10.100.10/d\\\\$/apps/cravo-chatbot/backend/app.py\")",
-      "Bash(cp C:/Outros/Cravo/deploy/web.config-cravo \"//10.10.100.10/d\\\\$/apps/cravo-chatbot/deploy/web.config-cravo\")"
+      "Bash(cp C:/Outros/Cravo/deploy/web.config-cravo \"//10.10.100.10/d\\\\$/apps/cravo-chatbot/deploy/web.config-cravo\")",
+      "Bash(# Test backend LOCAL \\(sem IIS\\) pra ter o tempo \"puro\" do Claude *)",
+      "Bash(mkdir -p \"//10.10.100.10/d\\\\$/apps/cravo-chatbot/data\")"
     ],
     "deny": [
       "Bash(rm -rf:*)",

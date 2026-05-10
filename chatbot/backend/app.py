@@ -11,7 +11,9 @@ Backend FastAPI para o chatbot pedagógico do site Tratados do Cravo.
 
 import json
 import os
+import sqlite3
 import sys
+import time
 from pathlib import Path
 
 import anthropic
@@ -68,6 +70,109 @@ for _lang in ("en", "fr", "es"):
             TOPICS_BY_LANG[_lang] = json.loads(_f.read_text(encoding="utf-8"))
         except Exception:
             pass
+
+# ─── COMUNIDADE (SQLite) ──────────────────────────────────────────────────────
+# Auto-save de toda conversa concluída para uma biblioteca anônima e pública.
+# Site demo: sem autenticação, sem moderação, sem rate-limit. Pode ser
+# expandido depois quando houver controle de acesso.
+DB_DIR = Path(__file__).resolve().parent.parent / "data"
+DB_DIR.mkdir(parents=True, exist_ok=True)
+DB_PATH = DB_DIR / "community.db"
+
+
+def _db_init() -> None:
+    with sqlite3.connect(DB_PATH) as conn:
+        conn.execute(
+            """
+            CREATE TABLE IF NOT EXISTS community_chats (
+                id           INTEGER PRIMARY KEY AUTOINCREMENT,
+                lang         TEXT    NOT NULL,
+                title        TEXT    NOT NULL,
+                messages     TEXT    NOT NULL,
+                turn_count   INTEGER NOT NULL,
+                created_at   INTEGER NOT NULL,
+                hidden       INTEGER DEFAULT 0
+            )
+            """
+        )
+        conn.execute(
+            "CREATE INDEX IF NOT EXISTS idx_lang_created "
+            "ON community_chats(lang, created_at DESC)"
+        )
+        conn.commit()
+
+
+_db_init()
+
+
+def db_save_chat(lang: str, messages: list[dict]) -> int | None:
+    """Salva conversa completa. Retorna o ID criado, ou None se inválida."""
+    if not messages or len(messages) < 2:
+        return None
+    # Título = 1ª pergunta truncada
+    first_user = next((m for m in messages if m["role"] == "user"), None)
+    if not first_user:
+        return None
+    title = first_user["content"].strip()[:140]
+    try:
+        with sqlite3.connect(DB_PATH) as conn:
+            cur = conn.execute(
+                "INSERT INTO community_chats (lang, title, messages, turn_count, created_at) "
+                "VALUES (?, ?, ?, ?, ?)",
+                (
+                    (lang or "pt").lower(),
+                    title,
+                    json.dumps(messages, ensure_ascii=False),
+                    len(messages),
+                    int(time.time()),
+                ),
+            )
+            conn.commit()
+            return cur.lastrowid
+    except Exception as e:
+        print(f"[community] erro ao salvar: {e}", file=sys.stderr)
+        return None
+
+
+def db_list_chats(lang: str, limit: int = 50, offset: int = 0) -> list[dict]:
+    with sqlite3.connect(DB_PATH) as conn:
+        rows = conn.execute(
+            "SELECT id, title, turn_count, created_at FROM community_chats "
+            "WHERE lang = ? AND hidden = 0 ORDER BY created_at DESC LIMIT ? OFFSET ?",
+            ((lang or "pt").lower(), limit, offset),
+        ).fetchall()
+    return [
+        {"id": r[0], "title": r[1], "turn_count": r[2], "created_at": r[3]}
+        for r in rows
+    ]
+
+
+def db_get_chat(chat_id: int) -> dict | None:
+    with sqlite3.connect(DB_PATH) as conn:
+        row = conn.execute(
+            "SELECT id, lang, title, messages, turn_count, created_at "
+            "FROM community_chats WHERE id = ? AND hidden = 0",
+            (chat_id,),
+        ).fetchone()
+    if not row:
+        return None
+    return {
+        "id": row[0],
+        "lang": row[1],
+        "title": row[2],
+        "messages": json.loads(row[3]),
+        "turn_count": row[4],
+        "created_at": row[5],
+    }
+
+
+def db_count_chats(lang: str) -> int:
+    with sqlite3.connect(DB_PATH) as conn:
+        row = conn.execute(
+            "SELECT COUNT(*) FROM community_chats WHERE lang = ? AND hidden = 0",
+            ((lang or "pt").lower(),),
+        ).fetchone()
+    return row[0] if row else 0
 
 # ─── SYSTEM PROMPT ────────────────────────────────────────────────────────────
 SYSTEM_PROMPT = f"""Você é o **Mestre do Cravo**, um assistente pedagógico especializado nos 4 tratados \
@@ -261,6 +366,42 @@ def get_topics(lang: str = "pt"):
     return TOPICS_BY_LANG.get(lang.lower(), TOPICS)
 
 
+@app.get("/api/community")
+def list_community(lang: str = "pt", limit: int = 50, offset: int = 0):
+    """Lista as conversas mais recentes da comunidade no idioma escolhido.
+    Não retorna o conteúdo das mensagens — só metadata (title, turn_count)."""
+    limit = max(1, min(limit, 100))
+    return {
+        "total": db_count_chats(lang),
+        "items": db_list_chats(lang, limit=limit, offset=max(0, offset)),
+    }
+
+
+@app.get("/api/community/{chat_id}")
+def get_community_chat(chat_id: int):
+    """Retorna a conversa completa (mensagens) de uma conversa pública."""
+    chat = db_get_chat(chat_id)
+    if not chat:
+        raise HTTPException(status_code=404, detail="conversa não encontrada")
+    return chat
+
+
+@app.post("/api/community/{chat_id}/hide")
+def hide_community_chat(chat_id: int, key: str = ""):
+    """Esconde uma conversa da listagem pública. key precisa bater com
+    ANTHROPIC_API_KEY (admin only)."""
+    if not key or key != API_KEY:
+        raise HTTPException(status_code=403, detail="forbidden")
+    with sqlite3.connect(DB_PATH) as conn:
+        cur = conn.execute(
+            "UPDATE community_chats SET hidden = 1 WHERE id = ?", (chat_id,)
+        )
+        conn.commit()
+        if cur.rowcount == 0:
+            raise HTTPException(status_code=404, detail="conversa não encontrada")
+    return {"ok": True, "hidden_id": chat_id}
+
+
 @app.post("/api/chat")
 async def chat(req: ChatRequest):
     if not req.question or not req.question.strip():
@@ -280,6 +421,7 @@ async def chat(req: ChatRequest):
     )
 
     def event_stream():
+        accumulated = []  # chunks de texto pra salvar no fim
         try:
             with client.messages.stream(
                 model=MODEL,
@@ -298,6 +440,7 @@ async def chat(req: ChatRequest):
                 messages=messages,
             ) as stream:
                 for text in stream.text_stream:
+                    accumulated.append(text)
                     yield f"data: {json.dumps({'text': text}, ensure_ascii=False)}\n\n"
 
                 # final message com usage
@@ -312,6 +455,15 @@ async def chat(req: ChatRequest):
                         final.usage, "cache_read_input_tokens", 0
                     ),
                 }
+                # ─── auto-save da conversa completa pra biblioteca pública ──
+                full_assistant = "".join(accumulated)
+                if full_assistant.strip():
+                    full_messages = messages + [
+                        {"role": "assistant", "content": full_assistant}
+                    ]
+                    chat_id = db_save_chat(lang, full_messages)
+                    if chat_id:
+                        usage["community_id"] = chat_id
                 yield f"data: {json.dumps({'done': True, 'usage': usage}, ensure_ascii=False)}\n\n"
         except anthropic.APIError as e:
             err = {"error": True, "message": f"Erro Anthropic: {e}"}
