@@ -1,0 +1,237 @@
+{
+  "tratados": {
+    "sancta_maria": {
+      "url": "/cravo/tratados/sancta-maria.html",
+      "titulo": "Thomas de Sancta Maria — Livro chamado Arte de tocar Fantasia (1565)",
+      "topicos": [
+        "posição das mãos",
+        "mão de gato",
+        "ataque das teclas",
+        "dedilhado",
+        "oitavas encolhidas",
+        "oitavas estendidas",
+        "redobros",
+        "quebros",
+        "ornamentos antigos",
+        "desigualdades rítmicas",
+        "elegância",
+        "buen ayre",
+        "consonâncias",
+        "hexacorde"
+      ],
+      "capitulos": {
+        "cap13": "XIII — As 8 condições para tocar com perfeição",
+        "cap14": "XIV — Posição das mãos (mão de gato)",
+        "cap15": "XV — Como atacar as teclas",
+        "cap16": "XVI — Limpeza e distinção de vozes",
+        "cap17": "XVII — Correr as mãos",
+        "cap18": "XVIII — Dedilhado (tabela completa)",
+        "cap19a": "XIX — Tocar com elegância (notes inégales)",
+        "cap19b": "XIXb — Redobros e Quebros (ornamentos)"
+      }
+    },
+    "frescobaldi": {
+      "url": "/cravo/tratados/frescobaldi.html",
+      "titulo": "Girolamo Frescobaldi — Ao Leitor (1637)",
+      "topicos": [
+        "stylus fantasticus",
+        "tocata",
+        "tempo livre",
+        "afetos cantáveis",
+        "arpejar",
+        "cadências sustentadas",
+        "trinado",
+        "partita",
+        "passacalha",
+        "chacona"
+      ],
+      "pontos": {
+        "p1": "Tempo livre, como nos madrigais",
+        "p2": "Tocatas em passagens autônomas",
+        "p3": "Começos arpejando",
+        "p4": "Pausa após trinados",
+        "p5": "Cadências sustentadas",
+        "p6": "Trinado em uma mão, passagem na outra",
+        "p7": "Colcheias e semicolcheias",
+        "p8": "Pausa antes das passagens duplas",
+        "p9": "Partitas, Passacalhas, Chaconas"
+      }
+    },
+    "couperin": {
+      "url": "/cravo/tratados/couperin.html",
+      "titulo": "François Couperin — A Arte de tocar o Cravo (1717)",
+      "topicos": [
+        "posição do corpo",
+        "idade para começar",
+        "espineta",
+        "cravo acoplado",
+        "plectros",
+        "aspiração",
+        "suspensão",
+        "mordente",
+        "apogiatura",
+        "trinado",
+        "port-de-voix",
+        "pincé",
+        "tremblement",
+        "progressões",
+        "terças ligadas",
+        "alemanda",
+        "prelúdios",
+        "mesuré",
+        "compasso",
+        "cadência",
+        "movimento",
+        "sonatas",
+        "bom gosto",
+        "notas críticas"
+      ],
+      "capitulos": {
+        "prefacio": "Prefácio e plano do método",
+        "postura": "1 — Posição do corpo e das mãos",
+        "reflexoes": "2 — Reflexões pedagógicas",
+        "dedilhado-modo": "3 — Maneira de escolher o dedilhado",
+        "expressao": "4 — Aspiração e suspensão",
+        "ornamentos": "5 — Ornamentos",
+        "exercicios": "6 — Pequenos exercícios para formar as mãos",
+        "dedilhados-pecas": "7 — Dedilhados nas peças do Primeiro Livro",
+        "preludios": "8 — Os 8 Prelúdios",
+        "sonatas": "9 — O cravo, as Sonatas e o bom gosto francês",
+        "notas-criticas": "10 — Notas Críticas (apêndice editorial · 23 correções)",
+        "tabela": "11 — Tabela de ornamentos do Primeiro Livro"
+      }
+    },
+    "rameau": {
+      "url": "/cravo/tratados/rameau.html",
+      "titulo": "Jean-Philippe Rameau — Da Mecânica dos Dedos no Cravo (1724)",
+      "topicos": [
+        "mecânica dos dedos",
+        "analogia andar/tocar",
+        "cotovelos progressivos",
+        "mão morta",
+        "pulso flexível",
+        "movimento natural",
+        "independência dos dedos",
+        "cair (não bater)",
+        "primeira lição",
+        "rolamento",
+        "bateria",
+        "passagem do polegar",
+        "cadência",
+        "trinado",
+        "menuet en rondeau",
+        "les cyclopes",
+        "les tourbillons",
+        "mãos cruzadas"
+      ],
+      "capitulos": {
+        "analogia": "1 — A analogia: andar e tocar",
+        "postura": "2 — Posição ao instrumento",
+        "movimento": "3 — O movimento dos dedos",
+        "licao": "4 — A Primeira Lição",
+        "rolamentos": "5 — Rolamentos e baterias",
+        "trinados": "6 — Trinados e cadências",
+        "observacoes": "7 — Observações finais"
+      }
+    }
+  },
+  "temas": {
+    "postura": {
+      "url": "/cravo/temas/postura.html",
+      "titulo": "Postura ao instrumento",
+      "topicos": [
+        "mão de gato",
+        "arco esticado",
+        "espelho",
+        "cotovelos",
+        "altura do assento",
+        "distância do teclado"
+      ]
+    },
+    "dedilhados": {
+      "url": "/cravo/temas/dedilhados.html",
+      "titulo": "Dedilhados — do antigo ao moderno",
+      "topicos": [
+        "3 sobre 2",
+        "passagem do polegar",
+        "cruzamento",
+        "substituição de dedos",
+        "numeração"
+      ]
+    },
+    "ornamentos": {
+      "url": "/cravo/temas/ornamentos.html",
+      "titulo": "Ornamentos comparados",
+      "topicos": [
+        "trinado",
+        "mordente",
+        "redobro",
+        "quebro",
+        "apogiatura",
+        "aspiração",
+        "suspensão"
+      ]
+    },
+    "articulacao": {
+      "url": "/cravo/temas/articulacao.html",
+      "titulo": "Articulação e toque",
+      "topicos": [
+        "legato",
+        "doçura",
+        "cair vs bater",
+        "aspiração"
+      ]
+    },
+    "ritmo-tempo": {
+      "url": "/cravo/temas/ritmo-tempo.html",
+      "titulo": "Ritmo, tempo e expressão",
+      "topicos": [
+        "notes inégales",
+        "tempo livre",
+        "cadência expressiva",
+        "mesuré",
+        "rubato"
+      ]
+    },
+    "exercicios-baterias": {
+      "url": "/cravo/temas/exercicios-baterias.html",
+      "titulo": "Exercícios e baterias",
+      "topicos": [
+        "primeira lição",
+        "progressões",
+        "baterias cruzadas",
+        "rolamentos"
+      ]
+    }
+  },
+  "recursos": {
+    "comparador": {
+      "url": "/cravo/comparador.html",
+      "titulo": "Comparador lado a lado dos 4 autores"
+    },
+    "roteiro": {
+      "url": "/cravo/roteiro-estudo.html",
+      "titulo": "Roteiro de estudo em 6 etapas"
+    },
+    "partituras_viewer": {
+      "url": "/cravo/partituras-viewer.html",
+      "titulo": "Visualizador de partituras (27 obras)"
+    },
+    "glossario": {
+      "url": "/cravo/glossario.html",
+      "titulo": "Dicionário (70 termos)"
+    },
+    "pdf_original": {
+      "url": "/cravo/ler-pdf.html",
+      "titulo": "PDF original UFRJ 2013"
+    },
+    "creditos": {
+      "url": "/cravo/creditos.html",
+      "titulo": "Créditos e bibliografia"
+    },
+    "apresentacao": {
+      "url": "/cravo/apresentacao-prefacio.html",
+      "titulo": "Apresentação e Prefácio"
+    }
+  }
+}

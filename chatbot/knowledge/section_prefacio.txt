@@ -1,0 +1,585 @@
+
+
+=== SECTION: Prefácio (sobre os 4 tratados) ===
+
+
+[Page 11]
+9 
+PREFÁCIO 
+ 
+Em 2003 criamos a habilitação Cravo no Programa de Pós-graduação da Escola de Música da 
+Universidade Federal do Rio de Janeiro, no âmbito do Curso de Mestrado em Música. No 
+ano seguinte idealizamos a I Semana do Cravo, evento que desde então vem acontecendo 
+anualmente, sem interrupção. Em 2013 comemoramos os dez anos do encontro, cujo intuito 
+principal é reunir discentes e docentes de instituições de ensino de todo o país que oferecem 
+o ensino do instrumento, seja na esfera federal, estadual ou municipal. Os alunos 
+participantes estão em diversos estágios de estudo, desde o curso profissionalizante, 
+passando pelo bacharelado, pelo mestrado até chegar ao nível de doutorado. 
+ 
+Uma das características da Semana tem sido a de promover o debate acadêmico sobre 
+diversos aspectos em torno do cravo, através das mais recentes pesquisas envolvendo o 
+instrumento. O foco principal está na investigação e resgate de sua História, principalmente 
+no Brasil, e ainda nos aspectos da didática e interpretação no instrumento. Concomitante à 
+realização desses debates, promovidos através de mesas-redondas com a participação dos 
+professores convidados, a Semana do Cravo também tem oferecido recitais com alunos das 
+instituições participantes, como a Universidade Estadual de Campinas, a Universidade 
+Federal de Pernambuco, a Escola de Música de Brasília, a Escola Municipal de Música de São 
+Paulo, o Conservatório de Tatuí (SP) e a Escola de Música da Universidade Federal do Rio de 
+Janeiro, anfitriã do evento.  
+ 
+Um dos seminários oferecidos à primeira turma do Mestrado em Cravo na UFRJ, em 2004, 
+chamava-se “Tratados de teclados escolhidos” e na ocasião foram estudadas as obras de 
+Thomas de Sancta Maria, Girolamo Frescobaldi, François Couperin, Jean-Philippe Rameau e 
+Carl Philipp Emanuel Bach. As traduções dos textos desses autores1 deu-se de forma natural, 
+consequência da dedicação de uma turma interessada em desvendar algumas das mais 
+importantes recomendações sobre técnica e interpretação de teclado dos séculos XVI, XVII e 
+XVIII. Faziam parte desse grupo os nomes que hoje, ao nosso lado, compõem a equipe 
+responsável pela versão final aqui publicada: Ana Cecilia Tavares, Clara Albuquerque, Maria 
+Aida Barroso e Mayra Pereira2.  
+ 
+Consideramos que não poderia haver melhor maneira de comemorarmos os dez anos de 
+realização da Semana do Cravo do que com a publicação dessas traduções. As obras 
+estudadas constituem algumas das mais importantes referências para nosso instrumento e o 
+fato de as disponibilizarmos em língua portuguesa poderá ajudar aos muitos alunos e 
+estudiosos do cravo que tem crescido nos últimos anos no Brasil, tanto pelo surgimento de 
+novos cursos como pela consolidação dos já existentes. Mas, é provável que os interessados 
+constituam ainda um grupo mais amplo, na medida em que essas preciosas recomendações 
+técnicas e interpretativas poderão também ser úteis no estudo de outros instrumentos de 
+teclado, como o órgão, o clavicórdio, o pianoforte e mesmo o piano moderno. 
+ 
+A produção de tratados de música aconteceu primordialmente no período barroco, como já 
+identificou Bukofzer3, o que pode ser observado pela quantidade de obras dedicadas ao 
+aprendizado de instrumentos, do contraponto, do baixo contínuo, e ainda aquelas que 
+abordam a música do ponto de vista das especulações teóricas. Tais tratados, de um modo 
+ 
+1 Com exceção da obra de C. Ph. E. Bach, Ensaio sobre a maneira correta de tocar teclado, cuja tradução foi realizada 
+por Fernando Cazarini e publicada em 2009 pela Editora Unicamp. 
+2 João Rival, então bacharelando na instituição, também participou da primeira versão da tradução da obra de 
+Rameau, em 2004. 
+3 BUKOFZER, Manfred. Music in the Baroque Era. New York: W.W. Norton & Company, 1947.
+
+
+[Page 12]
+10 
+geral, podem ser agrupados a partir das três disciplinas da música – musica theorica, musica 
+poetica e musica practica – que retomam uma antiga classificação aristotélica à qual os autores 
+ainda se prendiam. O primeiro caso engloba os tratados que estudam a natureza do som e da 
+música, os estudos estéticos sobre a situação e a função da música no centro do conjunto do 
+conhecimento humano e das especulações metafísicas sobre a harmonia do universo. A 
+segunda categoria diz respeito aos tratados que contêm regras práticas de contraponto, baixo 
+contínuo e da composição, de modo mais ou menos sistemático. O terceiro grupo 
+compreende os tratados destinados ao ensino e à execução. Nesse último podemos situar as 
+obras aqui traduzidas. 
+ 
+Assim como pode ser difícil de classificar se uma determinada obra é um “tratado teórico” 
+ou “prático”4, o mesmo pode ser dito em relação ao próprio termo “tratado”. Por sua estrita 
+acepção, a palavra significa uma “obra desenvolvida, que expõe ordenadamente os 
+princípios de uma ciência ou arte”5. Já “método” designa um “tratado elementar”6. Em nossa 
+seleção encontramos tanto obras mais extensas quanto outras que, a despeito de seu valor, 
+são mais resumidas e que expõem apenas a essência do assunto proposto. Dessa forma, 
+ainda que se possam chamá-los todos pelo termo abrangente, optamos por denominar nosso 
+conjunto de “tratados” e “métodos”.  
+ 
+A grande quantidade de tratados do período barroco não significa necessariamente uma 
+homogeneidade de qualidade: é comum que muitos apenas repetissem aquilo que outros 
+anteriormente já haviam escrito. O conjunto aqui reunido, entretanto, é especial na medida 
+em que a obra de Sancta Maria é a mais antiga e detalhada descrição de técnica de teclado7, 
+enquanto as demais, ainda que de tamanhos tão diversos, contêm reflexões dos mais 
+notáveis compositores para teclado de suas épocas e lugares: Frescobaldi na Itália do século 
+XVII; François Couperin e Rameau na França do século XVIII. 
+ 
+O foco de interesse dos tratados, de um modo geral, vai mudando ao longo do tempo. 
+Enquanto no início do século XVII a ênfase de obras voltadas a instrumentos ou ao canto 
+estava em como ornamentar ou realizar diminuições, a partir da metade desse século 
+começam a surgir tratados ou métodos dedicados não mais a vários instrumentos 
+indistintamente, mas a um especificamente8. Foram criados tratados para praticamente todos 
+os instrumentos e também para a voz, desde curtas instruções até longas e complicadas 
+obras9. O tratado de Sancta Maria, por exemplo, publicado em fins do século XVI, ilustra o 
+enfoque na técnica de diminuições e de improvisação anteriormente mencionado e não na 
+interpretação de música composta 10 . Já as obras de Couperin e Rameau, dedicadas 
+especificamente ao cravo, preocupam-se claramente com questões de execução ao 
+instrumento.  
+ 
+Geralmente havia diferentes razões para explicar o surgimento de um tratado, e para cada 
+caso podia ser identificado mais de um motivo para a elaboração e consequente impressão. 
+ 
+4 PALISCA, Claude. Theory. In: SADIE, Stanley (Ed.). The New Grove Dictionary of Music and Musicians. London: 
+Macmillan Publishers Limited, 1980. vol 18,  p. 741-762. 
+5
+WEISZFLOG, 
+Walter. 
+Michaelis 
+Moderno 
+Dicionário 
+da 
+Língua 
+Portuguesa. 
+Disponível 
+em: 
+<http://michaelis.uol.com.br>. Acesso em: 10 ago. 2013. 
+6 BUARQUE DE HOLANDA FERREIRA, Aurélio. Novo Dicionário Aurélio da língua portuguesa. 2ª Edição revista e 
+ampliada. Rio de Janeiro: Editora Nova Fronteira, 1986. 
+7 HOWELL, Almonte e ROIG-FRANCOLI, Miguel. Sancta Maria. In: ROOT, Deane (Ed.). Grove Music Online. 
+Disponível em: <http://www.grovemusic.com>. Acesso em: 21 maio 2009. 
+8 BUKOFZER, op. cit. 
+9 Idem. 
+10 LOHMANN, Ludger. Studien zu Artikulationsproblemen bei den Tasteninstrumenten des 16. – 18. Jahrhunderts. 
+Regensburg: Gustav Bosse Verlag, 1982.
+
+
+[Page 13]
+11 
+Certas publicações tinham por hábito oferecer uma introdução que fornecesse subsídios à 
+boa execução das peças que se seguiam, como é o caso do prefácio Ao Leitor de Frescobaldi, 
+da Mecânica dos Dedos de Rameau, e como também acontecia com a inclusão de tabelas de 
+ornamentos, que frequentemente constavam do início de publicações de partituras11. O 
+método de Couperin, muito mais longo que os citados acima, também pode se encaixar nesse 
+caso, pois o autor menciona que um dos motivos que o levaram a publicá-lo foi justamente 
+proporcionar ajuda para que seus dois primeiros livros de peças pudessem ser bem 
+executados.  
+ 
+A obra de Sancta Maria é a mais extensa dos tratados selecionados. É composta de duas 
+partes, sendo a primeira dedicada aos rudimentos de música e técnica de teclado e a segunda 
+a procedimentos harmônicos, contrapontísticos e estruturais. O objetivo principal do autor, 
+citado no Prólogo da obra, é o de somente ensinar progressivamente aos “novos professores” 
+a arte de tocar fantasias, ou seja, improvisar (tañer fantasia). Optamos por traduzir apenas os 
+trechos que tratam especificamente de técnica de teclado e que incluem ornamentos – do 
+capítulo XIII ao XIX. 
+ 
+A intenção de Frescobaldi, ao publicar seu prefacio Ao Leitor nas várias edições dos dois 
+livros de tocatas, de 1615 a 1637, era clara: guiar o intérprete no novo estilo de música para 
+teclado que estava sendo criado, o estilo livre das fantasias, tocatas e prelúdios - o stylus 
+fantasticus. De acordo com o teórico do século XVII Athanasius Kircher, a música para 
+teclado da época podia ser dividida em três estilos: o “estilo antigo”, com contraponto estrito 
+originário da música vocal de Palestrina, e que resultou no ricercare de teclado; o estilo de 
+dança, cuja versão instrumental veio da enorme influência de Froberger12 e dos cravistas 
+franceses; e finalmente o terceiro, que ao contrário dos anteriores, era específico dos 
+instrumentos de teclado e de nenhum outro. Esse novo modo de tocar surgiu da maneira 
+como dez dedos podiam se comportar num teclado, com número variado de vozes, 
+originário claramente da livre improvisação. 
+ 
+Essas recomendações de Frescobaldi, ainda que curtas, são consideradas as mais importantes 
+fontes da prática de teclado do século XVII13. Constituem uma valiosa ajuda ao executante de 
+hoje, levando-se em conta o tipo de notação esquemática de sua música e de seus 
+contemporâneos, sem qualquer indicação de interpretação, e que, do contrário, poderiam ser 
+incompreensíveis no contexto atual, distante de sua tradição.   
+ 
+Na emblemática obra A Arte de tocar o Cravo, de Couperin, identificamos também outros dois 
+aspectos que nos fazem entender sua publicação. A elaboração de um tratado pode ser 
+muitas vezes compreendida pela necessidade do autor em transmitir os conhecimentos 
+acumulados ao longo de sua vida, e esse é precisamente o caso do compositor, já que passou 
+muito do seu tempo ensinando cravo. Essa imersão diária na rotina do ensinar, aliás, é 
+mencionada por diversos autores como um dos motivos que tornam seu método tão valioso, 
+sobretudo por se tratar de um dos maiores compositores que escreveu para cravo. Couperin 
+ainda, no prefácio da obra, menciona uma justificativa comum a muitos outros tratados, ao 
+ 
+11 LESCAT, Philippe. Méthodes & Traités Musicaux en France 1660 – 1800. Paris : Institut de pédagogie musicale et 
+chorégraphique, La Villete, 1991. 
+12 Johann Jacob Froberger (1616-1667), compositor alemão, organista e tecladista. Foi a figura proeminente da 
+música alemã de teclado em meados do século XVII. Como aluno de Frescobaldi, compositor da corte em Viena e 
+um frequente viajante e executante nos Países Baixos, Inglaterra, França e Alemanha, ele cunhou um idioma 
+pessoal a partir de características estilísticas da música de teclado italiana, francesa e alemã. Deixou um legado de 
+obras para teclado que influenciou a música alemã pelo século XVIII adentro (BUELOW, George J. Froberger, 
+Johann Jacob. In: SADIE, Stanley (Ed.). The New Grove Dictionary of Music and Musicians. London: Macmillan 
+Publishers Limited, 1980. vol. 6, p. 858-862). 
+13 GILBERT, Kenneth. Prefácio à edição de Toccate de G. Frescobaldi (1637). Pádua:  G. Zanibon, 1978.
+
+
+[Page 14]
+12 
+insistir no “caráter único” do método, que não apenas descreve a notação musical, mas o 
+“belo toque do cravo”. 
+ 
+Rameau, ao contrário de seu conterrâneo e antecessor, não enfoca necessariamente aspectos 
+artísticos em seu método Da Mecânica dos Dedos no Cravo, mas se dedica de um modo 
+abrangente a descrições do trabalho técnico ao instrumento. Seu conteúdo é considerado 
+possivelmente o mais preciso sobre técnica francesa de teclado jamais escrito, apresentado de 
+modo analítico e racional, ao contrário da obra de Couperin. Uma observação feita pelo autor 
+no prefácio de sua obra mais conhecida, o Tratado de Harmonia, ilustra seu pensamento, em 
+sintonia com os primeiros anos do Iluminismo, como lembra Moroney14: “não é suficiente 
+sentir os efeitos de uma ciência ou arte; é necessário compreendê-los de um modo que os 
+torne inteligíveis”15. 
+ 
+Uma comparação entre os métodos de Couperin e Rameau demonstra como a técnica de 
+instrumentos de teclado na França avançou desde o início do século XVIII, a partir da 
+execução de grandes virtuoses, como era o caso de ambos. Essa rápida mudança está 
+intimamente ligada a um desejo de virtuosidade, e pode ser verificada através de 
+determinadas utilizações de dedilhados, como a passagem do polegar em escalas ou em 
+baterias16.  
+ 
+ 
+uuu 
+ 
+Livro chamado a Arte de tocar Fantasia 
+ 
+Thomas de Sancta Maria (Madrid, ? - Ribadavia, 1570) teórico e compositor espanhol, 
+tornou-se frade na Ordem dominicana de Santa Maria de Atocha, em Madrid, em 1536.  
+Atuou como organista em diversos mosteiros da Castilla, principalmente em Valladolid, 
+onde provavelmente encontrou Antonio e Juan de Cabezón, organistas reais, com quem 
+conversou e discutiu enquanto preparava seu Livro chamado a Arte de tocar fantasia. Segundo o 
+próprio frontispício do tratado, a obra teria sido examinada e aprovada pelos dois eminentes 
+músicos.  
+ 
+Sancta Maria aparentemente começou a escrever sua obra em 1541, e a teve licenciada em 
+1557, mas, devido a uma falta de papel, só conseguiu publicá-la em 1565, em Valladolid. Na 
+primeira parte o autor apresenta as noções iniciais da música até o capítulo XII. Os capítulos 
+XIII a XIX, que lidam com técnica de teclado, tratam da posição das mãos, do toque, da 
+articulação, de dedilhado, de dois tipos de ornamento e do uso de notas pontuadas. Nos 
+capítulos XX a XXIII, Sancta Maria discute a execução de obras compostas e a aplicação de 
+diminuições.  Essa parte é encerrada com o estudo dos oito modos eclesiásticos, dos tons dos 
+salmos e dos tipos de cadências.  
+ 
+A segunda parte é constituída de uma abordagem sistemática de harmonia – com o estudo 
+de dissonâncias, de consonâncias, incluindo acordes associados a notas de valores diversos 
+ou progressões melódicas. O autor segue tratando da construção de peças imitativas a quatro 
+vozes, concluindo com recomendações a iniciantes de como afinar o clavicórdio e a vihuela. 
+Podem ser encontrados exemplos musicais ao longo da obra, desde curtas passagens até 
+ 
+14 MORONEY, Davitt. Couperin, Marpurg and Roeser: A Germanic Art de Toucher le Clavecin, or a French 
+Wahre Art? In: HOGWOOD, Christopher (Ed.) The Keyboard in Baroque Europe. Cambridge: Cambridge University 
+Press, 2003. p. 111–130. 
+15 RAMEAU, J. Ph. Traité de l’Harmonie. Paris: J. B. C. Ballard, 1722, p. iii. 
+16 LESCAT, op. cit.
+
+
+[Page 15]
+13 
+peças completas, de 40 a 75 compassos, algumas em estilo polifônico imitativo que lembra os 
+tentos de Cabezón.    
+ 
+Entre as qualidades do tratado frequentemente mencionadas estão a originalidade e a 
+organização sistemática, embora a repetição de ideias e a formulação do óbvio estejam 
+presentes, o que é compreendido como fruto da educação escolástica do autor. A influência 
+posterior pode ser constatada através de citações por autores como Artufel, Cerone e 
+Lorente17, que não deram o devido crédito a Sancta Maria. O Livro chamado a Arte de fantasiar 
+é considerado como dirigido principalmente ao clavicórdio18, mencionado especificamente 
+pelo autor que, entretanto, não exclui em seu texto a possibilidade de outros instrumentos de 
+teclado. Assim, suas recomendações de técnica são aplicáveis e úteis ao estudo do repertório 
+deste período também no cravo ou no órgão.  
+ 
+ 
+Ao Leitor 
+ 
+Girolamo Frescobaldi (Ferrara, 1583 – Roma, 1643) 19 , compositor, cravista e organista 
+italiano, é considerado junto de Sweelinck20 o mais influente compositor de teclado da 
+primeira metade do século XVII. Contemporâneos mencionavam sua descoberta de um novo 
+estilo de tocar, especialmente no cravo, e sua fama ultrapassou as fronteiras da Itália. Suas 
+obras aparentemente eram conhecidas também na França e em Flandres. Na Alemanha teria 
+sido o autor de teclado mais influente e mais copiado durante a segunda metade do século 
+XVII, como ilustram os seguintes fatos: em 1637 Froberger se transfere para Roma a fim de 
+ser seu aluno; suas obras contrapontísticas foram copiadas por ninguém menos que o jovem 
+J. S. Bach e depois por seus seguidores, como C. P. E. Bach, Kirnberger e Forkel21. 
+ 
+Ainda que tenha escrito também uma significativa produção vocal, Frescobaldi foi 
+extremamente famoso em sua época como virtuose do teclado, reunindo tanto qualidades de 
+intérprete quanto de compositor. Os novos elementos que os contemporâneos identificavam 
+em seu estilo estavam provavelmente associados à sua própria maneira de tocar cravo, 
+principalmente as tocatas. Seu prefácio, com tantas informações sobre o novo modo de tocar, 
+ 
+17 Dámas Artufel (?–?), liturgista espanhol de nascimento francês, atuou de 1609 a 1614. Sucedeu a Sancta Maria 
+em San Pablo de Valladolid (HOWELL, Almonte.  Artufel, Dámas. In: SADIE, Stanley (Ed.). The New Grove 
+Dictionary of Music and Musicians. London: Macmillan Publishers Limited, 1980. vol. 1, p. 646); Pietro Cerone 
+(1566–1625), teórico italiano, cantor e padre. Viveu alguns anos na Espanha, onde realizou estudos detalhados da 
+teoria e música locais, que posteriormente aplicou em sua obra El melopeo y maestro, de 1613 (HUDSON, Barton. 
+Cerone, Pietro. In: SADIE, Stanley (Ed.). The New Grove Dictionary of Music and Musicians. London: Macmillan 
+Publishers Limited, 1980. vol. 4, p. 79); Andrés Lorente (?–1703),  teórico espanhol cujo tratado El porqué de la 
+música foi a única obra substancial publicada na Espanha no século XVII (HOWELL, Almonte.  Lorente, Andrés. 
+In: SADIE, Stanley (Ed.). The New Grove Dictionary of Music and Musicians. London: Macmillan Publishers Limited, 
+1980. vol. 11, p. 231). 
+18 HOWELL e ROIG-FRANCOLI, op. cit. 
+19  HAMMOND, Frederick e SILBIGER, Alexander. Frescobaldi, G. Grove Music Online. Disponível em: 
+<http://www.oxfordmusiconline.com>. Acesso em: 20 set. 2013. 
+20 Jan Pieterszoon Sweelinck (1562–1621), compositor, organista e professor dos Países Baixos. Um dos mais 
+influentes e valorizados professores de seu tempo, organista famoso e um dos principais compositores, tanto de 
+música vocal quanto para teclado (WARD, Tom R. Sweelinck, Jan Pieterszoon. In: SADIE, Stanley (Ed.). The New 
+Grove Dictionary of Music and Musicians. London: Macmillan Publishers Limited, 1980. vol. 18, p. 406-407). 
+21 Johann Philipp Kirnberger (1721–1783), teórico e compositor alemão dos mais significativos, membro de um 
+grupo berlinense do qual também faziam parte Quantz, C. P. E. Bach e Marpurg (SERWER, Howard. Kirnberger, 
+Johann Philipp. In: SADIE, Stanley (Ed.). The New Grove Dictionary of Music and Musicians. London: Macmillan 
+Publishers Limited, 1980. vol. 10, p. 80–82); Johann Nikolaus Forkel (1749–1818), historiador da música, teórico e 
+bibliógrafo alemão. Biógrafo e autor de um projeto inconclusivo da primeira edição completa das obras de J. S. 
+Bach (DUCKLES, Vincent. Forkel,  Johann Nikolaus. In: SADIE, Stanley (Ed.). The New Grove Dictionary of Music 
+and Musicians. London: Macmillan Publishers Limited, 1980. vol. 6, p. 706–708 [II]).
+
+
+[Page 16]
+14 
+mostra como estava consciente da necessidade de explicar a interpretação do estilo recém 
+criado22.  
+ 
+A vasta produção para teclado de Frescobaldi, publicada em vários volumes, de 1608 a 1645, 
+contêm canzonas, ricercares, danças e variações, além das tocatas. Seu prefácio, Ao Leitor, foi 
+publicado diversas vezes em várias versões nos dois livros de tocatas: Toccate d’Intavolatura di 
+cimbalo et organo, partite di diverse arie e corrente, balletti, ciaccone, passaghagli; e Il secondo libro di 
+toccate, canzone, versi d’hinni magnificat, gagliarde, correnti et altre partite d’Intavolatura di cimbalo 
+et organo 23. Tendo sofrido modificações ao longo do tempo, apresentaremos aqui a sua 
+última versão, publicada no Livro II de tocatas, em 1637. 
+ 
+ 
+A Arte de tocar o Cravo 
+ 
+François Couperin (Paris, 1668 – Paris, 1733), compositor, cravista e organista, foi o mais 
+importante membro da família Couperin – uma das grandes dinastias da música, atuante em 
+Paris e arredores desde fins do século XVI até meados do século XIX. Os Couperin foram 
+particularmente vinculados à Igreja de St. Gervais, onde ocuparam o posto de organista por 
+173 anos. François, também chamado o grande, foi o autor de algumas das melhores músicas 
+da escola francesa clássica, e pode ser citado como a mais importante figura musical na 
+França entre Lully e Rameau24.  
+ 
+A impressão de suas obras para cravo se estende de 1707 a 1730. Em 1717, publica a versão 
+definitiva de A Arte de tocar o Cravo – fonte utilizada para nossa tradução –, obra considerada 
+obrigatória para aqueles que se dedicam ao instrumento. A nova edição, se comparada à 
+primeira, de 1716, inclui um novo frontispício, seis páginas suplementares e algumas 
+modificações no texto. Couperin, como lembra Baumont25, tanto emprega o verbo tocar para 
+a execução ao cravo como também está atento à sua relação com o público, ao se preocupar 
+em “tocar as pessoas de bom gosto”26. 
+ 
+Uma característica do texto que logo chama a atenção do leitor ao consultar A Arte de tocar o 
+Cravo no original e que naturalmente dificulta a tradução para qualquer outra língua é o 
+estilo de Couperin, que não tem pretensões literárias e que apresenta problemas gramaticais 
+no emprego da língua francesa. O ilustre compositor não estava sozinho, pois o mesmo 
+acontecia na época com pintores, arquitetos, médicos, advogados e cientistas. O próprio 
+autor fez uma autocrítica sobre sua escrita, no terceiro livro de peças de cravo: “Peço licença 
+aos Senhores Puristas e Gramáticos sobre o estilo de meus prefácios: neles falo apenas de 
+minha Arte...”27.  
+ 
+Fica claro que Couperin não pretendia abordar um assunto tão vasto metodicamente, do 
+início ao fim, mas sim oferecer uma série de reflexões sobre aspectos do ensino e de execução 
+ 
+22 NEWCOMB, Anthony. Frescobaldi, G. In: SADIE, Stanley (Ed.). The New Grove Dictionary of Music and 
+Musicians.  London: Macmillan Publishers Limited, 1980. vol. 6, p. 824-835. 
+23 Tocatas de tablatura de cravo e órgão, partitas de diversas árias e correntes, ballets, chaconas, passacalhas; O 
+segundo livro de tocatas, canzonas, versos de hinos Magnificat, galhardas, correntes e outras partitas de tablatura 
+de cravo e órgão.  
+24 HIGGINBOTTOM, Edward. Couperin, F. In: SADIE, Stanley (Ed.). The New Grove Dictionary of Music and 
+Musicians. London: Macmillan Publishers Limited, 1980. vol. 4,  p. 860-871. 
+25  BAUMONT, Olivier. En relisant l’Art de toucher le Clavecin. Disponível em: <http://www.clavecin-en-
+france.org>. Acesso em: 07 jul. 2013. 
+26 Página 15 da edição de 1717. 
+27 BAUMONT, op. cit.
+
+
+[Page 17]
+15 
+das peças de seus dois primeiros livros28. O método é dividido em cinco partes. A primeira, 
+em que o autor aborda a posição do corpo e das mãos, constitui-se em uma verdadeira aula 
+de cravo, pois menciona vários aspectos relacionados a essa atividade: a idade de se iniciar; a 
+correta posição no instrumento e como este deve ser regulado; como os iniciantes devem 
+estudar; o tempo de duração de uma aula; a importância de tocar de cor; a sugestão de que 
+inicialmente as crianças tenham nas mãos algumas peças antes de aprender a notação 
+musical; a recomendação de se aprender peças de caracteres diferentes e, finalmente, que se 
+deve retardar o início do aprendizado do acompanhamento.   
+ 
+A segunda parte apresenta os ornamentos úteis para a execução, e aqui, ao mesmo tempo 
+que as indicações de Couperin revelam sua fidelidade ao sistema antigo de cruzar o terceiro 
+dedo sobre o segundo ou quarto em escalas, também indicam seu entusiasmo por certas 
+novidades, como a mudança de dedo na apogiatura preparada e o uso do legato para as 
+terças dobradas.  
+ 
+Pequenos exercícios para a mão direita e para a esquerda foram incluídos na terceira parte. 
+Esses são considerados verdadeiras composições autônomas, mais próximas de trechos das 
+peças para cravo do que de áridos exercícios29. Há ainda uma primeira peça, uma Alemanda, 
+que o autor recomenda que se aprenda antes de passar às peças num estilo mais idiomático 
+do cravo. Baumont 30  reconhece nesta terceira parte um aspecto bem característico do 
+compositor, uma constante ambiguidade entre a admiração por seus predecessores e a 
+vontade de impor seu próprio estilo, um tipo de convivência impossível entre a tradição e a 
+novidade, entre o Grande Século31 e o Século das Luzes32. 
+ 
+Na quarta parte do método encontram-se observações sobre como escolher um bom 
+dedilhado para trechos difíceis, com exemplos de passagens de suas peças. Finalmente, 
+Couperin apresenta oito prelúdios diversificados, quatro mais curtos – em uma página - e 
+outros quatro com o dobro do tamanho33. Entre eles pode-se identificar o estilo alaudado tão 
+caro ao compositor e inspirações de dança - como Alemanda e Corrente. O autor compôs 
+exatamente a metade dos prelúdios em estilo mais livre e os outros com a indicação Mesuré, 
+ou seja, com menor liberdade de mudanças de andamentos e de alterações rítmicas. 
+ 
+A Arte de tocar o Cravo, companhia constante dos cravistas hoje em dia, obteve sucesso já em 
+sua época, tendo sido traduzida e publicada por Friedrich Wilhelm Marpurg na Alemanha, 
+em 1751. É uma obra que transmite de modo inequívoco o amor de Couperin pelo cravo e 
+suas firmes convicções a respeito das qualidades do instrumento: precisão, limpidez, nitidez, 
+brilho e extensão. Demonstra ainda seu desejo de torná-lo tão expressivo quanto qualquer 
+outro instrumento musical.  
+ 
+ 
+Da Mecânica dos Dedos no Cravo 
+ 
+Jean-Philippe Rameau (Dijon, 1683 – Paris, 1764), compositor, teórico, organista e cravista 
+francês, foi a principal figura da música francesa em seu tempo, especialmente do gênero 
+dramático, e um importante inovador da teoria da harmonia. 
+ 
+ 
+28 HIGGINBOTTOM, op. cit. 
+29 BAUMONT, op. cit. 
+30 Idem. 
+31 Grand Siècle, século XVII, um dos períodos mais ricos da História da França. 
+32 Siècle des Lumières, ou Iluminismo. 
+33 Disposição de páginas na edição original.
+
+
+[Page 18]
+16 
+Ainda que atualmente seja mais conhecido como teórico e como compositor de obras 
+dramáticas, sua produção cravística é considerável, constituída de três coleções de peças solo 
+- publicadas em 1706, 1724 e ca.1729-30 - e um volume com música de cravo acompanhada 
+(Pièces de clavecin en concert, de 1741). Além disso, compôs algumas peças independentes e 
+transcrições orquestrais de obras próprias. Com exceção do último volume, todos foram 
+criados antes de sua primeira ópera, e já refletem de modo inconfundível suas qualidades de 
+compositor.  
+ 
+Em sua segunda publicação de peças para cravo já se vê no título da primeira impressão, 
+realizada em Paris em 1724, o destaque para a mecânica dos dedos: Pièces de clavessin avec une 
+méthode pour la méchanique des doigts ou l’on enseigne les moyens de se procurer une parfaite 
+execution sur cet intrument 34 . De fato, o primeiro assunto que aparece logo após esse 
+frontispício é o texto sobre a mecânica dos dedos, seguido do índice do volume, da 
+aprovação e do privilégio do rei, de uma tabela de ornamentos e de um Minueto em Rondó, 
+para logo após virem as partituras das peças para cravo.  
+ 
+Na segunda edição revista das mesmas peças de cravo, de 1731, o título e o enfoque já 
+mudam: Pièces de clavecin avec une table pour les agrémens35. Nesse volume, na sequência do 
+frontispício encontram-se um índice das obras de Rameau - em que aparecem não só os 
+livros de peças de cravo, mas suas muitas obras dramáticas e textos teóricos, compostos e 
+publicados até a data – e a mesma tabela de ornamentos e o minueto mencionados 
+anteriormente, antes das peças de cravo. Não foram incluídos nessa edição, portanto, nem o 
+índice com os títulos das peças, nem a aprovação, nem o privilégio do rei, e muito menos a 
+Mecânica dos dedos no Cravo, e não fica claro o porquê desta omissão36. 
+ 
+Encontramos em Da Mecânica dos Dedos no Cravo menção a diversas partes do corpo humano 
+relacionadas ao tocar, como dedos, mãos, braços, cotovelos. O objetivo primordial do autor é 
+a busca de uma técnica precisa e segura, buscando sempre o máximo de relaxamento. 
+Rameau não apenas descreve a altura do cotovelo que considera correta para a execução, 
+mas sugere que esta vá mudando, à medida que o iniciante vá obtendo progresso. Ele chama 
+a atenção para a necessidade da independência dos dedos, e para que esses fiquem na borda 
+das teclas, o que levará à boa posição das mãos. 
+ 
+Com relação ao toque, Rameau  associa o cuidado com o peso das mãos e seus reflexos nos 
+dedos aos meios para se obter uma bela sonoridade. O autor oferece sugestões de como o 
+iniciante deve estudar para o sucesso com trinados. Assim como Couperin, Rameau cultiva o 
+legato como articulação predominante e um instrumento bem leve para iniciantes. Observa 
+ainda que as recomendações de seu texto servem tanto ao cravo quanto ao órgão.   
+ 
+O caráter inovador de Rameau como compositor também se fez presente nas indicações da 
+técnica do cravo, uma vez que, em desacordo com seus contemporâneos, só prescreve os 
+dedilhados modernos. Do mesmo modo, defende a utilização da passagem do polegar, como 
+o fez Bach na Alemanha. Um de seus pensamentos mais essenciais, como aponta Spieth37, é o 
+que afirma que um grande movimento só deve ter lugar se um menor não sofra.  
+ 
+ 
+34 Peças de cravo com um Método sobre a mecânica dos dedos, no qual se ensina os meios de se fornecer uma 
+perfeita execução sobre este instrumento. 
+35 Peças de cravo com uma tabela para os ornamentos. 
+36 GILBERT, Kenneth. Prefácio à edição de Pièces de clavecin de J.-Ph. Rameau (1724). Paris: Heugel, 1978.  
+37 SPIETH, Noëlle. Le toucher du clavecin à la lecture de François Couperin, Saint-Lambert et Rameau. Disponível em: 
+<http://www.clavecin-en-france.org>. Acesso em: 14 jul. 2013.
+
+
+[Page 19]
+17 
+Gilbert conclui que Rameau oferece em poucas páginas a mais clara e detalhada descrição de 
+técnica de teclado do século XVIII que, quando lida em conjunto com A Arte de tocar o Cravo 
+de Couperin, compõe os fundamentos da prática do período inteiro38. 
+ 
+ 
+uuu 
+ 
+Naturalmente reconhecemos a importância e a utilidade de fontes como os tratados para o 
+estudo da música dos séculos anteriores, o que se justifica pelo simples fato de que no 
+âmbito da cultura ocidental não há uma continuidade da tradição musical. Um dos meios a 
+que se recorre e que pode ser de grande valia são justamente essas obras. Identificamos, no 
+entanto, alguns cuidados que devem ser tomados. Muitos autores do período reconhecem as 
+limitações das obras escritas, evocando as vantagens de um contato direto entre mestre e 
+discípulo. Um outro problema reside no fato de que frequentemente a compreensão do 
+conteúdo dos tratados pode ser prejudicada, uma vez que muitos termos perderam seus 
+significados originais. A outra questão a ser considerada é que algumas obviedades da 
+época, compreensivelmente, não eram explicadas nem sequer mencionadas nos tratados. 
+Mas, como lembra Staier39, por não nos serem mais familiares, são elas que nos levam a 
+importantes reflexões, muitas vezes, entretanto, inconclusivas.   
+ 
+Assim, sugerimos ao intérprete, ao recriar o repertório dos séculos anteriores, que, 
+paralelamente ao estudo dos tratados, não menospreze a própria intuição na construção de 
+sua versão, principalmente quando já possui uma bagagem considerável. Este equilíbrio 
+poderá levar ao resultado desejado por Harnoncourt 40 , que sempre buscou não uma 
+execução correta arqueologicamente, mas viva e digna. 
+ 
+ 
+Marcelo Fagerlande, Coordenador da Semana do Cravo da UFRJ 
+ 
+ 
+ 
+uuu 
+ 
+Outras edições: 
+ 
+COUPERIN, François. L'Art de toucher Le Clavecin. Die Kunst das Clavecin zu spielen. The Art of playing 
+the Harpsichord. Tradução para o alemão de Anna Linde e para o inglês de Mevanwy Roberts. 
+Wiesbaden: Breitkopf & Härtel, edição de Anna Linde, 1933. 
+ 
+COUPERIN, François. L'Art de toucher Le Clavecin. Paris, 1717. Ed. fac-simile. Courlay: Éditions J. M. 
+Fuzeau S.A., edição de Jean Saint-Arroman, 1996. 
+ 
+DARBELLAY, Etienne. Liberté, variété et ‘affeti cantabili’ chez Frescobaldi. Revue de Musicologie, Paris, 
+vol. LXI, nº 2, p. 197-243, 1975. 
+ 
+FRESCOBALDI, G. Avvertimenti. Tradução para o português de Maria Helena Bezzi. Apostila do curso 
+Interpretação da música para teclado do séc. XVII ao início do séc. XIX. Conservatório Brasileiro de 
+Música, 1977. 
+ 
+ 
+38 GILBERT, op. cit. 
+39 STAIER, Andreas. Freiheit, die ich meine. Interview mit Andreas Staier. Concerto, Das Magazin für Alte Musik. 
+Colônia: Concerto Verlag, vol. 71, 1992. 
+40 HARNONCOURT, Nikolaus. O discurso dos sons. Rio de Janeiro: Editora Zahar, 1987.
+
+
+[Page 20]
+18 
+FRESCOBALDI, Girolamo. Al Lettore in Toccate d’intavolatura di Cembalo et Organo... Roma, 1637. 
+Padova: G. Zanibon, edição de Kenneth Gilbert, 1978. 
+ 
+RAMEAU, Jean-Philippe. De la mechanique des doigts sur le clavessin in Piéces de clavecin. Paris: Heugel & 
+Cie, edição de Kenneth Gilbert, 1978. 
+ 
+RAMEAU, Jean-Philippe. De la mechanique des doigts sur le clavessin in Piéces de clavecin. Paris, 
+1724. Ed. fac-simile. In : LESCAT, Philippe e SAINT-ARROMAN, Jean (Ed.). Méthodes & Traités. 
+Courlay: Éditions Fuzeau, 2003. 
+ 
+SANCTA MARIA, Thomas de.  Libro Llamado Arte de Tañer Fantasia. Valladolid, 1565. Ed. fac-simile. 
+Westmead: Gregg International Publishers Limited, edição de Denis Stevens, 1972. 
+ 
+SANCTA MARIA, Fray Thomas de. Wie mit aller Vollkommenheit und Meisterschaft das Klavichord zu 
+spielen sei. Tradução de Eta Harich-Schneider e Ricard Boadella. Lippstadt: Kistner & Siegel & CO., 
+1962. 
+ 
+SANCTA MARIA, Fray Thomas de. The Art of Playing the Fantasia. Translation, transcription, 
+commentary by Almonte C. Howell Jr. and Warren E. Hultberg. Pittburgh: Latin American Literary 
+Review Press, Series: explorations, 1991. 
+ 
+ 
+uuu 
+ 
+Utilizamos, para nossa tradução das obras de Sancta Maria, Frescobaldi, Couperin e Rameau, 
+as edições de 1565, 1637, 1717 e 1724, respectivamente, como explicitado ao longo do 
+prefácio. Essas obras foram consultadas em publicações fac-similadas, incluídas na 
+bibliografia acima. Procuramos manter o estilo original de cada autor, ainda que muitas 
+vezes a redação pudesse se distanciar da forma como a ideia seria expressa no português 
+atual. A nossa opção diverge de algumas traduções dessas obras para outras línguas, em que 
+percebemos a escolha por um texto mais explicativo de seu conteúdo. Ao decidir por este 
+outro caminho, acreditamos estar oferendo aos leitores atuais a possibilidade de uma maior 
+aproximação com a obra e com o pensamento de seus autores. Em alguns casos foi necessária 
+uma mudança na pontuação, visando uma melhor adequação às normas gramaticais de 
+nossa língua. A inclusão de palavras no texto original foi, como de hábito, anotada através 
+de colchetes. Uma vez que optamos por traduzir a maioria dos termos musicais, 
+frequentemente incluímos notas com os mesmos nas línguas originais. Em outros casos, as 
+notas são explicativas. Os exemplos musicais foram editados nas claves mais utilizadas 
+atualmente e as correções foram  indicadas por colchetes. Há no final da obra de Couperin 
+notas críticas dos exemplos, da Alemanda e dos Prelúdios. Incluímos ainda, em anexo, as 
+tabelas de ornamentos de Couperin e Rameau, apresentadas ao final de suas respectivas 
+obras. 
+ 
+ 
+uuu 
+ 
+Agradecimentos à FAPERJ – Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado 
+do Rio de Janeiro – pelo financiamento desta publicação e a Ailen Meireles, Antoine 
+Espagno, Ariadne Paixão, Augusto Carvalho Souza, Cleci Righi Daniel, Giulia Tettamanti, 
+Ilton Wjuniski, Kristian Nyquist, Luis Tavares Ladeira, Paloma Lima, Patrícia Thomé 
+Junqueira Schettino e Rita de Cássia Almeida.

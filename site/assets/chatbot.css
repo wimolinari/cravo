@@ -1,0 +1,779 @@
+/* =========================================================================
+   Chatbot do Cravo — UI flutuante
+   Inspirado no design do comparador.html (mesmas variáveis de cor).
+   ======================================================================= */
+
+/* Botão flutuante (sempre visível) */
+.cravo-chat-fab {
+  position: fixed;
+  right: 1.5rem;
+  bottom: 1.5rem;
+  z-index: 9000;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid var(--gold);
+  background: var(--burgundy);
+  color: var(--bg);
+  font-size: 1.6rem;
+  cursor: pointer;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.cravo-chat-fab:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+}
+.cravo-chat-fab .badge-dot {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--gold);
+  border: 2px solid var(--bg);
+}
+
+/* Overlay e janela */
+.cravo-chat-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 9001;
+  display: none;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 0;
+}
+.cravo-chat-overlay.open {
+  display: flex;
+}
+
+.cravo-chat-panel {
+  width: min(620px, 100vw);
+  height: min(820px, calc(100vh - 1rem));
+  max-height: 100vh;
+  background: var(--bg);
+  border: 1px solid var(--rule);
+  border-radius: 12px;
+  box-shadow: -8px 0 30px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  margin: 0.5rem 1rem 1rem 0;
+  animation: cravoChatSlideIn 0.25s ease-out;
+  transition: width 0.25s ease, height 0.25s ease, margin 0.25s ease, border-radius 0.25s ease;
+}
+.cravo-chat-panel.expanded {
+  width: min(1100px, calc(100vw - 2rem));
+  height: calc(100vh - 1rem);
+  margin: 0.5rem 1rem 0.5rem 1rem;
+}
+.cravo-chat-panel.fullscreen {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  border-radius: 0;
+  border: none;
+}
+@keyframes cravoChatSlideIn {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+/* Header */
+.cravo-chat-header {
+  background: var(--bg-alt);
+  border-bottom: 1px solid var(--rule);
+  padding: 0.85rem 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+.cravo-chat-header .avatar {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: var(--burgundy);
+  color: var(--bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+.cravo-chat-header .info {
+  flex: 1;
+  min-width: 0;
+}
+.cravo-chat-header .info h3 {
+  margin: 0;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--ink);
+  border: none;
+  padding: 0;
+}
+.cravo-chat-header .info .subtitle {
+  font-size: 0.78rem;
+  color: var(--ink-mute);
+  font-style: italic;
+}
+.cravo-chat-header .header-btn {
+  background: transparent;
+  border: 1px solid var(--rule);
+  color: var(--ink-soft);
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 1rem;
+  line-height: 1;
+  transition: all 0.15s;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+.cravo-chat-header .header-btn:hover {
+  background: var(--rule);
+  color: var(--ink);
+}
+.cravo-chat-header .header-btn.close-btn {
+  font-size: 1.3rem;
+}
+.cravo-chat-header .header-btn svg {
+  width: 14px;
+  height: 14px;
+  stroke: currentColor;
+  fill: none;
+  stroke-width: 1.8;
+}
+.cravo-chat-header .btn-group {
+  display: inline-flex;
+  gap: 0.35rem;
+}
+.cravo-chat-header .header-btn.active {
+  background: var(--gold);
+  color: var(--ink);
+  border-color: var(--gold);
+}
+
+/* Drawer / gerenciador de conversas — ocupa toda a área entre header e footer
+   quando aberto; o chat body é ocultado nesse modo (evita sobreposição).
+   IMPORTANTE: respeitar o atributo [hidden] explicitamente (display: flex
+   do author override iria mascarar o user-agent display: none). */
+.cravo-chat-drawer[hidden] { display: none !important; }
+.cravo-chat-drawer:not([hidden]) {
+  background: var(--bg-alt);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  animation: cravoDrawerFade 0.18s ease-out;
+}
+@keyframes cravoDrawerFade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+/* Quando o drawer está aberto (classe no painel), escondemos o body do chat */
+.cravo-chat-panel.drawer-open .cravo-chat-body { display: none; }
+.cravo-chat-drawer .drawer-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.6rem 0.85rem 0.4rem;
+  border-bottom: 1px solid var(--rule);
+}
+.cravo-chat-drawer .drawer-header h4 {
+  margin: 0;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--burgundy);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  border: none;
+  padding: 0;
+}
+.cravo-chat-drawer .drawer-new {
+  background: var(--burgundy);
+  color: var(--bg);
+  border: 1px solid var(--burgundy);
+  padding: 0.2rem 0.65rem;
+  border-radius: 999px;
+  font-family: 'EB Garamond', serif;
+  font-size: 0.78rem;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.cravo-chat-drawer .drawer-new:hover {
+  background: var(--gold);
+  border-color: var(--gold);
+  color: var(--ink);
+}
+.cravo-chat-drawer .drawer-list {
+  margin: 0;
+  padding: 0.25rem 0;
+  list-style: none;
+  overflow-y: auto;
+  flex: 1;
+}
+.cravo-chat-drawer .drawer-empty {
+  margin: 0;
+  padding: 1rem 0.85rem;
+  font-size: 0.85rem;
+  color: var(--ink-mute);
+  font-style: italic;
+  text-align: center;
+}
+.cravo-chat-drawer .drawer-item {
+  display: block;
+  border-bottom: 1px solid var(--rule);
+  transition: background 0.12s;
+}
+.cravo-chat-drawer .drawer-item .item-row {
+  display: flex;
+  align-items: stretch;
+  transition: background 0.12s;
+}
+.cravo-chat-drawer .drawer-item .item-row:hover {
+  background: var(--bg-card);
+}
+.cravo-chat-drawer .drawer-item.active .item-row {
+  background: var(--bg-card);
+  border-left: 3px solid var(--gold);
+}
+.cravo-chat-drawer .drawer-item.active .item-title {
+  color: var(--burgundy);
+}
+.cravo-chat-drawer .item-toggle {
+  background: transparent;
+  border: none;
+  color: var(--ink-mute);
+  cursor: pointer;
+  padding: 0 0.35rem 0 0.55rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.12s;
+}
+.cravo-chat-drawer .item-toggle:hover { color: var(--burgundy); }
+.cravo-chat-drawer .item-toggle svg {
+  width: 12px;
+  height: 12px;
+  stroke: currentColor;
+  fill: none;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  transition: transform 0.18s;
+}
+.cravo-chat-drawer .drawer-item.expanded .item-toggle svg {
+  transform: rotate(90deg);
+}
+.cravo-chat-drawer .item-load {
+  flex: 1;
+  background: transparent;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  padding: 0.55rem 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  min-width: 0;
+  font-family: 'EB Garamond', serif;
+}
+.cravo-chat-drawer .item-title {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-size: 0.9rem;
+  color: var(--ink);
+  font-weight: 500;
+}
+.cravo-chat-drawer .item-meta {
+  font-size: 0.72rem;
+  color: var(--ink-mute);
+  font-style: italic;
+}
+.cravo-chat-drawer .item-action {
+  background: transparent;
+  border: none;
+  color: var(--ink-mute);
+  cursor: pointer;
+  padding: 0 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.12s;
+}
+.cravo-chat-drawer .item-action:hover {
+  color: var(--burgundy);
+  background: var(--bg-alt);
+}
+.cravo-chat-drawer .item-export:hover { color: var(--gold); }
+.cravo-chat-drawer .item-delete:hover { color: var(--burgundy); background: rgba(107, 29, 44, 0.08); }
+.cravo-chat-drawer .item-action svg {
+  width: 14px;
+  height: 14px;
+  stroke: currentColor;
+  fill: none;
+  stroke-width: 1.6;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+/* Preview inline da conversa (expand/collapse) */
+.cravo-chat-drawer .item-preview {
+  background: var(--bg);
+  border-top: 1px dashed var(--rule);
+  padding: 0.6rem 0.85rem 0.7rem 1.85rem;
+  max-height: 60vh;
+  overflow-y: auto;
+  font-family: 'EB Garamond', serif;
+}
+.cravo-chat-drawer .item-preview .prev-msg {
+  margin: 0 0 0.55rem 0;
+  padding: 0.35rem 0.55rem;
+  border-radius: 4px;
+  font-size: 0.82rem;
+  line-height: 1.45;
+}
+.cravo-chat-drawer .item-preview .prev-msg.user {
+  background: var(--bg-alt);
+  border-left: 2px solid var(--gold);
+}
+.cravo-chat-drawer .item-preview .prev-msg.assistant {
+  background: var(--bg-card);
+  border-left: 2px solid var(--burgundy);
+}
+.cravo-chat-drawer .item-preview .prev-role {
+  display: block;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--burgundy);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 0.15rem;
+}
+.cravo-chat-drawer .item-preview .prev-content {
+  color: var(--ink);
+}
+.cravo-chat-drawer .item-preview .prev-content p { margin: 0 0 0.3em 0; }
+.cravo-chat-drawer .item-preview .prev-content p:last-child { margin-bottom: 0; }
+.cravo-chat-drawer .item-preview .prev-content strong { color: var(--burgundy); }
+.cravo-chat-drawer .item-preview .prev-content a {
+  color: var(--burgundy);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--rule-strong);
+}
+.cravo-chat-drawer .item-preview .prev-content table {
+  font-size: 0.75rem;
+  margin: 0.3em 0;
+}
+.cravo-chat-drawer .item-preview .prev-content th,
+.cravo-chat-drawer .item-preview .prev-content td {
+  padding: 0.2rem 0.4rem;
+}
+.cravo-chat-drawer .item-preview .prev-content ul,
+.cravo-chat-drawer .item-preview .prev-content ol {
+  margin: 0.2em 0;
+  padding-left: 1.2em;
+}
+
+/* No mobile o preview também escala */
+@media (max-width: 520px) {
+  .cravo-chat-drawer .item-preview { padding-left: 1rem; }
+}
+
+/* Body */
+.cravo-chat-body {
+  flex: 1;
+  overflow-y: auto;
+  padding: 1rem;
+  background: var(--bg);
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+}
+
+/* Welcome screen com tópicos */
+.cravo-chat-welcome {
+  padding: 0.5rem 0;
+}
+.cravo-chat-welcome .lead {
+  font-family: 'EB Garamond', serif;
+  font-size: 1rem;
+  color: var(--ink-soft);
+  margin: 0 0 1rem 0;
+  line-height: 1.5;
+  font-style: italic;
+}
+.cravo-chat-welcome .lead strong {
+  color: var(--burgundy);
+  font-style: normal;
+}
+
+.cravo-chat-topics {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.55rem;
+}
+.cravo-topic-card {
+  background: var(--bg-card);
+  border: 1px solid var(--rule);
+  border-top: 3px solid var(--gold);
+  border-radius: 6px;
+  padding: 0.65rem 0.6rem;
+  cursor: pointer;
+  text-align: left;
+  font-family: 'EB Garamond', serif;
+  color: var(--ink);
+  transition: all 0.15s;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  min-height: 88px;
+}
+.cravo-topic-card:hover {
+  border-color: var(--gold);
+  background: var(--bg-alt);
+  transform: translateY(-1px);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
+}
+.cravo-topic-card .icon {
+  font-size: 1.3rem;
+  line-height: 1;
+}
+.cravo-topic-card .label {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--burgundy);
+  line-height: 1.15;
+}
+.cravo-topic-card .sample {
+  font-size: 0.78rem;
+  color: var(--ink-mute);
+  line-height: 1.3;
+  font-style: italic;
+}
+
+/* Mensagens */
+.cravo-msg {
+  display: flex;
+  gap: 0.6rem;
+  max-width: 95%;
+  animation: cravoMsgFade 0.2s ease-out;
+}
+@keyframes cravoMsgFade {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.cravo-msg.user {
+  align-self: flex-end;
+  flex-direction: row-reverse;
+}
+.cravo-msg .avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 700;
+  font-size: 0.9rem;
+  flex-shrink: 0;
+}
+.cravo-msg.user .avatar {
+  background: var(--gold);
+  color: var(--bg);
+}
+.cravo-msg.assistant .avatar {
+  background: var(--burgundy);
+  color: var(--bg);
+}
+.cravo-msg .bubble {
+  background: var(--bg-card);
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+  padding: 0.6rem 0.85rem;
+  font-family: 'EB Garamond', serif;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: var(--ink);
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+.cravo-msg.user .bubble {
+  background: var(--bg-alt);
+  border-color: var(--rule-strong);
+}
+.cravo-msg .bubble p { margin: 0 0 0.5em 0; }
+.cravo-msg .bubble p:last-child { margin-bottom: 0; }
+.cravo-msg .bubble strong { color: var(--burgundy); }
+.cravo-msg .bubble em { color: var(--ink-soft); }
+.cravo-msg .bubble a {
+  color: var(--burgundy);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--rule-strong);
+}
+.cravo-msg .bubble a:hover {
+  color: var(--gold);
+  border-bottom-color: var(--gold);
+}
+.cravo-msg .bubble ul,
+.cravo-msg .bubble ol {
+  margin: 0.4em 0;
+  padding-left: 1.2em;
+}
+.cravo-msg .bubble li { margin: 0.15em 0; }
+.cravo-msg .bubble code {
+  background: var(--bg-alt);
+  padding: 0.1em 0.35em;
+  border-radius: 3px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.85em;
+  color: var(--burgundy);
+}
+.cravo-msg .bubble h1,
+.cravo-msg .bubble h2,
+.cravo-msg .bubble h3 {
+  font-family: 'Cormorant Garamond', serif;
+  margin: 0.5em 0 0.3em 0;
+  border: none;
+  padding: 0;
+  color: var(--burgundy);
+  font-size: 1.05rem;
+}
+
+/* Tabelas — visual elegante alinhado ao site */
+.cravo-msg .bubble .table-wrap {
+  overflow-x: auto;
+  margin: 0.7em 0;
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+  background: var(--bg);
+  -webkit-overflow-scrolling: touch;
+}
+.cravo-msg .bubble table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'EB Garamond', serif;
+  font-size: 0.88rem;
+  line-height: 1.4;
+  color: var(--ink);
+  margin: 0;
+}
+.cravo-msg .bubble thead {
+  background: var(--bg-alt);
+  border-bottom: 2px solid var(--gold);
+}
+.cravo-msg .bubble th {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600;
+  font-size: 0.92rem;
+  color: var(--burgundy);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  text-align: left;
+  padding: 0.5rem 0.7rem;
+  border-right: 1px solid var(--rule);
+  vertical-align: bottom;
+}
+.cravo-msg .bubble th:last-child { border-right: none; }
+.cravo-msg .bubble td {
+  padding: 0.45rem 0.7rem;
+  border-right: 1px dashed var(--rule);
+  border-bottom: 1px solid var(--rule);
+  vertical-align: top;
+}
+.cravo-msg .bubble td:first-child {
+  font-weight: 600;
+  color: var(--ink-soft);
+  background: var(--bg-alt);
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 0.95rem;
+}
+.cravo-msg .bubble td:last-child { border-right: none; }
+.cravo-msg .bubble tbody tr:last-child td { border-bottom: none; }
+.cravo-msg .bubble tbody tr:hover td { background: rgba(184, 134, 11, 0.05); }
+.cravo-msg .bubble tbody tr:hover td:first-child { background: var(--bg-alt); }
+[data-theme="dark"] .cravo-msg .bubble tbody tr:hover td {
+  background: rgba(212, 167, 61, 0.08);
+}
+
+/* Bubble um pouco maior para acomodar tabelas largas */
+.cravo-chat-panel.expanded .cravo-msg,
+.cravo-chat-panel.fullscreen .cravo-msg {
+  max-width: 92%;
+}
+.cravo-chat-panel.expanded .cravo-msg .bubble,
+.cravo-chat-panel.fullscreen .cravo-msg .bubble {
+  max-width: none;
+}
+
+/* Indicador "digitando" */
+.cravo-typing {
+  display: inline-flex;
+  gap: 4px;
+  align-items: center;
+  height: 1.5em;
+}
+.cravo-typing span {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--gold);
+  animation: cravoTyping 1.2s infinite;
+}
+.cravo-typing span:nth-child(2) { animation-delay: 0.15s; }
+.cravo-typing span:nth-child(3) { animation-delay: 0.3s; }
+@keyframes cravoTyping {
+  0%, 60%, 100% { transform: scale(0.7); opacity: 0.4; }
+  30% { transform: scale(1.1); opacity: 1; }
+}
+
+/* Sugestões pós-resposta (chips) */
+.cravo-suggest {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  padding: 0 0 0 2.4rem;
+}
+.cravo-suggest .chip {
+  background: var(--bg-card);
+  border: 1px solid var(--rule);
+  color: var(--ink-soft);
+  padding: 0.25rem 0.65rem;
+  border-radius: 999px;
+  font-family: 'EB Garamond', serif;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.cravo-suggest .chip:hover {
+  border-color: var(--gold);
+  color: var(--burgundy);
+  background: var(--bg-alt);
+}
+
+/* Footer / input */
+.cravo-chat-footer {
+  border-top: 1px solid var(--rule);
+  background: var(--bg-alt);
+  padding: 0.6rem 0.75rem 0.75rem;
+}
+.cravo-chat-form {
+  display: flex;
+  gap: 0.5rem;
+  align-items: flex-end;
+}
+.cravo-chat-input {
+  flex: 1;
+  resize: none;
+  min-height: 38px;
+  max-height: 120px;
+  padding: 0.5rem 0.7rem;
+  border: 1px solid var(--rule-strong);
+  border-radius: 8px;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: 'EB Garamond', serif;
+  font-size: 0.95rem;
+  line-height: 1.4;
+  outline: none;
+  transition: border-color 0.15s;
+}
+.cravo-chat-input:focus {
+  border-color: var(--gold);
+}
+.cravo-chat-input::placeholder {
+  color: var(--ink-mute);
+  font-style: italic;
+}
+.cravo-chat-send {
+  background: var(--burgundy);
+  color: var(--bg);
+  border: 1px solid var(--burgundy);
+  padding: 0 0.95rem;
+  height: 38px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  transition: all 0.15s;
+}
+.cravo-chat-send:hover:not(:disabled) {
+  background: var(--gold);
+  border-color: var(--gold);
+  color: var(--ink);
+}
+.cravo-chat-send:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.cravo-chat-disclaimer {
+  font-size: 0.7rem;
+  color: var(--ink-mute);
+  text-align: center;
+  margin: 0.4rem 0 0 0;
+  font-style: italic;
+}
+
+.cravo-chat-error {
+  background: rgba(107, 29, 44, 0.08);
+  border: 1px solid var(--burgundy);
+  color: var(--burgundy);
+  padding: 0.5rem 0.7rem;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  margin: 0.5rem 0;
+}
+
+/* Mobile / pequenas telas */
+@media (max-width: 520px) {
+  .cravo-chat-overlay { padding: 0; }
+  .cravo-chat-panel {
+    width: 100vw;
+    height: 100vh;
+    max-height: 100vh;
+    margin: 0;
+    border-radius: 0;
+    border: none;
+  }
+  .cravo-chat-fab {
+    right: 1rem;
+    bottom: 1rem;
+    width: 54px;
+    height: 54px;
+  }
+  .cravo-chat-topics {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Scrollbar discreto */
+.cravo-chat-body::-webkit-scrollbar { width: 8px; }
+.cravo-chat-body::-webkit-scrollbar-track { background: transparent; }
+.cravo-chat-body::-webkit-scrollbar-thumb {
+  background: var(--rule-strong);
+  border-radius: 4px;
+}

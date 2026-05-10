@@ -1,0 +1,39 @@
+# Segredos
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+venv/
+.Python
+.pytest_cache/
+
+# Node (caso futuro)
+node_modules/
+dist/
+.cache/
+
+# Editores / OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Backups locais (snapshots pre-deploy)
+backups/
+
+# Chatbot - artefatos gerados
+chatbot/backend/.venv/
+
+# Tasks/temp
+.claude/tasks/

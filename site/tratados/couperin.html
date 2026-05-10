@@ -1,0 +1,833 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Couperin — A Arte de tocar o Cravo (1717) · Tratados do Cravo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/style.css">
+  <meta name="cravo-chat-api" content="http://127.0.0.1:8000">
+  <link rel="stylesheet" href="../assets/chatbot.css">
+  <!-- cravo-chatbot:injected -->
+</head>
+<body>
+<header class="site-header">
+  <div class="nav-wrap">
+    <a href="../index.html" class="brand"><span class="brand-mark">C</span> Tratados do Cravo</a>
+    <nav class="nav-links">
+      <a href="../index.html">Início</a>
+      <a href="../apresentacao-prefacio.html">Prefácio</a>
+      <a href="sancta-maria.html">Sancta Maria</a>
+      <a href="frescobaldi.html">Frescobaldi</a>
+      <a href="couperin.html" class="active">Couperin</a>
+      <a href="rameau.html">Rameau</a>
+      <a href="../ler-pdf.html">PDF</a>
+      <a href="../partituras-viewer.html">Partituras</a>
+      <a href="../roteiro-estudo.html">Roteiro</a>
+      <a href="../comparador.html">Comparar</a>
+      <a href="../glossario.html">Dicionário</a>
+      <a href="../creditos.html">Créditos</a>
+    </nav>
+    <button class="theme-toggle" aria-label="Alternar tema">☾ Escuro</button>
+  </div>
+</header>
+
+<main>
+  <section class="treatise-header">
+    <div class="roman">III</div>
+    <h1>A Arte de tocar o Cravo</h1>
+    <p class="meta">François Couperin · Paris, 1717 · L'Art de toucher le Clavecin</p>
+  </section>
+
+  <section>
+    <p class="lead">
+      <strong>François Couperin</strong> (Paris, 1668 — 1733), <em>"o grande"</em>, é a mais
+      importante figura musical na França entre Lully e Rameau. Seu método, publicado entre o
+      Primeiro e o Segundo Livro de Peças, é "leitura obrigatória" para quem se dedica ao
+      <span class="term" data-term="cravo">cravo</span>.
+    </p>
+
+    <div class="aside">
+      <h4>📖 Esta edição</h4>
+      <p>A presente tradução baseia-se na edição definitiva de 1717 — em relação à primeira (1716),
+        inclui novo frontispício, seis páginas suplementares e modificações textuais. Couperin
+        mistura tratado pedagógico com reflexões íntimas sobre a vida do mestre de cravo.</p>
+    </div>
+
+    <div class="video-picker"
+         data-intro="O método ganha sentido ao se conhecer as peças que Couperin pretende ajudar a tocar. Christophe Rousset gravou a integral:"
+         data-videos='[
+           {"id":"85p7s6KNqSM","title":"Premier Livre · 1/3","performer":"Christophe Rousset","year":"1713","note":"Cravo francês de referência"},
+           {"id":"ripXzg8t1Ec","title":"Premier Livre · 3/3","performer":"Christophe Rousset","year":"1713","note":"Conclusão do 1º Livro"},
+           {"id":"dgMR9-aJQ3M","title":"Second Livre · 3/3","performer":"Christophe Rousset","year":"1717","note":"Inclui as peças citadas no método"},
+           {"id":"9SNF1--Jm0w","title":"Troisième Livre · 1/3","performer":"Christophe Rousset","year":"1722"},
+           {"id":"h5GJ-atOICQ","title":"Troisième Livre · 2/3","performer":"Christophe Rousset","year":"1722"},
+           {"id":"glHssCAaWG0","title":"Troisième Livre","performer":"Christophe Rousset","year":"1722","note":"Outro corte"},
+           {"id":"fGAezwnhEoA","title":"Quatrième Livre · 2/2","performer":"Christophe Rousset","year":"1730","note":"Última coleção"},
+           {"id":"tw2hs3ohrCM","title":"L'Amphibie (Mouvement de Passacaille, noblement)","performer":"Pierre Hantaï","note":"Outro grande cravista francês contemporâneo"}
+         ]'>
+      <h5>Audição recomendada — integral por Christophe Rousset</h5>
+    </div>
+
+    <div class="toc">
+      <h3>Conteúdo</h3>
+      <ol>
+        <li><a href="#prefacio"><span class="chap-num">§</span>Prefácio e plano do método</a></li>
+        <li><a href="#postura"><span class="chap-num">1</span>Posição do corpo e das mãos</a></li>
+        <li><a href="#reflexoes"><span class="chap-num">2</span>Reflexões pedagógicas</a></li>
+        <li><a href="#dedilhado-modo"><span class="chap-num">3</span>Maneira de escolher o dedilhado</a></li>
+        <li><a href="#expressao"><span class="chap-num">4</span>Aspiração e suspensão — dar alma ao cravo</a></li>
+        <li><a href="#ornamentos"><span class="chap-num">5</span>Ornamentos: mordentes, apogiaturas, trinados</a></li>
+        <li><a href="#exercicios"><span class="chap-num">6</span>Pequenos exercícios para formar as mãos</a></li>
+        <li><a href="#dedilhados-pecas"><span class="chap-num">7</span>Dedilhados nas peças do Primeiro Livro</a></li>
+        <li><a href="#preludios"><span class="chap-num">8</span>Os oito Prelúdios</a></li>
+        <li><a href="#sonatas"><span class="chap-num">9</span>O cravo, as Sonatas e o bom gosto francês</a></li>
+        <li><a href="#notas-criticas"><span class="chap-num">10</span>Notas Críticas (apêndice editorial)</a></li>
+        <li><a href="#tabela"><span class="chap-num">11</span>Tabela de ornamentos do Primeiro Livro</a></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Prefácio -->
+  <article class="chapter" id="prefacio">
+    <div class="chapter-num">Prefácio</div>
+    <h2>Plano deste método</h2>
+
+    <blockquote class="original">
+      "O Método que apresento aqui é único e não tem nenhuma relação com a
+      <span class="term" data-term="tabladura">Tablatura</span>, que é meramente uma ciência de
+      números. Aqui lido com todos os aspectos do bom toque ao Cravo. [...] Há ainda um caminho
+      infinito entre a Tablatura e a maneira de se tocar bem."
+      <cite>— Couperin, prefácio</cite>
+    </blockquote>
+
+    <p>Couperin avisa: este não é um manual técnico — é um livro sobre <em>como tocar bem</em>.
+      Anuncia <strong>cinco partes</strong>:</p>
+
+    <ol>
+      <li>A posição do corpo e das mãos.</li>
+      <li>Os ornamentos que servem à execução.</li>
+      <li>Pequenos exercícios preliminares e essenciais.</li>
+      <li>Observações sobre dedilhado, com referência ao Primeiro e Segundo Livros.</li>
+      <li>Oito Prelúdios diversificados, em ordem de dificuldade, com dedos numerados.</li>
+    </ol>
+  </article>
+
+  <!-- 1 Postura -->
+  <article class="chapter" id="postura">
+    <div class="chapter-num">Parte 1</div>
+    <h2>Posição do corpo e das mãos</h2>
+
+    <h3>Idade para começar</h3>
+    <blockquote>
+      "A idade apropriada para iniciar as crianças é de seis a sete anos: não que isso deva excluir
+      as pessoas mais velhas, mas, naturalmente, para dar forma às mãos no exercício do Cravo,
+      quanto mais cedo melhor."
+    </blockquote>
+
+    <h3>Postura ao instrumento</h3>
+    <ul>
+      <li>Antebraço, pulso e dedos <strong>nivelados</strong>; cadeira que permita isso.</li>
+      <li>Sob os pés das crianças, um suporte para que não fiquem suspensos.</li>
+      <li>Distância do teclado para um adulto: <strong>cerca de 22,5 cm</strong> a partir da cintura.</li>
+      <li>Centro do corpo coincidindo com o centro do teclado.</li>
+      <li>Virar o mínimo possível à direita; pés lado a lado, sobretudo o pé direito bem para fora.</li>
+      <li>Não fixar o olhar; "olhe as pessoas presentes à volta como se não estivesse ocupado com qualquer outra coisa".</li>
+      <li>Não marcar o compasso com a cabeça, corpo ou pés.</li>
+    </ul>
+
+    <div class="aside">
+      <h4>💡 Dica de Couperin para crianças</h4>
+      <p><em>"Para mim, na iniciação das crianças, levo por precaução a chave do instrumento no qual
+        as instruo, a fim de que, na minha ausência, elas não possam estragar em um só instante o
+        que cuidadosamente ensinei durante três quartos de hora."</em></p>
+    </div>
+
+    <h3>O instrumento certo</h3>
+    <blockquote>
+      "Deve-se usar inicialmente uma <span class="term" data-term="espineta">Espineta</span> ou
+      um só teclado do Cravo na primeira infância, e que tanto um quanto o outro tenham seus
+      <span class="term" data-term="plectro">plectros</span> regulados muito suavemente. [...] A
+      boa execução depende muito mais da flexibilidade e da grande liberdade dos dedos do que
+      da força."
+    </blockquote>
+
+    <p>O <strong>cravo acoplado</strong> (com os dois teclados unidos) exige mais força — perigoso
+      para a criança, que "forçará suas pequenas mãos para fazer falar as teclas", levando a "mãos
+      mal colocadas e dureza do toque".</p>
+
+    <a href="../temas/postura.html" class="xref">↗ Tema: Postura <span class="author">— os 4 autores</span></a>
+  </article>
+
+  <!-- 2 Reflexões -->
+  <article class="chapter" id="reflexoes">
+    <div class="chapter-num">Parte 1 (cont.)</div>
+    <h2>Reflexões pedagógicas</h2>
+
+    <div class="treatise-grid" style="margin-bottom:1.5rem;">
+      <div class="theme-card" style="border-left-color:var(--gold);">
+        <h3>Sobre os trinados</h3>
+        <p>"É necessário utilizar preferencialmente os menos capazes [dedos], sem ter consideração à antiga maneira de dedilhar, que deve ser abandonada em favor do modo de se tocar bem dos dias de hoje."</p>
+      </div>
+      <div class="theme-card" style="border-left-color:var(--burgundy);">
+        <h3>Sobre tablatura e memória</h3>
+        <p>"Não se deveria começar a ensinar Tablatura para as crianças até que tenham um certo número de Peças nas mãos. [...] A memória forma-se bem melhor quando se aprende de cor."</p>
+      </div>
+      <div class="theme-card" style="border-left-color:var(--sepia);">
+        <h3>Sobre flexibilidade</h3>
+        <p>"As mãos das mulheres são geralmente melhores. [...] A flexibilidade dos nervos contribui muito mais para se tocar bem do que a força."</p>
+      </div>
+    </div>
+  </article>
+
+  <!-- 3 Maneira de escolher o dedilhado -->
+  <article class="chapter" id="dedilhado-modo">
+    <div class="chapter-num">Parte 4</div>
+    <h2>Maneira de escolher o dedilhado</h2>
+
+    <p>Couperin estabelece a numeração que ele próprio classificou como diferente de seu costume:</p>
+
+    <div class="fingering-card">
+      <h4>Numeração dos dedos</h4>
+      <p style="text-align:center;">
+        <strong>Mão esquerda</strong>:
+        <span class="finger-dot f5">5</span>
+        <span class="finger-dot">4</span>
+        <span class="finger-dot">3</span>
+        <span class="finger-dot">2</span>
+        <span class="finger-dot thumb">1</span>
+        &nbsp;&nbsp;|&nbsp;&nbsp;
+        <strong>Mão direita</strong>:
+        <span class="finger-dot thumb">1</span>
+        <span class="finger-dot">2</span>
+        <span class="finger-dot">3</span>
+        <span class="finger-dot">4</span>
+        <span class="finger-dot f5">5</span>
+      </p>
+      <p style="font-size:0.88rem;color:var(--ink-mute);text-align:center;">
+        Polegar = 1, mínimo = 5. Convenção que perdura até hoje.
+      </p>
+    </div>
+
+    <blockquote>
+      "Conhecer-se-á pela prática o quanto a mudança de um dedo por outro sobre a mesma nota
+      será útil, e que efeito de <span class="term" data-term="legato">legato</span> isso causa
+      no tocar."
+    </blockquote>
+
+    <p>A <strong>substituição de dedos sobre a mesma nota</strong> é, para Couperin, uma das chaves
+      do legato moderno. Ele a usa sistematicamente para conectar trinados encadeados.</p>
+  </article>
+
+  <!-- 4 Expressão -->
+  <article class="chapter" id="expressao">
+    <div class="chapter-num">Reflexão central</div>
+    <h2>Aspiração e suspensão — dar alma ao cravo</h2>
+
+    <blockquote class="original">
+      "Sendo os sons do Cravo fixos, cada um individualmente, e por consequência sem poderem ser
+      aumentados nem diminuídos, pareceu quase insustentável até o momento que se pudesse dar
+      alma a esse instrumento."
+    </blockquote>
+
+    <p class="lead">A questão fundadora: <em>como ser expressivo num instrumento que não tem dinâmica?</em></p>
+
+    <p>A resposta de Couperin é original e modernista:</p>
+
+    <div class="treatise-grid">
+      <div class="theme-card" style="border-left-color:var(--gold);">
+        <h3>Aspiração <small style="font-style:italic;color:var(--ink-mute);">aspiration</small></h3>
+        <p>Separação de uma nota — uma micro-pausa expressiva. <strong>Mais intensa</strong> em passagens leves e rápidas, <strong>mais sutil</strong> em passagens doces e lentas.</p>
+      </div>
+      <div class="theme-card" style="border-left-color:var(--burgundy);">
+        <h3>Suspensão <small style="font-style:italic;color:var(--ink-mute);">suspension</small></h3>
+        <p>Silêncio antes de uma nota — quase exclusivamente em peças doces e lentas. <strong>"O silêncio que precede a nota deve ser orientado pelo gosto da pessoa que executa."</strong></p>
+      </div>
+    </div>
+
+    <blockquote>
+      "Esses dois ornamentos, por seu contraste, deixam o ouvido incerto, de sorte que nas
+      ocasiões em que os instrumentos de arco aumentam seus sons, a suspensão dos sons do Cravo
+      parece — por um efeito contrário — trazer ao ouvido a impressão desejada."
+    </blockquote>
+
+    <a href="../temas/articulacao.html" class="xref">↗ Tema: Articulação</a>
+  </article>
+
+  <!-- 5 Ornamentos -->
+  <article class="chapter" id="ornamentos">
+    <div class="chapter-num">Parte 2</div>
+    <h2>Ornamentos que servem à execução</h2>
+
+    <p class="lead">"É o valor das notas que deve, em geral, determinar a duração dos
+      <span class="term" data-term="mordente">mordentes duplos</span>,
+      das <span class="term" data-term="apogiatura">apogiaturas duplas</span>
+      e dos <span class="term" data-term="trinado">trinados</span>."</p>
+
+    <div class="treatise-grid">
+      <div class="theme-card" style="border-left-color:var(--gold);">
+        <h3>Mordente <small style="color:var(--ink-mute);">pincé</small></h3>
+        <p>"Todo mordente deve terminar na nota sobre a qual está colocada." Os <span class="term" data-term="batimentos">batimentos</span> e a nota final estão todos contidos no valor da nota principal. No cravo e no órgão, exerce a função do <span class="term" data-term="martelement">martèlement</span> dos instrumentos de arco.</p>
+      </div>
+
+      <div class="theme-card" style="border-left-color:var(--burgundy);">
+        <h3>Apogiatura <small style="color:var(--ink-mute);">port-de-voix</small></h3>
+        <p>Composta de <strong>duas notas de valor</strong> e <strong>uma pequena nota perdida</strong>. Couperin defende a <em>maneira moderna</em> (com mudança de dedo) sobre a antiga, por causar mais legato.</p>
+      </div>
+
+      <div class="theme-card" style="border-left-color:var(--sepia);">
+        <h3>Trinado <small style="color:var(--ink-mute);">tremblement</small></h3>
+        <p>Compõe-se de três objetos: <strong>(1) apoio</strong> sobre a nota acima da principal; <strong>(2) batimentos</strong>; <strong>(3) <span class="term" data-term="ponto-de-parada">ponto de parada</span></strong>. Deve <em>"começar mais lentamente do que terminam, mas essa gradação deve ser imperceptível"</em>.</p>
+      </div>
+    </div>
+
+    <div class="aside">
+      <h4>★ Regra do trinado</h4>
+      <p>"Não importa sobre que nota esteja marcado um trinado; deve-se sempre começá-lo sobre o
+        tom ou sobre o semitom <strong>acima</strong>." — Esta regra foi padrão até cerca de 1800.</p>
+    </div>
+
+    <h3>Tabela original dos ornamentos (1713)</h3>
+
+    <p>A tabela completa de ornamentos do Primeiro Livro de Peças, em fac-símile da edição original
+      de 1713. Clique para ampliar.</p>
+
+    <div class="figure-grid">
+      <figure class="score-figure"
+              data-src="../partituras/couperin/embedded/p107-img1.jpeg"
+              data-caption="Tabela de ornamentos parte 1: Pincé Simple, Pincé Double, Port de voix, Tremblement appuyé/ouvert/fermé/lié, Liaisons, Accent."
+              data-source="Couperin · Premier Livre 1713">
+        <img src="../partituras/couperin/embedded/p107-img1.jpeg" alt="Tabela de ornamentos de Couperin (parte 1)">
+        <figcaption>Tabela de ornamentos · parte 1<span class="zoom-hint">↗ clique para ampliar</span></figcaption>
+      </figure>
+
+      <figure class="score-figure"
+              data-src="../partituras/couperin/embedded/p108-img1.jpeg"
+              data-caption="Tabela de ornamentos parte 2: Arpègement, Pincé continu, Tremblement continu, Tierce coulée, Aspiration, Suspension."
+              data-source="Couperin · Premier Livre 1713">
+        <img src="../partituras/couperin/embedded/p108-img1.jpeg" alt="Tabela de ornamentos de Couperin (parte 2)">
+        <figcaption>Tabela de ornamentos · parte 2<span class="zoom-hint">↗ clique para ampliar</span></figcaption>
+      </figure>
+    </div>
+
+    <h3>Os trinados de cada dedo</h3>
+    <div class="fingering-card">
+      <h4>Trinados mais utilizados</h4>
+      <table class="fingering-table">
+        <thead><tr><th>Mão</th><th>Dedos</th></tr></thead>
+        <tbody>
+          <tr><td>Direita</td><td><span class="finger-dot">3</span> com <span class="finger-dot">2</span>, e <span class="finger-dot">4</span> com <span class="finger-dot">3</span></td></tr>
+          <tr><td>Esquerda</td><td><span class="finger-dot thumb">1</span> com <span class="finger-dot">2</span>, e <span class="finger-dot">2</span> com <span class="finger-dot">3</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <blockquote>
+      "Será muito útil poder estimular as pessoas jovens a fazer os trinados com todos os dedos."
+    </blockquote>
+
+    <a href="../temas/ornamentos.html" class="xref">↗ Tema: Ornamentos</a>
+    <a href="sancta-maria.html#cap19b" class="xref">↗ Sancta Maria <span class="author">— Redobros e Quebros</span></a>
+  </article>
+
+  <!-- 6 Exercícios -->
+  <article class="chapter" id="exercicios">
+    <div class="chapter-num">Parte 3</div>
+    <h2>Pequenos exercícios para formar as mãos</h2>
+
+    <p>Couperin recomenda que se exercitem progressões em todos os tons e semitons do teclado:</p>
+
+    <div class="pillar-list">
+      <div class="pillar"><div class="num">3</div><div><div class="title">Progressões de terças</div><div class="desc">Ascendentes e descendentes — fundamentais para escalas.</div></div></div>
+      <div class="pillar"><div class="num">4</div><div><div class="title">Progressões de quartas</div><div class="desc">Ascendentes e descendentes.</div></div></div>
+      <div class="pillar"><div class="num">5</div><div><div class="title">Progressões de quintas</div><div class="desc">Ascendentes e descendentes.</div></div></div>
+      <div class="pillar"><div class="num">6</div><div><div class="title">Progressões de sextas</div><div class="desc">Em todos os tons e semitons do teclado.</div></div></div>
+      <div class="pillar"><div class="num">7</div><div><div class="title">Progressões de sétimas</div><div class="desc">Inclui maneira mais cômoda para tons com sustenidos e bemóis.</div></div></div>
+      <div class="pillar"><div class="num">8</div><div><div class="title">Progressões de oitavas</div><div class="desc">Para ambas as mãos.</div></div></div>
+    </div>
+
+    <h3>Os exemplos musicais — fac-símile</h3>
+
+    <p>Couperin notou esses exercícios em todos os tons. Os exemplos abaixo são fac-símiles do
+      tratado original. Clique para ampliar.</p>
+
+    <figure class="score-inline" data-src="../partituras/couperin/embedded/p068-img1.jpeg">
+      <span class="score-label">Exemplo · Progressão de terças ascendentes (mão direita)</span>
+      <img src="../partituras/couperin/embedded/p068-img1.jpeg" alt="Progressão de terças ascendentes">
+      <figcaption>Compasso 3/8 · escalas em terças subindo</figcaption>
+    </figure>
+
+    <figure class="score-inline" data-src="../partituras/couperin/embedded/p068-img3.jpeg">
+      <span class="score-label">Exemplo · Progressão de quartas (mão direita)</span>
+      <img src="../partituras/couperin/embedded/p068-img3.jpeg" alt="Progressão de quartas">
+      <figcaption>Quartas ascendentes e descendentes — escala "rolando"</figcaption>
+    </figure>
+
+    <figure class="score-inline" data-src="../partituras/couperin/embedded/p069-img1.jpeg">
+      <span class="score-label">Exemplo · Quintas e sextas — fingering anotado</span>
+      <img src="../partituras/couperin/embedded/p069-img1.jpeg" alt="Quintas e sextas com dedilhado">
+      <figcaption>Compasso 2 · dedilhado original anotado: <strong>1-2-3-4-3-4-3-4</strong> e variações</figcaption>
+    </figure>
+
+    <figure class="score-inline" data-src="../partituras/couperin/embedded/p069-img2.jpeg">
+      <span class="score-label">Exemplo · Sextas em compasso ternário</span>
+      <img src="../partituras/couperin/embedded/p069-img2.jpeg" alt="Sextas">
+      <figcaption>3/4 com sextas reiteradas: <strong>4 sobre 2</strong> em sequência</figcaption>
+    </figure>
+
+    <figure class="score-inline" data-src="../partituras/couperin/embedded/p070-img1.jpeg">
+      <span class="score-label">Exemplo · Sétimas para a mão esquerda</span>
+      <img src="../partituras/couperin/embedded/p070-img1.jpeg" alt="Sétimas mão esquerda">
+      <figcaption>Padrão <strong>5-4-5-4...</strong> e <strong>3-2-3-2...</strong> em paralelo</figcaption>
+    </figure>
+
+    <figure class="score-inline" data-src="../partituras/couperin/embedded/p070-img3.jpeg">
+      <span class="score-label">Exemplo · Trinados encadeados (substituição de dedos)</span>
+      <img src="../partituras/couperin/embedded/p070-img3.jpeg" alt="Trinados encadeados">
+      <figcaption>Couperin: "Esses dois números sobre uma mesma nota assinalam a substituição de um dedo por outro" — <strong>4_3</strong>, <strong>3_4</strong>, <strong>4_2</strong></figcaption>
+    </figure>
+
+    <h3>Terças ligadas: maneira antiga vs. moderna</h3>
+
+    <div class="aside">
+      <h4>★ Antiga vs. moderna</h4>
+      <p><strong>Maneira antiga</strong> de várias terças consecutivas: "não produz nenhum legato".</p>
+      <p><strong>Maneira moderna</strong>: liga as terças por substituição de dedos sobre uma mesma nota.</p>
+      <p style="font-style:italic;color:var(--ink-mute);">"Estou persuadido de que poucas pessoas em Paris permanecem irredutíveis a respeito de velhos princípios, sendo Paris o centro do que é bom."</p>
+    </div>
+
+    <h3>A Alemanda — peça de transição para as primeiras peças idiomáticas</h3>
+
+    <p>Na Parte 3, Couperin introduz uma <strong>Alemanda</strong> "<em>légèrement</em>" que ele
+      compôs especialmente para o método — pensada como ponte entre os exercícios e as peças
+      reais dos Livros I e II.</p>
+
+    <figure class="score-figure"
+            data-src="../partituras/couperin/embedded/p074-img1.jpeg"
+            data-caption="Alemanda em mi menor, marcada Lègèrement. Couperin: 'O autor a compôs especialmente'."
+            data-source="Couperin · L'Art de toucher 1717">
+      <img src="../partituras/couperin/embedded/p074-img1.jpeg" alt="Alemanda de Couperin">
+      <figcaption>Alemanda · "O autor a compôs especialmente"<span class="zoom-hint">↗ clique para ampliar</span></figcaption>
+    </figure>
+
+    <h3>O experimento dos dois trinados simultâneos</h3>
+    <blockquote>
+      "Um dia, ao fazer uma jovem pessoa exercitá-las, experimentei deixá-la tocar os dois trinados
+      ao mesmo tempo com a mesma mão. A aptidão natural, as excelentes mãos e a grande maestria
+      adquirida, a fez chegar ao ponto de tocá-las muito regularmente."
+    </blockquote>
+
+    <a href="../temas/exercicios-baterias.html" class="xref">↗ Tema: Exercícios e baterias</a>
+  </article>
+
+  <!-- 7 Dedilhados das peças -->
+  <article class="chapter" id="dedilhados-pecas">
+    <div class="chapter-num">Parte 4</div>
+    <h2>Trechos do Primeiro Livro difíceis de dedilhar</h2>
+
+    <p>Couperin oferece dedilhados específicos para passagens "espinhosas" de suas próprias peças.
+      As peças mencionadas — todas disponíveis em gravações modernas:</p>
+
+    <div class="video-picker"
+         data-intro="As peças mencionadas — Primeiro Livro (1713). A integral está no recital de Rousset:"
+         data-videos='[
+           {"id":"85p7s6KNqSM","title":"Premier Livre · 1/3 (inclui La Milordine, Les Silvains)","performer":"Christophe Rousset","year":"1713","note":"Use os capítulos do vídeo para navegar até a peça"},
+           {"id":"ripXzg8t1Ec","title":"Premier Livre · 3/3 (Les Idées heureuses, La Villers, Les Ondes)","performer":"Christophe Rousset","year":"1713","note":"Última parte do 1º Livro"}
+         ]'>
+      <h5>Peças do Primeiro Livro</h5>
+    </div>
+
+    <div class="aside">
+      <h4>★ Princípio para escolha de dedilhado</h4>
+      <p>"Como a 2ª e a 4ª dessas quatro notas ligadas são as que fazem supor a verdadeira harmonia
+        em relação ao baixo, faz-se necessário que elas sejam tocadas com os mesmos dedos, como
+        se o canto fosse simples e sem notas de intervalo."</p>
+      <p>O dedilhado revela a estrutura harmônica subjacente. Notas que pertencem à harmonia recebem
+        os mesmos dedos das notas principais, marcando-as auditivamente.</p>
+    </div>
+
+    <h3>Trechos do Segundo Livro — exemplos com dedilhado</h3>
+
+    <p>Couperin oferece exemplos detalhados de dedilhado para passagens difíceis das peças do
+      Segundo Livro. Os exemplos abaixo são fac-símiles diretos do tratado:</p>
+
+    <div class="figure-grid">
+      <figure class="score-figure"
+              data-src="../partituras/couperin/embedded/p096-img5.jpeg"
+              data-caption="Dedilhado para Les Bergeries (1º episódio): observe a alternância 5-1-2-5-1-2 e os apoios sobre 4-5 nas notas mais agudas."
+              data-source="Couperin · L'Art de toucher 1717">
+        <img src="../partituras/couperin/embedded/p096-img5.jpeg" alt="Les Bergeries — dedilhado">
+        <figcaption>Les Bergeries · trecho com dedilhado completo</figcaption>
+      </figure>
+
+      <figure class="score-figure"
+              data-src="../partituras/couperin/embedded/p097-img1.jpeg"
+              data-caption="Trecho extenso do Segundo Livro com dedilhado anotado · alternâncias e substituições típicas do estilo francês."
+              data-source="Couperin · L'Art de toucher 1717">
+        <img src="../partituras/couperin/embedded/p097-img1.jpeg" alt="Trecho do Segundo Livro">
+        <figcaption>Trecho extenso · dedilhado em compasso 4/8</figcaption>
+      </figure>
+
+      <figure class="score-figure"
+              data-src="../partituras/couperin/embedded/p099-img2.jpeg"
+              data-caption="Mais um trecho do Segundo Livro com dedilhado detalhado pelo próprio Couperin."
+              data-source="Couperin · L'Art de toucher 1717">
+        <img src="../partituras/couperin/embedded/p099-img2.jpeg" alt="Trecho do Segundo Livro · página 99">
+        <figcaption>Outro trecho · página 99</figcaption>
+      </figure>
+    </div>
+
+    <div class="video-picker"
+         data-intro="As peças mais célebres do Segundo Livro (1717), incluindo a famosíssima Les Bergeries:"
+         data-videos='[
+           {"id":"kBPtydKY0L8","title":"Les Bergeries (Sixième Ordre)","performer":"Cravista anônimo","year":"1717","note":"A peça mais conhecida do 6º Ordre"},
+           {"id":"Fe1Z3QUUAmk","title":"Les Bergeries / Naïvement","performer":"Markus Märkl","year":"2013","note":"Cravo · interpretação alemã"},
+           {"id":"MjtI1CwngIE","title":"Les Bergeries","performer":"Luke Arnason","year":"2015","note":"Em cravo francês após Blanchet"},
+           {"id":"Tfu4evSTxRc","title":"Les Bergeries (live)","performer":"Yago Mahúgo","year":"2020","note":"Concerto ao vivo"},
+           {"id":"v55d_5_3JSk","title":"Les Bergeries / Naïvement","performer":"Yoann Moulin","year":"2017","note":"No virginal — sonoridade característica"},
+           {"id":"DT2D7Kp3k3c","title":"Les Barricades Mystérieuses","performer":"Cravista","note":"Outra obra-prima do 2º Livro · 6º Ordre"},
+           {"id":"dgMR9-aJQ3M","title":"Second Livre completo · 3/3","performer":"Christophe Rousset","year":"1717","note":"Integral · referência absoluta"}
+         ]'>
+      <h5>Peças do Segundo Livro</h5>
+    </div>
+  </article>
+
+  <!-- 8 Prelúdios -->
+  <article class="chapter" id="preludios">
+    <div class="chapter-num">Parte 5</div>
+    <h2>Os oito Prelúdios</h2>
+
+    <blockquote>
+      "<span class="term" data-term="preludio">Prelúdio</span> é uma composição livre em que a
+      imaginação se entrega a tudo que a ela se apresenta. Mas, como é muito raro encontrar gênios
+      capazes de criar de improviso, é preciso que aqueles que recorram a esses Prelúdios
+      escritos os toquem de uma maneira natural, sem se ater excessivamente à precisão do tempo;
+      a menos que eu o tenha indicado explicitamente pela palavra <span class="term" data-term="mesure">Mesuré</span>."
+    </blockquote>
+
+    <p>Couperin compôs <strong>oito Prelúdios</strong> nas tonalidades das peças de seus Livros I e II.
+      Os quatro primeiros são curtos (uma página); os outros quatro têm o dobro do tamanho.</p>
+
+    <blockquote>
+      "Pode-se arriscar afirmar que, dentre muitos assuntos, a Música, em comparação à Poesia,
+      tem sua prosa e seus versos."
+    </blockquote>
+
+    <h3>Observações entre os Prelúdios</h3>
+
+    <blockquote class="original">
+      "Ainda que esses Prelúdios tenham sido escritos metricamente, existe, entretanto, um estilo
+      de utilização que deve ser seguido. Eu me explico: <strong>Prelúdio é uma composição livre
+      em que a imaginação se entrega a tudo que a ela se apresenta</strong>. Mas, como é muito raro
+      encontrar gênios capazes de criar de improviso, é preciso que aqueles que recorram a esses
+      Prelúdios escritos os toquem <strong>de uma maneira natural, sem se ater excessivamente à
+      precisão do tempo</strong>; a menos que eu o tenha indicado explicitamente pela palavra
+      <span class="term" data-term="mesure">Mesuré</span>."
+      <cite>— Couperin, observações entre os Prelúdios</cite>
+    </blockquote>
+
+    <p>"Uma das razões pelas quais esses Prelúdios foram escritos metricamente é a facilidade que
+      se encontrará, seja ao ensiná-los ou a aprendê-los."</p>
+
+    <h3>Conclusão sobre como tocar o Cravo</h3>
+
+    <p>Couperin encerra a seção dos Prelúdios com uma síntese de toda a sua estética para o
+      instrumento:</p>
+
+    <blockquote class="original">
+      "Para concluir a respeito de como tocar o Cravo, de um modo geral, meu sentimento é de que
+      <strong>não se deve se afastar do caráter que convém a esse instrumento</strong>: as
+      passagens, as baterias que estejam nas mãos; as partes alaudadas e sincopadas, que devem ser
+      preferidas àquelas que são cheias de ligaduras ou de notas demasiadamente graves. É preciso
+      conservar um <span class="term" data-term="legato">legato</span> perfeito naquilo que se
+      executa; que todos os ornamentos sejam bem precisos e que aqueles que são compostos de
+      <span class="term" data-term="batimentos">batimentos</span> sejam feitos bem regularmente,
+      e através de uma <em>gradação imperceptível</em>. Deve-se tomar cuidado para não se alterar
+      o tempo nas Peças, quando determinado, e para não se permanecer sobre notas cuja duração
+      tenha terminado. Enfim, que se crie sua execução segundo o
+      <span class="term" data-term="gosto">bom gosto de hoje</span>, que é incomparavelmente mais
+      puro que o antigo."
+      <cite>— Couperin, conclusão geral sobre o cravo</cite>
+    </blockquote>
+
+    <div class="aside">
+      <h4>★ Síntese da estética couperiniana</h4>
+      <ul>
+        <li><strong>Prosa vs. versos</strong> — Prelúdios = prosa (livres); Peças = versos (medidas).</li>
+        <li><strong>Caráter próprio do cravo</strong> — passagens, baterias, partes alaudadas e sincopadas.</li>
+        <li><strong>Legato perfeito</strong>.</li>
+        <li><strong>Ornamentos precisos</strong>, com gradação imperceptível.</li>
+        <li><strong>Não alterar o tempo</strong> nas peças quando determinado.</li>
+        <li><strong>Não se permanecer</strong> sobre notas cuja duração já terminou.</li>
+        <li><strong>O bom gosto de hoje</strong> — incomparavelmente mais puro que o antigo.</li>
+      </ul>
+    </div>
+
+    <h3>Os 8 Prelúdios em fac-símile</h3>
+    <p>Com dedilhados marcados pelo próprio Couperin. Clique para ampliar.</p>
+
+    <div class="figure-grid">
+      <figure class="score-figure"
+              data-src="../partituras/couperin/embedded/p081-img1.jpeg"
+              data-caption="Primeiro Prelúdio em Dó (das peças do 1º Ordre). Curto, com dedilhado anotado pelo autor."
+              data-source="Couperin · L'Art de toucher 1717">
+        <img src="../partituras/couperin/embedded/p081-img1.jpeg" alt="Primeiro Prelúdio">
+        <figcaption>Primeiro Prelúdio</figcaption>
+      </figure>
+
+      <figure class="score-figure"
+              data-src="../partituras/couperin/embedded/p082-img1.jpeg"
+              data-caption="Segundo Prelúdio em ré menor (das peças do 3º Ordre)."
+              data-source="Couperin · L'Art de toucher 1717">
+        <img src="../partituras/couperin/embedded/p082-img1.jpeg" alt="Segundo Prelúdio">
+        <figcaption>Segundo Prelúdio</figcaption>
+      </figure>
+
+      <figure class="score-figure"
+              data-src="../partituras/couperin/embedded/p083-img1.jpeg"
+              data-caption="Terceiro Prelúdio em sol menor."
+              data-source="Couperin · L'Art de toucher 1717">
+        <img src="../partituras/couperin/embedded/p083-img1.jpeg" alt="Terceiro Prelúdio">
+        <figcaption>Terceiro Prelúdio</figcaption>
+      </figure>
+
+      <figure class="score-figure"
+              data-src="../partituras/couperin/embedded/p084-img1.jpeg"
+              data-caption="Quarto Prelúdio em fá maior — o último dos quatro 'curtos'."
+              data-source="Couperin · L'Art de toucher 1717">
+        <img src="../partituras/couperin/embedded/p084-img1.jpeg" alt="Quarto Prelúdio">
+        <figcaption>Quarto Prelúdio</figcaption>
+      </figure>
+
+      <figure class="score-figure"
+              data-src="../partituras/couperin/embedded/p086-img1.jpeg"
+              data-caption="Quinto Prelúdio em lá maior — primeiro dos 'longos' (dobro do tamanho)."
+              data-source="Couperin · L'Art de toucher 1717">
+        <img src="../partituras/couperin/embedded/p086-img1.jpeg" alt="Quinto Prelúdio">
+        <figcaption>Quinto Prelúdio</figcaption>
+      </figure>
+
+      <figure class="score-figure"
+              data-src="../partituras/couperin/embedded/p087-img1.jpeg"
+              data-caption="Sexto Prelúdio em si menor."
+              data-source="Couperin · L'Art de toucher 1717">
+        <img src="../partituras/couperin/embedded/p087-img1.jpeg" alt="Sexto Prelúdio">
+        <figcaption>Sexto Prelúdio</figcaption>
+      </figure>
+
+      <figure class="score-figure"
+              data-src="../partituras/couperin/embedded/p088-img1.jpeg"
+              data-caption="Sétimo Prelúdio em si bemol maior."
+              data-source="Couperin · L'Art de toucher 1717">
+        <img src="../partituras/couperin/embedded/p088-img1.jpeg" alt="Sétimo Prelúdio">
+        <figcaption>Sétimo Prelúdio</figcaption>
+      </figure>
+
+      <figure class="score-figure"
+              data-src="../partituras/couperin/embedded/p089-img1.jpeg"
+              data-caption="Oitavo Prelúdio em mi menor — o último."
+              data-source="Couperin · L'Art de toucher 1717">
+        <img src="../partituras/couperin/embedded/p089-img1.jpeg" alt="Oitavo Prelúdio">
+        <figcaption>Oitavo Prelúdio</figcaption>
+      </figure>
+    </div>
+
+    <div class="video-picker"
+         data-intro="Os 8 Prelúdios em diferentes gravações canônicas. Compare interpretações:"
+         data-videos='[
+           {"id":"uqtv371isgk","title":"8 Prelúdios completos","performer":"Gustav Leonhardt","year":"1964","note":"Gravação histórica · cravo W. Rück"},
+           {"id":"AJVQwywAbF4","title":"L`Art de toucher integral","performer":"Scott Ross","year":"1977","note":"Selo STIL · interpretação clássica"},
+           {"id":"wuWELQ_tHI4","title":"Premier Prélude","performer":"Cravista","note":"Análise nota a nota"},
+           {"id":"6nVc74xKW9o","title":"Prelúdios 1, 2, 3","performer":"Silvanio Reis","year":"2017","note":"Boston Early Music Festival"},
+           {"id":"AbZcTMQInq4","title":"Prelúdios 4, 5, 6","performer":"Silvanio Reis","year":"2017","note":"Boston Early Music Festival"},
+           {"id":"vba3O1hvszA","title":"Second Prélude","performer":"Cravista","note":"Cravo histórico"}
+         ]'>
+      <h5>Os 8 Prelúdios em gravação</h5>
+    </div>
+  </article>
+
+  <!-- 9 Sonatas e bom gosto -->
+  <article class="chapter" id="sonatas">
+    <div class="chapter-num">Reflexão final</div>
+    <h2>O cravo, as Sonatas e o bom gosto francês</h2>
+
+    <p>Couperin meditou longamente sobre a relação do cravo com o estilo italiano emergente:</p>
+
+    <blockquote>
+      "Esse instrumento tem suas particularidades, assim como o Violino tem as suas. [...] Se o
+      Cravo não pode fazer crescer seu som, [...] há, por sua vez, outras vantagens que são a
+      precisão, clareza, brilho e a extensão."
+    </blockquote>
+
+    <h3>Compasso e cadência</h3>
+
+    <div class="aside">
+      <h4>★ Distinção fundamental</h4>
+      <p><strong><span class="term" data-term="compasso">Compasso</span></strong> = "a quantidade e a igualdade dos tempos".</p>
+      <p><strong><span class="term" data-term="cadencia">Cadência</span></strong> = "precisamente, o espírito e a alma que a ele devem ser combinados".</p>
+      <p style="font-style:italic;color:var(--ink-mute);">"Confundimos compasso com o que se chama de cadência ou movimento."</p>
+    </div>
+
+    <p>É por essa "alma" — irredutível à notação — que os franceses indicam <em>Tendrement, Vivement</em>
+      no início das peças. Couperin lamenta:</p>
+
+    <blockquote>
+      "Existem defeitos em nossa maneira de escrever música que correspondem à maneira de escrever
+      nossa língua. O fato é que nós escrevemos de modo diferente daquele que executamos. Isso é
+      o que faz com que os estrangeiros toquem nossa música menos bem do que nós a sua."
+    </blockquote>
+
+    <p>A famosa indicação prática para as <strong>colcheias notadas iguais</strong>:</p>
+
+    <blockquote>
+      "Por exemplo, nós pontuamos várias colcheias consecutivas por graus conjuntos, entretanto,
+      nós as indicamos iguais. Submetemo-nos a esta prática e assim continuamos."
+    </blockquote>
+
+    <p>Esta é a base teórica das <strong>notes inégales</strong> francesas — as colcheias por graus
+      conjuntos são notadas iguais mas executadas pontuadas.</p>
+
+    <h3>Sobre o acompanhamento</h3>
+    <blockquote>
+      "Deve-se esperar dois ou três anos antes de se aprender o acompanhamento. [...] A vivacidade
+      com a qual se está inclinado a executar a música de abertura do Livro traz consigo um jeito
+      de tocar firme e frequentemente pesado."
+    </blockquote>
+
+    <a href="../temas/ritmo-tempo.html" class="xref">↗ Tema: Ritmo, tempo e expressão</a>
+    <a href="rameau.html" class="xref">↗ <span class="author">Rameau</span> sobre a igualdade dos movimentos</a>
+  </article>
+
+  <!-- Notas Críticas -->
+  <article class="chapter" id="notas-criticas">
+    <div class="chapter-num">Apêndice editorial</div>
+    <h2>Notas Críticas</h2>
+
+    <p class="lead">As notas críticas anotam pequenas correções e divergências entre os exemplos
+      apresentados no método e suas edições originais nos Livros de Peças. Indicam:
+      <strong>compasso</strong>, parte afetada (MD = mão direita, ME = mão esquerda, voz),
+      número da nota modificada e a correção.</p>
+
+    <div class="aside">
+      <h4>★ Como ler as notas críticas</h4>
+      <p>Exemplo: <code>8, MD, 2ª voz, 4: ré em substituição ao mi sustenido</code></p>
+      <p>= compasso 8, mão direita, contralto, nota 4: <strong>ré</strong> em substituição ao
+        <strong>mi sustenido</strong>.</p>
+      <p style="font-size:0.88rem;color:var(--ink-mute);">Os exemplos extraídos do Primeiro e
+        Segundo Livros de Peças foram, em caso de dúvida, comparados com suas edições originais
+        (<em>Premier livre de pièces de clavecin</em>. Paris: Chez l'Auteur, Boivin, 1713;
+        <em>Second livre de pièces de clavecin</em>. Paris: chez l'auteur, Foucault, 1717).</p>
+    </div>
+
+    <h3>Trechos do Primeiro Livro</h3>
+    <div class="fingering-card">
+      <table class="fingering-table">
+        <thead><tr><th>Página</th><th>Compasso · parte · nota</th><th>Correção</th></tr></thead>
+        <tbody>
+          <tr><td>p. 66, 1º exemplo</td><td>3, –, –, 8</td><td>semicolcheia em substituição à colcheia</td></tr>
+          <tr><td>p. 67, 6º exemplo</td><td>5, –, –, acorde</td><td>mínimas pontuadas em substituição às mínimas</td></tr>
+          <tr><td>p. 75, 2º exemplo</td><td>4, MD, 1ª voz, 1 e 4</td><td>semínima pontuada e colcheia (em substituição à semínima)</td></tr>
+          <tr><td>p. 76, 1º exemplo</td><td>2, MD, 2ª voz, 1</td><td>lá incluído a partir do Primeiro Livro de Peças</td></tr>
+          <tr><td>p. 76, 2º exemplo</td><td>4, ME, 1ª voz, 1</td><td>colcheia pontuada em substituição à semínima</td></tr>
+          <tr><td>p. 77, 2º exemplo</td><td>2 e 3, –, –, –</td><td>pausa de colcheia no 1º tempo (em substituição à pausa de semicolcheia)</td></tr>
+          <tr><td>p. 77, 2º exemplo</td><td>7, –, –, 9</td><td>semínima com trinado em substituição à semínima pontuada</td></tr>
+          <tr><td>p. 77, 2º exemplo</td><td>7, –, –, 10 e 11</td><td>semicolcheias em substituição a colcheias</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>Os 8 Prelúdios</h3>
+    <div class="fingering-card">
+      <table class="fingering-table">
+        <thead><tr><th>Prelúdio</th><th>Compasso · parte · nota</th><th>Correção</th></tr></thead>
+        <tbody>
+          <tr><td>Prelúdio 1 (p. 79)</td><td>16, ME, 1ª voz, –</td><td>pausa de semínima no 2º tempo (em substituição à pausa de colcheia)</td></tr>
+          <tr><td>Prelúdio 2 (p. 80)</td><td>5, MD, 2ª voz, 5 e 6</td><td>falta colchete de expressão</td></tr>
+          <tr><td>Prelúdio 3 (p. 81)</td><td>16, ME, 2ª voz, 4</td><td>dó bequadro em substituição ao si bemol</td></tr>
+          <tr><td>Prelúdio 5 (p. 84)</td><td>19, ME, 2ª voz, 2</td><td>si em substituição ao dó sustenido</td></tr>
+          <tr><td>Prelúdio 6 (p. 86)</td><td>fórmula de compasso</td><td><strong>3/8</strong> em substituição a <strong>3/8</strong> (correção de notação)</td></tr>
+          <tr><td>Prelúdio 8 (p. 92)</td><td>19 a 22, ME, –, 4</td><td>ponto de aumento criando efeito de pedal de dedo</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>Trechos do Segundo Livro</h3>
+    <div class="fingering-card">
+      <table class="fingering-table">
+        <thead><tr><th>Página</th><th>Compasso · parte · nota</th><th>Correção</th></tr></thead>
+        <tbody>
+          <tr><td>p. 95, 1º exemplo</td><td>20, –, 1ª voz, 4 e 5</td><td>duas semicolcheias em substituição a duas colcheias</td></tr>
+          <tr><td>p. 95, 1º exemplo</td><td>47, –, 2ª voz, 1</td><td>semicolcheia em substituição à colcheia</td></tr>
+          <tr><td>p. 95, 1º exemplo</td><td>40, –, 2ª voz, –</td><td>pausa de semínima incluída a partir do Segundo Livro</td></tr>
+          <tr><td>p. 95, 1º exemplo</td><td>44, –, 1ª voz, 2</td><td>sustenido sobre o mordente, incluído a partir do Segundo Livro</td></tr>
+          <tr><td>p. 96, 5º exemplo</td><td>fórmula omitida</td><td>em substituição a <strong>2/4</strong>, por se tratar de exemplo extraído do meio da peça</td></tr>
+          <tr><td>p. 97, 1º exemplo</td><td>9, –, 1ª e 2ª voz, 1</td><td>dedo 2 deduzido (embora pouco nítido)</td></tr>
+          <tr><td>p. 97, 1º exemplo</td><td>17, –, 2ª voz, 2 e 3</td><td>ligadura incluída a partir do Segundo Livro</td></tr>
+          <tr><td>p. 97, 1º exemplo</td><td>20, –, 2ª voz, 3</td><td>semínima em substituição à colcheia</td></tr>
+          <tr><td>p. 98, 5º exemplo</td><td>1, –, 1ª voz, 3</td><td>semicolcheia em substituição à colcheia</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p style="font-size:0.9rem;color:var(--ink-mute);font-style:italic;text-align:center;margin-top:2rem;">
+      Total: <strong>23 correções editoriais</strong> aplicadas pela equipe de tradução UFRJ ao longo dos exemplos e Prelúdios do método, em comparação com os Livros de Peças originais.
+    </p>
+  </article>
+
+  <!-- Tabela de ornamentos -->
+  <article class="chapter" id="tabela">
+    <div class="chapter-num">Apêndice</div>
+    <h2>Tabela de ornamentos do Primeiro Livro (1713)</h2>
+
+    <p>O Primeiro Livro de Peças (1713) trouxe uma tabela explicativa dos ornamentos e sinais usados
+      por Couperin. Esta tabela deve ser consultada em paralelo com qualquer execução das peças,
+      pois muitos sinais são particulares à grafia do compositor.</p>
+
+    <div class="resource-box">
+      <div class="icon">⊕</div>
+      <div class="body">
+        <h5>Tabela completa de ornamentos</h5>
+        <p>Veja a página dedicada que cataloga todos os ornamentos com exemplos visuais e cruzamentos
+          com Sancta Maria, Frescobaldi e Rameau.</p>
+        <div class="links">
+          <a href="../temas/ornamentos.html">Tema: Tabela de ornamentos</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-picker"
+         data-intro="Couperin em performance — observe os ornamentos sendo executados em obras das próprias peças:"
+         data-videos='[
+           {"id":"M33mfhQUJnM","title":"Les Barricades Mystérieuses","performer":"Jean Rondeau","note":"Concertgebouw Sessions · ornamentos típicos do estilo francês"},
+           {"id":"DT2D7Kp3k3c","title":"Les Barricades Mystérieuses","performer":"Cravista","note":"Outra interpretação para comparação"},
+           {"id":"oeMCEwMl1G4","title":"Música solo de cravo · integral","performer":"François Couperin","note":"Compilação completa"},
+           {"id":"4JH7f5sgHEI","title":"Les Silvains","performer":"Andreas Zappe","note":"Cravo após Mietke por Cornelis Bom · ornamentos visíveis"},
+           {"id":"vK5dyNR5A9Y","title":"Les Silvains","performer":"Elaine Thornburgh","note":"Cravo de Steve Renaker"}
+         ]'>
+      <h5>Ornamentos em performance — vídeos</h5>
+    </div>
+  </article>
+
+  <section style="margin-top:4rem;text-align:center;padding:2rem;border-top:1px solid var(--rule);">
+    <p style="color:var(--ink-mute);">© 2013 by Fagerlande, Tavares, Albuquerque, Barroso e Pereira</p>
+    <p>
+      <a href="frescobaldi.html" style="margin:0 1rem;">← Frescobaldi (1637)</a>
+      <a href="rameau.html" style="margin:0 1rem;">Próximo: Rameau (1724) →</a>
+    </p>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div>Tradução de Marcelo Fagerlande, Ana Cecilia Tavares, Clara Albuquerque, Maria Aida Barroso e Mayra Pereira</div>
+  <div class="credits">UFRJ · Programa de Pós-Graduação em Música · 2013</div>
+</footer>
+
+<script src="../assets/glossario.js"></script>
+<script src="../assets/lightbox.js"></script>
+<script src="../assets/video-picker.js"></script>
+<script src="../assets/main.js"></script>
+  <script src="../assets/chatbot.js" defer></script>
+</body>
+</html>

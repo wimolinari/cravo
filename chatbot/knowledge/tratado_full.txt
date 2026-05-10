@@ -1,0 +1,4005 @@
+
+
+=== SECTION: Apresentação ===
+
+
+[Page 9]
+7 
+APRESENTAÇÃO 
+ 
+O Programa de Pós-graduação em Música da Universidade Federal do Rio de Janeiro tem a 
+satisfação de lançar uma linha editorial dedicada aos projetos desenvolvidos pelos seus 
+pesquisadores – docentes, discentes e colaboradores externos – no intuito de contribuir para 
+o amplo acesso ao conhecimento gerado na universidade para ampla gama de leitores. Os 
+volumes são publicados em formato impresso e digital, com distribuição nacional e 
+internacional. A versão impressa é gentilmente distribuída para bibliotecas, universidades e 
+demais instituições de natureza educacional, científica e cultural, do Brasil e do exterior. A 
+versão digital está disponível gratuitamente no site institucional e nas bases eletrônicas. 
+Assim como todas as publicações do Programa, esta série está indexada nas bases RILM 
+Abstracts of Music Literature, Bibliografia Musical Brasileira da Academia Brasileira de 
+Música e The Music Index/ EBSCO – este último licenciado para disseminar integralmente o 
+seu conteúdo. 
+ 
+O Comitê Editorial é composto pelos membros da Comissão Deliberativa do Programa. Cada 
+publicação compõe sua Comissão Científica de acordo com a participação na realização dos 
+respectivos projetos, contando ainda com a colaboração de colegas do Brasil e do exterior. O 
+Comitê Editorial e a Comissão Científica estão engajados nesse projeto institucional com 
+raízes na tradição acadêmica que tem como prioridade garantir o nível de excelência. 
+ 
+Agradecemos a dedicação de toda a equipe que tornou possível esta empreitada e esperamos 
+que esta linha editorial propicie ao leitor um significativo encontro com a pesquisa musical. 
+ 
+ 
+Maria Alice Volpe, Editora 
+Marcos Nogueira, Coordenador do Programa de Pós-graduação em Música da UFRJ
+
+
+[Page 10]
+
+
+
+
+=== SECTION: Prefácio (sobre os 4 tratados) ===
+
+
+[Page 11]
+9 
+PREFÁCIO 
+ 
+Em 2003 criamos a habilitação Cravo no Programa de Pós-graduação da Escola de Música da 
+Universidade Federal do Rio de Janeiro, no âmbito do Curso de Mestrado em Música. No 
+ano seguinte idealizamos a I Semana do Cravo, evento que desde então vem acontecendo 
+anualmente, sem interrupção. Em 2013 comemoramos os dez anos do encontro, cujo intuito 
+principal é reunir discentes e docentes de instituições de ensino de todo o país que oferecem 
+o ensino do instrumento, seja na esfera federal, estadual ou municipal. Os alunos 
+participantes estão em diversos estágios de estudo, desde o curso profissionalizante, 
+passando pelo bacharelado, pelo mestrado até chegar ao nível de doutorado. 
+ 
+Uma das características da Semana tem sido a de promover o debate acadêmico sobre 
+diversos aspectos em torno do cravo, através das mais recentes pesquisas envolvendo o 
+instrumento. O foco principal está na investigação e resgate de sua História, principalmente 
+no Brasil, e ainda nos aspectos da didática e interpretação no instrumento. Concomitante à 
+realização desses debates, promovidos através de mesas-redondas com a participação dos 
+professores convidados, a Semana do Cravo também tem oferecido recitais com alunos das 
+instituições participantes, como a Universidade Estadual de Campinas, a Universidade 
+Federal de Pernambuco, a Escola de Música de Brasília, a Escola Municipal de Música de São 
+Paulo, o Conservatório de Tatuí (SP) e a Escola de Música da Universidade Federal do Rio de 
+Janeiro, anfitriã do evento.  
+ 
+Um dos seminários oferecidos à primeira turma do Mestrado em Cravo na UFRJ, em 2004, 
+chamava-se “Tratados de teclados escolhidos” e na ocasião foram estudadas as obras de 
+Thomas de Sancta Maria, Girolamo Frescobaldi, François Couperin, Jean-Philippe Rameau e 
+Carl Philipp Emanuel Bach. As traduções dos textos desses autores1 deu-se de forma natural, 
+consequência da dedicação de uma turma interessada em desvendar algumas das mais 
+importantes recomendações sobre técnica e interpretação de teclado dos séculos XVI, XVII e 
+XVIII. Faziam parte desse grupo os nomes que hoje, ao nosso lado, compõem a equipe 
+responsável pela versão final aqui publicada: Ana Cecilia Tavares, Clara Albuquerque, Maria 
+Aida Barroso e Mayra Pereira2.  
+ 
+Consideramos que não poderia haver melhor maneira de comemorarmos os dez anos de 
+realização da Semana do Cravo do que com a publicação dessas traduções. As obras 
+estudadas constituem algumas das mais importantes referências para nosso instrumento e o 
+fato de as disponibilizarmos em língua portuguesa poderá ajudar aos muitos alunos e 
+estudiosos do cravo que tem crescido nos últimos anos no Brasil, tanto pelo surgimento de 
+novos cursos como pela consolidação dos já existentes. Mas, é provável que os interessados 
+constituam ainda um grupo mais amplo, na medida em que essas preciosas recomendações 
+técnicas e interpretativas poderão também ser úteis no estudo de outros instrumentos de 
+teclado, como o órgão, o clavicórdio, o pianoforte e mesmo o piano moderno. 
+ 
+A produção de tratados de música aconteceu primordialmente no período barroco, como já 
+identificou Bukofzer3, o que pode ser observado pela quantidade de obras dedicadas ao 
+aprendizado de instrumentos, do contraponto, do baixo contínuo, e ainda aquelas que 
+abordam a música do ponto de vista das especulações teóricas. Tais tratados, de um modo 
+ 
+1 Com exceção da obra de C. Ph. E. Bach, Ensaio sobre a maneira correta de tocar teclado, cuja tradução foi realizada 
+por Fernando Cazarini e publicada em 2009 pela Editora Unicamp. 
+2 João Rival, então bacharelando na instituição, também participou da primeira versão da tradução da obra de 
+Rameau, em 2004. 
+3 BUKOFZER, Manfred. Music in the Baroque Era. New York: W.W. Norton & Company, 1947.
+
+
+[Page 12]
+10 
+geral, podem ser agrupados a partir das três disciplinas da música – musica theorica, musica 
+poetica e musica practica – que retomam uma antiga classificação aristotélica à qual os autores 
+ainda se prendiam. O primeiro caso engloba os tratados que estudam a natureza do som e da 
+música, os estudos estéticos sobre a situação e a função da música no centro do conjunto do 
+conhecimento humano e das especulações metafísicas sobre a harmonia do universo. A 
+segunda categoria diz respeito aos tratados que contêm regras práticas de contraponto, baixo 
+contínuo e da composição, de modo mais ou menos sistemático. O terceiro grupo 
+compreende os tratados destinados ao ensino e à execução. Nesse último podemos situar as 
+obras aqui traduzidas. 
+ 
+Assim como pode ser difícil de classificar se uma determinada obra é um “tratado teórico” 
+ou “prático”4, o mesmo pode ser dito em relação ao próprio termo “tratado”. Por sua estrita 
+acepção, a palavra significa uma “obra desenvolvida, que expõe ordenadamente os 
+princípios de uma ciência ou arte”5. Já “método” designa um “tratado elementar”6. Em nossa 
+seleção encontramos tanto obras mais extensas quanto outras que, a despeito de seu valor, 
+são mais resumidas e que expõem apenas a essência do assunto proposto. Dessa forma, 
+ainda que se possam chamá-los todos pelo termo abrangente, optamos por denominar nosso 
+conjunto de “tratados” e “métodos”.  
+ 
+A grande quantidade de tratados do período barroco não significa necessariamente uma 
+homogeneidade de qualidade: é comum que muitos apenas repetissem aquilo que outros 
+anteriormente já haviam escrito. O conjunto aqui reunido, entretanto, é especial na medida 
+em que a obra de Sancta Maria é a mais antiga e detalhada descrição de técnica de teclado7, 
+enquanto as demais, ainda que de tamanhos tão diversos, contêm reflexões dos mais 
+notáveis compositores para teclado de suas épocas e lugares: Frescobaldi na Itália do século 
+XVII; François Couperin e Rameau na França do século XVIII. 
+ 
+O foco de interesse dos tratados, de um modo geral, vai mudando ao longo do tempo. 
+Enquanto no início do século XVII a ênfase de obras voltadas a instrumentos ou ao canto 
+estava em como ornamentar ou realizar diminuições, a partir da metade desse século 
+começam a surgir tratados ou métodos dedicados não mais a vários instrumentos 
+indistintamente, mas a um especificamente8. Foram criados tratados para praticamente todos 
+os instrumentos e também para a voz, desde curtas instruções até longas e complicadas 
+obras9. O tratado de Sancta Maria, por exemplo, publicado em fins do século XVI, ilustra o 
+enfoque na técnica de diminuições e de improvisação anteriormente mencionado e não na 
+interpretação de música composta 10 . Já as obras de Couperin e Rameau, dedicadas 
+especificamente ao cravo, preocupam-se claramente com questões de execução ao 
+instrumento.  
+ 
+Geralmente havia diferentes razões para explicar o surgimento de um tratado, e para cada 
+caso podia ser identificado mais de um motivo para a elaboração e consequente impressão. 
+ 
+4 PALISCA, Claude. Theory. In: SADIE, Stanley (Ed.). The New Grove Dictionary of Music and Musicians. London: 
+Macmillan Publishers Limited, 1980. vol 18,  p. 741-762. 
+5
+WEISZFLOG, 
+Walter. 
+Michaelis 
+Moderno 
+Dicionário 
+da 
+Língua 
+Portuguesa. 
+Disponível 
+em: 
+<http://michaelis.uol.com.br>. Acesso em: 10 ago. 2013. 
+6 BUARQUE DE HOLANDA FERREIRA, Aurélio. Novo Dicionário Aurélio da língua portuguesa. 2ª Edição revista e 
+ampliada. Rio de Janeiro: Editora Nova Fronteira, 1986. 
+7 HOWELL, Almonte e ROIG-FRANCOLI, Miguel. Sancta Maria. In: ROOT, Deane (Ed.). Grove Music Online. 
+Disponível em: <http://www.grovemusic.com>. Acesso em: 21 maio 2009. 
+8 BUKOFZER, op. cit. 
+9 Idem. 
+10 LOHMANN, Ludger. Studien zu Artikulationsproblemen bei den Tasteninstrumenten des 16. – 18. Jahrhunderts. 
+Regensburg: Gustav Bosse Verlag, 1982.
+
+
+[Page 13]
+11 
+Certas publicações tinham por hábito oferecer uma introdução que fornecesse subsídios à 
+boa execução das peças que se seguiam, como é o caso do prefácio Ao Leitor de Frescobaldi, 
+da Mecânica dos Dedos de Rameau, e como também acontecia com a inclusão de tabelas de 
+ornamentos, que frequentemente constavam do início de publicações de partituras11. O 
+método de Couperin, muito mais longo que os citados acima, também pode se encaixar nesse 
+caso, pois o autor menciona que um dos motivos que o levaram a publicá-lo foi justamente 
+proporcionar ajuda para que seus dois primeiros livros de peças pudessem ser bem 
+executados.  
+ 
+A obra de Sancta Maria é a mais extensa dos tratados selecionados. É composta de duas 
+partes, sendo a primeira dedicada aos rudimentos de música e técnica de teclado e a segunda 
+a procedimentos harmônicos, contrapontísticos e estruturais. O objetivo principal do autor, 
+citado no Prólogo da obra, é o de somente ensinar progressivamente aos “novos professores” 
+a arte de tocar fantasias, ou seja, improvisar (tañer fantasia). Optamos por traduzir apenas os 
+trechos que tratam especificamente de técnica de teclado e que incluem ornamentos – do 
+capítulo XIII ao XIX. 
+ 
+A intenção de Frescobaldi, ao publicar seu prefacio Ao Leitor nas várias edições dos dois 
+livros de tocatas, de 1615 a 1637, era clara: guiar o intérprete no novo estilo de música para 
+teclado que estava sendo criado, o estilo livre das fantasias, tocatas e prelúdios - o stylus 
+fantasticus. De acordo com o teórico do século XVII Athanasius Kircher, a música para 
+teclado da época podia ser dividida em três estilos: o “estilo antigo”, com contraponto estrito 
+originário da música vocal de Palestrina, e que resultou no ricercare de teclado; o estilo de 
+dança, cuja versão instrumental veio da enorme influência de Froberger12 e dos cravistas 
+franceses; e finalmente o terceiro, que ao contrário dos anteriores, era específico dos 
+instrumentos de teclado e de nenhum outro. Esse novo modo de tocar surgiu da maneira 
+como dez dedos podiam se comportar num teclado, com número variado de vozes, 
+originário claramente da livre improvisação. 
+ 
+Essas recomendações de Frescobaldi, ainda que curtas, são consideradas as mais importantes 
+fontes da prática de teclado do século XVII13. Constituem uma valiosa ajuda ao executante de 
+hoje, levando-se em conta o tipo de notação esquemática de sua música e de seus 
+contemporâneos, sem qualquer indicação de interpretação, e que, do contrário, poderiam ser 
+incompreensíveis no contexto atual, distante de sua tradição.   
+ 
+Na emblemática obra A Arte de tocar o Cravo, de Couperin, identificamos também outros dois 
+aspectos que nos fazem entender sua publicação. A elaboração de um tratado pode ser 
+muitas vezes compreendida pela necessidade do autor em transmitir os conhecimentos 
+acumulados ao longo de sua vida, e esse é precisamente o caso do compositor, já que passou 
+muito do seu tempo ensinando cravo. Essa imersão diária na rotina do ensinar, aliás, é 
+mencionada por diversos autores como um dos motivos que tornam seu método tão valioso, 
+sobretudo por se tratar de um dos maiores compositores que escreveu para cravo. Couperin 
+ainda, no prefácio da obra, menciona uma justificativa comum a muitos outros tratados, ao 
+ 
+11 LESCAT, Philippe. Méthodes & Traités Musicaux en France 1660 – 1800. Paris : Institut de pédagogie musicale et 
+chorégraphique, La Villete, 1991. 
+12 Johann Jacob Froberger (1616-1667), compositor alemão, organista e tecladista. Foi a figura proeminente da 
+música alemã de teclado em meados do século XVII. Como aluno de Frescobaldi, compositor da corte em Viena e 
+um frequente viajante e executante nos Países Baixos, Inglaterra, França e Alemanha, ele cunhou um idioma 
+pessoal a partir de características estilísticas da música de teclado italiana, francesa e alemã. Deixou um legado de 
+obras para teclado que influenciou a música alemã pelo século XVIII adentro (BUELOW, George J. Froberger, 
+Johann Jacob. In: SADIE, Stanley (Ed.). The New Grove Dictionary of Music and Musicians. London: Macmillan 
+Publishers Limited, 1980. vol. 6, p. 858-862). 
+13 GILBERT, Kenneth. Prefácio à edição de Toccate de G. Frescobaldi (1637). Pádua:  G. Zanibon, 1978.
+
+
+[Page 14]
+12 
+insistir no “caráter único” do método, que não apenas descreve a notação musical, mas o 
+“belo toque do cravo”. 
+ 
+Rameau, ao contrário de seu conterrâneo e antecessor, não enfoca necessariamente aspectos 
+artísticos em seu método Da Mecânica dos Dedos no Cravo, mas se dedica de um modo 
+abrangente a descrições do trabalho técnico ao instrumento. Seu conteúdo é considerado 
+possivelmente o mais preciso sobre técnica francesa de teclado jamais escrito, apresentado de 
+modo analítico e racional, ao contrário da obra de Couperin. Uma observação feita pelo autor 
+no prefácio de sua obra mais conhecida, o Tratado de Harmonia, ilustra seu pensamento, em 
+sintonia com os primeiros anos do Iluminismo, como lembra Moroney14: “não é suficiente 
+sentir os efeitos de uma ciência ou arte; é necessário compreendê-los de um modo que os 
+torne inteligíveis”15. 
+ 
+Uma comparação entre os métodos de Couperin e Rameau demonstra como a técnica de 
+instrumentos de teclado na França avançou desde o início do século XVIII, a partir da 
+execução de grandes virtuoses, como era o caso de ambos. Essa rápida mudança está 
+intimamente ligada a um desejo de virtuosidade, e pode ser verificada através de 
+determinadas utilizações de dedilhados, como a passagem do polegar em escalas ou em 
+baterias16.  
+ 
+ 
+uuu 
+ 
+Livro chamado a Arte de tocar Fantasia 
+ 
+Thomas de Sancta Maria (Madrid, ? - Ribadavia, 1570) teórico e compositor espanhol, 
+tornou-se frade na Ordem dominicana de Santa Maria de Atocha, em Madrid, em 1536.  
+Atuou como organista em diversos mosteiros da Castilla, principalmente em Valladolid, 
+onde provavelmente encontrou Antonio e Juan de Cabezón, organistas reais, com quem 
+conversou e discutiu enquanto preparava seu Livro chamado a Arte de tocar fantasia. Segundo o 
+próprio frontispício do tratado, a obra teria sido examinada e aprovada pelos dois eminentes 
+músicos.  
+ 
+Sancta Maria aparentemente começou a escrever sua obra em 1541, e a teve licenciada em 
+1557, mas, devido a uma falta de papel, só conseguiu publicá-la em 1565, em Valladolid. Na 
+primeira parte o autor apresenta as noções iniciais da música até o capítulo XII. Os capítulos 
+XIII a XIX, que lidam com técnica de teclado, tratam da posição das mãos, do toque, da 
+articulação, de dedilhado, de dois tipos de ornamento e do uso de notas pontuadas. Nos 
+capítulos XX a XXIII, Sancta Maria discute a execução de obras compostas e a aplicação de 
+diminuições.  Essa parte é encerrada com o estudo dos oito modos eclesiásticos, dos tons dos 
+salmos e dos tipos de cadências.  
+ 
+A segunda parte é constituída de uma abordagem sistemática de harmonia – com o estudo 
+de dissonâncias, de consonâncias, incluindo acordes associados a notas de valores diversos 
+ou progressões melódicas. O autor segue tratando da construção de peças imitativas a quatro 
+vozes, concluindo com recomendações a iniciantes de como afinar o clavicórdio e a vihuela. 
+Podem ser encontrados exemplos musicais ao longo da obra, desde curtas passagens até 
+ 
+14 MORONEY, Davitt. Couperin, Marpurg and Roeser: A Germanic Art de Toucher le Clavecin, or a French 
+Wahre Art? In: HOGWOOD, Christopher (Ed.) The Keyboard in Baroque Europe. Cambridge: Cambridge University 
+Press, 2003. p. 111–130. 
+15 RAMEAU, J. Ph. Traité de l’Harmonie. Paris: J. B. C. Ballard, 1722, p. iii. 
+16 LESCAT, op. cit.
+
+
+[Page 15]
+13 
+peças completas, de 40 a 75 compassos, algumas em estilo polifônico imitativo que lembra os 
+tentos de Cabezón.    
+ 
+Entre as qualidades do tratado frequentemente mencionadas estão a originalidade e a 
+organização sistemática, embora a repetição de ideias e a formulação do óbvio estejam 
+presentes, o que é compreendido como fruto da educação escolástica do autor. A influência 
+posterior pode ser constatada através de citações por autores como Artufel, Cerone e 
+Lorente17, que não deram o devido crédito a Sancta Maria. O Livro chamado a Arte de fantasiar 
+é considerado como dirigido principalmente ao clavicórdio18, mencionado especificamente 
+pelo autor que, entretanto, não exclui em seu texto a possibilidade de outros instrumentos de 
+teclado. Assim, suas recomendações de técnica são aplicáveis e úteis ao estudo do repertório 
+deste período também no cravo ou no órgão.  
+ 
+ 
+Ao Leitor 
+ 
+Girolamo Frescobaldi (Ferrara, 1583 – Roma, 1643) 19 , compositor, cravista e organista 
+italiano, é considerado junto de Sweelinck20 o mais influente compositor de teclado da 
+primeira metade do século XVII. Contemporâneos mencionavam sua descoberta de um novo 
+estilo de tocar, especialmente no cravo, e sua fama ultrapassou as fronteiras da Itália. Suas 
+obras aparentemente eram conhecidas também na França e em Flandres. Na Alemanha teria 
+sido o autor de teclado mais influente e mais copiado durante a segunda metade do século 
+XVII, como ilustram os seguintes fatos: em 1637 Froberger se transfere para Roma a fim de 
+ser seu aluno; suas obras contrapontísticas foram copiadas por ninguém menos que o jovem 
+J. S. Bach e depois por seus seguidores, como C. P. E. Bach, Kirnberger e Forkel21. 
+ 
+Ainda que tenha escrito também uma significativa produção vocal, Frescobaldi foi 
+extremamente famoso em sua época como virtuose do teclado, reunindo tanto qualidades de 
+intérprete quanto de compositor. Os novos elementos que os contemporâneos identificavam 
+em seu estilo estavam provavelmente associados à sua própria maneira de tocar cravo, 
+principalmente as tocatas. Seu prefácio, com tantas informações sobre o novo modo de tocar, 
+ 
+17 Dámas Artufel (?–?), liturgista espanhol de nascimento francês, atuou de 1609 a 1614. Sucedeu a Sancta Maria 
+em San Pablo de Valladolid (HOWELL, Almonte.  Artufel, Dámas. In: SADIE, Stanley (Ed.). The New Grove 
+Dictionary of Music and Musicians. London: Macmillan Publishers Limited, 1980. vol. 1, p. 646); Pietro Cerone 
+(1566–1625), teórico italiano, cantor e padre. Viveu alguns anos na Espanha, onde realizou estudos detalhados da 
+teoria e música locais, que posteriormente aplicou em sua obra El melopeo y maestro, de 1613 (HUDSON, Barton. 
+Cerone, Pietro. In: SADIE, Stanley (Ed.). The New Grove Dictionary of Music and Musicians. London: Macmillan 
+Publishers Limited, 1980. vol. 4, p. 79); Andrés Lorente (?–1703),  teórico espanhol cujo tratado El porqué de la 
+música foi a única obra substancial publicada na Espanha no século XVII (HOWELL, Almonte.  Lorente, Andrés. 
+In: SADIE, Stanley (Ed.). The New Grove Dictionary of Music and Musicians. London: Macmillan Publishers Limited, 
+1980. vol. 11, p. 231). 
+18 HOWELL e ROIG-FRANCOLI, op. cit. 
+19  HAMMOND, Frederick e SILBIGER, Alexander. Frescobaldi, G. Grove Music Online. Disponível em: 
+<http://www.oxfordmusiconline.com>. Acesso em: 20 set. 2013. 
+20 Jan Pieterszoon Sweelinck (1562–1621), compositor, organista e professor dos Países Baixos. Um dos mais 
+influentes e valorizados professores de seu tempo, organista famoso e um dos principais compositores, tanto de 
+música vocal quanto para teclado (WARD, Tom R. Sweelinck, Jan Pieterszoon. In: SADIE, Stanley (Ed.). The New 
+Grove Dictionary of Music and Musicians. London: Macmillan Publishers Limited, 1980. vol. 18, p. 406-407). 
+21 Johann Philipp Kirnberger (1721–1783), teórico e compositor alemão dos mais significativos, membro de um 
+grupo berlinense do qual também faziam parte Quantz, C. P. E. Bach e Marpurg (SERWER, Howard. Kirnberger, 
+Johann Philipp. In: SADIE, Stanley (Ed.). The New Grove Dictionary of Music and Musicians. London: Macmillan 
+Publishers Limited, 1980. vol. 10, p. 80–82); Johann Nikolaus Forkel (1749–1818), historiador da música, teórico e 
+bibliógrafo alemão. Biógrafo e autor de um projeto inconclusivo da primeira edição completa das obras de J. S. 
+Bach (DUCKLES, Vincent. Forkel,  Johann Nikolaus. In: SADIE, Stanley (Ed.). The New Grove Dictionary of Music 
+and Musicians. London: Macmillan Publishers Limited, 1980. vol. 6, p. 706–708 [II]).
+
+
+[Page 16]
+14 
+mostra como estava consciente da necessidade de explicar a interpretação do estilo recém 
+criado22.  
+ 
+A vasta produção para teclado de Frescobaldi, publicada em vários volumes, de 1608 a 1645, 
+contêm canzonas, ricercares, danças e variações, além das tocatas. Seu prefácio, Ao Leitor, foi 
+publicado diversas vezes em várias versões nos dois livros de tocatas: Toccate d’Intavolatura di 
+cimbalo et organo, partite di diverse arie e corrente, balletti, ciaccone, passaghagli; e Il secondo libro di 
+toccate, canzone, versi d’hinni magnificat, gagliarde, correnti et altre partite d’Intavolatura di cimbalo 
+et organo 23. Tendo sofrido modificações ao longo do tempo, apresentaremos aqui a sua 
+última versão, publicada no Livro II de tocatas, em 1637. 
+ 
+ 
+A Arte de tocar o Cravo 
+ 
+François Couperin (Paris, 1668 – Paris, 1733), compositor, cravista e organista, foi o mais 
+importante membro da família Couperin – uma das grandes dinastias da música, atuante em 
+Paris e arredores desde fins do século XVI até meados do século XIX. Os Couperin foram 
+particularmente vinculados à Igreja de St. Gervais, onde ocuparam o posto de organista por 
+173 anos. François, também chamado o grande, foi o autor de algumas das melhores músicas 
+da escola francesa clássica, e pode ser citado como a mais importante figura musical na 
+França entre Lully e Rameau24.  
+ 
+A impressão de suas obras para cravo se estende de 1707 a 1730. Em 1717, publica a versão 
+definitiva de A Arte de tocar o Cravo – fonte utilizada para nossa tradução –, obra considerada 
+obrigatória para aqueles que se dedicam ao instrumento. A nova edição, se comparada à 
+primeira, de 1716, inclui um novo frontispício, seis páginas suplementares e algumas 
+modificações no texto. Couperin, como lembra Baumont25, tanto emprega o verbo tocar para 
+a execução ao cravo como também está atento à sua relação com o público, ao se preocupar 
+em “tocar as pessoas de bom gosto”26. 
+ 
+Uma característica do texto que logo chama a atenção do leitor ao consultar A Arte de tocar o 
+Cravo no original e que naturalmente dificulta a tradução para qualquer outra língua é o 
+estilo de Couperin, que não tem pretensões literárias e que apresenta problemas gramaticais 
+no emprego da língua francesa. O ilustre compositor não estava sozinho, pois o mesmo 
+acontecia na época com pintores, arquitetos, médicos, advogados e cientistas. O próprio 
+autor fez uma autocrítica sobre sua escrita, no terceiro livro de peças de cravo: “Peço licença 
+aos Senhores Puristas e Gramáticos sobre o estilo de meus prefácios: neles falo apenas de 
+minha Arte...”27.  
+ 
+Fica claro que Couperin não pretendia abordar um assunto tão vasto metodicamente, do 
+início ao fim, mas sim oferecer uma série de reflexões sobre aspectos do ensino e de execução 
+ 
+22 NEWCOMB, Anthony. Frescobaldi, G. In: SADIE, Stanley (Ed.). The New Grove Dictionary of Music and 
+Musicians.  London: Macmillan Publishers Limited, 1980. vol. 6, p. 824-835. 
+23 Tocatas de tablatura de cravo e órgão, partitas de diversas árias e correntes, ballets, chaconas, passacalhas; O 
+segundo livro de tocatas, canzonas, versos de hinos Magnificat, galhardas, correntes e outras partitas de tablatura 
+de cravo e órgão.  
+24 HIGGINBOTTOM, Edward. Couperin, F. In: SADIE, Stanley (Ed.). The New Grove Dictionary of Music and 
+Musicians. London: Macmillan Publishers Limited, 1980. vol. 4,  p. 860-871. 
+25  BAUMONT, Olivier. En relisant l’Art de toucher le Clavecin. Disponível em: <http://www.clavecin-en-
+france.org>. Acesso em: 07 jul. 2013. 
+26 Página 15 da edição de 1717. 
+27 BAUMONT, op. cit.
+
+
+[Page 17]
+15 
+das peças de seus dois primeiros livros28. O método é dividido em cinco partes. A primeira, 
+em que o autor aborda a posição do corpo e das mãos, constitui-se em uma verdadeira aula 
+de cravo, pois menciona vários aspectos relacionados a essa atividade: a idade de se iniciar; a 
+correta posição no instrumento e como este deve ser regulado; como os iniciantes devem 
+estudar; o tempo de duração de uma aula; a importância de tocar de cor; a sugestão de que 
+inicialmente as crianças tenham nas mãos algumas peças antes de aprender a notação 
+musical; a recomendação de se aprender peças de caracteres diferentes e, finalmente, que se 
+deve retardar o início do aprendizado do acompanhamento.   
+ 
+A segunda parte apresenta os ornamentos úteis para a execução, e aqui, ao mesmo tempo 
+que as indicações de Couperin revelam sua fidelidade ao sistema antigo de cruzar o terceiro 
+dedo sobre o segundo ou quarto em escalas, também indicam seu entusiasmo por certas 
+novidades, como a mudança de dedo na apogiatura preparada e o uso do legato para as 
+terças dobradas.  
+ 
+Pequenos exercícios para a mão direita e para a esquerda foram incluídos na terceira parte. 
+Esses são considerados verdadeiras composições autônomas, mais próximas de trechos das 
+peças para cravo do que de áridos exercícios29. Há ainda uma primeira peça, uma Alemanda, 
+que o autor recomenda que se aprenda antes de passar às peças num estilo mais idiomático 
+do cravo. Baumont 30  reconhece nesta terceira parte um aspecto bem característico do 
+compositor, uma constante ambiguidade entre a admiração por seus predecessores e a 
+vontade de impor seu próprio estilo, um tipo de convivência impossível entre a tradição e a 
+novidade, entre o Grande Século31 e o Século das Luzes32. 
+ 
+Na quarta parte do método encontram-se observações sobre como escolher um bom 
+dedilhado para trechos difíceis, com exemplos de passagens de suas peças. Finalmente, 
+Couperin apresenta oito prelúdios diversificados, quatro mais curtos – em uma página - e 
+outros quatro com o dobro do tamanho33. Entre eles pode-se identificar o estilo alaudado tão 
+caro ao compositor e inspirações de dança - como Alemanda e Corrente. O autor compôs 
+exatamente a metade dos prelúdios em estilo mais livre e os outros com a indicação Mesuré, 
+ou seja, com menor liberdade de mudanças de andamentos e de alterações rítmicas. 
+ 
+A Arte de tocar o Cravo, companhia constante dos cravistas hoje em dia, obteve sucesso já em 
+sua época, tendo sido traduzida e publicada por Friedrich Wilhelm Marpurg na Alemanha, 
+em 1751. É uma obra que transmite de modo inequívoco o amor de Couperin pelo cravo e 
+suas firmes convicções a respeito das qualidades do instrumento: precisão, limpidez, nitidez, 
+brilho e extensão. Demonstra ainda seu desejo de torná-lo tão expressivo quanto qualquer 
+outro instrumento musical.  
+ 
+ 
+Da Mecânica dos Dedos no Cravo 
+ 
+Jean-Philippe Rameau (Dijon, 1683 – Paris, 1764), compositor, teórico, organista e cravista 
+francês, foi a principal figura da música francesa em seu tempo, especialmente do gênero 
+dramático, e um importante inovador da teoria da harmonia. 
+ 
+ 
+28 HIGGINBOTTOM, op. cit. 
+29 BAUMONT, op. cit. 
+30 Idem. 
+31 Grand Siècle, século XVII, um dos períodos mais ricos da História da França. 
+32 Siècle des Lumières, ou Iluminismo. 
+33 Disposição de páginas na edição original.
+
+
+[Page 18]
+16 
+Ainda que atualmente seja mais conhecido como teórico e como compositor de obras 
+dramáticas, sua produção cravística é considerável, constituída de três coleções de peças solo 
+- publicadas em 1706, 1724 e ca.1729-30 - e um volume com música de cravo acompanhada 
+(Pièces de clavecin en concert, de 1741). Além disso, compôs algumas peças independentes e 
+transcrições orquestrais de obras próprias. Com exceção do último volume, todos foram 
+criados antes de sua primeira ópera, e já refletem de modo inconfundível suas qualidades de 
+compositor.  
+ 
+Em sua segunda publicação de peças para cravo já se vê no título da primeira impressão, 
+realizada em Paris em 1724, o destaque para a mecânica dos dedos: Pièces de clavessin avec une 
+méthode pour la méchanique des doigts ou l’on enseigne les moyens de se procurer une parfaite 
+execution sur cet intrument 34 . De fato, o primeiro assunto que aparece logo após esse 
+frontispício é o texto sobre a mecânica dos dedos, seguido do índice do volume, da 
+aprovação e do privilégio do rei, de uma tabela de ornamentos e de um Minueto em Rondó, 
+para logo após virem as partituras das peças para cravo.  
+ 
+Na segunda edição revista das mesmas peças de cravo, de 1731, o título e o enfoque já 
+mudam: Pièces de clavecin avec une table pour les agrémens35. Nesse volume, na sequência do 
+frontispício encontram-se um índice das obras de Rameau - em que aparecem não só os 
+livros de peças de cravo, mas suas muitas obras dramáticas e textos teóricos, compostos e 
+publicados até a data – e a mesma tabela de ornamentos e o minueto mencionados 
+anteriormente, antes das peças de cravo. Não foram incluídos nessa edição, portanto, nem o 
+índice com os títulos das peças, nem a aprovação, nem o privilégio do rei, e muito menos a 
+Mecânica dos dedos no Cravo, e não fica claro o porquê desta omissão36. 
+ 
+Encontramos em Da Mecânica dos Dedos no Cravo menção a diversas partes do corpo humano 
+relacionadas ao tocar, como dedos, mãos, braços, cotovelos. O objetivo primordial do autor é 
+a busca de uma técnica precisa e segura, buscando sempre o máximo de relaxamento. 
+Rameau não apenas descreve a altura do cotovelo que considera correta para a execução, 
+mas sugere que esta vá mudando, à medida que o iniciante vá obtendo progresso. Ele chama 
+a atenção para a necessidade da independência dos dedos, e para que esses fiquem na borda 
+das teclas, o que levará à boa posição das mãos. 
+ 
+Com relação ao toque, Rameau  associa o cuidado com o peso das mãos e seus reflexos nos 
+dedos aos meios para se obter uma bela sonoridade. O autor oferece sugestões de como o 
+iniciante deve estudar para o sucesso com trinados. Assim como Couperin, Rameau cultiva o 
+legato como articulação predominante e um instrumento bem leve para iniciantes. Observa 
+ainda que as recomendações de seu texto servem tanto ao cravo quanto ao órgão.   
+ 
+O caráter inovador de Rameau como compositor também se fez presente nas indicações da 
+técnica do cravo, uma vez que, em desacordo com seus contemporâneos, só prescreve os 
+dedilhados modernos. Do mesmo modo, defende a utilização da passagem do polegar, como 
+o fez Bach na Alemanha. Um de seus pensamentos mais essenciais, como aponta Spieth37, é o 
+que afirma que um grande movimento só deve ter lugar se um menor não sofra.  
+ 
+ 
+34 Peças de cravo com um Método sobre a mecânica dos dedos, no qual se ensina os meios de se fornecer uma 
+perfeita execução sobre este instrumento. 
+35 Peças de cravo com uma tabela para os ornamentos. 
+36 GILBERT, Kenneth. Prefácio à edição de Pièces de clavecin de J.-Ph. Rameau (1724). Paris: Heugel, 1978.  
+37 SPIETH, Noëlle. Le toucher du clavecin à la lecture de François Couperin, Saint-Lambert et Rameau. Disponível em: 
+<http://www.clavecin-en-france.org>. Acesso em: 14 jul. 2013.
+
+
+[Page 19]
+17 
+Gilbert conclui que Rameau oferece em poucas páginas a mais clara e detalhada descrição de 
+técnica de teclado do século XVIII que, quando lida em conjunto com A Arte de tocar o Cravo 
+de Couperin, compõe os fundamentos da prática do período inteiro38. 
+ 
+ 
+uuu 
+ 
+Naturalmente reconhecemos a importância e a utilidade de fontes como os tratados para o 
+estudo da música dos séculos anteriores, o que se justifica pelo simples fato de que no 
+âmbito da cultura ocidental não há uma continuidade da tradição musical. Um dos meios a 
+que se recorre e que pode ser de grande valia são justamente essas obras. Identificamos, no 
+entanto, alguns cuidados que devem ser tomados. Muitos autores do período reconhecem as 
+limitações das obras escritas, evocando as vantagens de um contato direto entre mestre e 
+discípulo. Um outro problema reside no fato de que frequentemente a compreensão do 
+conteúdo dos tratados pode ser prejudicada, uma vez que muitos termos perderam seus 
+significados originais. A outra questão a ser considerada é que algumas obviedades da 
+época, compreensivelmente, não eram explicadas nem sequer mencionadas nos tratados. 
+Mas, como lembra Staier39, por não nos serem mais familiares, são elas que nos levam a 
+importantes reflexões, muitas vezes, entretanto, inconclusivas.   
+ 
+Assim, sugerimos ao intérprete, ao recriar o repertório dos séculos anteriores, que, 
+paralelamente ao estudo dos tratados, não menospreze a própria intuição na construção de 
+sua versão, principalmente quando já possui uma bagagem considerável. Este equilíbrio 
+poderá levar ao resultado desejado por Harnoncourt 40 , que sempre buscou não uma 
+execução correta arqueologicamente, mas viva e digna. 
+ 
+ 
+Marcelo Fagerlande, Coordenador da Semana do Cravo da UFRJ 
+ 
+ 
+ 
+uuu 
+ 
+Outras edições: 
+ 
+COUPERIN, François. L'Art de toucher Le Clavecin. Die Kunst das Clavecin zu spielen. The Art of playing 
+the Harpsichord. Tradução para o alemão de Anna Linde e para o inglês de Mevanwy Roberts. 
+Wiesbaden: Breitkopf & Härtel, edição de Anna Linde, 1933. 
+ 
+COUPERIN, François. L'Art de toucher Le Clavecin. Paris, 1717. Ed. fac-simile. Courlay: Éditions J. M. 
+Fuzeau S.A., edição de Jean Saint-Arroman, 1996. 
+ 
+DARBELLAY, Etienne. Liberté, variété et ‘affeti cantabili’ chez Frescobaldi. Revue de Musicologie, Paris, 
+vol. LXI, nº 2, p. 197-243, 1975. 
+ 
+FRESCOBALDI, G. Avvertimenti. Tradução para o português de Maria Helena Bezzi. Apostila do curso 
+Interpretação da música para teclado do séc. XVII ao início do séc. XIX. Conservatório Brasileiro de 
+Música, 1977. 
+ 
+ 
+38 GILBERT, op. cit. 
+39 STAIER, Andreas. Freiheit, die ich meine. Interview mit Andreas Staier. Concerto, Das Magazin für Alte Musik. 
+Colônia: Concerto Verlag, vol. 71, 1992. 
+40 HARNONCOURT, Nikolaus. O discurso dos sons. Rio de Janeiro: Editora Zahar, 1987.
+
+
+[Page 20]
+18 
+FRESCOBALDI, Girolamo. Al Lettore in Toccate d’intavolatura di Cembalo et Organo... Roma, 1637. 
+Padova: G. Zanibon, edição de Kenneth Gilbert, 1978. 
+ 
+RAMEAU, Jean-Philippe. De la mechanique des doigts sur le clavessin in Piéces de clavecin. Paris: Heugel & 
+Cie, edição de Kenneth Gilbert, 1978. 
+ 
+RAMEAU, Jean-Philippe. De la mechanique des doigts sur le clavessin in Piéces de clavecin. Paris, 
+1724. Ed. fac-simile. In : LESCAT, Philippe e SAINT-ARROMAN, Jean (Ed.). Méthodes & Traités. 
+Courlay: Éditions Fuzeau, 2003. 
+ 
+SANCTA MARIA, Thomas de.  Libro Llamado Arte de Tañer Fantasia. Valladolid, 1565. Ed. fac-simile. 
+Westmead: Gregg International Publishers Limited, edição de Denis Stevens, 1972. 
+ 
+SANCTA MARIA, Fray Thomas de. Wie mit aller Vollkommenheit und Meisterschaft das Klavichord zu 
+spielen sei. Tradução de Eta Harich-Schneider e Ricard Boadella. Lippstadt: Kistner & Siegel & CO., 
+1962. 
+ 
+SANCTA MARIA, Fray Thomas de. The Art of Playing the Fantasia. Translation, transcription, 
+commentary by Almonte C. Howell Jr. and Warren E. Hultberg. Pittburgh: Latin American Literary 
+Review Press, Series: explorations, 1991. 
+ 
+ 
+uuu 
+ 
+Utilizamos, para nossa tradução das obras de Sancta Maria, Frescobaldi, Couperin e Rameau, 
+as edições de 1565, 1637, 1717 e 1724, respectivamente, como explicitado ao longo do 
+prefácio. Essas obras foram consultadas em publicações fac-similadas, incluídas na 
+bibliografia acima. Procuramos manter o estilo original de cada autor, ainda que muitas 
+vezes a redação pudesse se distanciar da forma como a ideia seria expressa no português 
+atual. A nossa opção diverge de algumas traduções dessas obras para outras línguas, em que 
+percebemos a escolha por um texto mais explicativo de seu conteúdo. Ao decidir por este 
+outro caminho, acreditamos estar oferendo aos leitores atuais a possibilidade de uma maior 
+aproximação com a obra e com o pensamento de seus autores. Em alguns casos foi necessária 
+uma mudança na pontuação, visando uma melhor adequação às normas gramaticais de 
+nossa língua. A inclusão de palavras no texto original foi, como de hábito, anotada através 
+de colchetes. Uma vez que optamos por traduzir a maioria dos termos musicais, 
+frequentemente incluímos notas com os mesmos nas línguas originais. Em outros casos, as 
+notas são explicativas. Os exemplos musicais foram editados nas claves mais utilizadas 
+atualmente e as correções foram  indicadas por colchetes. Há no final da obra de Couperin 
+notas críticas dos exemplos, da Alemanda e dos Prelúdios. Incluímos ainda, em anexo, as 
+tabelas de ornamentos de Couperin e Rameau, apresentadas ao final de suas respectivas 
+obras. 
+ 
+ 
+uuu 
+ 
+Agradecimentos à FAPERJ – Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado 
+do Rio de Janeiro – pelo financiamento desta publicação e a Ailen Meireles, Antoine 
+Espagno, Ariadne Paixão, Augusto Carvalho Souza, Cleci Righi Daniel, Giulia Tettamanti, 
+Ilton Wjuniski, Kristian Nyquist, Luis Tavares Ladeira, Paloma Lima, Patrícia Thomé 
+Junqueira Schettino e Rita de Cássia Almeida.
+
+
+
+=== SECTION: Sancta Maria — Arte de tocar Fantasia (1565) ===
+
+
+[Page 21]
+I 
+ 
+ 
+THOMAS DE SANCTA MARIA 
+ 
+LIVRO CHAMADO ARTE DE TOCAR FANTASIA 
+ 
+1565
+
+
+[Page 22]
+
+
+
+[Page 23]
+21 
+DAS CONDIÇÕES QUE SE REQUEREM PARA TOCAR1 COM TODA PERFEIÇÃO E PRIMOR* 
+ 
+CAPÍTULO XIII 
+ 
+Para que toda música tenha aquela graça e vida que a ela se deve, é necessário que se toque 
+com todo primor que para isso se requer, o qual a eleva em muitos quilates e lhe dá nova 
+vida e graça, e faltando isso, tudo o que se toca, por melhor que seja, não terá graça nem 
+brilho, e é clara a diferença que há em uma mesma obra tocada por um músico perfeito e 
+cuidadoso, ou tocada por outro imperfeito e grosseiro, porque tocada pelo perfeito parece 
+muito elevada e de excelência e tocada pelo imperfeito parece baixa e grosseira, como se 
+fossem obras distintas. 
+ 
+As condições que assim adornam a música reduzem-se a oito. A primeira é tocar no 
+Compasso2. A segunda, pôr bem as mãos. A terceira, atacar3 bem as teclas. A quarta é tocar 
+com limpeza e distinção. A quinta, correr bem as mãos de uma parte a outra, isto é, subindo 
+até a parte superior e descendo até a parte inferior. A sexta é atacar com dedos convenientes. 
+A sétima, tocar com elegância4. A oitava, fazer bons Redobros e Quebros5. 
+ 
+Quanto a tocar no Compasso, que é a primeira condição, não temos mais que avisar ao leitor 
+de que guarde tudo o que dissemos acima sobre Compasso e Meio Compasso6. 
+ 
+ 
+DO MODO DE PÔR BEM AS MÃOS 
+ 
+CAPÍTULO XIV 
+ 
+Antes que entremos nesta matéria, é necessário saber a conta dos dedos, que começa do dedo 
+polegar e acaba no dedo mínimo, contando sucessivamente de um até cinco. De maneira que 
+ao dedo polegar chamamos primeiro, ao que está junto a ele, segundo, ao do meio, terceiro, 
+ao outro que imediatamente se segue, quarto e ao último, quinto. 
+ 
+ 
+1 Tañer no original. 
+* No original, os termos musicais são grafados, na sua grande maioria, com letras maiúsculas. Optamos por 
+preservar essa característica, padronizando-a para todo o texto. 
+2 Tañer a Compas no original, significando manter a métrica e a pulsação.  
+3 Herir no original. 
+4 Buén ayre no original. O autor propõe neste capítulo a inclusão de alguns tipos de desigualdades rítmicas, 
+visando uma maior graça na música. 
+5 Redobles y quiebros no original. Na Espanha, desde o séc. XVI, os termos redoble e quiebro podiam ser 
+compreendidos tanto como ornamentos específicos, quanto diminuições de um modo geral. Sancta Maria foi o 
+primeiro a sistematizar o uso de ornamentos e diminuições. Seus ornamentos estavam restritos a quiebro e redoble, 
+sendo que cada um deles continha um certo número de formas (quiebro antiguo ou nuevo reyterado, senzillo ou de 
+minimas, redoble antiguo ou nuevo). O assunto será desenvolvido no Capítulo XIXb. 
+6 “O Compasso divide-se e é partido em duas partes iguais, ou seja, em dois Meios Compassos, que são suas 
+partes integrais de que se compõe, cuja divisão e partição faz o golpe que ataca no alto, do mesmo modo que para 
+dividir e partir uma quantidade contínua em duas partes iguais divide-se e parte-se com um ponto no meio. 
+Assim, na música, para dividir e partir o compasso em dois meios compassos divide-se e parte-se com o golpe 
+que ataca no alto, de maneira que o Compasso sempre ataca em baixo e o Meio Compasso no alto. E assim, Meio 
+Compasso é a quantidade, ou medida, ou tardança de tempo que há do golpe baixo ao alto ou do alto ao baixo, e 
+note-se que não se gasta mais tempo do golpe baixo ao alto, que é Meio Compasso, que do alto ao baixo, que é 
+outro Meio Compasso, do qual se faz demonstração assinalando dois pontos com um Compasso e uma parede de 
+alto a baixo, nos quais se verá claramente não haver mais quantidade nem distância do ponto baixo ao alto que do 
+alto ao baixo” (SANCTA MARIA, Thomas. Libro llamado Arte de Tañer Fantasia. Valladolid, 1565. Ed. fac-simile. 
+Westmead: Gregg International Publishers Limited, edição de Denis Stevens, 1972. Libro II, Capítulo V, fl. 8).
+
+
+[Page 24]
+22 
+A segunda condição, que é pôr bem as mãos, consiste em três coisas. A primeira é que as 
+mãos se ponham em garra, como mãos de gato, de tal maneira que entre a mão e os dedos, 
+de forma nenhuma, haja alguma corcova, mas, ao contrário, o nascimento dos dedos deve 
+estar muito afundado, de tal maneira que [os dedos] estejam mais altos que a mão, 
+arqueados, e assim ficam mais estirados para atacar com maior ímpeto, porque assim como o 
+arco, quanto mais estirado está, tanto ataca com mais firmeza. Assim também os dedos, 
+quanto mais estirados estão, tanto atacam as teclas com mais firmeza e assim soam as notas 
+mais vigorosas, mais inteiras e com maior espírito. Essa perfeição é tão grande e de tanto 
+valor para a música que, além da formosura e graça que tal postura causa às mãos, dá vida e 
+brilho a tudo o que se toca, fazendo-se diferente e distinto do que se toca sem essa postura de 
+mãos. A segunda coisa é trazer as mãos muito encolhidas, o que se faz aproximando os 
+quatro dedos de ambas as mãos, que são segundo, terceiro, quarto e quinto, uns aos outros, 
+especialmente juntando o dedo segundo ao terceiro, o que se pode fazer melhor com a mão 
+direita do que com a esquerda e isso leva a tocar com suavidade e doçura. Desse modo, o 
+dedo polegar deve andar muito caído e muito mais baixo que os outros quatro, mas há de 
+andar dobrado para dentro, de sorte que meio dedo, da articulação em diante, ande debaixo 
+da palma e o dedo mínimo, que é o quinto, ande encolhido mais que todos os outros, de tal 
+maneira que quase chegue à palma. Também é impossível pôr bem as mãos sem trazer 
+encolhidos desta maneira os dois dedos citados de ambas as mãos, que são polegar e 
+mínimo, porque deles depende o encolhimento das mãos e, trazidos os dedos separados uns 
+dos outros, especialmente o polegar e mínimo, não se pode tocar bem, porque as mãos se 
+entorpecem e ficam sem força e virtude, como se estivessem amarradas. 
+ 
+A terceira coisa é que se ponham as mãos de tal maneira que os três dedos de cada mão, que 
+são segundo, terceiro e quarto, andem sempre sobre as teclas, tanto quando for necessário 
+tocá-las como quando não e, além disso, o dedo segundo, especialmente o da mão direita, 
+deve andar um pouco mais levantado que os outros três, que são terceiro, quarto e quinto. 
+ 
+Para a boa postura das mãos e ainda para tocar bem, é necessário que os braços, na parte 
+interna dos cotovelos, andem próximos ao corpo mas sem nenhuma força, ainda que para 
+subir sequências longas de Colcheias e Semicolcheias com a mão esquerda deva-se separar o 
+cotovelo esquerdo do corpo, assim como para descer sequências longas de Colcheias e 
+Semicolcheias com a mão direita deva-se também separar o cotovelo direito do corpo. 
+ 
+ 
+DO MODO DE ATACAR AS TECLAS 
+ 
+CAPÍTULO XV 
+ 
+A terceira condição, que é golpear bem as teclas, consiste em seis coisas. A primeira é atacar 
+as teclas com a polpa dos dedos, de tal forma que as unhas não se aproximem nem toquem 
+as teclas, o que se faz baixando os pulsos e estendendo os dedos do meio até a ponta, porque 
+atacando dessa maneira as notas7 soam inteiras, doces e suaves. A razão disso é que como a 
+carne é macia, ataca com brandura e suavidade. E, além disso, toca-se com limpeza, porque 
+como os dedos se assentam nas teclas, não podem deslizar nem escapar para nenhuma parte. 
+Ao contrário, quando se toca com as unhas cometem-se dois grandes defeitos. O primeiro é 
+que soa muito a madeira das teclas e pouco as notas, que também [soam] desmaiadas e sem 
+espírito. O segundo defeito é que se toque sujo e embolado e, por conseguinte, áspero para os 
+ouvidos, porque como os dedos não se assentam nas teclas, logo deslizam para fora e assim 
+se faz muito ruído com as teclas; e também como as unhas são ossos e os ossos e as teclas são 
+ 
+7 Bozes no original.
+
+
+[Page 25]
+23 
+coisas duras, batendo-se um contra o outro não podem soar com doçura e suavidade, senão 
+com muito desgosto e aspereza, como já foi dito. 
+ 
+A segunda coisa é atacar as teclas forte e com ímpeto, o que por outro nome chamam atacar 
+firme; então, as notas têm vida e espírito. 
+ 
+A terceira coisa é que ambas as mãos ataquem as teclas igualmente, isto é, que a primeira 
+mão não toque nem mais forte nem mais suave que a outra, mas as duas mãos igualmente; e, 
+mesmo assim, ambas as mãos têm de atacar conjuntamente, em par, pois ainda que toquem 
+muitas notas de uma vez, como quando se dá Consonância a três ou a quatro vozes ou mais, 
+todas pareçam uma só voz. Ainda assim, adverte-se que mesmo que as mãos ataquem as 
+teclas suavemente, com tudo isso devem atacar com um pouco de ímpeto. O sobredito a 
+respeito de atacar é uma das coisas mais essenciais que existem para tocar com perfeição 
+qualquer coisa. 
+ 
+A quarta coisa é não atacar as teclas do alto, para o que é necessário trazer os dedos 
+próximos das teclas, e depois que cada dedo tenha atacado a tecla, levantá-lo muito pouco e, 
+além disso, os dedos devem atacar caindo direitos e também levantando direitos, de sorte 
+que voltem a se colocar no mesmo lugar e disposição em que antes estavam. Tudo isso causa 
+grande doçura e suavidade à música, além de soarem muito as notas e pouco ou quase nada 
+as teclas. Ao contrário, quando se ataca do alto, causa-se grande infortúnio e desgosto na 
+música para os ouvidos, além de soarem muito as teclas e pouco as notas. Esse defeito 
+comete-se por levantar muito os dedos depois de haver atacado as teclas. Desta forma, o 
+tempo que se gasta em levantar muito os dedos e em baixá-los tira parte do tempo que as 
+notas deveriam estar soando, tendo os dedos sobre as teclas.  Também para atacar bem as 
+teclas é necessário não levantar as palmas, mas somente os dedos, os quais irão atacar as 
+teclas, estando as palmas inertes. Além disso, as teclas, tanto brancas quanto pretas, deverão 
+ser atacadas na borda ou remate delas. Isso se entende na parte externa. O bem atacar as 
+teclas é também uma das coisas mais essenciais e principais que há no tocar. 
+ 
+A quinta coisa é afundar as teclas tudo o que adequadamente puderem baixar, de sorte que 
+se o instrumento for o Clavicórdio8 os toques levantem bem as cordas, mas de tal maneira 
+que as notas não saiam de seu tom subindo de voz9, o que se causa apertando 
+demasiadamente os dedos, e, se for outro instrumento qualquer10, as teclas hão de baixar até 
+encostar no pano11 que está abaixo delas. Isso se entende se as teclas puderem baixar até 
+encostar no pano. 
+ 
+A sexta coisa é que, depois de atacadas as teclas, nem se apertem tanto os dedos sobre elas 
+(porque além das notas saírem do tom subindo de voz, entorpecem-se as mãos como se as 
+atassem) nem tampouco se afrouxem os dedos, de maneira que as notas desmaiem, mas que 
+os dedos fiquem sobre elas, sem apertá-los nem afrouxá-los demais, nem levantá-los, até o 
+ponto em que tenham de tocar outras teclas, de sorte que as notas tenham sempre uma 
+mesma qualidade de som. 
+ 
+ 
+ 
+ 
+ 
+8 Monacordio no original. 
+9 Menção à afinação que pode variar de acordo com a pressão exercida na corda. 
+10 Sancta Maria refere-se inicialmente ao Clavicórdio, mas menciona a possibilidade de outros instrumentos. 
+11 Compreende-se por pano o tecido colocado abaixo do teclado para amortecer o impacto das teclas contra a 
+madeira do fundo do instrumento.
+
+
+[Page 26]
+24 
+ 
+DO MODO DE TOCAR COM LIMPEZA E DISTINÇÃO DE VOZES 
+ 
+CAPÍTULO XVI 
+ 
+Quanto a tocar com limpeza e distinção de vozes, que é a quarta condição, deve-se notar que 
+para isso se requerem duas coisas. A primeira e principal é que, ao ataque dos dedos nas 
+teclas, sempre o dedo que atacar primeiro se levante antes que o outro que segue 
+imediatamente atrás dele o faça, tanto ao subir como ao descer e, dessa maneira, sempre 
+procedendo, pois, de outra maneira, se alcançaria um dedo a outro. E, de se alcançar um 
+dedo a outro, segue-se a alcançar e a encobrir uma nota à outra, que é como atacar segundas. 
+E, de se alcançar e encobrir uma nota à outra, o que se toca é sujo e embolado e não traz 
+limpeza nem distinção de vozes. 
+ 
+A segunda coisa que se requer é levantar um pouquinho ao alto cada dedo depois de haver 
+atacado a tecla e de nenhuma maneira tirá-lo da tecla, nem encolhê-lo, nem dobrá-lo, o que 
+causaria grande ruído nas teclas, exceto nos Redobros e Quebros que se tratarão em seu 
+lugar. 
+ 
+ 
+DO MODO DE CORRER AS MÃOS À PARTE SUPERIOR E À PARTE INFERIOR 
+ 
+CAPÍTULO XVII 
+ 
+Para correr as mãos à parte superior e à parte inferior, que é a quinta condição, deve-se 
+advertir que para isso se requerem quatro coisas. A primeira é encolher muito as mãos, da 
+maneira que antes foi observada. 
+ 
+A segunda coisa é virar um pouquinho as mãos para o lugar que correrem, principalmente 
+quando se tocarem Colcheias ou Semicolcheias. 
+ 
+A terceira coisa é: quando se correr à parte superior e for com a mão direita, que comumente 
+sobe com os dois dedos que são terceiro e quarto, levantar o dedo terceiro cada vez que 
+houver atacado a tecla mais que o quarto, e, o quarto, não levantá-lo mais do que quanto se 
+afaste ou descole da tecla, de sorte que pareça que vai se arrastando pelas teclas. Além disso, 
+esse dedo quarto deverá ir atacando na borda das teclas e o dedo terceiro mais para dentro, e 
+o dedo segundo deve ir um pouco encolhido e mais alto que o terceiro. Posto dessa maneira, 
+esse dedo segundo deve ir colado ao dedo terceiro, pois assim dá muita força à mão, sem o 
+que é impossível subir as notas com perfeição e, portanto, é necessário ter em conta o que se 
+disse sobre o dedo segundo como coisa muito importante. Se, ao subir, se correr com a mão 
+esquerda, deve-se levantar o dedo quarto cada vez que houver atacado a tecla muito mais 
+que o dedo terceiro, que é o do meio. E, quando se subir com o dedo primeiro e segundo, 
+deve-se levantar o segundo cada vez que houver atacado a tecla muito mais que o primeiro; 
+e o primeiro não deverá levantar mais do que quanto se afaste ou descole das teclas, de sorte 
+que pareça que vai se arrastando por elas.  Quando as mãos correrem à parte inferior, se for 
+com a mão direita, que comumente desce com os dois dedos que são segundo e terceiro, o 
+dedo terceiro deverá se levantar cada vez que houver atacado a tecla mais que o segundo; e o 
+segundo não deverá se levantar das teclas mais do que quanto se afaste ou descole delas, de 
+sorte que pareça que vai se arrastando por elas. Além disso, esse dedo segundo deverá ir 
+atacando na borda das teclas e o dedo terceiro mais para dentro. Se, ao descer, se correr com 
+a mão esquerda, que comumente desce com os dois dedos que são terceiro e quarto, o 
+terceiro deverá se levantar cada vez que houver atacado a tecla muito mais que o quarto; e o 
+quarto não deverá se levantar das teclas mais do que quanto se afaste ou descole delas, de
+
+
+[Page 27]
+25 
+sorte que pareça que vai se arrastando por elas. E, além disso, esse dedo quarto deverá ir 
+atacando na borda das teclas e o dedo terceiro mais para dentro. Também o dedo segundo 
+deverá ir junto ao dedo terceiro, que é o do meio, tanto quanto for possível. 
+ 
+A quarta coisa é que no correr das mãos, tanto à parte superior quanto à parte inferior, 
+sempre os três dedos de ambas as mãos que são segundo, terceiro e quarto (como é dito) 
+deverão andar sobre as teclas sem tirar nenhum fora delas.  
+ 
+ 
+DO MODO DE ATACAR COM DEDOS CONVENIENTES12 
+ 
+CAPÍTULO XVIII 
+ 
+Quanto a atacar com dedos convenientes, que é a sexta condição, há de se notar que a mão 
+direita tem um dedo principal e a esquerda, dois. O da mão direita é o dedo terceiro, que é o 
+do meio, e os dois da mão esquerda são o segundo e o terceiro. Chamam-se principais 
+porque com eles se começam e acabam os Redobros e Quebros, com os quais se dá graça à 
+música. 
+ 
+Com nenhum dedo polegar há de se atacar teclas pretas, exceto quando se atacarem oitavas 
+com qualquer das duas mãos ou quando se apresentar alguma necessidade que não se possa 
+fazer outra coisa.  
+ 
+Quando se tocarem Semínimas ou Colcheias, nunca se hão de atacar duas vezes seguidas 
+com um mesmo dedo, exceto apresentando-se alguma necessidade, de maneira que não se 
+possa fazer outra coisa, o que se há de observar com maior rigor nas Colcheias que nas 
+Semínimas. 
+ 
+Quando se tocarem Semibreves com a mão direita, todas hão de ser atacadas com o dedo do 
+meio, exceto quando outra voz o impedir. Quando se tocarem com a mão esquerda, pode-se 
+atacar uma com o dedo segundo e a outra com o dedo terceiro e, dessa maneira procedendo, 
+ou todas com o dedo segundo ou com o dedo terceiro, como melhor vier, conforme o arbítrio 
+do bom senso, o que se entende quando outra voz não o impedir13. 
+ 
+Com os sobreditos dedos de ambas as mãos com que se atacam as Semibreves, hão de se 
+atacar também as Mínimas, embora tocando-as com a mão direita, ao descer, se possa atacar 
+ 
+12 Infelizmente os dedilhados descritos no texto não foram marcados por Sancta Maria em seus diversos exemplos 
+musicais. Na maior parte dos casos não está claro como tais descrições e exemplos se inter-relacionam, e o texto é 
+igualmente ambíguo. Essas constatações foram também observadas por outros autores como Peter Le Huray (In: 
+SADIE, Stanley (Ed.). The New Grove Dictionary of Music and Musicians. London: Macmillan Publishers Limited,  
+1980. Vol. 6, p. 568 e 569). O próprio Sancta Maria reconhece as dificuldades de apresentar regras para todos os 
+tipos de situação, como podemos ler na página 28. Assim, nos casos imprecisos, decidimos incluir apenas as 
+indicações dos dedilhados mais apropriados para cada situação. Os dedilhados correspondentes à mão direita e à 
+mão esquerda  foram incluídos, respectivamente, acima e abaixo do pentagrama. Colocamos em nota, entretanto, 
+após cada descrição, uma tabela dos dedilhados completos explicitados pelo autor.  
+13  
+Semibreves 
+Mão Direita 
+3 3 3 3… 
+Mão Esquerda 
+2 3 2 3… 
+2 2 2 2… 
+3 3 3 3…
+
+
+[Page 28]
+26 
+uma com o dedo terceiro e outra com o dedo segundo e, dessa maneira procedendo, quando 
+houver muitas, ou todas com o dedo do meio, como melhor convier14. 
+ 
+Quando em uma mesma nota ou em uma mesma tecla, que é o mesmo, se atacam duas, ou 
+três, ou quatro, ou mais Semínimas ou Colcheias, hão de se atacar todas com dois dedos, 
+reiterando-os15 as vezes que forem necessárias. Se forem tocadas com a mão direita, hão de 
+ser atacadas com os dois dedos que são segundo e terceiro; e se tocadas com a mão esquerda, 
+hão de ser atacadas com os dois dedos que são primeiro e segundo, ou com os dois que são 
+segundo e terceiro. E, para fazer-se isso com perfeição, é necessário pôr a mão virada sobre 
+as teclas, de sorte que o braço, do cotovelo aos dedos, esteja sobre o teclado do Clavicórdio16. 
+ 
+Desse modo, quando depois de uma Mínima pontuada se atacar duas notas numa mesma 
+tecla, tal como fá-fá, hão de se atacar também com dois dedos, os quais serão os mesmos que 
+agora dissemos da mão direita e da esquerda com que se tocam as Semínimas17 e Colcheias, 
+quando são muitas numa mesma tecla18. 
+ 
+EXEMPLO 
+ 
+Quando com qualquer das duas mãos se subirem ou descerem 
+sequências, passagens longas de Semínimas ou Colcheias, os 
+dedos com que se subirem ou descerem também devem ir em 
+sequência, seguindo-se um após o outro, sem deixar nenhum 
+intervalo, para o qual se adverte que raramente se sobem ou descem todos os cinco dedos em 
+sequência, mas, quando muito, os quatro que são primeiro, segundo, terceiro e quarto19. 
+ 
+Quando com a mão esquerda se subirem ou descerem sequências de Semínimas, hão de 
+subir com os dois dedos que são segundo e primeiro, começando com o segundo, e descer 
+ 
+14  
+Mínimas 
+Mão Direita 
+3 3 3 3… 
+Mão Direita Descendente 
+3 2 3 2… 
+Mão Esquerda 
+2 3 2 3… 
+2 2 2 2… 
+3 3 3 3… 
+ 
+15 Retirandolos no original, podendo significar alternância de dedos. Consideramos a expressão como um erro 
+ortográfico, substituindo-a por reiterandolos, ou seja, reiterando-os.  
+16  
+Semínimas ou Colcheias em uma mesma tecla 
+(notas repetidas) 
+Mão Direita 
+2 3 2 3… 
+Mão Esquerda 
+1 2 1 2… 
+2 3 2 3… 
+ 
+17 Minimas no original. Consideramos que há um provável erro por parte de Sancta Maria, sendo mais coerente 
+que o autor quisesse dizer Semínimas, por estar se referindo ao parágrafo anterior. 
+18  
+Notas repetidas após Mínima pontuada 
+Mão Direita 
+3 2 3 
+Mão Esquerda 
+1 2 1 
+2 3 2 
+ 
+19  
+Sequências de Semínimas ou Colcheias 
+Mão Direita e Mão Esquerda 
+1 2 3 4 5 (raro) 
+1 2 3 4 (aceitável)
+
+
+[Page 29]
+27 
+com os outros dois dedos que são terceiro e quarto, começando com o terceiro, ainda que 
+algumas vezes, ao subir, a primeira nota se ataque com o dedo terceiro e, outras vezes, as 
+duas primeiras notas subam com os dedos quarto e terceiro, começando com o quarto. Desse 
+modo, ao descer, algumas vezes a primeira nota se ataca com o dedo segundo e outras vezes 
+as duas primeiras notas descem com os dedos primeiro e segundo20. 
+ 
+Quando com a mesma mão esquerda se subirem ou descerem sequências, passagens longas 
+de Colcheias ou Semicolcheias, hão de subir e descer com os quatro dedos que são primeiro, 
+segundo, terceiro e quarto, reiterando-os as vezes que forem necessárias, começando, ao 
+subir, com o dedo quarto e seguindo-se a ele sucessivamente terceiro, segundo e primeiro; e, 
+ao descer, começando com o dedo primeiro, seguindo-se a ele sucessivamente segundo, 
+terceiro e quarto. De sorte que, ao subir, após o dedo primeiro siga o quarto e, ao descer, 
+após o dedo quarto siga o primeiro. E tenha-se em grande conta essa regra, porquanto é 
+muito boa e necessária21. 
+ 
+EXEMPLO 
+ 
+ 
+Quando com a mão direita se subirem sequências de Semínimas ou Colcheias, hão de subir 
+com os dois dedos que são terceiro e quarto, começando com o terceiro, ainda que algumas 
+vezes a primeira nota se ataque com o dedo segundo, e outras vezes as duas primeiras notas 
+subam com os dedos primeiro e segundo. E note-se que essa regra é geral, sem exceção22. 
+ 
+EXEMPLO 
+ 
+ 
+Há de se notar, por regra geral, que poucas vezes falta, que quando ao descer com a mão 
+direita tocando Semínimas ou Colcheias, se atacará com o dedo polegar e logo após ele há de 
+se seguir o dedo do meio23. Isso pressuposto, é de se saber que quando com a mesma mão 
+ 
+20  
+Sequências de Semínimas 
+Mão Esquerda Ascendente 
+2 1 2 1...  
+3 2 1 2 1... 
+4 3 2 1 2 1... 
+Mão Esquerda Descendente 
+3 4 3 4... 
+2 3 4 3 4... 
+1 2 3 4 3 4... 
+ 
+21  
+Sequências de Colcheias ou Semicolcheias 
+Mão Esquerda Ascendente 
+4 3 2 1 4 3 2 1... 
+Mão Esquerda Descendente 
+1 2 3 4 1 2 3 4... 
+ 
+22  
+Sequências de Semínimas ou Colcheias 
+Mão Direita Ascendente 
+3 4 3 4...  
+2 3 4 3 4... 
+1 2 3 4 3 4... 
+ 
+23 Menção à passagem de polegar.
+
+
+[Page 30]
+28 
+direita descerem-se sequências de Semínimas ou Colcheias, podem-se descer com três 
+variações de dedos. A primeira é com os dois dedos que são segundo e terceiro, começando 
+com o terceiro, ainda que algumas vezes a primeira nota se ataque com o dedo quarto. Essa 
+variação24 serve principalmente para as Semínimas. A segunda variação faz-se descendo 
+sequências com os três dedos que são primeiro, segundo e terceiro, começando com o 
+terceiro e seguindo-se a ele sucessivamente segundo e primeiro, reiterando-os nessa mesma 
+ordem as vezes que forem necessárias, ainda que algumas vezes a primeira nota seja atacada 
+com o dedo quarto. Finalmente, nessa segunda variação, após o dedo primeiro, que é o 
+polegar, segue-se o dedo terceiro, que é o do meio, ainda que algumas vezes após o primeiro 
+siga o segundo. Essa segunda variação serve principalmente às Colcheias25. 
+ 
+EXEMPLO 
+ 
+ 
+A terceira variação faz-se descendo sequências com os quatro dedos que são primeiro, 
+segundo, terceiro e quarto, começando com o quarto e seguindo-se a ele, sucessivamente, 
+terceiro, segundo e primeiro, reiterando-os nessa mesma ordem as vezes que forem 
+necessárias. De sorte que após o dedo primeiro se segue o quarto, ainda que algumas vezes 
+se siga o segundo ou o terceiro. Essa terceira variação serve para tocar Colcheias, 
+especialmente quando se descem notas em número ímpar, como cinco, nove ou treze. 
+Algumas vezes acontece que, nessas segunda e terceira variações, se desça parte da 
+passagem com os dois dedos que são segundo e terceiro26. 
+ 
+EXEMPLO 
+ 
+ 
+Muitas vezes os dedos se mesclam de outras muitas maneiras, às quais não se pode pôr 
+regras, por serem tantas, o que fica ao critério de cada um, segundo a necessidade que se 
+apresenta e melhor se arranja. 
+ 
+ 
+24 Differencia no original.  
+25  
+Sequências de Semínimas ou Colcheias 
+Mão Direita Descendente 
+3 2 3 2... 
+ 
+(principalmente para Semínimas) 
+4 3 2 3 2...  
+3 2 1 3 2 1... 
+ 
+(principalmente para Colcheias) 
+4 3 2 1 3 2 1... 
+4 3 2 1 3 2 1... (3 ou 2) 
+ 
+26  
+Sequências de Colcheias  
+(especialmente em números ímpares) 
+Mão Direita Descendente 
+4 3 2 1... (4, 3 ou 2)
+
+
+[Page 31]
+29 
+Quando as Semínimas, ou Colcheias, ou Semicolcheias subirem ou descerem em saltos de 
+terças, quartas, ou quintas, ou qualquer outro salto, em tais casos os sobreditos saltos 
+também hão de subir e descer com os dedos intercalados, isto é, com dedos entre os quais 
+fique um ou dois no meio, de acordo com o intervalo; porque assim como nos sobreditos 
+saltos deixam-se notas intercaladas, assim também entre os dedos com que se sobem ou 
+descem estes saltos hão de se deixar um, dois ou três dedos intercalados, ainda que muitas 
+vezes aconteça que as terças, ou ainda as quartas, subam ou desçam com dedos imediatos, 
+isto é, com dedos sucessivos27. 
+ 
+EXEMPLO 
+ 
+ 
+Quanto às oitavas que sobem ou descem em sequências de Semínimas ou Colcheias, nota-se 
+que a melodia28 pode subir ou descer de duas maneiras. A primeira é atacando a primeira 
+nota no Compasso ou no Meio Compasso e, nesse caso, a primeira nota há de ser Semínima e 
+todas as restantes Colcheias. A outra maneira é quando a primeira nota não é atacada no 
+Compasso ou no Meio Compasso, mas no vazio, e então no início se observa uma Pausa de 
+Colcheia, a qual há de se atacar no Compasso ou no Meio Compasso. 
+ 
+EXEMPLO 
+ 
+ 
+ 
+27  
+Semínimas, Colcheias e Semicolcheias em saltos 
+Mão Direita e Mão Esquerda 
+Ascendente e Descendente 
+3as , 4as, 5as  ou outros saltos: 1, 2 ou 3 dedos intercalados 
+3as e 4as: dedos imediatos 
+Neste exemplo, ao contrário dos demais, Sancta Maria não especifica os dedos, apenas indica como proceder nos 
+diferentes tipos de intervalo, o que nos serviu de critério para a escolha dos dedilhados acima sugeridos.  
+28 Solfa no original.
+
+
+[Page 32]
+30 
+Das três oitavas encolhidas29, a primeira sobe com esta seguinte ordem de dedos: quarto, 
+terceiro, segundo, quarto, terceiro, segundo, primeiro, segundo30. 
+ 
+EXEMPLO 
+ 
+Quando a sobredita primeira oitava fizer, subindo, 
+a melodia ut, ré, mi, fá, sol, ré mi, fá, mi, fá, mi, fá, 
+mi, ré, mi, fá31, pode-se subir com duas variações de 
+dedos. A primeira é pela seguinte ordem de dedos: 
+quarto, terceiro, segundo, terceiro, segundo, primeiro, segundo e primeiro. E as notas 
+restantes [sobem-se] com os dedos imediatos que se seguirem, conforme as notas da melodia. 
+ 
+A outra variação de dedos é pela seguinte ordem: quarto, terceiro, segundo, quinto, quarto, 
+terceiro, segundo e primeiro. E as outras notas restantes [sobem-se] com os dedos imediatos 
+ 
+29 Oitavas encogidas no original, ou seja, oitavas que são feitas no âmbito da oitava curta do teclado. A oitava curta 
+é um termo que denota a afinação de algumas das notas mais graves em instrumentos de teclado abaixo de suas 
+alturas aparentes, como recurso para aumentar sua extensão sem interferir nas suas dimensões (MEEÙS, Nicolas. 
+Short 
+octave. 
+In: 
+ROOT, 
+Deane 
+(Ed.). 
+The 
+Grove 
+Dictionary 
+of 
+Art 
+Online. 
+Disponível 
+em: 
+<http://www.grovemusic.com>. Acesso em: 07 maio 2002). Essas oitavas são explicadas por Sancta Maria no 
+Capítulo XII. Ver ilustração:  
+ 
+30  
+Primeira Oitava Encolhida 
+Mão Esquerda Ascendente  
+4 3 2 4 3 2 1 2 
+ 
+31 Os nomes das notas são escritos aqui de acordo com o sistema de solmização hexacordal. O hexacorde é uma 
+sequência ascendente de seis notas com intervalos determinados: dois tons, um semitom e dois tons. Foi usado 
+como complemento ao sistema diatônico de oito notas (incluindo si bequadro – H – e si bemol – B) no ensino de 
+música desde a Idade Média até o século XVII. As seis notas do hexacorde são nomeadas a partir das primeiras 
+sílabas dos versos do hino a São João Batista Ut queant laxis: ut, re, mi, fa, sol, la. O conceito do hexacorde como 
+um dispositivo mnemônico para ensinar melodias do cantochão foi primeiramente descrito por Guido D’Arezzo. 
+A nota mais grave do sistema fica abaixo da nota A e é indicada pela letra grega Γ (gama), os intervalos 
+hexacordais eram de Γ (G) a E e de C a A. As melodias que excediam o intervalo de sexta do hexacorde 
+necessitavam ser estendidas a outro hexacorde por meio da chamada mutação. O hexacorde em C tornou-se o 
+ponto de referência e foi nomeado hexachordum naturale. A progressão por semitom acima do A foi marcada pela 
+letra “macia” ou “arredondada” B (si bemol), gerando o hexachordum molle, a partir de F, com A-B solmizado mi-
+fa. A progressão por um tom acima de A exigiu o “duro” ou “quadrado” B (si bequadro), gerando o hexachordum 
+durum, a partir de G, com B-C solmizado mi-fa. Toda a escala foi coberta por sete hexacordes, com cada nota 
+nomeada pelas sílabas solmizadas do hexacorde ou hexacordes a que pertencia. Esse sistema tri-hexacordal foi 
+totalmente descrito nos tratados do século XIII (HIRSHBERG, Jehoash. Hexachord. In: ROOT, Deane (Ed.). Grove 
+Music Online. Disponível em: <http://www.grovemusic.com>. Acesso em: 01 nov. 2009). Ver pentagrama abaixo 
+no qual estão incluídos os nomes das notas a partir do sistema de solmização hexacordal, bem como a escala com 
+a terminação ornamentada descrita no texto, mas não apresentada no exemplo. Ver ainda nota 48.
+
+
+[Page 33]
+31 
+que se seguirem, conforme as notas da melodia. Essa ordem de dedos é a melhor, pois com 
+ela se sobem as notas mais ligeiramente32. 
+ 
+EXEMPLO 
+ 
+ 
+A segunda oitava encolhida há de subir com a seguinte ordem de dedos: quarto, terceiro, 
+quarto, terceiro, segundo, primeiro, segundo e primeiro33. 
+ 
+EXEMPLO 
+ 
+ 
+A terceira oitava encolhida pode subir com duas variações de dedos. A primeira segue a 
+seguinte ordem: quarto, quinto, quarto, terceiro, segundo, primeiro, segundo e primeiro. 
+ 
+A outra variação de dedos sobe pela seguinte ordem: terceiro, quarto, terceiro, segundo, 
+primeiro, terceiro, segundo e primeiro34. 
+ 
+EXEMPLO35 
+ 
+ 
+As três oitavas encolhidas sobreditas, na maior parte das vezes, sobem em Colcheias. 
+ 
+Quando as sobreditas três oitavas encolhidas descerem em Semínimas, há de se atacar a 
+primeira nota com o dedo primeiro ou segundo e, algumas vezes (ainda que poucas), com o 
+terceiro, e todas as outras notas restantes hão de descer com os dois dedos que são terceiro e 
+quarto, terminando a última nota da primeira oitava com o dedo quinto, ainda que algumas 
+ 
+32  
+Primeira Oitava Encolhida (melodia) 
+Mão Esquerda Ascendente 
+4 3 2 3 2 1 2 1 2 1 2 1 2 3 2 1 
+4 3 2 5 4 3 2 1 2 1 2 1 2 3 2 1 
+ 
+33  
+Segunda Oitava Encolhida 
+Mão Esquerda Ascendente  
+4 3 4 3 2 1 2 1 
+ 
+34  
+Terceira Oitava Encolhida 
+Mão Esquerda Ascendente 
+4 5 4 3 2 1 2 1 
+3 4 3 2 1 3 2 1 
+ 
+35 Ver ilustração na nota 29.
+
+
+[Page 34]
+32 
+vezes as três últimas notas dessa primeira oitava desçam com os três dedos que são segundo, 
+terceiro e quarto36. 
+ 
+EXEMPLO 
+ 
+ 
+Com os sobreditos dedos que descem estas três oitavas encolhidas, podem-se fazer Quebros 
+em todas as notas que se atacam com o dedo terceiro, que é o do meio. 
+ 
+Quando as sobreditas três oitavas encolhidas descerem em Colcheias, a primeira delas, tanto 
+quando atacando a nota em Compasso ou Meio Compasso como quando atacando no vazio, 
+isto é, observando Pausas de Semínima ou de Colcheia, pode descer com duas variações de 
+dedos. A primeira é atacando duas vezes sucessivas com o dedo primeiro, seguindo-se após 
+ele, sucessivamente, segundo, terceiro, quarto, terceiro, quarto e quinto, ou descendo as três 
+últimas notas com os dedos segundo, terceiro e quarto. E note-se que essa é a melhor ordem 
+de dedos para descer essa primeira oitava. 
+ 
+A outra variação de dedos segue por esta seguinte ordem: primeiro, segundo, terceiro, 
+quarto, terceiro, segundo, terceiro e quarto37. 
+ 
+EXEMPLO 
+ 
+ 
+A segunda oitava encolhida pode descer com duas variações de dedos. A primeira e 
+principal segue por esta ordem: duas vezes seguidas com o dedo primeiro, seguindo-se após 
+ele, sucessivamente, segundo, terceiro, quarto, terceiro, segundo e terceiro.  
+ 
+ 
+ 
+36  
+Oitavas Encolhidas em Semínimas 
+Mão Esquerda Descendente 
+1 3 4 3 4 ... 5 
+2 3 4 3 4 ... 5 
+3 3 4 3 4 ... 5 
+1 3 4 3 4 2 3 4 
+2 3 4 3 4 2 3 4 
+3 3 4 3 4 2 3 4 
+ 
+37  
+Oitavas Encolhidas em Colcheias 
+Mão Esquerda Descendente 
+1 1 2 3 4 3 4 5 
+1 1 2 3 4 2 3 4 
+1 2 3 4 3 2 3 4
+
+
+[Page 35]
+33 
+A outra variação de dedos segue por esta ordem: primeiro, segundo, terceiro, quarto,  
+terceiro, quarto, terceiro e quarto38. 
+ 
+EXEMPLO 
+ 
+ 
+A terceira oitava encolhida pode descer com duas variações de dedos. A primeira e principal 
+segue por esta ordem de dedos: duas vezes seguidas com o dedo primeiro, seguindo-se após 
+ele, sucessivamente, segundo, terceiro, quarto, terceiro, quarto e terceiro.  
+ 
+A outra variação de dedos segue por esta ordem: segundo, primeiro, segundo, terceiro, 
+quarto, terceiro, quarto e terceiro39. 
+ 
+EXEMPLO 
+ 
+ 
+Quanto às oitavas estendidas40 que sobem e descem com a mão esquerda, note-se que, 
+quando subirem ou descerem em Semínimas, podem subir e descer com duas variações de 
+dedos. Na primeira, se for ao subir, há de se subir com os dois dedos que são segundo e 
+primeiro, ainda que algumas vezes a primeira nota seja atacada com o dedo terceiro, e outras 
+vezes as duas primeiras notas subam com os dois dedos que são quarto e terceiro. Se for ao 
+descer, há de se descer com os dois dedos que são terceiro e quarto, ainda que algumas vezes 
+a primeira nota se ataque com o dedo segundo, e outras vezes as duas primeiras notas 
+desçam com os dois dedos que são primeiro e segundo. Com os sobreditos dedos, ao subir, 
+podem-se fazer Quebros nas notas atacadas com o dedo segundo e, ao descer, nas notas 
+atacadas com o dedo do meio. 
+ 
+Na outra variação de dedos, há de se subir e descer com os quatro dedos que são primeiro, 
+segundo, terceiro e quarto, começando, ao subir, com o dedo quarto, seguindo-se após ele, 
+sucessivamente, terceiro, segundo e primeiro, reiterando-os nessa mesma ordem;  e, ao 
+descer, começando com o dedo primeiro, seguindo-se após ele, sucessivamente, segundo, 
+ 
+38  
+Segunda Oitava Encolhida 
+Mão Esquerda Descendente 
+1 1 2 3 4 3 2 3 
+1 2 3 4 3 4 3 4 
+ 
+39  
+Terceira Oitava Encolhida 
+Mão Esquerda Descendente 
+1 1 2 3 4 3 4 3 
+2 1 2 3 4 3 4 3 
+ 
+40 Estendidas no original. Em oposição à oitava encolhida, ou seja, a oitava regular.
+
+
+[Page 36]
+34 
+terceiro e quarto, reiterando-os na mesma ordem, ainda que essa variação de dedos seja mais 
+própria para Colcheias que para Semínimas, principalmente ao subir41. 
+ 
+EXEMPLO 
+ 
+ 
+Quando com a mesma mão esquerda as sobreditas oitavas estendidas subirem em Colcheias, 
+podem subir com duas variações de dedos. A primeira e principal é com os quatro dedos que 
+são quarto, terceiro, segundo e primeiro, começando com o quarto e seguindo-se após ele 
+terceiro, segundo e primeiro, reiterando-os na mesma ordem, de maneira que, quando se 
+reiterarem, após o dedo primeiro venha o quarto42. 
+ 
+EXEMPLO 
+ 
+A outra variação de dedos é pela seguinte ordem: 
+quinto, quarto, terceiro, segundo e primeiro, 
+seguindo-se, logo outra vez, terceiro, segundo e 
+primeiro43. 
+ 
+EXEMPLO 
+ 
+Quando com a mesma mão esquerda essas oitavas 
+estendidas descerem em Colcheias, podem descer 
+com duas variações de dedos. A primeira e 
+principal é pela seguinte ordem: duas vezes 
+ 
+41  
+Oitavas Estendidas em Semínimas 
+Mão Esquerda Ascendente 
+2 1 2 1... 
+3 2 1 2 1... 
+4 3 2 1 2 1... 
+4 3 2 1 4 3 2 1 (melhor para Colcheias) 
+Mão Esquerda Descendente 
+3 4 3 4... 
+2 3 4 3 4... 
+1 2 3 4 3 4 ...  
+1 2 3 4 1 2 3 4 (melhor para Colcheias) 
+ 
+42  
+Oitavas Estendidas em Colcheias (I) 
+Mão Esquerda Ascendente 
+4 3 2 1 4 3 2 1 
+ 
+43  
+Oitavas Estendidas em Colcheias (II) 
+Mão Esquerda Ascendente 
+5 4 3 2 1 3 2 1
+
+
+[Page 37]
+35 
+seguidas o dedo primeiro, seguindo-se após ele, sucessivamente, segundo, terceiro, quarto, 
+terceiro, quarto e quinto ou terceiro. 
+ 
+A segunda variação de dedos é por esta ordem: primeiro, segundo, terceiro, quarto, terceiro, 
+quarto, terceiro e quarto44. 
+ 
+EXEMPLO 
+ 
+ 
+Quando com a mão direita essas oitavas estendidas subirem em Semínimas ou Colcheias, 
+hão de subir com os dois dedos que são terceiro e quarto, ainda que algumas vezes a 
+primeira nota se ataque com o dedo segundo, e outras vezes as duas primeiras notas subam 
+com os dedos primeiro e segundo. E note-se que essa regra é geral, sem exceção45. 
+ 
+EXEMPLO 
+ 
+ 
+Quando com a mesma mão direita essas oitavas estendidas descerem em Semínimas, hão de 
+descer com os dois dedos que são segundo e terceiro, começando com o terceiro, ainda que 
+muitas vezes a primeira nota se ataque com o dedo quarto e todas as notas restantes, com os 
+sobreditos dois dedos, terceiro e segundo46. 
+ 
+ 
+ 
+ 
+ 
+ 
+44  
+Oitavas Estendidas em Colcheias 
+Mão Esquerda Descendente 1 1 2 3 4 3 4 5 (3) 
+1 2 3 4 3 4 3 4 
+ 
+45  
+Oitavas Estendidas em Semínimas 
+ou Colcheias 
+Mão Direita Ascendente 
+3 4 3 4 3 4… 
+2 3 4 3 4 3 4… 
+1 2 3 4 3 4 3… 
+ 
+46  
+Oitavas Estendidas em Semínimas 
+Mão Direita Descendente 
+3 2 3 2 3 2… 
+4 3 2 3 2 3 2…
+
+
+[Page 38]
+36 
+EXEMPLO 
+ 
+ 
+Quando com a mesma mão direita essas oitavas estendidas descerem em Colcheias, podem 
+descer com duas variações de dedos. A primeira é pela seguinte ordem: quarto, terceiro, 
+segundo, primeiro, terceiro, segundo, primeiro e terceiro. 
+ 
+A outra variação é pela seguinte ordem de dedos: quinto, quarto, terceiro, segundo, 
+primeiro, terceiro, segundo e primeiro ou terceiro, ainda que algumas vezes a primeira nota 
+se ataque com o dedo terceiro, e outras vezes as duas primeiras notas desçam com o dedo 
+quarto. Porém, essa variação, com suas exceções, é mais apropriada para quando a primeira 
+nota for Semínima e todas as outras notas Colcheias, do que para quando todas forem 
+Colcheias47. 
+ 
+EXEMPLO 
+ 
+ 
+Quando a mão esquerda subir a melodia ré, mi, fá, sol, fá, ré, mi, fá, mi, fá, sol, lá, sol, a qual 
+começa desde Are48, para cima, há de se subir com os quatro dedos que são quarto, terceiro, 
+segundo e primeiro, começando com o quarto e seguindo-se após ele, sucessivamente, 
+ 
+47  
+Oitavas Estendidas em Colcheias 
+Mão Direita Descendente 
+4 3 2 1 3 2 1 3 
+ 
+5 4 3 2 1 3 2 1 
+5 4 3 2 1 3 2 3 
+3 4 3 2 1 3 2 1 
+Mais apropriada para quando 
+a primeira nota é Semínima 
+4 4 3 2 1 3 2 1 
+ 
+48 A re. Sancta Maria refere-se ao sistema de solmização hexacordal (ver nota 31). A melodia tem início em A re, 
+no primeiro hexacorde, terminando no segundo, como exemplificado no quadro abaixo.
+
+
+[Page 39]
+37 
+terceiro, segundo e primeiro, reiterando-os por essa mesma ordem quantas vezes forem 
+necessárias49. 
+ 
+EXEMPLO 
+ 
+ 
+Desse modo, quando com a mesma mão esquerda se descer a melodia sol, fá, lá, sol, lá, sol, 
+fá, mi, fá, mi, ré, ut, ré, começando desde o Gesolreut50 agudo para baixo, há de se descer 
+com os sobreditos quatro dedos que são primeiro, segundo, terceiro e quarto, reiterando-os 
+por essa mesma ordem quantas vezes forem necessárias51. 
+ 
+EXEMPLO 
+ 
+ 
+Desse modo, quando com a mesma mão esquerda se tocar a melodia ré, ut, ré, mi, ré, mi, fá, 
+sol, lá, a qual começa desde Desolre52, pode-se tocar com duas variações de dedos. A 
+ 
+49  
+Melodia em A re 
+Mão Esquerda Ascendente 
+4 3 2 1 4 3 2 1… 
+ 
+50 G sol re ut, como indicado no quadro abaixo: 
+ 
+51  
+Melodia em G sol re ut 
+Mão Esquerda Descendente 
+1 2 3 4 1 2 3 4… 
+ 
+52 D sol re, como indicado no quadro a seguir. A alteração na nota dó (sustenido) pode ser interpretada como 
+musica ficta, que surge a partir do início do século XIV, quando o sistema hexacordal foi ampliado em resposta ao 
+aumento do uso do bequadro e do sustenido, possibilitando novas mutações (HIRSHBERG, Jehoash. Hexachord. 
+In: ROOT, Deane (Ed.). Grove Music Online. Disponível em: <http://www.grovemusic.com>. Acesso em: 01 nov. 
+2009). Sancta Maria explica hexacorde, suas propriedades e mutações nos Capítulos II, III e IV.
+
+
+[Page 40]
+38 
+primeira é pela seguinte ordem de dedos: segundo, terceiro, segundo, primeiro, quarto, 
+terceiro, segundo, primeiro e segundo. A outra variação de dedos é pela seguinte ordem: 
+terceiro, quarto, terceiro, segundo, quarto, terceiro, segundo, primeiro e segundo53.  
+ 
+EXEMPLO 
+ 
+Quando com a mão direita se descer a melodia fá, lá, sol, 
+fá, mi, lá, sol, fá, mi, ré, fá, lá, sol, fá, mi, ré, começando de 
+uma nota mais aguda de Ela54, há de se descer com a 
+seguinte ordem de dedos: quarto, terceiro, segundo, 
+terceiro, segundo, primeiro, terceiro, segundo, terceiro, segundo, quarto, terceiro, segundo, 
+terceiro, segundo e primeiro55. 
+ 
+ 
+ 
+ 
+ 
+ 
+53  
+Melodia em D sol re 
+Mão Esquerda Ascendente 
+2 3 2 1 4 3 2 1 2 
+3 4 3 2 4 3 2 1 2 
+ 
+54 E la, como indicado no quadro abaixo. 
+ 
+55  
+Melodia em E la (I) 
+Mão Direita Descendente 
+4 3 2 3 2 1 3 2 3 2 4 3 2 3 2 1
+
+
+[Page 41]
+39 
+EXEMPLO 
+ 
+ 
+Desse modo, quando com a mesma mão direita se descer a melodia lá, sol, fá, mi, fá, mi, lá, 
+sol, lá, sol, fá, mi, fá, mi, ré, ut, ré, a qual começa desde a nota de Ela, pode-se descer com 
+duas variações de dedos. A primeira é com os quatro dedos que são quarto, terceiro, 
+segundo e primeiro, reiterando-os de novo, por essa mesma ordem, as vezes que forem 
+necessárias. 
+ 
+A outra variação é com os três dedos que são quarto, terceiro e segundo, levando-os pela 
+seguinte ordem: quarto, terceiro, segundo, terceiro, quarto, terceiro, segundo e terceiro, 
+reiterando-os na mesma ordem as vezes que forem necessárias56. 
+ 
+EXEMPLO 
+ 
+ 
+Quanto às Consonâncias que se dão com cada mão, note-se que as terças podem se dar, com 
+qualquer uma das duas mãos, com três variações de dedos. A primeira é com o dedo 
+primeiro e com o segundo, o qual se usa mais com a mão esquerda que com a direita. 
+ 
+A segunda variação é com o dedo primeiro e com o terceiro. Com essa variação pode-se fazer 
+o Redobro na nota mais grave da terça, dada com a mão esquerda, e na nota mais aguda da 
+mesma terça, dada com a mão direita. Essa variação usa mais a mão direita entre as duas, 
+porque dá graça à nota mais aguda com Redobro ou Quebro. 
+ 
+A terceira variação é com o dedo segundo e com o quarto. Essa se usa mais com a mão 
+esquerda que com a direita57. 
+ 
+Quando se tocam duas ou três terças, ou mais, uma após a outra, atacadas com uma só mão, 
+a primeira terça há de se atacar com a segunda variação de dedos e a outra, com a terceira 
+variação, e dessa maneira procedendo. 
+ 
+ 
+56  
+Melodia em E la (II) 
+Mão Direita Descendente 
+4 3 2 1 4 3 2 1… 
+4 3 2 3 4 3 2 3… 
+ 
+57  
+Consonâncias 
+ 
+Terças 
+Terças 
+seguidas 
+Quintas e 
+Sextas 
+Oitavas 
+Oitavas 
+Encolhidas 
+Oitavas 
+Encolhidas 
+com Terças 
+Mão Direita 
+2 
+1 
+3 
+1 
+4 
+2 
+3   4 
+1   2 
+5 
+2 
+4 
+1 
+3 
+1 
+5 
+1 
+ 
+ 
+Mão Esquerda 
+1 
+2 
+1 
+3 
+2 
+4 
+1   2 
+     3   4 
+2 
+5 
+1 
+4 
+1 
+3 
+1 
+5 
+1 
+4 
+2 
+5 
+1 
+2 
+5
+
+
+[Page 42]
+40 
+As quintas e sextas podem se dar, em qualquer das duas mãos, com três variações de dedos. 
+A primeira é com o dedo segundo e com o quinto. Com os sobreditos dedos pode-se fazer o 
+Redobro ou Quebro nas notas mais agudas das quintas e das sextas, dadas com a mão 
+esquerda, e nas notas mais graves das mesmas quintas e sextas, dadas com a mão direita. 
+ 
+A segunda variação de dedos é com o dedo primeiro e com o quarto, com os quais as notas 
+têm igualdade de som. 
+ 
+A terceira variação é com o dedo primeiro e com o terceiro, com os quais se pode fazer o 
+Redobro ou Quebro nas notas mais graves das quintas e das sextas quando dadas com a mão 
+esquerda, e nas notas mais agudas das mesmas quintas e sextas quando dadas com a mão 
+direita. 
+ 
+As oitavas hão de se dar, em qualquer das duas mãos, com o dedo primeiro e com o quinto, 
+exceto nas três primeiras oitavas encolhidas, que se darão na mão esquerda com o dedo 
+primeiro e com o quarto ou com o dedo segundo e com o quinto. Mas há de se advertir que 
+quando juntamente com alguma das sobreditas três oitavas se der terça sobre a mesma 
+oitava, necessariamente a tal oitava há de se dar com o dedo segundo e com o quinto, como 
+se verá nos exemplos seguintes: 
+ 
+EXEMPLO58 
+ 
+Ao atacar as consonâncias, há de se observar quais notas 
+seguem depois delas, porque se há de atacar cada 
+consonância com tais dedos que permitam liberdade e 
+prontidão, para poder alcançar com facilidade as notas que se seguem. 
+ 
+ 
+DO MODO DE TOCAR COM ELEGÂNCIA 
+ 
+CAPÍTULO XIX 
+ 
+Quanto a tocar com elegância, que é a sétima condição, adverte-se que para isso se requer 
+tocar as Semínimas de uma maneira e as Colcheias, de três. A maneira que se há de ter para 
+tocar as Semínimas é deter-se na primeira e correr a segunda e, nem mais nem menos, deter-
+se na terceira e correr a quarta e dessa forma, todas as Semínimas, o que se faz como se a 
+primeira Semínima fosse pontuada e a segunda fosse Colcheia e, semelhantemente, a terceira 
+fosse pontuada e a quarta fosse Colcheia e dessa maneira, todas as Semínimas. E atente-se 
+que a Semínima que se corre não há de ir muito corrida e sim um pouco moderada. 
+ 
+Para que claramente se veja e entenda a diferença que há em tocar as Semínimas de uma 
+maneira ou59 da outra, colocam-se aqui anotadas sem ponto e com ponto. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+58 Para uma melhor compreensão, ver ilustração do teclado com oitavas curtas, nota 29, página 30. 
+59 Dela una manera o dela otra, trecho rasurado na edição original consultada, substituído na errata por Dela una 
+manera a la otra, o que no entanto parece ser um engano por parte do autor, uma vez que a primeira opção faz 
+mais sentido (SANCTA MARIA, op. cit., p. 123).
+
+
+[Page 43]
+41 
+EXEMPLO 
+A Duo. 
+ 
+ 
+Das três maneiras das Colcheias, duas são feitas quase de uma mesma maneira, que é 
+detendo-se em uma Colcheia e correndo a outra. Difere-se uma [maneira] da outra [na 
+medida] em que a primeira maneira começa se detendo na primeira Colcheia e correndo a 
+segunda, e nem mais nem menos se detendo na terceira e correndo a quarta e dessa maneira, 
+todas, o que se faz como se a primeira Colcheia fosse pontuada e a segunda Colcheia fosse 
+Semicolcheia e, semelhantemente, a terceira Colcheia fosse pontuada e a quarta Colcheia 
+fosse Semicolcheia e dessa forma, todas. Essa maneira serve para as obras que são todas de 
+contraponto e para as passagens longas e curtas de glosas60. 
+ 
+A segunda maneira se faz correndo a primeira Colcheia e detendo-se na segunda, e nem 
+mais nem menos correndo a terceira e detendo-se na quarta e dessa maneira, todas, o que se 
+faz como se a primeira Colcheia fosse Semicolcheia, e a segunda Colcheia fosse pontuada e, 
+semelhantemente, a terceira Colcheia fosse Semicolcheia, e a quarta Colcheia fosse pontuada 
+e dessa sorte procedendo. Nessa maneira, as Colcheias que têm ponto nunca atacam no 
+tempo, mas no vazio. Essa maneira serve para as glosas curtas que são feitas tanto nas obras 
+[compostas] quanto nas fantasias [improvisadas]61. E note-se que esta maneira é muito mais 
+galante que a outra sobredita. 
+ 
+A terceira maneira se faz correndo três Colcheias e detendo-se na quarta, e depois correndo 
+outras três e detendo-se na quarta, e adverte-se que estas paradas hão de ser todo o tempo 
+que for necessário, para que a quinta Colcheia venha a atacar a seu tempo no Meio 
+Compasso e dessa maneira, todas; de sorte que vão de quatro em quatro, o que se faz como 
+se as três Colcheias fossem Semicolcheias, e a quarta Colcheia fosse pontuada. Essa terceira 
+maneira é a mais galante de todas, a qual serve para variações curtas e longas. 
+ 
+Tenha-se aviso que a parada das Colcheias não há de ser muita, mas somente quando se 
+assinala e se dê a entender um pouco, porque uma parada muito grande causa desgraça e 
+feiura à música. Assim, por essa mesma razão, as três Colcheias que se correm não hão de 
+correr demasiadamente, mas com moderação, conforme a parada que se fizer na quarta 
+Colcheia. E para que com maior clareza tudo se entenda, e assim se possa utilizar facilmente 
+na obra, se colocará nos exemplos apontados um ponto sob a cabeça de cada Colcheia e 
+Semicolcheia que atacar no Meio Compasso. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+60 O mesmo que variações ou ornamentações. 
+61 Assi en las obras como en la fantasia no original.
+
+
+[Page 44]
+42 
+EXEMPLO 
+Exemplo da primeira maneira. 
+ 
+ 
+Exemplo da segunda maneira. A três vozes. 
+ 
+ 
+Exemplo da terceira maneira. A três vozes. 
+ 
+ 
+ 
+DO MODO DE FAZER OS REDOBROS E QUEBROS 
+ 
+CAPÍTULO XIX [B]62 
+ 
+Quanto aos Redobros e Quebros, que é a oitava condição, deve-se notar que Redobro quer 
+dizer notas dobradas ou reiteradas, as quais somente se dobram ou reiteram com notas 
+imediatas, como mi, ré, mi fá, mi, fá, mi, fá, mi. 
+ 
+EXEMPLO 
+ 
+Da mesma forma, Quebro quer dizer notas dobradas ou 
+reiteradas, como mi, fá, mi, fá, mi, fá, mi, ainda que 
+existam muitos Quebros que não são reiterados, mas 
+simples, como mi, fá, mi, ou fá, mi, fá. Assim, os Quebros dividem-se em dois tipos, a saber: 
+reiterados e simples. 
+ 
+EXEMPLO 
+ 
+ 
+62 Numeração de capítulo repetida no original.
+
+
+[Page 45]
+43 
+O Quebro Reiterado difere do Redobro, porque o Redobro tem uma nota a mais na parte 
+inferior, cuja melodia faz mi, ré, mi, fá, mi, fá, mi, fá, mi e o Quebro Reiterado não toca o ré, 
+cuja melodia faz mi, fá, mi, fá, mi, fá, mi. 
+ 
+EXEMPLO 
+ 
+ 
+Os Redobros fazem-se somente em Compassos inteiros, isto é, em Semibreves. E os Quebros 
+fazem-se em Mínimas e em Semínimas e, excepcionalmente, em Colcheias. E adverte-se que 
+os Redobros de nenhuma maneira hão de se fazer muito longos, porquanto enfeiam a 
+música. 
+ 
+Os Quebros Reiterados fazem-se em Mínimas e os Simples em Semínimas, exceto um, que 
+não é Reiterado, o qual se faz somente em Mínimas, cuja melodia faz sol, fá, mi, fá. 
+ 
+EXEMPLO 
+ 
+Os Quebros Reiterados fazem-se em todas as Mínimas que se 
+atacam com dedos que podem fazê-los, mas os Simples não se 
+fazem em todas as Semínimas, mas em uma sim, outra não, e dessa 
+maneira todas. 
+ 
+A causa porque os Quebros que se fazem em Semínimas são Simples e não Reiterados é a 
+pouca duração das Semínimas. E, por essa mesma razão, não se fazem Quebros nas 
+Colcheias nem nas Semicolcheias. 
+ 
+Há uma só maneira de Redobros, e seis de Quebros. O Redobro faz-se sempre juntamente 
+com Tom e Semitom, diferentemente dos Quebros, os quais se fazem somente com Tom ou 
+com Semitom, exceto o sobredito Quebro de Mínimas, que se faz juntamente com Tom e 
+Semitom, cuja melodia é sol, fá, mi, fá. 
+ 
+EXEMPLO 
+ 
+ 
+O sobredito Quebro de Mínimas que se faz juntamente com Tom e Semitom há de levar, 
+necessariamente, o Semitom na parte inferior e o Tom na parte superior, porque, de outra 
+maneira, levaria muita desgraça e aspereza para os ouvidos e, por essa causa, não se há de 
+fazer onde termine em mi, de modo que a melodia seja fá, mi, ré, mi, porque, em tal caso, o 
+Tom viria na parte inferior e o Semitom na parte superior, mas pode terminar em qualquer 
+uma das outras cinco notas que são ut, ré, fá, sol e lá. 
+ 
+EXEMPLO
+
+
+[Page 46]
+44 
+O Redobro umas vezes leva o Tom na parte superior e o Semitom na parte inferior e, pelo 
+contrário, outras vezes leva o Tom na parte inferior e o Semitom na parte superior. E note-se 
+que de nenhuma maneira é lícito fazer Redobro que leve juntamente dois Tons, um na parte 
+inferior e outro na parte superior, porque tal Redobro é muito desgraçado e áspero para os 
+ouvidos. 
+ 
+EXEMPLO 
+ 
+ 
+O Redobro e o sobredito Quebro que se toca juntamente com Tom e Semitom fazem-se com 
+três dedos, e todos os outros cinco Quebros, com dois dedos. 
+ 
+Quando se faz o Redobro com a mão direita, faz-se com os três dedos que são segundo, 
+terceiro e quarto, começando e acabando com o terceiro. 
+ 
+Quando se faz com a mão esquerda, faz-se com duas variações de dedos. A primeira é com 
+os três dedos que são primeiro, segundo e terceiro, começando e acabando com o segundo. 
+ 
+A outra variação faz-se com os três dedos que são segundo, terceiro e quarto, começando e 
+acabando com o terceiro63. 
+ 
+Quanto aos Quebros, há de se notar que, das seis maneiras que há de Quebros, duas fazem-
+se em Mínimas, e quatro, em Semínimas. 
+ 
+Dos dois que se fazem com Mínimas, um é o sobredito que se faz juntamente com Tom e 
+Semitom. Esse Quebro deve-se fazer com os mesmos dedos da mão direita e da esquerda 
+com que se faz o Redobro. 
+ 
+O outro Quebro de Mínimas é o que se faz Reiterado, cuja melodia é mi, fá, mi, fá, mi, fá, mi 
+ou fá, sol, fá, sol, fá, sol, fá. 
+ 
+EXEMPLO 
+ 
+ 
+Esse Quebro, quando se faz com a mão direita, faz-se com os dois dedos que são terceiro e 
+quarto, começando e acabando com o terceiro. Algumas vezes também se faz com os dois 
+dedos que são segundo e terceiro, começando e acabando com o segundo. 
+ 
+ 
+63  
+Redobro e Quebro por tom e semitom 
+Mão Direita 
+3 2 3 4 3 
+Mão Esquerda 
+2 3 2 1 2 
+3 4 3 2 3
+
+
+[Page 47]
+45 
+Quando se faz com a mão esquerda, faz-se com duas variações de dedos. A primeira é com 
+os dois dedos que são segundo e primeiro, começando e acabando com o segundo. 
+ 
+A outra variação é com os dois dedos que são terceiro e segundo, começando e acabando 
+com o terceiro64. 
+ 
+Há muito que se notar, por grande requinte, que agora se usa começar o Redobro e o Quebro 
+Reiterado de Mínimas a partir de uma nota acima da nota em que termina e, além disso, a 
+primeira nota dos sobreditos Redobro e Quebro há de atacar sozinha, e a segunda nota há de 
+atacar na consonância que então se der65. 
+ 
+Desse modo, a sobredita primeira nota há de ser atacada com o dedo que está junto ao dedo 
+em que termina o Redobro e o Quebro na parte superior, isto é, quando se fizerem com a 
+mão direita, hão de começar com o dedo quarto e acabar com o dedo terceiro e, quando se 
+fizerem com a mão esquerda, na primeira variação de dedos, hão de começar com o dedo 
+primeiro e acabar com o dedo segundo e, na outra variação de dedos, hão de começar com o 
+dedo segundo e acabar com o dedo terceiro66. 
+ 
+Essas maneiras de Redobros e Quebros e a outra maneira de Quebro de Mínimas que se 
+fazem juntamente com Tom e Semitom são muito novas e muito galantes, as quais causam 
+tanta graça e melodia à música e a levantam em tantos graus e a tanto contentamento para os 
+ouvidos que [a música] parece outra coisa diferente do que se toca sem esses ornamentos e, 
+portanto, com muita razão, devem-se usá-los sempre, e não os outros, porquanto são antigos 
+e desgraciosos. 
+ 
+Dos outros quatro Quebros de Mínimas que são Simples, isto é, não Reiterados, dois são para 
+subir, e os outros dois, para descer. 
+ 
+ 
+64  
+Quebro de Mínimas 
+Mão Direita 
+       2 3 2 3… 2 
+3 4 3 4… 3 
+Mão Esquerda 
+2 1 2 1… 2 
+3 2 3 2… 3 
+ 
+65 Sancta Maria aqui recomenda que seja incluída uma outra nota antes do início propriamente dito do Redobro 
+ou Quebro; que essa seja tocada antes do tempo, e que só a segunda seja tocada no tempo, junto com a nota do 
+baixo (“com a consonância que então se der”). Nos exemplos dessa situação, propostos por Jürgen Trinkewitz (In: 
+Historisches Cembalospiel. Echterdingen: Carus-Verlag, 2009, p. 245) e incluídos abaixo, foram tomados como 
+modelo o Redobro e o Quebro Reiterado de Mínimas apresentados na página 43.  
+ 
+                    Redobro Reiterado 
+ 
+    Quebro Reiterado 
+ 
+66  
+ 
+Redobro 
+Quebro 
+Mão Direita 
+4 3 2 3 4 3… 3 
+4 3 4 3… 3 
+Mão Esquerda 
+1 2 3 2 1 2… 2 
+1 2 1 2… 2 
+2 3 4 3 2 3… 3 
+2 3 2 3… 3
+
+
+[Page 48]
+46 
+Os que são para subir fazem-se somente com Tom ou com Semitom na parte inferior, assim 
+como mi, ré, mi ou fá, mi, fá. 
+ 
+                     EXEMPLO 
+ 
+Os que são para descer também se fazem somente com Tom ou 
+com Semitom, mas na parte superior, assim como fá, sol, fá ou 
+mi, fá, mi. 
+ 
+                     EXEMPLO 
+ 
+Desses quatro Quebros, dois deles diferem dos outros dois, 
+porque os primeiros fazem-se com três notas, tais como ré, ut, 
+ré ao subir e ré, mi, ré ao descer, e os outros dois fazem-se com 
+duas notas, tais como fá, mi ao subir e fá, sol ao descer, os quais se fazem somente com Tom 
+ou com Semitom. 
+ 
+Os que se fazem com duas notas e os que se fazem com três, todos eles começam e acabam 
+com uma mesma nota, tanto ao subir quanto ao descer. 
+ 
+Quando os sobreditos quatro Quebros são atacados com a mão direita, ao subir, hão de se 
+fazer com os dois dedos que são terceiro e segundo, começando e acabando com o terceiro e 
+ao descer hão de se fazer com os dois dedos que são terceiro e quarto, começando e acabando 
+com o terceiro. Quando são atacados com a mão esquerda, ao subir, hão de se fazer com os 
+dois dedos que são segundo e terceiro, começando e acabando com o segundo e ao descer 
+hão de se fazer com os mesmos dois dedos que são terceiro e segundo, começando e 
+acabando com o terceiro. Algumas vezes acontece que se fazem, ao descer, com os dois 
+dedos que são primeiro e segundo, começando e acabando com o segundo67. 
+ 
+Dos dois Quebros de Semínimas que, tanto ao subir como ao descer, se fazem com duas 
+notas, há de se notar duas coisas: a primeira é que o dedo que atacar a primeira nota, depois 
+de haver atacado a tecla, não há de se levantar dela, mas sim estar sempre fixo sobre ela; e o 
+dedo que atacar a segunda nota deve sair logo fora da tecla, deslizando por ela, como quem 
+arranha e, além disso, o dedo que atacar a primeira nota há de apertar um pouquinho sobre a 
+tecla, afundando-a até em baixo. E advirta-se que a primeira nota desses dois Quebros é a 
+que se ataca com o dedo em que termina o Quebro68. 
+ 
+67  
+ 
+Quebros sucessivos nas 
+escalas ascendentes 
+Quebros sucessivos nas 
+escalas descendentes 
+Mão Direita 
+3 2 3 
+3 4 3 
+Mão Esquerda 
+2 3 2  
+3 2 3 
+2 1 2 
+ 
+68 Sancta Maria descreve um ornamento sem exemplifica-lo em partitura. Adicionamos abaixo a versão elaborada 
+por Trinkewitz (op. cit.).
+
+
+[Page 49]
+47 
+A segunda coisa é que a segunda nota dos sobreditos dois Quebros há de ser tocada tão 
+rápido após a primeira que quase ataquem juntas, a um mesmo tempo, de sorte que pareça 
+que se ataca uma segunda. E note-se que, desses dois Quebros, o que é para subir não é tão 
+gracioso nem soa tão bem aos ouvidos quanto o que é para descer, por isso não se deve usá-
+lo tantas vezes. Os sobreditos dois Quebros não se podem anotar e, portanto, não se pode 
+pôr exemplos deles. 
+ 
+Quatro coisas notáveis requerem-se para fazer os Redobros e Quebros Reiterados de 
+Mínimas com toda perfeição, sem as quais é impossível fazê-los perfeitamente. A primeira e 
+principal é juntar todos os quatro dedos que são segundo, terceiro, quarto e quinto uns aos 
+outros, tudo o que for possível, especialmente juntar carne com carne, [ou seja], o dedo que 
+ataca a nota mais grave do Redobro com o dedo em que termina o mesmo Redobro ou 
+Quebro. Além disso, [deve-se] encolhê-lo um pouco e colocá-lo mais alto que os outros dedos 
+e, assim posto, apoiar um pouco sobre o dedo em que terminar o Redobro ou Quebro. Isso se 
+entenderá claramente quando se fizer o Redobro com a mão direita, o que comumente se faz 
+com os três dedos que são segundo, terceiro e quarto, terminando sempre com o terceiro; 
+então é necessário encolher um pouco o dedo segundo e colocá-lo mais alto que o terceiro. 
+Posto dessa maneira, uni-lo ao dedo terceiro, principalmente no fim do Redobro, e o mesmo 
+para todos os Quebros de Mínimas e também para os de Semínimas, quando se fizerem no 
+subir do canto, o que ajuda muito e dá força aos dois dedos que reiteram as duas notas do 
+Redobro e dos Quebros, para que se façam com mais perfeição e espírito. Quando se fizerem 
+os sobreditos Redobros e Quebros com a mão esquerda e se fizerem com os três dedos que 
+são primeiro, segundo e terceiro, há de se encolher um pouco o dedo terceiro e colocá-lo 
+mais alto que o dedo segundo. Posto dessa maneira, juntá-lo ao dedo segundo, 
+principalmente no fim do Redobro e dos Quebros. Quando se fizerem com os outros três 
+dedos da mesma mão esquerda que são segundo, terceiro e quarto, há de se encolher um 
+pouco o dedo quarto e colocá-lo mais alto que o dedo terceiro. Posto dessa maneira, juntá-lo 
+ao dedo terceiro, principalmente no fim do Redobro e dos Quebros, o que (como é dito) 
+ajuda muito e dá força aos dedos que reiteram as duas notas do Redobro e dos Quebros, para 
+que se façam com mais perfeição e espírito. 
+ 
+A segunda coisa é tirar fora das teclas os dois dedos que atacam a nota mais grave e a mais 
+aguda do Redobro e do Quebro de Mínimas que se faz com Tom e Semitom. Dessa forma há 
+de se tirar fora das teclas o dedo que ataca a nota mais aguda dos Quebros de Mínimas e 
+Semínimas, assim fazendo tanto com a mão direita quanto com a mão esquerda, exceto que o 
+dedo que ataca a nota mais grave do Redobro e do Quebro de Mínimas que se faz com Tom e 
+Semitom, dedo este que ataca uma só vez, há de se tirar um pouco da tecla; e o dedo que 
+ataca a nota mais aguda do Redobro e dos Quebros há de se tirar muito mais fora das teclas, 
+mas somente no fim do Redobro e dos Quebros e, além disso, há de se pendê-lo um pouco 
+para baixo e logo tornar a levantá-lo e colocá-lo em cima das teclas como estava antes. 
+ 
+A terceira coisa é que o dedo que ataca a nota mais aguda do Redobro e dos Quebros há de 
+atacar sempre mais na borda da tecla que o dedo que está junto a ele, no qual termina o 
+Redobro e os Quebros. Além disso, desde o início do Redobro e dos Quebros Reiterados, há 
+de se ir tirando [o dedo] pouco a pouco para fora, até tirá-lo todo fora da tecla no fim do 
+Redobro e dos Quebros, o que faz com que o dedo em que termina o Redobro e os Quebros 
+fique na borda da tecla no final do Redobro e dos Quebros, ainda que no início comece mais 
+para dentro da tecla, o que é necessário para que o Redobro e os Quebros se acabem muito 
+cortados e finalizados69.  
+ 
+ 
+69 Çerçenados no original.
+
+
+[Page 50]
+48 
+A quarta coisa é virar um pouco a mão que fizer o Redobro e os Quebros até a parte superior, 
+exceto nos Quebros de Semínimas que se fazem ao descer. 
+ 
+As sobreditas quatro coisas notáveis requerem-se também para fazer com toda perfeição 
+todos os Quebros, tanto de Mínimas como de Semínimas, exceto que, no Quebro Reiterado 
+de Mínimas e nos quatro de Semínimas, não se tira fora das teclas mais de um dedo. 
+ 
+Os quatro Quebros de Semínimas, tanto os que são para subir quanto os que são para descer, 
+umas vezes se fazem nas Semínimas que atacam no Compasso e no Meio Compasso e outras 
+vezes nas que não atacam nem no Compasso nem no Meio Compasso, e essa é a melhor 
+maneira e mais galante, porque dá mais graça ao que se toca. 
+ 
+Quando os Quebros se fizerem nas Semínimas que atacam no Compasso ou no Meio 
+Compasso e se tocarem com a mão direita, se for ao subir, hão de subir com os dois dedos 
+que são terceiro e quarto; e, ao descer, com os outros dois que são terceiro e segundo, 
+começando, ao subir e ao descer, com o dedo terceiro, exceto quando a primeira Semínima, 
+tanto ao subir quanto ao descer, não atacar no Compasso ou no Meio Compasso, que é 
+quando antes dela vem Pausa de Semínima. [Isso] porque, em tal caso, essa primeira 
+Semínima, se for ao subir, há de se atacar com o dedo segundo e, ao descer, com o dedo 
+quarto. E para que com maior clareza isso se entenda, se porá um pontinho sobre cada 
+Semínima em que se houver de fazer Quebro70. 
+ 
+EXEMPLO 
+ 
+ 
+Quando se tocarem as Semínimas com a mão esquerda e os Quebros também se fizerem nas 
+Semínimas que atacarem no Compasso e no Meio Compasso, se for ao subir, hão de subir 
+com os dois dedos que são segundo e primeiro; e, ao descer, com os outros dois que são 
+terceiro e quarto, começando, ao subir, com o dedo segundo e, ao descer, com o dedo 
+terceiro, exceto quando a primeira Semínima, tanto ao subir quanto ao descer, não atacar no 
+Compasso ou no Meio Compasso, que é quando antes dela vem Pausa de Semínima. [Isso] 
+porque, então, essa primeira Semínima, se for ao subir, há de se atacar com o dedo terceiro e, 
+ao descer, com o dedo segundo71. 
+ 
+ 
+ 
+70  
+ 
+Ascendente 
+Descendente 
+Mão Direita 
+3 4 3 4… 
+3 2 3 2… 
+2 3 4 3 4… 
+4 3 2 3 2… 
+ 
+71  
+ 
+Ascendente 
+Descendente 
+Mão Esquerda 
+2 1 2 1… 
+3 4 3 4… 
+3 2 1 2 1… 
+2 3 4 3 4…
+
+
+[Page 51]
+49 
+EXEMPLO 
+ 
+ 
+Quando se fizerem os Quebros nas Semínimas que não atacarem no Compasso nem no Meio 
+Compasso e se tocarem com mão direita, e, além disso, a primeira Semínima atacar no 
+Compasso ou no Meio Compasso, se for ao subir, essa primeira Semínima há de se atacar 
+com o dedo segundo, e todas as outras restantes hão de subir com os dois dedos que são 
+terceiro e quarto; e, se for ao descer, a primeira Semínima há de ser atacada com o dedo 
+quarto, e todas as outras restantes hão de descer com os dois dedos que são terceiro e 
+segundo. Mas, quando a primeira Semínima, tanto ao subir quanto ao descer, não atacar no 
+Compasso nem no Meio Compasso, que é quando antes dela vem Pausa de Semínima, se for 
+ao subir, todas hão de subir com os dois dedos que são terceiro e quarto e, ao descer, com os 
+outros dois dedos que são terceiro e segundo, começando, tanto ao subir quanto ao descer, 
+com o dedo terceiro72. 
+ 
+EXEMPLO 
+ 
+ 
+Quando se tocarem as Semínimas com a mão esquerda e os Quebros também se fizerem nas 
+Semínimas que não atacarem no Compasso nem no Meio Compasso, e, além disso, a 
+primeira Semínima começar no Compasso ou no Meio Compasso, se for ao subir, essa 
+primeira Semínima há de ser atacada com o dedo terceiro, e todas as outras restantes hão de 
+subir com os dois dedos que são segundo e primeiro; e, se for ao descer, a primeira Semínima 
+há de ser atacada com o dedo segundo, e todas as outras restantes hão de descer com os dois 
+dedos que são terceiro e quarto. Mas, quando a primeira Semínima, tanto ao subir quanto ao 
+descer, não atacar no Compasso nem no Meio Compasso, que é quando antes dela vem 
+Pausa de Semínima, se for ao subir, todas hão de subir com os dois dedos que são segundo e 
+ 
+72  
+ 
+Ascendente 
+Descendente 
+Mão Direita 
+2 3 4 3 4… 
+4 3 2 3 2… 
+3 4 3 4… 
+3 2 3 2…
+
+
+[Page 52]
+50 
+primeiro e, ao descer, com os outros dois dedos que são terceiro e quarto, começando, ao 
+subir, com o dedo segundo e, ao descer, com o dedo terceiro73.  
+ 
+EXEMPLO 
+ 
+ 
+Algumas vezes acontece que os dois Quebros de Mínimas que são para descer se fazem ao 
+subir, o que se faz com esta limitação: que seja em nota que tenha Semitom na parte superior. 
+Donde se segue que necessariamente há de ser na nota mi74, o que se entenderá claramente 
+nesta seguinte melodia: ré, mi, fá, ré, mi. Essa melodia há de ser tocada com esta ordem de 
+dedos: quarto, terceiro, segundo, quarto e terceiro75. 
+ 
+                            EXEMPLO 
+ 
+Algumas vezes também acontece que somente ao descer se fazem 
+Quebros em duas Semínimas consecutivas, o que se faz por graça e 
+galanteria. Isso acontece quando, depois de uma Semibreve que se 
+alcança no alto, descem-se duas Semínimas seguidas. 
+ 
+EXEMPLO 
+ 
+Quando se subir em Semínimas e logo se tornar a descer, 
+sempre na nota mais aguda há de se fazer o Quebro que se faz 
+para descer, ainda que pareça que por ir subindo se deveria 
+fazer o Quebro que se faz para subir. 
+ 
+EXEMPLO 
+ 
+ 
+Desse modo, quando se descer em Semínimas e logo se tornar a subir também em 
+Semínimas, sempre na nota mais grave há de se fazer o Quebro que se faz para subir, ainda 
+que pareça que por ir descendo se deveria fazer o Quebro que se faz para descer. 
+ 
+ 
+ 
+73  
+ 
+Ascendente 
+Descendente 
+Mão Esquerda 
+3 2 1 2 1… 
+2 3 4 3 4… 
+2 1 2 1… 
+3 4 3 4… 
+ 
+74 Lembrar que o autor refere-se aqui à terceira nota do hexacorde, única que tem semitom superior nesse sistema.  
+75  
+Mão Esquerda 
+4 3 2 4 3
+
+
+[Page 53]
+51 
+EXEMPLO 
+ 
+ 
+Desse modo, para dar mais graça à música, sempre hão de se fazer Quebros em todas as 
+Semínimas que se seguirem imediatamente depois das Mínimas pontuadas, o que só se deve 
+fazer ao descer do canto. 
+ 
+                 EXEMPLO 
+ 
+Para que a música leve mais graça e assim dê mais 
+contentamento aos ouvidos, é necessário que os Redobros e 
+Quebros de Mínimas se façam às vezes com as duas mãos; 
+isto é, um Redobro com uma mão e outro Redobro com a outra, e, da mesma maneira, um 
+Quebro com uma mão e outro Quebro com a outra, respondendo-se às vezes dessa maneira. 
+Isso se entende quando com ambas as mãos se tocarem Semibreves ou Mínimas que possam 
+fazer os Redobros ou Quebros, assim tocando tanto com imitação como sem ela, o que em 
+grande modo adorna a música e lhe dá graça, principalmente quando as Semibreves e 
+Mínimas vão em imitação. 
+ 
+Quando o Tom fugir de algumas teclas brancas ou pretas76, os Redobros e Quebros que então 
+se fizerem hão de fugir também delas, o que se entende da nota mais grave e da nota mais 
+aguda dos Redobros e Quebros77. 
+ 
+É de notar que entre todas as sobreditas oito condições há três principais. A primeira e mais 
+importante (sem a qual é impossível tocar com perfeição) é trazer as mãos muito encolhidas, 
+isto é, os dedos muito juntos uns aos outros tanto quanto for possível, para o que é 
+necessário trazer encolhidos os dois dedos de ambas as mãos que são primeiro e quinto, da 
+forma e maneira que em seu lugar se tratou, porque deles (como antes foi observado) 
+depende todo o encolhimento das mãos. 
+ 
+A segunda coisa é não atacar as notas do alto, para o que é necessário trazer os dedos 
+próximos das teclas e, além disso, depois de havê-las atacado, levantar muito pouco os 
+dedos. A terceira coisa é atacar as teclas, tanto brancas quanto pretas, com a polpa dos dedos, 
+para o que é necessário baixar os pulsos e, além disso, atacar as teclas nas bordas, isto é, mais 
+para fora, porque, dessa maneira, soam muito mais as notas e com maior espírito que 
+atacando-as para dentro. 
+ 
+ 
+uuu 
+ 
+ 
+ 
+76 Sancta Maria refere-se à execução em outros modos. 
+77 O autor prescreve que as alterações sejam também aplicadas aos ornamentos, incluindo tanto suas notas 
+inferiores quanto as superiores.
+
+
+
+=== SECTION: Frescobaldi — Ao Leitor (1637) ===
+
+
+[Page 55]
+II 
+ 
+ 
+GIROLAMO FRESCOBALDI 
+ 
+AO LEITOR 
+ 
+1637
+
+
+[Page 56]
+
+
+
+[Page 57]
+55 
+Tendo conhecimento de quanto é apreciada a maneira de tocar com afetos cantáveis1 e com 
+diversidade de passagens2, pareceu-me interessante mostrar-lhe quão favorável e afeiçoado 
+sou por estes meus singelos trabalhos, apresentando-os impressos com as recomendações 
+que se seguem, afirmando que prefiro o mérito de outrem e considero o valor de cada um. E 
+aceite de bom grado o afeto com o qual os exponho ao estudioso e cortês Leitor. 
+ 
+1. Primeiramente, este modo de tocar não deve estar sujeito ao tempo3 como vemos usar nos 
+madrigais modernos que, embora difíceis, são facilitados pelo tempo conduzido ora 
+lânguido, ora rápido e mesmo suspenso no ar de acordo com os seus afetos ou sentido das 
+palavras. 
+ 
+2. Nas tocatas, levei em consideração não só que sejam abundantes em passagens diversas e 
+afetos, mas também que cada uma dessas passagens possa ser tocada independentemente 
+uma da outra, de modo que o executante não seja obrigado a terminar todas até o final [da 
+obra], mas possa parar onde lhe parecer bem. 
+ 
+3. Os começos das tocatas são feitos comodamente4 e arpejando; desse modo, as ligaduras ou 
+dissonâncias5, [tanto no começo] como também no meio da obra, serão tocadas novamente, 
+para não deixar vazio [o som] do instrumento. Tal repetição será retomada ao gosto de quem 
+toca.  
+ 
+4. Na última nota, seja de trinados ou de passagens de salto6, ou de grau [conjunto], deve-se 
+parar, mesmo que essa nota seja uma colcheia, ou fusa, ou diferente da que segue, pois essa 
+parada evitará confundir uma passagem com a outra. 
+ 
+5. As cadências, ainda que sejam escritas rápidas, devem ser muito sustentadas; e ao se 
+aproximar do final das passagens ou das cadências, se tocará sustentando o tempo mais 
+lentamente. A separação e a conclusão das passagens se darão quando ambas as mãos 
+encontrarem uma consonância escrita em mínimas. 
+ 
+6. Quando se encontrar um trinado na mão direita, ou mesmo na esquerda, e ao mesmo 
+tempo uma passagem na outra mão, não se deve dividir nota por nota, mas somente 
+procurar fazer com que o trinado seja rápido e a passagem seja executada afetuosa e menos 
+rapidamente; caso contrário, haveria confusão. 
+ 
+7. Encontrando-se alguma passagem de colcheias e de semicolcheias juntas nas duas mãos, 
+não se deve tocar muito rápido; aquela que fará as semicolcheias deverá fazê-las um tanto 
+pontuadas, isto é, não a primeira, mas a segunda com um ponto, e assim todas, uma não e 
+outra sim. 
+ 
+8. Antes que se façam passagens duplas de semicolcheias com ambas as mãos, deve-se parar 
+na nota precedente, mesmo que seja preta7. Então, resolutamente, se fará a passagem para 
+realçar ainda mais a agilidade da mão. 
+ 
+9. Nas Partitas, quando se encontrarem passagens e afetos, será bom adotar um tempo mais 
+lento, o que se observa também nas tocatas. As outras [seções] que não contém passagens 
+ 
+1 Affetti cantabili no original.  
+2 Passi no original, que indica as seções de uma tocata.  
+3 Battuta no original. 
+4 Adagio no original.  
+5 Ligature, o uero durezze no original. 
+6 Passaggi di salto no original. 
+7 Nera no original, significando qualquer figura de pequeno valor.
+
+
+[Page 58]
+56 
+poderão ser tocadas em um tempo um pouco mais rápido, deixando ao bom gosto e fino 
+julgamento do executante a condução do tempo, na qual consiste o espírito e a perfeição 
+desta maneira e estilo de tocar. 
+ 
+As Passacalhas poderão ser tocadas separadamente, da maneira que mais agradar, ajustando 
+o tempo de uma parte8 a outra, assim como as Chaconas9. 
+ 
+ 
+uuu 
+ 
+8 Parte no original, indicando seção ou variação.  
+9 Ao colocar lado a lado Passacalha e Chacona em uma mesma obra em seu Il secondo libro di toccate... em 1627, 
+Girolamo Frescobaldi tornou-se, aparentemente, o primeiro compositor a explorar o potencial dessas 
+composições como gêneros pares, isto é, dois gêneros que são similares e em certa maneira associados entre si, 
+mas ainda claramente distinguíveis (SILBIGER, Alexander. Passacaglia and Ciaccona: Genre Pairing and 
+Ambiguity from Frescobaldi to Couperin. In: SNYDER, Kerala J. (Ed.). Journal of Seventeenth-Century Music, vol. 2, 
+n. 1. Disponível em: <http://www.sscm-jscm.org/v2/no1/silbiger.html#A___R>. Acesso em: 17 set. 2013).
+
+
+
+=== SECTION: Couperin — A Arte de tocar o Cravo (1717) ===
+
+
+[Page 59]
+III 
+ 
+ 
+FRANÇOIS COUPERIN 
+ 
+A ARTE DE TOCAR O CRAVO 
+ 
+1717
+
+
+[Page 60]
+
+
+
+[Page 61]
+59 
+PREFÁCIO* 
+ 
+ 
+O Método que apresento aqui é único e não tem nenhuma relação com a Tablatura1, que é 
+meramente uma ciência de números. Aqui lido com todos os aspectos (demonstrados por 
+preceitos) do bom toque ao Cravo. Acredito que dei noções suficientemente claras (do gosto 
+que convém a este instrumento), para ser aprovado por aqueles que já são hábeis e para 
+ajudar os que aspiram a sê-lo. Assim como há uma grande distância da Gramática à 
+Declamação, há ainda um caminho infinito entre a Tablatura e a maneira de se tocar bem. 
+Não devo, entretanto, temer que haja qualquer má compreensão por parte daqueles mais 
+esclarecidos. Devo apenas exortar os outros à docilidade e a despir-se de preconceitos que 
+possam ter. Ao menos, devo assegurar a todos que estes princípios são absolutamente 
+necessários para se obter êxito na execução de minhas Peças. 
+ 
+ 
+PLANO DESTE MÉTODO 
+ 
+A posição do corpo e das mãos; os ornamentos2 que servem à execução3; pequenos exercícios 
+preliminares e essenciais para se conseguir tocar bem; algumas observações sobre a maneira 
+de se obter um bom dedilhado, relativas a muitos trechos de meus dois Livros de Peças; oito 
+Prelúdios diversificados, apresentados em ordem de dificuldade, considerando o progresso 
+que suponho que deva ser alcançado, cujos dedos são numerados, os quais alternei com 
+observações para se executar com bom gosto; são as partes desta obra.  
+ 
+A modéstia de alguns dos mais hábeis Mestres do Cravo que, de bom grado, me deram a 
+honra por diversas vezes de virem me consultar sobre a maneira e o bom gosto de tocar 
+minhas Peças, faz-me esperar que Paris, a Província e o exterior, onde em todos os casos 
+foram recebidas favoravelmente, me serão gratos por lhes dar um método seguro para bem 
+executá-las; e foi por isso que me determinei a publicar essa obra entre meu Primeiro Livro 
+de Peças e o Segundo, que acaba de ficar pronto. 
+ 
+Para a facilidade daqueles que tocam as Peças dos meus dois Livros, darei explicações e 
+indicarei o dedilhado nos trechos que suscitam mais dúvidas; através desses exemplos 
+obteremos resultados que serão úteis para outras ocasiões. 
+ 
+A idade apropriada para iniciar as crianças é de seis a sete anos: não que isso deva excluir as 
+pessoas mais velhas, mas, naturalmente, para dar forma às mãos no exercício do Cravo, 
+quanto mais cedo melhor; e como a boa vontade faz-se necessária, será preciso começar pela 
+posição do corpo. 
+ 
+ 
+*No original, o autor usa letras maiúsculas de modo indiscriminado. Optamos por padronizar e preservar esta 
+característica nos termos mais significativos. 
+1 Tablature no original. Segundo J. J. Rousseau (Dictionnaire de Musique, Paris: Chez la Veuve Duchesne, 1768, p. 
+497-498) essa palavra significava a totalidade dos sinais da música, e aquele que conhecesse bem as notas e 
+pudesse cantar à primeira vista seria chamado de ‘conhecedor da tablatura’. Entretanto, tal termo pode ser 
+compreendido também como um sistema de notação que utiliza letras, algarismos ou outros sinais em vez da 
+notação em pauta musical, e característico de instrumentos como alaúde, guitarra e viola da gamba. Pode ser 
+ainda entendido como arranjo de uma composição vocal para teclado, alaúde ou outro instrumento de cordas 
+dedilhadas (SADIE, Stanley (Ed.). Dicionário Grove de Música - edição concisa. Rio de Janeiro: Jorge Zahar Editor, 
+1994, p. 924).  
+2 Agrémens no original. 
+3 Jeu no original.
+
+
+[Page 62]
+60 
+Para se estar sentado a uma boa altura é necessário que a parte inferior dos cotovelos, os 
+pulsos e os dedos estejam nivelados: dessa forma, deve-se usar uma cadeira que possibilite o 
+cumprimento desta regra. 
+ 
+Deve-se colocar alguma coisa mais ou menos alta sob os pés das pessoas jovens à medida 
+que elas crescem, a fim de que seus pés, não estando suspensos no ar, possam sustentar o 
+corpo num equilíbrio correto. 
+ 
+A distância a qual uma pessoa adulta deve estar do teclado é mais ou menos de nove 
+polegadas4 a partir da cintura, e proporcionalmente menor para as pessoas jovens. 
+ 
+O centro do corpo e o do teclado devem coincidir. 
+ 
+Sentado ao Cravo, deve-se virar o mínimo possível o corpo para a direita, sem deixar os 
+joelhos muito fechados, mantendo os pés lado a lado, mas sobretudo o pé direito bem para 
+fora. 
+ 
+No que se refere às caretas do rosto, pode-se corrigir a si mesmo colocando um espelho sobre 
+a estante da Espineta, ou do Cravo.  
+ 
+Se uma pessoa toca com o pulso muito alto, o único remédio que encontrei é fazer com que 
+alguém segure uma pequena haste flexível que passará sobre o pulso defeituoso e sob o 
+outro. Se o defeito for no outro pulso, faz-se o oposto. Não se deve, absolutamente, 
+incomodar aquele que toca com essa varinha. Pouco a pouco este defeito se corrige. Esta 
+invenção me foi muito útil. 
+ 
+É melhor e mais conveniente não marcar o compasso com a cabeça, o corpo ou os pés. É 
+preciso ter um ar à vontade ao Cravo, sem fixar muito o olhar em algo, nem tê-lo muito vago. 
+Enfim, olhe as pessoas presentes à volta, se houver, como se não estivesse ocupado com 
+qualquer outra coisa. Esta advertência é somente para aqueles que tocam sem a ajuda de seus 
+livros. 
+ 
+Deve-se usar inicialmente uma Espineta ou um só teclado do Cravo na primeira infância e 
+que tanto um quanto o outro tenham seus plectros regulados5 muito suavemente. Este ponto 
+tem consequências infinitas. A boa execução depende muito mais da flexibilidade e da 
+grande liberdade dos dedos do que da força, de modo que, desde o início, se for permitido a 
+uma criança tocar em dois teclados, [ou seja, com o Cravo acoplado], será inevitável que ela 
+force suas pequenas mãos para fazer falar as teclas6, e daí, vêm as mãos mal colocadas, e a 
+dureza do toque. 
+ 
+A doçura do toque depende ainda de manter seus dedos o mais perto possível das teclas. É 
+sensato acreditar (experiência à parte), que uma mão que cai do alto dá um golpe mais seco 
+do que se tocasse de perto, e que o plectro tirará um som mais duro da corda. 
+ 
+É melhor, durante as primeiras aulas, que se recomende às crianças não estudarem na 
+ausência da pessoa que lhes ensina; as crianças são demasiadamente dispersivas para se 
+sujeitarem a manter suas mãos na posição prescrita. Para mim, na iniciação das crianças, levo 
+por precaução a chave do instrumento no qual as instruo, a fim de que, na minha ausência, 
+ 
+4 Aproximadamente 22,5 cm. 
+5 No original emplumées; referência à plume, plectro, pois no cravo usavam-se penas de aves para fazê-los. 
+6 O problema mencionado por Couperin advém da dificuldade de vencer a resistência dos plectros quando o 
+cravo está acoplado.
+
+
+[Page 63]
+61 
+elas não possam estragar em um só instante o que cuidadosamente ensinei durante três 
+quartos de hora. 
+ 
+À parte os ornamentos7 mais usuais como os trinados8, mordentes9, apogiaturas10, etc., 
+sempre fiz com que meus alunos realizassem pequenos exercícios de dedos, quer sejam 
+passagens ou diversos tipos de baterias11, começando pelos mais simples e sobre as 
+tonalidades mais naturais.  Sutilmente os levei aos [exercícios] mais rápidos e às 
+[tonalidades] mais afastadas. Esses pequenos exercícios, que nunca seria demais multiplicar, 
+são tanto materiais prontos para serem usados imediatamente, quanto podem servir a muitas 
+outras ocasiões. Darei alguns exemplos desses exercícios após a parte referente aos 
+ornamentos apresentada mais adiante, e sobre os quais se poderá imaginar outros.  
+ 
+As pessoas que começam tarde, ou que foram mal orientadas, devem estar atentas ao fato de 
+que seus nervos12 podem estar enrijecidos ou podem ter adquirido maus hábitos. Elas devem 
+se descontrair por elas mesmas, ou por uma outra pessoa, antes de se colocarem ao Cravo. 
+Isso significa alongar-se ou permitir que seus dedos sejam alongados em todas as direções, o 
+que coloca, aliás, as ideias em movimento, encontrando-se mais liberdade. 
+ 
+A maneira de escolher o dedilhado ajuda muito a tocar bem, mas como necessitaria de um 
+volume inteiro de observações, de passagens variadas para demonstrar o que penso e faço 
+meus alunos praticarem, darei aqui somente uma noção geral. É claro que um determinado 
+canto, uma determinada passagem, sendo feitos de uma certa maneira, produzem no ouvido 
+de uma pessoa de gosto apurado um efeito diferente.  
+ 
+ 
+REFLEXÃO 
+ 
+Muitas pessoas têm menos habilidade para fazer os trinados e as apogiaturas com certos 
+dedos. Nesse caso, aconselho-as a não negligenciar de torná-los melhores, exercitando-os 
+muito. Mas, como ao mesmo tempo os melhores dedos se aperfeiçoam também, é necessário 
+utilizar preferencialmente os menos capazes, sem ter nenhuma consideração à antiga 
+maneira de dedilhar, que deve ser abandonada em favor do modo de se tocar bem dos dias 
+de hoje. 
+ 
+ 
+OUTRA REFLEXÃO 
+ 
+Não se deveria começar a ensinar Tablatura13 para as crianças até que tenham um certo 
+número de Peças nas mãos. É praticamente impossível que, ao olharem para seus livros, seus 
+dedos não se atrapalhem, não se contorçam e que os ornamentos não sejam prejudicados. 
+Além disso, a memória forma-se bem melhor quando se aprende de cor. 
+ 
+ 
+ 
+ 
+7 Agrémens no original; agréments no francês atual.  
+8 Tremblemens no original; tremblements no francês atual. 
+9 Pincés no original. 
+10 Ports-de-voix no original. 
+11 Batteries no original. Segundo J. J. Rousseau (Op. cit., p. 51), maneira de tocar repetindo sucessivamente os 
+diversos sons que compõem um acorde, sobre as diversas cordas de um instrumento. O termo é também 
+conhecido como acordes quebrados. 
+12 Nerfs no original, que significa tendões. 
+13 Ver nota 1.
+
+
+[Page 64]
+62 
+OUTRA REFLEXÃO 
+ 
+Os homens que querem chegar a um determinado grau de perfeição não deveriam jamais 
+fazer nenhum exercício árduo com suas mãos. Já as mãos das mulheres, pela razão contrária, 
+são geralmente melhores. Eu já havia dito que a flexibilidade dos nervos contribui muito 
+mais para se tocar bem do que a força. Meu argumento é perceptível a partir da diferença das 
+mãos das mulheres em relação à dos homens, e, além disso, acrescento que a mão esquerda 
+dos homens, por ser menos usada para esses exercícios pesados, é comumente a mais 
+maleável no Cravo. 
+ 
+ 
+ÚLTIMA REFLEXÃO 
+ 
+Creio que não se tenha duvidado, lendo até aqui, que eu não tivesse presumido que se 
+deveria, inicialmente, ensinar às crianças o nome das notas do teclado. 
+ 
+ 
+ 
+PEQUENA DISSERTAÇÃO SOBRE A MANEIRA DE ESCOLHER O DEDILHADO, PARA SE ALCANÇAR A 
+COMPREENSÃO DOS ORNAMENTOS QUE SERÃO ENCONTRADOS 
+ 
+Estabeleço em relação a este método – diferentemente de meu costume – que se começará a 
+contar o polegar de cada mão como primeiro dedo, de forma que a numeração ficará assim:  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Essa compreensão servirá como referência a muitas passagens em minhas Peças – ambíguas 
+quanto aos dedilhados – que procuro esclarecer. Conhecer-se-á pela prática o quanto a 
+mudança de um dedo por outro sobre a mesma nota será útil, e que efeito de legato14 isso 
+causa no tocar. 
+ 
+Sendo os sons do Cravo fixos, cada um individualmente, e por consequência sem poderem 
+ser aumentados nem diminuídos, pareceu quase insustentável até o momento que se 
+pudesse dar alma a esse instrumento. Entretanto, pelas observações nas quais me apoiei, 
+graças ao pequeno dom que os céus me concederam, vou tentar explicar por quais razões 
+soube adquirir a felicidade de tocar as pessoas de bom gosto que me deram a honra de me 
+escutar, e de formar alunos que talvez me superem.  O efeito expressivo15 que proponho 
+deve seu resultado à cessação16 e à suspensão17 dos sons, feitas no momento certo e de 
+acordo com o caráter exigido pelas melodias dos Prelúdios e das Peças. Esses dois 
+ornamentos, por seu contraste, deixam o ouvido incerto, de sorte que nas ocasiões em que os 
+instrumentos de arco aumentam seus sons, a suspensão dos sons do Cravo parece – por um 
+efeito contrário – trazer ao ouvido a impressão desejada. 
+ 
+Já expliquei, pelos valores das notas e pelos silêncios, a aspiração e a suspensão na tabela de 
+ornamentos que está no fim de meu Primeiro Livro. No entanto, espero que a ideia que 
+ 
+14 Liaison no original. 
+15 L’impression-sensible no original. 
+16 Cèssation no original. 
+17 Suspention no original. 
+mão esquerda 
+ 
+5. 4. 3. 2. 1. 
+mão direita 
+ 
+1. 2. 3. 4. 5.
+
+
+[Page 65]
+63 
+acabei de dar – ainda que sucinta – não seja desnecessária às pessoas capazes de se 
+sensibilizar. Essas duas expressões – aspiração e suspensão – terão, provavelmente, parecido 
+novas.  Mas, em todo caso, se alguém se vangloria de ter praticado uma e outra, não creio 
+que me leve a mal por ter quebrado o gelo, de um modo geral, atribuindo a essas duas 
+espécies de ornamentos os nomes que convém a seus efeitos. Aliás, julguei que seria melhor 
+escutar tanto uns quanto outros, em uma arte tão estimada e tão praticada que é a de tocar 
+Cravo. 
+ 
+Quanto ao efeito expressivo da aspiração, é preciso separar a nota sobre a qual está colocada, 
+menos intensamente nas passagens doces e lentas do que naquelas leves e rápidas. 
+ 
+Em relação à suspensão, ela é utilizada quase unicamente nas Peças doces e lentas. O silêncio 
+que precede a nota sobre a qual é marcada deve ser orientado pelo gosto da pessoa que 
+executa. 
+ 
+ 
+ORNAMENTOS QUE SERVEM À EXECUÇÃO 
+ 
+ 
+ 
+É o valor das notas que deve, em geral, determinar a 
+duração dos mordentes duplos18, das apogiaturas 
+duplas19 e dos trinados20. 
+ 
+ 
+ 
+Todo mordente deve terminar na nota sobre a qual está colocado, e para me fazer 
+compreender mais claramente faço uso do termo ponto de parada21, que está marcado logo 
+abaixo por uma pequena estrela. Dessa forma, os batimentos22 e a nota na qual se pára 
+devem todos estar compreendidos dentro do valor da nota principal23. 
+ 
+ 
+ 
+ 
+ 
+ 
+O mordente duplo, no toque24 do Órgão e do Cravo, exerce a função do [mordente também 
+chamado de] martèlement nos instrumentos de arco. 
+ 
+ 
+Maneira 
+de 
+ligar 
+vários 
+mordentes 
+consecutivos 
+em 
+graus 
+conjuntos, 
+mudando de dedo 
+sobre a mesma nota. 
+ 
+ 
+18 Pincés-doubles no original. 
+19 Port-de-voix-doubles no original. 
+20 Tremblemens no original.  
+21 Point-d’arêt no original. 
+22 Batemens no original, battements no francês atual. 
+23 Èssentièle no original. 
+24 Toucher no original.
+
+
+[Page 66]
+64 
+ 
+ 
+A mesma maneira 
+para os mordentes 
+ligados 
+na 
+mão 
+esquerda. 
+ 
+ 
+ 
+ 
+Os mordentes sustenizados e bemolizados que inseri na gravura de minhas Peças não são 
+desnecessários, tendo em vista que se poderia frequentemente tocar uns no lugar de outros, 
+contrariamente à minha intenção. 
+ 
+A apogiatura é composta de duas notas de valor e de uma pequena nota perdida25. Encontrei 
+duas possibilidades de dedilhado; em minha opinião, uma é preferível à outra. 
+ 
+As notas de valor das apogiaturas estão indicadas por pequenas cruzes nos exemplos 
+adiante. 
+ 
+ 
+ 
+Permito a maneira antiga apenas nas 
+ocasiões em que a mão se encontra obrigada 
+a fazer duas partes diferentes, pois se fica 
+bastante incomodado, principalmente quando 
+as partes se distanciam uma da outra, ou 
+quando a melodia acaba de descer. 
+ 
+ 
+ 
+ 
+RAZÕES DA PREFERÊNCIA PELA NOVA MANEIRA NAS APOGIATURAS 
+ 
+O dedo marcado com o 3 na terceira progressão e o dedo marcado com o 4 na quarta são 
+obrigados a deixar a última colcheia como nota principal26 onde há uma pequena cruz, para 
+tocar novamente a pequena nota que representa a apogiatura27, permitindo assim menos 
+legato em relação à primeira progressão, onde o dedo marcado com o 3 é logo substituído 
+pelo dedo 2, e na segunda progressão, onde o dedo 4 é também logo substituído pelo dedo 
+marcado com o 3. 
+ 
+Constatei que sem ver as mãos da pessoa que toca, distingo se a repetição28 das duas notas 
+em questão29 foram feitas por um mesmo dedo ou por dois dedos diferentes. Meus alunos 
+percebem como eu, de onde concluo que há uma verdade, considerando a pluralidade de 
+impressões. 
+ 
+ 
+25 Couperin compreende por nota de valor as notas principais cuja contagem é incluída na duração do compasso. 
+Já a nota perdida não será contada. 
+26 La derniere croche de valeur no original.  
+27 Petite note perduë no original. 
+28 Deux batemens no original. 
+29 No exemplo, Couperin se refere ao si como nota principal e o subsequente si como apogiatura.
+
+
+[Page 67]
+65 
+É necessário que tanto a pequena nota30 que representa uma apogiatura quanto um coulé31 
+coincidam com a harmonia, isto é, no tempo que se deveria tocar a nota principal que a 
+sucede.  
+ 
+Será muito útil poder estimular as pessoas jovens a fazer os trinados com todos os dedos; 
+mas, como isso depende em parte da disposição natural, e alguns possuem maior ou menor 
+liberdade e força em determinados dedos, é necessário deixar a escolha às pessoas que as 
+instruem. 
+ 
+Os trinados mais utilizados na mão direita são realizados pelo terceiro dedo com o segundo, 
+e pelo 4o com o 3o. Os da mão esquerda são feitos pelo primeiro dedo com o segundo, e pelo 
+2o com o 3o. 
+ 
+Ainda que os trinados sejam marcados iguais na tabela de ornamentos de meu Primeiro 
+Livro, eles devem, entretanto, começar mais lentamente do que terminam, mas essa gradação 
+deve ser imperceptível. 
+ 
+Não importa sobre que nota esteja marcado um trinado; deve-se sempre começá-lo sobre o 
+tom ou sobre o semitom acima. 
+ 
+Os trinados de um valor considerável compõem-se de três objetos que, na execução, parecem 
+apenas uma mesma coisa. 1o O apoio que se deve realizar sobre a nota acima da principal; 2o 
+Os batimentos32; 3o O ponto de parada33. 
+ 
+ 
+ 
+Em relação aos outros trinados, eles são arbitrários. Existem uns que são apoiados, outros tão 
+curtos que não se tem nem apoio e nem ponto de parada, podendo-se mesmo realizá-los 
+aspirados. 
+ 
+Eu remeto o leitor às páginas 74 e 75 de meu Livro de Peças para o restante dos ornamentos 
+úteis à execução. Lá eles se encontram suficientemente detalhados e explicados. 
+ 
+Poderá talvez me acontecer, nas observações que farei em seguida sobre os trechos de meu 
+Livro – difíceis de escolher dedilhado –, de falar novamente dos ornamentos, de dizer outra 
+vez as mesmas coisas, e de repetir os mesmos termos. Mas como isso acontecerá sempre na 
+ocasião de alguma progressão diferente, preferirei a utilidade resultante disso à grande 
+precisão do discurso. 
+ 
+ 
+30 Petite note perdüe no original. 
+31 Há três significados para o termo coulé: apogiatura, escorregadela e legato. Neste caso, Couperin refere-se à 
+apogiatura indicada por figuras inseridas na própria notação musical, como exemplificado em sua tabela de 
+ornamentos que consta de seu Primeiro Livro de Peças para Cravo. Ver páginas 105 e 106. 
+32 Batemens no original, aqui significando repetição alternada das notas que compõem o ornamento. 
+33 Point-d’arest no original.
+
+
+[Page 68]
+66 
+Antes de se passar aos pequenos exercícios que precisam ser praticados para se chegar às 
+Peças, deve-se prestar atenção para que os trinados, mordentes, apogiaturas, baterias e 
+passagens34 sejam primeiramente praticados muito lentamente. Assim, nunca seria demais 
+aprender as Peças propriamente ditas com bastante cuidado. Tocando-se seis Peças – de 
+diferentes caráteres –, com regularidade, chega-se ao nível de se tocar muitas outras. Mas a 
+quantidade – principalmente para as pessoas jovens –, ao contrário, traz consigo uma 
+desordem que se terá muita dificuldade de corrigir. 
+ 
+Seria bom que os pais ou aqueles que têm a tutela das crianças tivessem menos impaciência e 
+mais confiança naquele que ensina – seguros de terem feito uma boa escolha de sua pessoa – 
+e que o hábil Mestre, de sua parte, tivesse menos condescendência. 
+ 
+ 
+EVOLUÇÕES OU PEQUENOS EXERCÍCIOS PARA FORMAR AS MÃOS 
+ 
+ 
+progressão de terças ascendentes 
+ 
+ 
+ 
+ 
+ 
+ 
+descendentes 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+progressão de quartas ascendentes 
+ 
+ 
+ 
+ 
+ 
+descendentes 
+ 
+ 
+ 
+ 
+ 
+ 
+Progressão de quintas ascendentes e descendentes 
+ 
+ 
+ 
+ 
+ 
+34 Passages no original. Rousseau explica que se trata de um ornamento composto de muitas notas ou diminuições 
+que se canta ou se toca muito vivamente, equivalendo ao termo italiano passo (Op. cit., p. 366).
+
+
+[Page 69]
+67 
+Progressão de sextas 
+ 
+Todas essas progressões devem ser exercitadas em todos os tons e semitons do teclado. 
+ 
+ 
+ 
+Progressão de sétimas 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Progressão de oitavas 
+ 
+ 
+ 
+Maneira mais cômoda para tons com sustenidos e bemóis. 
+ 
+ 
+ 
+ 
+ 
+ 
+Maneira antiga de tocar várias terças consecutivas. 
+ 
+ 
+Essa maneira antiga não produz nenhum legato. A seguinte é a correta. 
+ 
+ 
+Maneira moderna de ligar estas mesmas terças. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Estou persuadido de que poucas pessoas em Paris permanecem irredutíveis a 
+respeito de velhos princípios, sendo Paris o centro do que é bom. Como ainda não 
+havia sido editado, até o momento, um Método de Cravo e que esse poderia ser 
+aceito em outros lugares, acreditei que não deveria nada omitir nesta obra.
+
+
+[Page 70]
+68 
+Outra progressão de terças ligadas. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+A propósito dessas terças ligadas da maneira moderna: direi, em poucas palavras, que um 
+dia, ao fazer uma jovem pessoa exercitá-las, experimentei deixá-la tocar os dois trinados ao 
+mesmo tempo com a mesma mão. A aptidão natural, as excelentes mãos e a grande maestria 
+adquirida, a fez chegar ao ponto de tocá-las muito regularmente. Perdi de vista essa pessoa. 
+Na verdade, se esta prática pudesse ser obtida, traria um grande embelezamento à execução. 
+Posteriormente escutei-os serem tocados, entretanto, por um homem – aliás, muito hábil –, 
+mas que possivelmente começou a exercitá-los demasiado tarde. Seu exemplo de forma 
+alguma me encorajou a torturar-me com o intuito de alcançar a execução do modo como 
+desejaria que fossem feitos. Eu me limito, simplesmente, a exortar os jovens a apreendê-los 
+bastante cedo. Se essa prática for introduzida, não causará nenhum inconveniente à maior 
+parte das Peças já compostas, pois será apenas uma questão – em certos trechos – de 
+adicionar um trinado à terça daquele já naturalmente indicado. 
+ 
+ 
+ 
+Progressão de trinados encadeados pela maneira de trocar de dedo em uma mesma nota. 
+ 
+Exemplo 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Esses dois números sobre uma mesma nota assinalam a substituição de um dedo 
+por outro, com a diferença de que, quando o primeiro número for maior, indica 
+que se deve subir em seguida, e quando for menor, ao contrário, serve para descer.
+
+
+[Page 71]
+69 
+Progressão de terças para a mão esquerda 
+ 
+ 
+A mesma coisa em outros tons e semitons 
+ 
+ 
+ 
+ 
+Progressão de quartas 
+ 
+ 
+ 
+ 
+Progressão de quintas
+
+
+[Page 72]
+70 
+Progressão de sextas 
+ 
+Direi poucas palavras, mais adiante, sobre baterias. 
+ 
+ 
+Progressão de sétimas 
+ 
+ 
+É bom que o professor instrua os jovens gradualmente no conhecimento de intervalos; 
+modos; de suas cadências, tanto perfeitas quanto imperfeitas; de acordes; de dedução dos 
+mesmos. Isso os ajuda a desenvolver uma espécie de memória local que os torna mais 
+seguros e que serve para que se localizem em caso de necessidade. 
+ 
+ 
+A propósito de baterias ou arpejos, a respeito dos quais prometi falar anteriormente, 
+originados das Sonatas35, meu conselho seria de que se deve limitar ligeiramente sua 
+quantidade na execução ao Cravo. Esse instrumento tem suas particularidades, assim como o 
+Violino tem as suas. Se o Cravo não pode fazer crescer seu som, e se os batimentos 
+ 
+35 Sonades no original. As sonatas italianas invadiram a França no início do século XVIII e logo compositores locais 
+dedicaram-se a elas, como Leclair, Dornell, Blavet e Couperin, que denominou sua L’apothéose de Corelli (1724) de 
+“grande sonade en trio”, bem como descreveu Les Nations (1726) como “Sonades et suites de simphonies en trio” 
+(MANGSEN, Sandra. Sonata. In: ROOT, Deane (Ed.). The Grove Dictionary of Art Online. Disponível em: 
+<http://www.grovemusic.com>. Acesso em: 25 ago. 2013).
+
+
+[Page 73]
+71 
+repetidos36 sobre uma mesma nota não combinam especialmente com o instrumento, há, por 
+sua vez, outras vantagens que são a precisão, clareza, brilho e a extensão. O ideal seria 
+encontrar um meio termo, praticando ocasionalmente as Sonatas, com a sua leveza, e evitar 
+as Peças lentas aí encontradas, cujos baixos não combinam com os trechos alaudados e 
+sincopados37, próprios do Cravo. Mas os franceses devoram com entusiasmo as novidades, 
+em detrimento da verdade que eles acreditam compreender melhor do que as outras nações. 
+Afinal, deve-se permanecer de acordo que as Peças escritas especialmente para o Cravo serão 
+sempre mais apropriadas que as outras nesse instrumento. Entretanto, em meio à rapidez 
+das Sonatas, existem Peças que resultam razoavelmente bem nesse instrumento? São aquelas 
+nas quais o soprano e o baixo estão em constante movimento. Como, por exemplo? A 
+Alemanda seguinte. 
+ 
+ 
+uuu 
+ 
+ 
+ 
+36 Batemens redoublés no original. 
+37 Lutées e sincopées no original.
+
+
+[Page 74]
+72
+
+
+[Page 75]
+73 
+O que determina que as pessoas medianamente hábeis se prendam às Sonatas é a presença 
+de poucos ornamentos, principalmente nas baterias. E qual é o resultado disto? Essas 
+mesmas pessoas tornam-se para sempre incapazes de tocar as verdadeiras Peças de Cravo. 
+Por outro lado, aqueles que primeiramente tocaram bem essas Peças executam perfeitamente 
+as Sonatas. 
+ 
+Antes de passar às observações sobre a maneira de como escolher bem o dedilhado, relativas 
+aos trechos ambíguos no meu Primeiro Livro para Cravo, acreditei que não seria inútil dizer 
+uma palavra sobre os movimentos38 franceses e a diferença entre esses e os italianos. 
+  
+Na minha opinião existem defeitos em nossa maneira de escrever música que correspondem 
+à maneira de escrever nossa língua. O fato é que nós escrevemos de modo diferente daquele 
+que executamos. Isso é o que faz com que os estrangeiros toquem nossa música menos bem 
+do que nós a sua. Os italianos, ao contrário, escrevem sua música nos verdadeiros valores 
+[rítmicos] que pensaram. Por exemplo, nós pontuamos várias colcheias consecutivas por 
+graus conjuntos, entretanto, nós as indicamos iguais39. Submetemo-nos a esta prática e assim 
+continuamos.  
+ 
+ 
+EXAMINEMOS, PORTANTO, A ORIGEM DESTA CONTRADIÇÃO 
+ 
+Acredito que confundamos compasso40 com o que se chama de cadência41 ou movimento42. 
+Compasso define a quantidade e a igualdade dos tempos; cadência é, precisamente, o 
+espírito e a alma que a ele devem ser combinados. As Sonatas dos italianos dificilmente são 
+suscetíveis a essa cadência. Mas todas as nossas Árias para violinos, nossas Peças para 
+Cravo, para Violas etc., mostram e parecem querer expressar algum sentimento. Assim, não 
+tendo imaginado sinais ou caracteres para comunicar nossas ideias particulares, tentamos 
+remediar isso através de algumas palavras indicadas no início das Peças como Tendrement43, 
+Vivement44 etc., o que se aproxima do modo que gostaríamos de nos fazer entender. Desejo 
+que alguém se dê ao trabalho de nos traduzir para a utilização por parte dos estrangeiros, e 
+que possa lhes proporcionar os meios de julgar a excelência da nossa música instrumental. 
+ 
+Em relação às Peças de caráter doce45 que são tocadas no Cravo, é bom não tocá-las tão 
+lentamente como se tocaria em outros instrumentos, devido à curta duração de seus sons. A 
+cadência46 e o gosto47 [da Peça] podem ser preservados independentemente do andamento, 
+mais ou menos lento. 
+  
+Encerro este discurso dando um conselho aos que querem obter pleno êxito nas Peças. Deve-
+se esperar dois ou três anos antes de se aprender o acompanhamento. As razões são bem 
+fundamentadas. 1º: os baixos contínuos que possuem uma progressão melódica devem ser 
+executados com a mão esquerda com o mesmo cuidado que se tem com as Peças e para isso é 
+necessário saber tocá-las muito bem. 2º: a mão direita, estando ocupada no acompanhamento 
+ 
+38 Mouvemens no original, Mouvements no francês atual.  
+39 Égales no original. 
+40 Mesure no original 
+41 Cadence no original. Segundo J. J. Rousseau (Op. cit., p. 68), uma qualidade na boa música que dá, tanto àqueles 
+que tocam quanto aos que escutam, uma sensação viva do compasso. 
+42 Mouvement no original. 
+43 Ternamente em português. 
+44 Vivamente em português. 
+45 Tendre no original. 
+46 Ver nota 41. 
+47 Goût no original, aqui significando estilo.
+
+
+[Page 76]
+74 
+apenas com acordes, fica sempre em uma mesma posição, o que pode torná-la muito rígida. 
+Assim, as Peças que tiverem sido aprendidas primeiramente servirão para prevenir este 
+inconveniente. Enfim, a vivacidade, com a qual se está inclinado a executar a música de 
+abertura do Livro, traz consigo um jeito de tocar firme e frequentemente pesado, podendo o 
+toque correr o risco de se ressentir, a menos que se estudem as Peças alternadamente com o 
+acompanhamento.  
+ 
+Se fosse uma questão de escolher entre o acompanhamento e as Peças para se levar um ou 
+outro à perfeição, sinto que o amor-próprio me faria preferir as Peças ao acompanhamento. 
+Admito que não haja nada mais divertido para si mesmo e que aproxime mais as pessoas do 
+que ser um bom acompanhador. Mas, que injustiça! Esse é o último a ser elogiado nos 
+concertos. O acompanhamento no Cravo, nessas ocasiões, somente é considerado como o 
+alicerce de um edifício, que, no entanto, sustenta tudo, e a respeito do qual quase nunca se 
+fala. Por outro lado, alguém que brilha nas Peças desfruta sozinho da atenção e dos aplausos 
+dos seus ouvintes. 
+ 
+É preciso, sobretudo, ser muito delicado nos teclados e ter sempre um instrumento bem 
+regulado48. Compreendo, no entanto, que existam pessoas que são indiferentes a isso, pois 
+parece que tocam igualmente mal em qualquer  instrumento que seja. 
+ 
+ 
+TRECHOS DO MEU PRIMEIRO LIVRO DE PEÇAS DE CRAVO49 DIFÍCEIS DE DEDILHAR 
+  
+ 
+ 
+Em La Milordine, página 650, nos 2o e 3o 
+compassos do 3o pentagrama. 
+ 
+ 
+ 
+ 
+ 
+Na mesma Peça, 
+nos 1o, 2o e 3o 
+compassos dos 9o 
+e 10o 
+pentagramas. 
+ 
+ 
+ 
+Observamos quão mais ligado é o toque através da mudança de dedos! Mas me 
+dirão que será necessária maior habilidade do que na maneira antiga. Eu admito. 
+ 
+ 
+ 
+ 
+Na segunda parte de [Les] Silvains, página 9, no 4o compasso do 1o 
+pentagrama.  
+ 
+ 
+48  Ver nota 5. 
+49 Piéces de Clavecin […] premiére livre, 1713.  
+50 A referência de página feita por François Couperin corresponde à numeração das páginas da publicação deste 
+livro em 1713.
+
+
+[Page 77]
+75 
+Como a 2a e a 4a dessas quatro notas ligadas são as que fazem supor a verdadeira 
+harmonia em relação ao baixo, faz-se necessário que elas sejam tocadas com os 
+mesmos dedos, como se o canto fosse simples e sem notas de intervalo51. 
+ 
+ 
+Exemplo a seguir. 
+ 
+ 
+ 
+Da mesma maneira, os trechos mais ou menos semelhantes. 
+ 
+ 
+ 
+Arpejos na mesma página 9, nos 7o e 8o pentagramas. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Em [Les] Idées heureuses página 32, nos 3o e 4o pentagramas. 
+ 
+ 
+Na grande repetição52 da mesma Peça, nos dois últimos compassos dos 5o e 6o 
+pentagramas, e no 1o e 2o compassos dos 7o e 8o pentagramas que se seguem. 
+ 
+Existem ainda alguns trechos bastante espinhosos nessa Peça, mas esses, cujos 
+dedilhados foram previamente marcados, facilitarão os outros. 
+ 
+51 Notes d’intervales no original. Expressão pouco habitual usada pelo autor aqui significando apogiatura.   
+52 Grande reprise no original, para diferenciar da petite reprise.
+
+
+[Page 78]
+76 
+Na Courante, página 60, no último compasso do 9o pentagrama, e nos dois 
+primeiros compassos do 11o  pentagrama. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Na Courante, página 61, existe um trecho semelhante no que se refere à mudança do 4o para o 5o dedo. 
+ 
+ 
+Em La Villers, página 68, todo o 13o pentagrama. 
+ 
+ 
+Em relação a [Les] Ondes, que é a última Peça do meu Primeiro Livro, e cuja 
+compreensão do correto dedilhado faz-se necessária em praticamente toda a mão 
+direita, escrevi somente a maior parte do soprano, ou por melhor dizer, do canto. 
+ 
+ 
+ 
+Em [Les] Ondes, página 72, no 
+primeiro episódio53. 
+ 
+ 
+ 
+ 
+ 
+No 
+segundo 
+episódio.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Ver-se-á no episódio seguinte que se pode tocar duas notas consecutivas por grau 
+conjunto com o mesmo dedo, quando a primeira é aspirada54 ou quando a segunda 
+está na última parte de um tempo. 
+ 
+53 Couplet no original. 
+54 Aspirée no original, relacionado ao ornamento aspiração (aspiration no original). 
+1o episódio 
+2o [episódio]
+
+
+[Page 79]
+77 
+ 
+Terceiro 
+episódio 
+ 
+ 
+ 
+ 
+Quarto 
+episódio 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Fim das Referências do Primeiro Livro.  
+Encontrar-se-ão as do Segundo, recém publicado, após os Prelúdios que se seguem. 
+ 
+ 
+uuu
+
+
+[Page 80]
+78 
+Compus os oito Prelúdios seguintes nas tonalidades das minhas Peças, tanto as do meu 
+Primeiro Livro, quanto do Segundo, que acaba de ser atualizado, tendo observado que quase 
+todas as estudantes de Cravo sabem apenas o pequeno Prelúdio através do qual foram 
+iniciadas. Não somente os Prelúdios anunciam agradavelmente o tom das Peças que vão ser 
+tocadas, como servem para desembaraçar os dedos e, frequentemente, para experimentar os 
+teclados aos quais ainda não se está acostumado. 
+ 
+Os quatro primeiros desses Prelúdios podem servir a todas as idades, exceto para as pessoas 
+muito jovens, a quem se deve dispensar de sustentar tão precisamente todas as notas dos 
+acordes [com posição] um pouco mais aberta. Porém, deixo a escolha àqueles que os 
+ensinam. 
+ 
+ 
+uuu
+
+
+[Page 81]
+79
+
+
+[Page 82]
+80
+
+
+[Page 83]
+81
+
+
+[Page 84]
+82
+
+
+[Page 85]
+83
+
+
+[Page 86]
+84
+
+
+[Page 87]
+85
+
+
+[Page 88]
+86
+
+
+[Page 89]
+87
+
+
+[Page 90]
+
+
+
+[Page 91]
+89 
+OBSERVAÇÕES 
+ 
+Ainda que esses Prelúdios tenham sido escritos metricamente55, existe, entretanto, um estilo 
+de utilização que deve ser seguido. Eu me explico: Prelúdio é uma composição livre em que 
+a imaginação se entrega a tudo que a ela se apresenta. Mas, como é muito raro encontrar 
+gênios capazes de criar de improviso, é preciso que aqueles que recorram a esses Prelúdios 
+escritos56 os toquem de uma maneira natural, sem se ater excessivamente à precisão do 
+tempo57; a menos que eu o tenha indicado explicitamente pela palavra Mesuré. Assim, pode-
+se arriscar afirmar que, dentre muitos assuntos, a Música (em comparação à Poesia) tem sua 
+prosa e seus versos. 
+ 
+Uma das razões pelas quais esses Prelúdios foram escritos metricamente é a facilidade que se 
+encontrará, seja ao ensiná-los ou a aprendê-los. 
+ 
+Para concluir a respeito de como tocar o Cravo, de um modo geral, meu sentimento é de que 
+não se deve se afastar do caráter que convém a esse instrumento: as passagens, as baterias 
+que estejam nas mãos; as partes alaudadas e sincopadas, que devem ser preferidas àquelas 
+que são cheias de ligaduras ou de notas demasiadamente graves. É preciso conservar um 
+legato perfeito naquilo que se executa; que todos os ornamentos sejam bem precisos e que 
+aqueles que  são compostos de batimentos58 sejam feitos bem regularmente, e através de uma 
+gradação imperceptível. Deve-se tomar cuidado para não se alterar o tempo nas Peças59, 
+quando determinado, e para não se permanecer sobre notas cuja duração60 tenha terminado. 
+Enfim, que se crie sua execução segundo o bom gosto de hoje, que é incomparavelmente 
+mais puro que o antigo. 
+ 
+Vire a página para os outros Prelúdios.  
+ 
+ 
+uuu 
+ 
+ 
+ 
+ 
+55 Mesuré no original. 
+56 Prélude-réglé no original, significando prelúdios previamente compostos, em oposição aos improvisados 
+mencionados anteriormente. 
+57 Mouvemens no original. 
+58 Ver nota 32. 
+59 Piéces-réglés no original. Peças em geral, que não possuem a mesma liberdade recomendada para os Prelúdios. 
+60 Valeur no original.
+
+
+[Page 92]
+90
+
+
+[Page 93]
+91
+
+
+[Page 94]
+92
+
+
+[Page 95]
+93
+
+
+[Page 96]
+94 
+TRECHOS DO MEU SEGUNDO LIVRO DE  PEÇAS, AMBÍGUOS EM RELAÇÃO AOS DEDILHADOS 
+ 
+ 
+ 
+ 
+Em [Les] Bergeries, página 8. 
+ 
+ 
+ 
+ 
+ 
+ 
+Na mesma Peça, página 9.  
+ 
+ 
+ 
+ 
+ 
+ 
+Outro trecho na mesma página. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Em [Le] Moucheron, página 11. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1o episódio 
+2o episódio
+
+
+[Page 97]
+95 
+Toda a mão direita em L’Ausoniéne, página 24.
+
+
+[Page 98]
+96 
+ 
+Na Gigue, página 30, no 6o pentagrama. 
+ 
+ 
+ 
+ 
+ 
+ 
+Na mesma Peça, página 31, no 3o pentagrama. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Passacaille, página 32, no último compasso do 11o pentagrama e continuando na 
+página 33, no 1o  pentagrama. 
+ 
+ 
+ 
+Mesma página, no 7o pentagrama: até o final do quarto episódio. 
+ 
+ 
+ 
+Mesma Peça, página 35, no 7o episódio. 
+ 
+ 
+Aproximadamente o mesmo para o que se segue.
+
+
+[Page 99]
+97 
+Em [Les] Charmes, página 42, toda a mão direita. 
+ 
+ 
+É preciso marcar o dedilhado na segunda parte com a mesma precaução que na primeira. 
+  
+ 
+ 
+ 
+Na segunda parte de [La] 
+Triomphante, página 52, 
+nos 3o e 5o pentagramas. 
+ 
+ 
+O mesmo arranjo nos trechos semelhantes.
+
+
+[Page 100]
+98 
+ 
+Na mesma Peça já mencionada, 
+página 54, nos 1o e 2o pentagramas: e 
+o mesmo arranjo em outro trecho 
+que se segue. 
+ 
+ 
+ 
+ 
+ 
+No início de 
+L’Amazône,  
+Página 61. 
+ 
+A mesma coisa no 9o pentagrama desta mesma página, na mesma Peça. 
+ 
+ 
+Página 65, no 9o pentagrama, na segunda parte de Les Graces-Naturéles. 
+ 
+ 
+ 
+ 
+ 
+ 
+No início de La Zénobie, página 66. 
+O mesmo arranjo na repetição desta Peça e em um trecho praticamente igual. 
+ 
+ 
+ 
+No começo de [Les] Juméles, página 74. 
+ 
+ 
+ 
+É necessário que os dois mordentes acima sejam abafados de alguma maneira, de 
+modo que se deve, tanto quanto possível, conservar o Tenuto61 marcado na parte 
+inferior. 
+ 
+ 
+Na repetição de L’Atalante, página 83, no 2o pentagrama. 
+ 
+ 
+61 Tenüe no original, que segundo Jean-Jacques Rousseau (Op. cit., p. 508) significa som sustentado por uma voz 
+durante dois ou mais compassos enquanto as outras trabalham.
+
+
+[Page 101]
+99 
+ 
+Na mesma página, no 4o compasso do 3o  
+pentagrama. 
+ 
+ 
+ 
+No 10o e último pentagrama da mesma página. 
+ 
+ 
+uuu
+
+
+[Page 102]
+100 
+NOTAS CRÍTICAS 
+ 
+ 
+As notas críticas indicam o compasso, a parte afetada (MD ou ME, voz), o número da nota modificada 
+(incluindo ornamento e excluindo pausas) e outras observações. Exemplo: 
+ 
+8, MD, 2a voz, 4: ré em substituição ao mi sustenido = 
+compasso 8, mão direita, contralto, nota 4: ré em substituição ao mi sustenido 
+ 
+Obs.: os exemplos extraídos do Primeiro e Segundo Livros de Peças, no caso de dúvidas, foram 
+comparados com suas edições originais (Premier livre de pièces de clavecin. Paris: Chez l'Auteur, Boivin, 
+1713; Second livre de pièces de clavecin. Paris: chez l'auteur, Foucault, 1717). 
+ 
+Página 66, 1o exemplo 
+3, - , - , 8: semicolcheia em substituição à colcheia 
+ 
+Página 67, 6o exemplo 
+5, - , - , acorde: mínimas pontuadas em substituição às mínimas 
+ 
+Página 75, 2o exemplo  
+4, MD, 1a voz, 1 e 4: semínima pontuada e colcheia, respectivamente, em substituição à semínima 
+ 
+Página 76, 1o exemplo  
+2, MD, 2a voz, 1: lá incluído a partir do Primeiro Livro de Peças 
+ 
+Página 76, 2o exemplo  
+4, ME, 1a voz, 1: colcheia pontuada em substituição à semínima 
+ 
+Página 77, 2o exemplo  
+2 e 3, - , - , - : pausa de colcheia no primeiro tempo em substituição à pausa de semicolcheia  
+7, - , - , 9: semínima com trinado em substituição à semínima pontuada 
+7, - , - , 10 e 11: semicolcheias em substituição a colcheias 
+ 
+Página 79, Prelúdio 1  
+16, ME, 1a voz, - : pausa de semínima no segundo tempo em substituição à pausa de colcheia 
+ 
+Página 80, Prelúdio 2 
+5, MD, 2a voz, 5 e 6: falta colchete de expressão 
+ 
+Página 81, Prelúdio 3 
+16, ME, 2a voz, 4: dó bequadro em substituição ao si bemol 
+ 
+Página 84, Prelúdio 5  
+19, ME, 2a voz, 2: si em substituição ao dó sustenido 
+ 
+Página 86, Prelúdio 6  
+Fórmula de compasso      em substituição a     .  
+ 
+Página 92, Prelúdio 8  
+19 a 22, ME, - , 4: ponto de aumento criando um efeito de pedal de dedo  
+ 
+Página 95, 1o exemplo 
+20, - , 1a voz, 4 e 5: duas semicolcheias em substituição a duas colcheias 
+47, - , 2a voz, 1: semicolcheia em substituição à colcheia 
+40, - , 2a voz, - : pausa de semínima incluída a partir do Segundo Livro de Peças  
+44, - , 1a voz, 2: sustenido incluído sobre o mordente a partir do Segundo Livro de Peças 
+ 
+3 
+8 
+8 
+3
+
+
+[Page 103]
+101 
+Página 96, 5o exemplo 
+Fórmula de compasso omitida, em substituição à   , por se tratar de exemplo extraído do meio da peça. 
+ 
+Página 97, 1o exemplo  
+9, - , 1a e 2a voz, 1: dedo 2 deduzido, embora pouco nítido 
+17, - , 2a voz,  2 e 3: ligadura incluída a partir do Segundo Livro de Peças 
+20, - , 2a voz, 3: semínima em substituição à colcheia 
+ 
+Página 98, 5o exemplo  
+1, - , 1a voz, 3: semicolcheia em substituição à colcheia 
+ 
+ 
+uuu 
+ 
+4 
+2
+
+
+[Page 104]
+
+
+
+[Page 105]
+EXPLICAÇÃO DOS ORNAMENTOS E SINAIS 
+ 
+(PRIMEIRO LIVRO DE PEÇAS PARA CRAVO, 1713)
+
+
+[Page 106]
+
+
+
+[Page 107]
+105
+
+
+[Page 108]
+106
+
+
+
+=== SECTION: Rameau — Da Mecânica dos Dedos no Cravo (1724) ===
+
+
+[Page 109]
+IV 
+ 
+ 
+JEAN-PHILIPPE RAMEAU 
+ 
+DA MECÂNICA DOS DEDOS NO CRAVO 
+ 
+1724
+
+
+[Page 110]
+
+
+
+[Page 111]
+109 
+A perfeição do toque ao Cravo consiste principalmente em um movimento de dedos bem 
+conduzido. 
+ 
+Esse movimento pode ser adquirido através de uma simples mecânica, mas é preciso que se 
+saiba aplicá-la. 
+ 
+Essa mecânica é apenas um exercício frequente de um movimento regular. As disposições 
+que ela demanda são naturais a todos, tais como aquelas que se tem para andar, ou se quiser, 
+para correr. 
+ 
+A faculdade de andar ou de correr vem da flexibilidade da articulação do joelho1; já a de 
+tocar o Cravo, depende da flexibilidade dos dedos em suas raízes2. 
+ 
+O exercício contínuo que se faz ao andar propicia a todos o movimento da articulação do 
+joelho quase igualmente livre. Por outro lado, exercitamos pouco o movimento necessário 
+aos dedos para tocar o Cravo, o que não permite que sua liberdade se desenvolva. Além 
+disso, nossos hábitos particulares fazem os dedos adquirirem movimentos tão contrários 
+àqueles que se exigem ao cravo, que essa liberdade é constantemente cerceada: ela encontra 
+obstáculos até mesmo nos talentos naturais que possamos ter para a música. Se formos 
+minimamente sensíveis aos efeitos dessa arte, faremos esforços para transmitir o que 
+sentimos, e isso só poderá levar a uma tensão prejudicial à execução. Todas as medidas que 
+deveriam ser tomadas para adquirir [a liberdade mencionada] nos são inibidas pela 
+impressão que nossos sentidos receberam. Na falta de ter sabido conciliar essa execução com 
+a prontidão de nossa imaginação, nós nos persuadimos frequentemente de que é a natureza 
+que nos recusou aquilo que roubamos de nós mesmos por causa de [nossos] maus hábitos. 
+ 
+É bem verdade que as disposições são mais favoráveis em certas pessoas do que em outras. 
+No entanto, desde que nenhum incômodo perceptível perturbe o movimento natural dos 
+dedos, depende sobretudo de nós fazermos sua utilização apropriada e em um grau de 
+perfeição suficiente para agradar. Ouso afirmar que um trabalho assíduo e bem conduzido, 
+que os cuidados necessários e que um pouco de tempo compensarão inevitavelmente os 
+dedos menos favorecidos. 
+ 
+Admitirei, entretanto, que aquilo que pressupõe uma grande prática na maioria das pessoas 
+só será talvez uma feliz coincidência para algumas outras. Mas quem ousará contar [apenas] 
+com as facilidades da natureza? Como se pode esperar descobri-las sem ter empreendido o 
+trabalho necessário para se conseguir fazê-las por essa experiência? E a que se poderá 
+atribuir, então, o sucesso que se experimentará, se não a esse trabalho? 
+ 
+[O sucesso] resulta, então, de todas estas observações de que um exercício frequente e bem 
+compreendido seja o autor infalível da perfeita execução ao Cravo. E é daí que concebi um 
+Método próprio, para renovar nos dedos o movimento do qual a natureza lhes dotou e para 
+aumentar-lhes a liberdade. 
+ 
+Esse Método é a simples mecânica da qual já falei. Proporei suas regras e creio que não se 
+pode dispensar de segui-las com exatidão e por etapas, pois, além de que serão encontradas 
+ 
+1 Jarret no original, significando, tecnicamente, a fossa poplítea, que consiste na parte posterior do joelho. 
+2 Racine no original, ou seja, a articulação da raiz do dedo.
+
+
+[Page 112]
+110 
+fundamentadas racionalmente, uma experiência ainda bastante recente acaba de me 
+assegurar sua eficácia.  
+ 
+Os números 1., 2., 3., 4. e 5. designarão os dedos de que gostaria de falar, os quais deverão ser 
+utilizados nos locais onde [tais números] se encontrarão junto às notas, de maneira que 1. 
+designará o polegar, 5. o dedo mínimo e 2., 3. e 4. os outros dedos analogamente. 
+ 
+Deve-se, primeiramente, sentar-se ao Cravo de maneira que os cotovelos estejam mais 
+elevados do que o nível do teclado e que a mão possa cair sobre ele unicamente pelo 
+movimento natural da ligação com o pulso. 
+ 
+A fim de que a mão caia como que por ela mesma sobre o teclado, deve-se, primeiramente, 
+ter os cotovelos acima do nível desse, mas jamais demasiadamente elevados, de forma que o 
+1. e o 5. possam se posicionar na borda das teclas. 
+ 
+Ao mesmo tempo que o 1. e o 5. se posicionem na borda das teclas, é necessário que os 
+cotovelos recaiam tranquilamente para os lados, em sua situação natural, posição que precisa 
+ser bem observada e que não se deve jamais modificar, salvo por uma necessidade absoluta, 
+assim como quando se é obrigado a transportar a mão de uma extremidade à outra do 
+teclado. 
+ 
+Essa situação natural dos cotovelos, aliada ao correto posicionamento do 1. e do 5., dá o 
+ponto fixo onde toda pessoa, de qualquer tamanho que seja, deve se posicionar ao cravo, 
+tratando-se apenas de se ajustar o assento. 
+ 
+O 1. e o 5., estando na borda das teclas, levam os outros dedos a curvarem-se, para que 
+possam se encontrar igualmente sobre a borda das teclas. E deixando cair a mão, como foi 
+dito, os dedos arredondam-se naturalmente da maneira que é necessária, e agora não se deve 
+mais nem alongá-los, nem arredondá-los muito, exceto em certos casos onde não se pode 
+fazer de modo melhor. 
+ 
+A articulação do pulso deve sempre ser flexível. Essa flexibilidade, que se propaga nesse 
+momento pelos dedos, lhes dá toda a liberdade e toda leveza necessárias. A mão que por este 
+meio se encontra, por assim dizer, como morta, serve somente para sustentar os dedos que 
+estão a ela ligados e para conduzi-los a locais do teclado que não podem alcançar apenas 
+pelo movimento que lhes é próprio. 
+ 
+O movimento dos dedos origina-se em sua raiz, isto é, na articulação que os liga à mão e 
+jamais em outros lugares. O movimento da mão começa na articulação do pulso, e o do 
+braço, supondo que seja necessário, origina-se na articulação do cotovelo. 
+ 
+O maior movimento só deve ocorrer na medida em que um menor não seja suficiente, e 
+ainda que um dedo possa alcançar uma tecla sem que se mova a mão, apenas o esticando ou 
+o abrindo, é preciso se prevenir do desperdício do movimento além do necessário. 
+ 
+É essencial que cada dedo tenha seu movimento próprio e independente de qualquer outro, 
+de forma que, mesmo quando se é obrigado a deslocar a mão para um determinado lugar do 
+teclado, é preciso ainda que o dedo de que se serve na ocasião caia sobre a tecla por seu
+
+
+[Page 113]
+111 
+próprio movimento. 
+ 
+É importante que os dedos caiam sobre as teclas e não que as batam. É necessário que eles 
+fluam, por assim dizer, de um a outro, em sucessão. Isso deve prevenir sobre a doçura que se 
+deve ter ao começar. 
+ 
+É preciso, no momento, dispor os cinco dedos da mão sobre as cinco notas ou teclas 
+consecutivas, cujo exemplo encontra-se sob o nome de Primeira Lição, na tabela impressa 
+após este discurso3. 
+ 
+Estando os cinco dedos dispostos sobre as cinco teclas, supondo-se da mesma forma a mão 
+posicionada, como foi dito, procede-se de maneira a afundar com o 1. ou com o 5. a tecla 
+sobre a qual ele se encontra, sem que nenhum outro dedo ou sem que a mão faça no 
+momento o menor movimento. 
+ 
+Do dedo pelo qual se começou passa-se a seu vizinho e assim de um ao outro, observando-se 
+que aquele que acaba de afundar uma tecla a deixe no mesmo instante que seu vizinho 
+afunde uma outra, pois o levantar de um dedo e o tocar de um outro devem ser executados 
+no mesmo momento. 
+ 
+Lembre-se de fazer agir cada dedo por seu movimento próprio e observe que o dedo que 
+deixa uma tecla esteja sempre tão próximo que pareça tocá-la. 
+ 
+Não pese jamais o toque de seus dedos pelo esforço de sua mão; que seja o contrário: sua 
+mão que, sustentando seus dedos, deixa seu toque mais leve. Isso tem uma grande 
+consequência. 
+ 
+Observe a grande igualdade de movimentos entre cada dedo e, principalmente, não precipite 
+jamais esses movimentos, pois a leveza e a velocidade só são obtidas através dessa igualdade 
+de movimentos. Com frequência, por se apressar demasiadamente, foge-se daquilo que se 
+procura.  
+ 
+É preciso tentar conseguir o movimento necessário nos dedos e dar a cada um deles seu 
+movimento próprio, antes de colocar sua força à prova, de maneira que proponho posicioná-
+los primeiramente sobre o teclado, somente para que se acostume a dimensionar a distância 
+entre um [dedo] e outro àquela entre as teclas desse teclado. Mas como se tem inicialmente 
+dificuldade de movê-los individualmente e ainda de fazê-los afundar as teclas, isso poderia 
+ 
+3  
+ 
+Fonte: RAMEAU, Jean-Philippe. Pieces de Clavessin... Paris: Charles-Etienne Hochereau, Boivin, L’Auteur, 1724, p. 9.
+
+
+[Page 114]
+112 
+ser capaz de destruir a perfeição que se deve encontrar no movimento deles. É preciso, 
+entretanto, tomar cuidado para que a resistência das teclas não se oponha ao movimento dos 
+dedos, e, consequentemente, que o teclado sobre o qual se exercita não seja considerado leve 
+demais. Mas, à medida que os dedos se fortificam em seus movimentos, podemos 
+apresentar-lhes um teclado menos leve e chegar gradualmente a fazê-los tocar as teclas mais 
+pesadas. 
+ 
+Essa Lição se pratica, em primeiro lugar, com cada mão individualmente e, quando se sente 
+que a condução dos dedos foi dominada conforme a explicação precedente, exercitam-se as 
+duas mãos juntas. Começa-se com uma mão antes da outra com a quantidade de notas que 
+se deseja, ora mais, ora menos; enfim, faz-se isso de todas as maneiras possíveis, até que se 
+constate que as mãos estejam com tamanha prática que não exista mais o medo de que elas se 
+estraguem. Isso não se adquire em um dia, mas abrevia, entretanto, infinitamente o estudo 
+necessário para se chegar ao ponto de perfeição que se deseja. 
+ 
+Essa Lição, embora muito simples, conduz imperceptivelmente à mais perfeita execução ao 
+Cravo. Habitue a mão a sustentar primeiramente os dedos; dimensione as distâncias entre 
+eles àquelas das teclas; proporcione a cada um deles seu próprio movimento, acostumando-
+se a levantar um dedo enquanto um outro abaixa; suas forças, seus pesos e seus movimentos 
+tornam-se iguais entre eles após algum tempo; os movimentos iguais e contrários entre cada 
+mão são aqui adquiridos também. Enfim, se um Mestre for minimamente atento para 
+considerar todas as reflexões precedentes em outras passagens e nos ornamentos4 que ele 
+deve fazer depois dessa Lição, é quase certo, falando de uma forma geral, que se obterá uma 
+bela execução. 
+ 
+Sem saber muito além do que está contido nessa Lição, pode-se aprender o pequeno 
+Minueto5 que se encontra na mesma tabela6, tendo-se tomado o cuidado de marcar os dedos 
+e de excluir os ornamentos.  
+ 
+Quando se passa com velocidade pelas notas da Lição, a isso se chama rolamento7, e se as 
+notas dessa Lição fossem disjuntas, isso se chamaria bateria8. 
+ 
+Para continuar um rolamento mais alongado do que aquele da Lição, é preciso somente se 
+acostumar a passar o [dedo] 1 sob o outro dedo que se queira, e passar um desses outros 
+dedos sobre o [dedo] 1. Esse método é excelente, sobretudo quando aí se encontram 
+sustenidos e bemóis; facilita ainda a prática de certas baterias, as quais se encontram em um 
+exemplo na tabela seguinte9.  
+ 
+ 
+4 Agrémens no original. Agréments no francês atual. 
+5 Ver Minuet en Rondeau na Tabela, página 117. 
+6 Planche no original. Ver Tabela, página 117. 
+7 Roulemens no original. Roulements no francês atual. 
+8 Batterie no original, também conhecido como acorde quebrado. 
+9  
+ 
+Fonte: RAMEAU, J.-Ph., op. cit.
+
+
+[Page 115]
+113 
+É preciso que o dedo que passa dessa maneira sobre ou sob um outro [dedo] chegue, por seu 
+próprio movimento, à tecla onde se quer posicioná-lo. 
+ 
+Evite, tanto quanto possível, tocar um sustenido ou bemol com o 1. ou 5., sobretudo nos 
+rolamentos; e de tal maneira que o 1. se encontre sobre a tecla que precede esse sustenido ou 
+esse bemol, pois isso pode facilitar sua execução. 
+ 
+Frequentemente executa-se um mesmo rolamento com as duas mãos, onde os dedos se 
+sucedem, nesse momento, consecutivamente. Isso se encontra em um exemplo na Peça 
+intitulada Les Tourbillons, onde a letra D. indica a mão direita e a letra G. a mão esquerda10. 
+ 
+Nesses tipos de rolamentos as mãos passam uma sobre a outra, mas é preciso observar bem 
+que o som da primeira tecla sobre a qual uma das mãos passa seja tão ligado ao som 
+precedente, como se estivessem sendo tocados por dedos de uma mesma mão. 
+ 
+Os dedos seguem aqui a ordem da Lição, e só se deve utilizar o 5. o mínimo possível. 
+ 
+Existem baterias onde as mãos passam igualmente uma sobre a outra, o que não é difícil de 
+praticar, contanto que se faça a observação que acaba de ser citada a respeito do legato dos 
+sons11. 
+ 
+Existem dois outros tipos de baterias que se encontrarão no exemplo da Peça intitulada Les 
+Cyclopes. Em uma dessas baterias, as mãos fazem entre si o movimento consecutivo de duas 
+baquetas de um tambor, e na outra a mão esquerda passa sobre a direita para tocar 
+alternadamente o baixo e a parte superior. 
+ 
+Acredito que essas últimas baterias me são próprias, pelo menos nada do gênero ainda 
+apareceu, e posso dizer, em favor delas, que o olho compartilha o prazer que o ouvido 
+recebe. 
+ 
+A execução destas diferentes baterias e desses diferentes rolamentos depende, 
+principalmente, da flexibilidade do pulso, sendo conduzida, aliás, por movimentos suaves e 
+leves, e conservando-se o ponto fixo na junção do cotovelo quando a bateria excede a 
+extensão da mão. 
+ 
+Quando se sente a mão formada, diminui-se pouco a pouco a altura do assento até que os 
+cotovelos se encontrem um pouco abaixo do nível do teclado. Isso é o que leva, nesse 
+momento, a manter a mão como que colada ao teclado e que termina proporcionando ao 
+toque todo o legato que se pode assim introduzir.  
+ 
+Quando se exercitam os trinados ou cadências, é preciso levantar, o máximo possível, os 
+únicos dedos que se utilizam no momento. Mas à medida que o movimento se torna familiar, 
+levantam-se menos esses dedos e o grande movimento torna-se, no final, um movimento 
+vivo e leve. 
+ 
+ 
+10 D, droite, direita em francês; G, gauche, esquerda em francês. 
+11 Liaison des sons no original.
+
+
+[Page 116]
+114 
+É preciso tomar cuidado para não precipitar a cadência12 no final, para concluí-la; ela se fecha 
+naturalmente, uma vez adquirido o hábito.  
+ 
+Deixo aos Mestres o cuidado de ensinar o resto de viva voz, visto que tudo procede dos 
+primeiros princípios que eu acabo de colocar. Mas que se lembre bem que quanto mais se 
+persevera nos primeiros princípios, mais se avança na carreira, pois aquele a quem esses 
+princípios desagrada é quase sempre vítima de sua impaciência. 
+ 
+Existem algumas Peças neste Livro que podem ser transpostas. Por exemplo: La Musette pode 
+ser transposta para C. sol ut13, principalmente para ser tocada com viola14, e Les Rigaudons, 
+para D. lá ré15. 
+ 
+Pode se abster, evidentemente, das variações16 e das reprises de um Rondó que se acharem 
+muito difíceis.  
+ 
+Quando a mão não alcança facilmente duas teclas juntas, pode-se abandonar aquela que não 
+é absolutamente necessária ao canto, pois não se deve estar preso ao impossível. 
+ 
+Este Método serve como introdução a um sistema completo da mecânica dos dedos sobre o 
+Cravo, que espero oferecer em breve17. A utilidade dessa mecânica ainda não se fez conhecer, 
+e é no acompanhamento, principalmente, que ela se fará mais percebida. Preservo na 
+memória uma infinidade de regras que só se pode, no entanto, colocar em prática depois de 
+se ter aprendido a fazê-las passar do entendimento às pontas dos dedos. 
+ 
+O que eu disse a respeito do Cravo deve ser observado igualmente para o Órgão. 
+ 
+ 
+uuu
+ 
+12 Rameau refere-se aqui à cadência harmônica. Não confundir com cadência como mencionada em Couperin (ver 
+nota 41, página 73).  
+13 Terminologia herdada do sistema de hexacordes, significando dó (ver Sancta Maria, nota 31 e nota 48, páginas 
+30 e 36, respectivamente).  
+14 Viola da gamba. 
+15 Idem nota 13, significando ré.  
+16 Doubles no original. 
+17 Aparentemente, Rameau não chegou a oferecer o sistema completo mencionado, mas em seu último grande 
+tratado Code de Musique Pratique, de 1760, inclui um artigo sobre a aplicação das escalas aos dedos da mão e um 
+capítulo sobre a posição da mão ao cravo ou ao órgão, respectivamente. Esses textos, entretanto, não oferecem 
+maior aprofundamento às questões de técnica de teclado desenvolvidas em Da mecânica dos dedos sobre o 
+Cravo.
+
+
+[Page 117]
+TABELA  
+ 
+(PEÇAS DE CRAVO, 1724)
+
+
+[Page 118]
+
+
+
+[Page 119]
+117

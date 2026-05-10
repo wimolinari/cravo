@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__Claude_Preview__preview_start",
+      "Bash(powershell -ExecutionPolicy Bypass -File \"C:\\\\Outros\\\\Cravo\\\\add-prefacio-link.ps1\")",
+      "Bash(powershell -ExecutionPolicy Bypass -File \"C:\\\\Outros\\\\Cravo\\\\deploy-ps.ps1\")",
+      "Skill(claude-api)",
+      "Skill(claude-api:*)"
+    ]
+  }
+}

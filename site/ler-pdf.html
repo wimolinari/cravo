@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ler PDF original · Tratados do Cravo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+  <meta name="cravo-chat-api" content="http://127.0.0.1:8000">
+  <link rel="stylesheet" href="assets/chatbot.css">
+  <!-- cravo-chatbot:injected -->
+</head>
+<body>
+<header class="site-header">
+  <div class="nav-wrap">
+    <a href="index.html" class="brand"><span class="brand-mark">C</span> Tratados do Cravo</a>
+    <nav class="nav-links">
+      <a href="index.html">Início</a>
+      <a href="apresentacao-prefacio.html">Prefácio</a>
+      <a href="tratados/sancta-maria.html">Sancta Maria</a>
+      <a href="tratados/frescobaldi.html">Frescobaldi</a>
+      <a href="tratados/couperin.html">Couperin</a>
+      <a href="tratados/rameau.html">Rameau</a>
+      <a href="ler-pdf.html" class="active">PDF</a>
+      <a href="partituras-viewer.html">Partituras</a>
+      <a href="roteiro-estudo.html">Roteiro</a>
+      <a href="comparador.html">Comparar</a>
+      <a href="glossario.html">Dicionário</a>
+      <a href="creditos.html">Créditos</a>
+    </nav>
+    <button class="theme-toggle" aria-label="Alternar tema">☾ Escuro</button>
+  </div>
+</header>
+
+<main>
+  <section class="treatise-header">
+    <h1>PDF original — fonte canônica</h1>
+    <p class="meta">Tratados e Métodos de Teclado · UFRJ 2013 · 122 páginas</p>
+  </section>
+
+  <section>
+    <p class="lead">
+      Este é o documento <strong>integral</strong> da edição traduzida pela equipe da UFRJ em 2013
+      — todas as 122 páginas, com prefácio, notas críticas e partituras editadas. Use este PDF
+      como referência primária; o site foi construído para complementar (não substituir) sua
+      leitura.
+    </p>
+
+    <div class="pdf-card">
+      <div class="pdf-icon">
+        <span class="ext">PDF</span>
+        <span class="pages">122 pp.</span>
+      </div>
+      <div class="pdf-body">
+        <h3>Tratados e Métodos de Teclado</h3>
+        <p>Sancta Maria (1565) · Frescobaldi (1637) · Couperin (1717) · Rameau (1724)</p>
+        <p class="meta">ISBN 978-85-65537-05-6 · 5,5 MB</p>
+      </div>
+      <div class="pdf-actions">
+        <a class="pdf-download" href="tratado-original.pdf" download="2020tratadocravo.pdf">⬇ Baixar PDF</a>
+        <a class="pdf-view" href="tratado-original.pdf" target="_blank" rel="noopener">↗ Abrir em nova aba</a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Visualizador embutido</h2>
+    <p>Use as setas/scroll do leitor abaixo. Para tela cheia, clique em <em>Abrir em nova aba</em> ou faça download.</p>
+
+    <object class="pdf-viewer-frame" data="tratado-original.pdf#view=FitH" type="application/pdf">
+      <p style="padding:2rem;text-align:center;">
+        Seu navegador não suporta visualização inline de PDF.
+        <a href="tratado-original.pdf" download="2020tratadocravo.pdf">Clique aqui para baixar.</a>
+      </p>
+    </object>
+  </section>
+
+  <section style="margin-top:3rem;">
+    <div class="aside">
+      <h4>📜 Direitos autorais</h4>
+      <p>© 2013 by Fagerlande, Tavares, Albuquerque, Barroso e Pereira. Distribuído gratuitamente
+        no <a href="https://www.musica.ufrj.br" target="_blank" rel="noopener">site institucional da
+        UFRJ</a> e indexado em RILM Abstracts of Music Literature, Bibliografia Musical Brasileira
+        e The Music Index/EBSCO.</p>
+    </div>
+
+    <div class="aside">
+      <h4>📚 Sumário do PDF</h4>
+      <ul>
+        <li>Apresentação · p. 7</li>
+        <li>Prefácio · p. 9</li>
+        <li>I — Sancta Maria · <em>Arte de tocar Fantasia</em> (capítulos XIII-XIX) · p. 19</li>
+        <li>II — Frescobaldi · <em>Ao Leitor</em> · p. 53</li>
+        <li>III — Couperin · <em>A Arte de tocar o Cravo</em> · p. 57</li>
+        <li>Explicação dos Ornamentos e Sinais (Primeiro Livro de Peças, 1713) · p. 103</li>
+        <li>IV — Rameau · <em>Da Mecânica dos Dedos no Cravo</em> · p. 107</li>
+        <li>Tabela (Peças de Cravo, 1724) · p. 115</li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div>© 2013 by Fagerlande, Tavares, Albuquerque, Barroso e Pereira</div>
+  <div class="credits">UFRJ · Programa de Pós-Graduação em Música · 2013</div>
+</footer>
+
+<script src="assets/glossario.js"></script>
+<script src="assets/main.js"></script>
+  <script src="assets/chatbot.js" defer></script>
+</body>
+</html>
