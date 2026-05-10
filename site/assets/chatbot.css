@@ -111,8 +111,10 @@
 
 .cravo-chat-panel {
   width: min(620px, 100vw);
-  height: min(820px, calc(100vh - 1rem));
-  max-height: 100vh;
+  /* 100dvh = dynamic viewport height (acompanha URL bar do iOS Safari);
+     fallback para 100vh em browsers antigos. */
+  height: min(820px, calc(100dvh - 1rem));
+  max-height: 100dvh;
   background: var(--bg);
   border: 1px solid var(--rule);
   border-radius: 12px;
@@ -124,14 +126,17 @@
   animation: cravoChatSlideIn 0.25s ease-out;
   transition: width 0.25s ease, height 0.25s ease, margin 0.25s ease, border-radius 0.25s ease;
 }
+@supports not (height: 100dvh) {
+  .cravo-chat-panel { height: min(820px, calc(100vh - 1rem)); max-height: 100vh; }
+}
 .cravo-chat-panel.expanded {
   width: min(1100px, calc(100vw - 2rem));
-  height: calc(100vh - 1rem);
+  height: calc(100dvh - 1rem);
   margin: 0.5rem 1rem 0.5rem 1rem;
 }
 .cravo-chat-panel.fullscreen {
   width: 100vw;
-  height: 100vh;
+  height: 100dvh;
   margin: 0;
   border-radius: 0;
   border: none;
@@ -141,7 +146,7 @@
   to { transform: translateY(0); opacity: 1; }
 }
 
-/* Header */
+/* Header — flex-shrink: 0 garante que NUNCA encolhe quando o body cresce */
 .cravo-chat-header {
   background: var(--bg-alt);
   border-bottom: 1px solid var(--rule);
@@ -149,6 +154,9 @@
   display: flex;
   align-items: center;
   gap: 0.75rem;
+  flex-shrink: 0;
+  /* Em iOS, respeita o notch / status bar quando em fullscreen */
+  padding-top: max(0.85rem, env(safe-area-inset-top));
 }
 .cravo-chat-header .avatar {
   width: 38px;
@@ -453,10 +461,12 @@
   .cravo-chat-drawer .item-preview { padding-left: 1rem; }
 }
 
-/* Body */
+/* Body — flex 1 + min-height: 0 garante scroll interno em flex container */
 .cravo-chat-body {
-  flex: 1;
+  flex: 1 1 0;
+  min-height: 0;
   overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
   padding: 1rem;
   background: var(--bg);
   display: flex;
@@ -726,11 +736,14 @@
   background: var(--bg-alt);
 }
 
-/* Footer / input */
+/* Footer / input — flex-shrink: 0 garante que sempre fica visivel no rodape */
 .cravo-chat-footer {
   border-top: 1px solid var(--rule);
   background: var(--bg-alt);
   padding: 0.6rem 0.75rem 0.75rem;
+  flex-shrink: 0;
+  /* Em iOS, respeita home-indicator quando em fullscreen */
+  padding-bottom: max(0.75rem, env(safe-area-inset-bottom));
 }
 .cravo-chat-form {
   display: flex;
@@ -802,13 +815,13 @@
   margin: 0.5rem 0;
 }
 
-/* Mobile / pequenas telas */
+/* Mobile / pequenas telas — usa 100dvh pra acompanhar URL bar do iOS Safari */
 @media (max-width: 520px) {
   .cravo-chat-overlay { padding: 0; }
   .cravo-chat-panel {
     width: 100vw;
-    height: 100vh;
-    max-height: 100vh;
+    height: 100dvh;
+    max-height: 100dvh;
     margin: 0;
     border-radius: 0;
     border: none;
