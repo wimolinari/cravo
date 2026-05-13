@@ -1,0 +1,81 @@
+[
+  {
+    "url": "https://commons.wikimedia.org/w/index.php?search=cat+paw+arched&title=Special:MediaSearch&go=Go&type=image",
+    "status": 200,
+    "final": "https://commons.wikimedia.org/w/index.php?search=cat+paw+arched&title=Special:MediaSearch&go=Go&type=image",
+    "title": "Search media - Wikimedia Commons",
+    "ok": true
+  },
+  {
+    "url": "https://commons.wikimedia.org/wiki/Category:Fran%C3%A7ois_Couperin",
+    "status": 200,
+    "final": "https://commons.wikimedia.org/wiki/Category:Fran%C3%A7ois_Couperin",
+    "title": "Category:François Couperin - Wikimedia Commons",
+    "ok": true
+  },
+  {
+    "url": "https://commons.wikimedia.org/wiki/Category:Frescobaldi",
+    "status": 200,
+    "final": "https://commons.wikimedia.org/wiki/Category:Frescobaldi",
+    "title": "Category:Frescobaldi - Wikimedia Commons",
+    "ok": true
+  },
+  {
+    "url": "https://commons.wikimedia.org/wiki/Category:Hands_playing_harpsichord",
+    "status": 404,
+    "ok": false,
+    "reason": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://commons.wikimedia.org/wiki/Category:Jean-Philippe_Rameau",
+    "status": 200,
+    "final": "https://commons.wikimedia.org/wiki/Category:Jean-Philippe_Rameau",
+    "title": "Category:Jean-Philippe Rameau - Wikimedia Commons",
+    "ok": true
+  },
+  {
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k856840",
+    "status": null,
+    "ok": false,
+    "reason": "[WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto"
+  },
+  {
+    "url": "https://imslp.org/wiki/Arte_de_ta%C3%B1er_fantas%C3%ADa_(Santa_Mar%C3%ADa%2C_Tom%C3%A1s_de)",
+    "status": 404,
+    "ok": false,
+    "reason": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://imslp.org/wiki/L%27Art_de_toucher_le_clavecin_(Couperin%2C_Fran%C3%A7ois)",
+    "status": 200,
+    "final": "https://imslp.org/wiki/L%27Art_de_toucher_le_clavecin_(Couperin%2C_Fran%C3%A7ois)",
+    "title": "L'Art de toucher le clavecin (Couperin, François) - IMSLP",
+    "ok": true
+  },
+  {
+    "url": "https://imslp.org/wiki/Pi%C3%A8ces_de_clavessin_(Rameau%2C_Jean-Philippe)",
+    "status": 404,
+    "ok": false,
+    "reason": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://imslp.org/wiki/Toccate_e_partite_d%27intavolatura_di_cimbalo%2C_Libro_2_(Frescobaldi%2C_Girolamo)",
+    "status": 404,
+    "ok": false,
+    "reason": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://routepesquisa.com.br/cravo",
+    "status": 200,
+    "final": "https://routepesquisa.com.br/cravo/",
+    "title": "Tratados do Cravo · Edição Interativa",
+    "ok": true
+  },
+  {
+    "url": "https://www.musica.ufrj.br",
+    "status": 200,
+    "final": "https://musica.ufrj.br/",
+    "title": "Escola de Música da UFRJ",
+    "ok": true
+  }
+]

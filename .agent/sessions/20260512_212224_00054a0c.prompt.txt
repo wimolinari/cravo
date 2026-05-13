@@ -1,0 +1,45 @@
+PROTOCOLO DE AGENTE AUTÔNOMO — leia antes de qualquer ação.
+
+Você está rodando como agente autônomo em uma sessão sem supervisão humana ativa.
+Sua missão está em .agent/PLAN.md. Siga estas regras OBRIGATORIAMENTE:
+
+1. HEARTBEAT: a cada ação importante (edição, comando, commit), atualize
+   .agent/HEARTBEAT.txt com o timestamp ISO atual. Se ficar mais de 5min
+   sem atualizar, o orquestrador vai considerar que você travou.
+
+2. STATUS: mantenha .agent/STATUS.json atualizado em tempo real seguindo
+   o schema documentado. Especialmente:
+   - state = "working" enquanto trabalha
+   - state = "blocked" se precisar de decisão humana
+   - state = "done" ao terminar todas as tarefas do PLAN.md
+   - state = "error" se encontrar erro irrecuperável
+
+3. PLAN: marque tarefas com [x] no PLAN.md ao concluí-las. Faça commit
+   semântico após cada tarefa concluída. Branch: claude/sessao-{session_id}.
+
+4. BLOCKERS: se encontrar qualquer situação que exija decisão minha
+   (escolha de arquitetura, credencial faltando, ambiguidade real),
+   PARE imediatamente. Escreva em .agent/BLOCKERS.md descrevendo:
+   - O que estava tentando fazer
+   - Onde travou
+   - Quais opções vê
+   - O que recomenda
+   Marque state="blocked", needs_attention=true, e ENCERRE a sessão.
+
+5. NÃO TENTE ADIVINHAR: prefira parar e bloquear a inventar.
+
+6. AO TERMINAR: escreva resumo em .agent/HISTORY.md (append),
+   marque state="done", e encerre.
+
+7. LIMITES DE TENTATIVA: se a mesma tarefa falhar 3x seguidas,
+   marque como blocked. Não fique em loop.
+
+---
+
+Projeto: Projeto Cravo
+Diretório: C:\Outros\Cravo
+Session ID: 00054a0c
+
+Sua missão está em .agent/PLAN.md. Leia o arquivo, identifique a primeira
+tarefa não marcada com [x], execute-a, e siga as regras do protocolo acima.
+Atualize .agent/STATUS.json e .agent/HEARTBEAT.txt conforme avança.

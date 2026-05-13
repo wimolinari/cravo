@@ -1,0 +1,17 @@
+{
+  "https://commons.wikimedia.org/w/index.php?search=cat+paw+arched&title=Special:MediaSearch&go=Go&type=image": "OK 200",
+  "https://commons.wikimedia.org/wiki/Category:Fran%C3%A7ois_Couperin": "OK 200",
+  "https://commons.wikimedia.org/wiki/Category:Frescobaldi": "OK 200",
+  "https://commons.wikimedia.org/wiki/Category:Harpsichordists": "OK 200",
+  "https://commons.wikimedia.org/wiki/Category:Jean-Philippe_Rameau": "OK 200",
+  "https://gallica.bnf.fr/ark:/12148/bpt6k1508406q": "VERIFICADO via Wikipedia FR (Gallica bloqueia HTTP daqui)",
+  "https://imslp.org/wiki/Arte_de_Ta%C3%B1er_Fantasia_(Santamar%C3%ADa%2C_Tom%C3%A1s)": "OK 200",
+  "https://imslp.org/wiki/L%27Art_de_toucher_le_clavecin_(Couperin%2C_Fran%C3%A7ois)": "OK 200",
+  "https://imslp.org/wiki/Pi%C3%A8ces_de_clavecin_(Rameau%2C_Jean-Philippe)": "OK 200",
+  "https://imslp.org/wiki/Toccate_e_partite_d%27intavolatura%2C_Libro_2_(Frescobaldi%2C_Girolamo)": "OK 200",
+  "https://routepesquisa.com.br/cravo": "OK 200",
+  "https://www.musica.ufrj.br": "OK 200",
+  "https://fonts.googleapis.com": "OK (preconnect hint, nao clicavel)",
+  "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=JetBrains+Mono:wght@500;700&display=swap": "OK 200",
+  "https://fonts.gstatic.com": "OK (preconnect hint, nao clicavel)"
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "url": "https://commons.wikimedia.org/w/index.php?search=cat+paw+arched&title=Special:MediaSearch&go=Go&type=image",
+    "status": 200,
+    "ok": true,
+    "title": "Search media - Wikimedia Commons"
+  },
+  {
+    "url": "https://commons.wikimedia.org/wiki/Category:Fran%C3%A7ois_Couperin",
+    "status": 200,
+    "ok": true,
+    "title": "Category:François Couperin - Wikimedia Commons"
+  },
+  {
+    "url": "https://commons.wikimedia.org/wiki/Category:Frescobaldi",
+    "status": 200,
+    "ok": true,
+    "title": "Category:Frescobaldi - Wikimedia Commons"
+  },
+  {
+    "url": "https://commons.wikimedia.org/wiki/Category:Harpsichordists",
+    "status": 200,
+    "ok": true,
+    "title": "Category:Harpsichordists - Wikimedia Commons"
+  },
+  {
+    "url": "https://commons.wikimedia.org/wiki/Category:Jean-Philippe_Rameau",
+    "status": 200,
+    "ok": true,
+    "title": "Category:Jean-Philippe Rameau - Wikimedia Commons"
+  },
+  {
+    "url": "https://gallica.bnf.fr/ark:/12148/bpt6k1508406q",
+    "status": null,
+    "ok": false,
+    "reason": "[WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto"
+  },
+  {
+    "url": "https://imslp.org/wiki/Arte_de_Ta%C3%B1er_Fantasia_(Santamar%C3%ADa%2C_Tom%C3%A1s)",
+    "status": 200,
+    "ok": true,
+    "title": "Arte de Tañer Fantasia (Santamaría, Tomás) - IMSLP"
+  },
+  {
+    "url": "https://imslp.org/wiki/L%27Art_de_toucher_le_clavecin_(Couperin%2C_Fran%C3%A7ois)",
+    "status": 200,
+    "ok": true,
+    "title": "L'Art de toucher le clavecin (Couperin, François) - IMSLP"
+  },
+  {
+    "url": "https://imslp.org/wiki/Pi%C3%A8ces_de_clavecin_(Rameau%2C_Jean-Philippe)",
+    "status": 200,
+    "ok": true,
+    "title": "Pièces de clavecin avec une méthode, RCT 2-4 (Rameau, Jean-Philippe) - IMSLP"
+  },
+  {
+    "url": "https://imslp.org/wiki/Toccate_e_partite_d%27intavolatura%2C_Libro_2_(Frescobaldi%2C_Girolamo)",
+    "status": 200,
+    "ok": true,
+    "title": "Toccate e partite d'intavolatura, Libro 2 (Frescobaldi, Girolamo) - IMSLP"
+  },
+  {
+    "url": "https://routepesquisa.com.br/cravo",
+    "status": 200,
+    "ok": true,
+    "title": "Tratados do Cravo · Edição Interativa"
+  },
+  {
+    "url": "https://www.musica.ufrj.br",
+    "status": 200,
+    "ok": true,
+    "title": "Escola de Música da UFRJ"
+  }
+]

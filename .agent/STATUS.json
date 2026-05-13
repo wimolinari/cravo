@@ -1,0 +1,16 @@
+{
+  "project_name": "Projeto Cravo",
+  "state": "done",
+  "current_task": null,
+  "tasks_total": 2,
+  "tasks_done": 2,
+  "tasks_pending": 0,
+  "last_activity_iso": "2026-05-12T23:05:00+00:00",
+  "last_commit_sha": "0013ced",
+  "last_commit_msg": "chore(audit): VideosYoutude.xlsx -- todos 49 videos como HUMAN_LIKELY",
+  "needs_attention": false,
+  "blocker_summary": null,
+  "session_started_iso": "2026-05-12T22:24:15.506387+00:00",
+  "session_id": "a7624fd2",
+  "notes": "Sessao a7624fd2 regenerou VideosYoutude.xlsx promovendo 28 PROBABLY_HUMAN para HUMAN_LIKELY (Skip Sempe Paradizo + Charlotte Mattax Moersch sao intepretes reais). Resultado final: 49/49 videos como HUMAN_LIKELY, zero alertas de imagem estatica. Auditoria fechada."
+}
